@@ -6,7 +6,7 @@
 
 **225 repositories · Most stars first.**
 
-GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
+GitHub metadata checked: **2026-09-06T12:10:03.440Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
 | 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |

@@ -1,6 +1,6 @@
 # 🌐 Tools beyond the GitHub catalogue
 
-[← Main catalogue](../README.md) · [Web discovery report](web-discovery-report.md)
+[← Main catalogue](../README.md) · [🕒 Versions, updates and changelogs for all 72 resources](update-audit.md#-external-resources) · [Web discovery report](web-discovery-report.md)
 
 **72 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 

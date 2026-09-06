@@ -2,6 +2,16 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.9](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.9) — 2026-09-06
+
+### Updated
+
+- Audited all **297 catalogue destinations**: 225 GitHub repositories and 72 external resources. Added the [upstream update report](data/update-audit.md) and [reviewed evidence ledger](data/update-audit.json).
+- Recorded **79 repositories with stable releases**, **83 with any release**, **4 archived projects**, and **20 root changelog files**. Refreshed GitHub stars and push timestamps while preserving creator groups, labels, and sort views.
+- Added explicit vendor versions and dated updates where supported, including Filmbox Pro 3.5.3, Dehancer Pro 7.4.1, CineMatch 1.36, and Amalgam 1.4.6. Product dates use relative ages alongside exact dates; ambiguous or absent dates remain unassigned.
+- Marked **16 direct-request blocks** separately from vendor evidence obtained through web retrieval. Flagged Shutter Encoder's linked changelog as HTTP 404 while retaining its working homepage.
+- Added repeatable read-only collection scripts, deterministic report generation, and checks that prevent policy dates or host versions from becoming product updates. No resources were added or removed.
+
 ## [v1.8](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.8) — 2026-09-06
 
 ### Added
