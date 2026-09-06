@@ -3,7 +3,7 @@ param()
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path $PSScriptRoot -Parent
 $csvPath = Join-Path $repoRoot 'data/repositories.csv'
-$readmePath = Join-Path $repoRoot 'README.md'
+Get-Command node -ErrorAction Stop | Out-Null
 $entries = @(Import-Csv -LiteralPath $csvPath -Encoding UTF8)
 $checkedAt = [DateTime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ')
 $metadata = @{}
@@ -39,27 +39,9 @@ foreach ($entry in $entries) {
     $entry | Add-Member -Force NoteProperty metadata_checked_at $checkedAt
 }
 
-$readme = Get-Content -Raw -LiteralPath $readmePath -Encoding UTF8
-$lines = foreach ($line in ($readme -split '\r?\n')) {
-    if ($line -match '^\| Repository \|') {
-        '| Repository | What it provides | Access | Stars | Last updated (UTC) |'
-    } elseif ($line -match '^\| --- \|') {
-        '| --- | --- | --- | ---: | --- |'
-    } elseif ($line -match '^\| \[[^\]]+\]\((https://github\.com/[^)]+)\)') {
-        $item = $metadata[$Matches[1]]
-        if ($null -eq $item) { throw 'README repository missing from CSV.' }
-        $cells = $line.Split('|')
-        $date = if ($item.pushedAt) { ([DateTimeOffset]::Parse($item.pushedAt)).UtcDateTime.ToString('yyyy-MM-dd') } else { 'Unavailable' }
-        '| ' + $cells[1].Trim() + ' | ' + $cells[2].Trim() + ' | ' + $cells[3].Trim() + ' | ' + $item.stargazerCount + ' | ' + $date + ' |'
-    } elseif ($line -match '^\*\*GitHub metadata checked:') {
-        '**GitHub metadata checked: ' + $checkedAt + '.** Stars are a snapshot. Last updated is GitHub''s latest repository push date (`pushedAt`), not the latest release date; full UTC timestamps are in the CSV.'
-    } else {
-        $line
-    }
-}
-
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 $csv = $entries | ConvertTo-Csv -NoTypeInformation
 [System.IO.File]::WriteAllText($csvPath, ($csv -join "`n") + "`n", $utf8)
-[System.IO.File]::WriteAllText($readmePath, ($lines -join "`n").TrimEnd() + "`n", $utf8)
+& node (Join-Path $PSScriptRoot 'build-catalogue.mjs')
+if ($LASTEXITCODE -ne 0) { throw 'Metadata saved to CSV, but catalogue generation failed. Run node scripts/build-catalogue.mjs after fixing the error.' }
 Write-Output "Updated stars and latest push dates for $($entries.Count) repositories."

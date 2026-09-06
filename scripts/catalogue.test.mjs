@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { parseCsv, sorted, relativeDate, sorts, build, accessGroup } from './build-catalogue.mjs';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
+
+test('relative dates handle singular, plural, missing and future timestamps', () => {
+  const now = '2026-09-06T12:00:00Z';
+  const ago = days => new Date(Date.parse(now) - days * 86400000).toISOString();
+  for (const [days, label] of [[0, 'Today'], [1, '1 day back'], [6, '6 days back'], [7, '1 week back'], [21, '3 weeks back'], [30, '1 month back'], [90, '3 months back'], [365, '1 year back'], [730, '2 years back']]) assert.equal(relativeDate(ago(days), now), label);
+  assert.equal(relativeDate('', now), 'Unavailable');
+  assert.equal(relativeDate(ago(-1), now), 'Unavailable');
+});
+test('sorts use exact dates, numeric stars, project names and categories', () => {
+  const base = entries[0];
+  const fixture = [
+    {...base, repository: 'a/Zebra', stars: '9', last_pushed_at: '2026-09-01T00:00:00Z'},
+    {...base, repository: 'z/Alpha', stars: '100', last_pushed_at: '2026-09-06T00:00:00Z'},
+    {...base, repository: 'a/Alpha', stars: '10', last_pushed_at: '2026-08-30T00:00:00Z'},
+  ];
+  assert.deepEqual(sorted(fixture, 'name').map(e => e.repository), ['a/Alpha', 'z/Alpha', 'a/Zebra']);
+  assert.deepEqual(sorted(fixture, 'stars').map(e => e.stars), ['100', '10', '9']);
+  assert.deepEqual(sorted(fixture, 'latest-updated').map(e => e.repository), ['z/Alpha', 'a/Zebra', 'a/Alpha']);
+  assert.equal(accessGroup({access:'Free/paid product directory'}), 'Mixed');
+});
+test('CSV quotes and commas round-trip correctly', () => {
+  assert.deepEqual(parseCsv('"name","description"\n"a","A comma, and ""quote"""\n'), [{name:'a', description:'A comma, and "quote"'}]);
+});
+test('generated views preserve all entries, sort order and valid local links', () => {
+  assert.equal(entries.length, 114);
+  assert.equal(new Set(entries.map(e => e.url)).size, entries.length);
+  for (const key of Object.keys(sorts)) {
+    const file = path.join(root, 'views', key + '.md');
+    const text = fs.readFileSync(file, 'utf8');
+    const urls = [...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^)]+)\)/gm)].map(m => m[1]);
+    assert.deepEqual(urls, sorted(entries, key).map(e => e.url));
+  }
+  for (const file of ['README.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+    const text = fs.readFileSync(path.join(root, file), 'utf8');
+    for (const [, link] of text.matchAll(/\]\(([^)]+)\)/g)) {
+      if (/^https?:/.test(link)) continue;
+      const [target, anchor] = link.split('#');
+      const destination = path.resolve(root, path.dirname(file), target || path.basename(file));
+      assert.ok(fs.existsSync(destination), `${file}: broken link ${link}`);
+      if (anchor) {
+        const content = fs.readFileSync(destination, 'utf8');
+        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
+      }
+    }
+  }
+});
+test('regeneration is deterministic and preserves CSV', () => {
+  const files = ['README.md', 'data/repositories.csv', ...Object.keys(sorts).map(k => `views/${k}.md`)];
+  const before = files.map(f => fs.readFileSync(path.join(root, f), 'utf8'));
+  build();
+  assert.deepEqual(files.map(f => fs.readFileSync(path.join(root, f), 'utf8')), before);
+});
