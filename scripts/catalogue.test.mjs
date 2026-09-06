@@ -50,7 +50,18 @@ test('generated views preserve all entries, sort order and valid local links', (
   assert.equal(new Set(entries.map(e => e.url.toLowerCase())).size, entries.length);
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   const defaultUrls = [...readme.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^/)]+\/[^/)]+)\)/gm)].map(m => m[1]);
-  assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => creatorGroups(entries.filter(e => e.category === category)).flatMap(g => g.entries.map(e => e.url))));
+  assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => {
+    const members = entries.filter(e => e.category === category);
+    return [...sorted(members, 'name').map(e => e.url), ...creatorGroups(members).filter(g => g.owner).flatMap(g => g.entries.map(e => e.url))];
+  }));
+  for (let index = 0; index < categories.length; index++) {
+    const start = readme.indexOf(`<a id="category-${index + 1}"></a>`);
+    const next = readme.indexOf(`<a id="category-${index + 2}"></a>`, start);
+    const section = readme.slice(start, next < 0 ? readme.indexOf('## Compatibility notes', start) : next);
+    assert.ok(section.includes('### All repositories'));
+    if (section.includes('### 👤')) assert.ok(section.indexOf('### All repositories') < section.indexOf('### 👤'));
+    assert.ok(!section.includes('### Other creators'));
+  }
   assert.match(readme, /### 👤 \[postflows\]\(https:\/\/github.com\/postflows\)/);
   const fixture = ['Beta/z', 'Solo/a', 'alpha/b', 'Beta/a', 'ALPHA/a'].map(repository => ({...entries[0], repository}));
   assert.deepEqual(creatorGroups(fixture).map(g => [g.owner, g.entries.map(e => e.repository)]), [

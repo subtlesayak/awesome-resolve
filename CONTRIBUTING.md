@@ -2,7 +2,7 @@
 
 Suggest additions and corrections through an issue or pull request.
 
-README categories group creators with multiple entries under linked GitHub-owner subheadings. Creator groups sort A–Z, their repositories sort A–Z, and single-entry creators share the remaining table. Use the repository owner as the grouping key; do not merge different accounts based on similar names. The five alternate sort views retain their catalogue-wide ordering.
+Each README category starts with a complete repository list sorted A–Z by repository name. Linked GitHub-owner subheadings follow for creators with multiple entries, repeating their repositories as a secondary browsing option. Creator groups and their repositories sort A–Z. Single-entry creators appear only in the complete list. Use the repository owner as the grouping key; do not merge different accounts based on similar names. The five alternate sort views retain their catalogue-wide ordering.
 
 - Link to the original public GitHub repository with a clear DaVinci Resolve or Fusion connection.
 - Choose the most relevant category; list each repository once.

@@ -2,6 +2,15 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.7](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.7) — 2026-09-06
+
+### Changed
+
+- Added a complete alphabetical repository list at the start of every README category.
+- Placed creator subheadings after that list for owners with multiple repositories. Their entries repeat as a secondary browsing option; single-entry creators remain in the complete list.
+- Preserved all 225 unique repositories and the five alternate sort views. Updated the generator, contributor guidance, and layout checks; all seven checks pass.
+- No resources added or removed.
+
 ## [v1.6](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.6) — 2026-09-06
 
 ### Changed

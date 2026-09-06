@@ -118,7 +118,7 @@ export function build() {
   const content = [
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
-    'Within each category, creators with multiple repositories have their own subheading, ordered A–Z by GitHub owner. Tools within each creator group and the remaining entries sort A–Z by repository name. Choose a view above for a catalogue-wide sort. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category.', '',
+    'Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.', '',
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
@@ -136,10 +136,11 @@ export function build() {
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
     ...categories.flatMap(([emoji, , title], i) => {
       const members = entries.filter(e => e.category === title);
-      const groups = creatorGroups(members);
+      const groups = creatorGroups(members).filter(g => g.owner);
       return [`<a id="category-${i + 1}"></a>`, '', `## ${emoji} ${title}`, '', `${members.length} repositories.`, '',
+        '### All repositories', '', table(sorted(members, 'name'), ''), '',
         ...groups.flatMap(g => [
-          ...(g.owner ? [`### 👤 [${g.owner}](https://github.com/${g.owner})`, ''] : groups.length > 1 ? ['### Other creators', ''] : []),
+          `### 👤 [${g.owner}](https://github.com/${g.owner})`, '',
           table(g.entries, ''), '',
         ])];
     }),
