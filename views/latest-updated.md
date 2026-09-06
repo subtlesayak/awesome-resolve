@@ -6,7 +6,7 @@
 
 **225 repositories · Latest repository push first.**
 
-**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. This marks repository activity, not abandonment or compatibility. External resources without comparable push dates are not marked.
+**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. For external resources, † marks a recorded provider or package date older than 2 years at review. Neither marker establishes abandonment or compatibility; unknown dates are not marked.
 
 GitHub metadata checked: **2026-09-06T12:10:03.440Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 

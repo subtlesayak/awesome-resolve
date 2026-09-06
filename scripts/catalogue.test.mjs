@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { olderThanTwoYears } from './build-catalogue.mjs';
-import {versionLabel} from './versions.mjs';
+import { olderThanTwoYears, externalUpdated } from './build-catalogue.mjs';
+import {versionLabel, versionFor} from './versions.mjs';
 import { parseCsv, parseExternalResources, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
@@ -176,6 +176,15 @@ test('marketplace additions are unique, traceable, and present in the external d
   }
 });
 
+test('external update dates require valid provider evidence and preserve date scope', () => {
+  const record = {kind:'vendor-version', date:'2024-01-01', checked_at:'2026-09-06T12:00:00Z', source:'https://example.com/releases', date_kind:'release'};
+  assert.equal(externalUpdated(record), '[2024-01-01](https://example.com/releases)&nbsp;†<br><sub>release</sub>');
+  assert.ok(!externalUpdated({...record,date:'2026-01-01'}).includes('†'));
+  assert.ok(externalUpdated({...record,kind:'package-version',date_kind:'Reactor manifest date'}).includes('Reactor manifest date'));
+  for (const changes of [{date:null},{date:'2026-02-30'},{date:'2027-01-01'},{source:''},{checked_at:'invalid'},{date_kind:'website checked'},{kind:'unverified'}]) assert.equal(externalUpdated({...record,...changes}), 'Unknown');
+  assert.equal(externalUpdated(null), 'Unknown');
+});
+
 test('README includes every external resource once in one alphabetical category', () => {
   const source = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
@@ -183,7 +192,7 @@ test('README includes every external resource once in one alphabetical category'
   const section = readme.split('## 🌐 External resources\n')[1].split('## Compatibility notes')[0];
   const rows = section.split('\n').filter(line => line.startsWith('| ['));
   const expected = [...source].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0);
-  assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} |`));
+  assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} | ${externalUpdated(versionFor(e.url))} |`));
   assert.ok(readme.includes(`[🌐 External resources](#external-resources) (${source.length})`));
 });
 

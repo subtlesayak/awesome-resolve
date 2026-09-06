@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import {versionLabel} from './versions.mjs';
+import {versionLabel, versionFor} from './versions.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export function parseCsv(text) {
@@ -83,7 +83,7 @@ export function olderThanTwoYears(timestamp, checkedAt) {
   const elapsed = Date.parse(checkedAt) - Date.parse(timestamp);
   return Number.isFinite(elapsed) && elapsed > 730 * 86400000;
 }
-const activityLegend = '**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. This marks repository activity, not abandonment or compatibility. External resources without comparable push dates are not marked.';
+const activityLegend = '**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. For external resources, † marks a recorded provider or package date older than 2 years at review. Neither marker establishes abandonment or compatibility; unknown dates are not marked.';
 export function relativeDate(timestamp, checkedAt) {
   if (!timestamp) return 'Unavailable';
   const days = Math.floor((Date.parse(checkedAt) - Date.parse(timestamp)) / 86400000);
@@ -130,11 +130,20 @@ function table(entries, prefix, includeType = false) {
 function navigation(prefix) {
   return Object.entries(sorts).map(([key, [label]]) => `[${label}](${prefix}${key}.md)`).join(' · ');
 }
+export function externalUpdated(e) {
+  if (!e || !['vendor-version', 'package-version'].includes(e.kind) || !/^https:\/\//.test(e.source || '') || !/^\d{4}-\d{2}-\d{2}$/.test(e.date || '')) return 'Unknown';
+  const timestamp = Date.parse(`${e.date}T00:00:00Z`);
+  if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== e.date || !Number.isFinite(Date.parse(e.checked_at)) || timestamp > Date.parse(e.checked_at)) return 'Unknown';
+  const dateKinds = ['release', 'Windows download update', 'listed product-group update', 'installer update', 'macOS plugin update', 'Reactor manifest date', 'Windows 0.3.6 devlog'];
+  if (!dateKinds.includes(e.date_kind)) return 'Unknown';
+  const marker = olderThanTwoYears(e.date, e.checked_at) ? '&nbsp;†' : '';
+  return `[${e.date}](${e.source})${marker}<br><sub>${escape(e.date_kind)}</sub>`;
+}
 function externalTable(entries) {
   return [
-    '| 🌐 Resource | 📝 Details | 💰 Access | 💻 Platforms |',
-    '| :--- | :--- | :--- | :--- |',
-    ...[...entries].sort((a, b) => compare(a.name, b.name)).map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} |`),
+    '| 🌐 Resource | 📝 Details | 💰 Access | 💻 Platforms | 🕒 Updated |',
+    '| :--- | :--- | :--- | :--- | :--- |',
+    ...[...entries].sort((a, b) => compare(a.name, b.name)).map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} | ${externalUpdated(versionFor(e.url))} |`),
   ].join('\n');
 }
 
@@ -187,6 +196,7 @@ export function build() {
     }),
     '<a id="external-resources"></a>', '', '## 🌐 External resources', '',
     `${external.length} external resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
+    'Updated dates link to recorded provider evidence. The label beneath each date identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.', '',
     externalTable(external), '',
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
