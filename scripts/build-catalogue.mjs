@@ -79,11 +79,11 @@ export function creatorGroups(entries) {
   if (singles.length) groups.push({ owner: null, entries: sorted(singles, 'name') });
   return groups;
 }
-export function olderThanYear(timestamp, checkedAt) {
+export function olderThanTwoYears(timestamp, checkedAt) {
   const elapsed = Date.parse(checkedAt) - Date.parse(timestamp);
-  return Number.isFinite(elapsed) && elapsed > 365 * 86400000;
+  return Number.isFinite(elapsed) && elapsed > 730 * 86400000;
 }
-const activityLegend = '**†** No repository push for more than 365 days as of its metadata snapshot. This marks repository activity, not abandonment or compatibility. External resources without comparable push dates are not marked.';
+const activityLegend = '**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. This marks repository activity, not abandonment or compatibility. External resources without comparable push dates are not marked.';
 export function relativeDate(timestamp, checkedAt) {
   if (!timestamp) return 'Unavailable';
   const days = Math.floor((Date.parse(checkedAt) - Date.parse(timestamp)) / 86400000);
@@ -115,7 +115,7 @@ export function repositoryLabel(repository) {
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const label = repositoryLabel(e.repository);
-  if (olderThanYear(e.last_pushed_at, e.metadata_checked_at)) label.name += ' †';
+  if (olderThanTwoYears(e.last_pushed_at, e.metadata_checked_at)) label.name += ' †';
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
   const details = `${wrapText(e.description)}${type}<br><sub>${versionLabel(e.url)}</sub>`;
   const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
