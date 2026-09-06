@@ -1,4 +1,4 @@
-# 🎬 Awesome Resolve
+# 🎬 Awesome Resolve (AI-assisted List)
 
 A curated directory of **130 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
 
