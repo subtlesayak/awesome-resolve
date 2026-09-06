@@ -2,6 +2,8 @@
 
 [🎬 Catalogue](../README.md) · [🌐 External directory](external-tools.md) · [📥 Evidence JSON](update-audit.json)
 
+This historical audit covers the 72 external entries available at its snapshot. See [community discovery evidence](community-discovery-report.md#-versions-and-update-evidence) for the 32 subsequently added resources.
+
 Reviewed **2026-09-06**: **225 GitHub repositories + 72 external destinations**. GitHub snapshot: **2026-09-06T12:10:03.440Z**. Individual page-check timestamps are in the evidence JSON.
 
 **79** repositories have a GitHub-designated stable release; **83** have any release. **4** are archived. **20** root changelog files were read. **16** external destinations blocked direct retrieval; primary-source web results resolved some of their update information.

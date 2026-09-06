@@ -284,7 +284,6 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-
 **32 additions** from the [community search](community-discovery-report.md). [Versions and package dates](community-discovery-report.md#-versions-and-update-evidence) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
@@ -438,3 +437,4 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Just Highlighter Plus](https://ko-fi.com/s/cb7b432737) | 📦 Public listing; price/download access not established | ❔ Not established | Animated highlighting for text and animated lines in Resolve. Indexed creator listing establishes its purpose; direct retrieval was blocked and current price is unknown. |
+<!-- end community discoveries -->

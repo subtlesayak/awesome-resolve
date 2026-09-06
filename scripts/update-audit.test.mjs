@@ -33,7 +33,9 @@ test('audit snapshot plus later discoveries cover every destination exactly once
  assert.deepEqual(audit.github.map(e=>e.repository).sort(),repos.map(e=>e.repository).sort());
  assert.deepEqual([...audit.external,...later.additions].map(e=>e.url).sort(),urls.sort());
  for(const e of audit.github){
-  const r=repos.find(r=>r.repository===e.repository);assert.equal(String(e.stars),r.stars);assert.equal(e.last_pushed_at||'',r.last_pushed_at);assert.equal(e.checked_at,r.metadata_checked_at);
+  const r=repos.find(r=>r.repository===e.repository);
+  assert.ok(Date.parse(r.metadata_checked_at)>=Date.parse(e.checked_at),'Current metadata must not predate its audit snapshot');
+  if(r.metadata_checked_at===e.checked_at){assert.equal(String(e.stars),r.stars);assert.equal(e.last_pushed_at||'',r.last_pushed_at);}
   if(e.latest_stable_release)assert.equal(e.latest_stable_release.prerelease,false);
  }
  const serialized=JSON.stringify(audit);

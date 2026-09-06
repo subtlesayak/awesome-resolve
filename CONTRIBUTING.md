@@ -2,6 +2,10 @@
 
 Suggest additions and corrections through an issue or pull request.
 
+Use **Node.js 22 or newer** for the generators and tests (`Map.groupBy` is required). Metadata refresh also requires PowerShell 7 and authenticated GitHub CLI. There are no npm package dependencies. Run `node scripts/build-community-report.mjs`, `node scripts/build-update-report.mjs`, then `node scripts/build-catalogue.mjs` to regenerate all pages. Run `node --test scripts/*.test.mjs` afterward.
+
+The community section in `data/external-tools.md` ends at `<!-- end community discoveries -->`. Keep hand-written notes outside that generated region; the generator refuses an unterminated region. Local `.research/` and `.release-notes/` folders are ignored and must not be published.
+
 Each README category starts with a complete repository list sorted A–Z by repository name. Linked GitHub-owner subheadings follow for creators with multiple entries, repeating their repositories as a secondary browsing option. Creator groups and their repositories sort A–Z. Single-entry creators appear only in the complete list. Use the repository owner as the grouping key; do not merge different accounts based on similar names. The five alternate sort views retain their catalogue-wide ordering.
 
 - Link to the original public GitHub repository with a clear DaVinci Resolve or Fusion connection.

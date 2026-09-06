@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {relativeDate} from './build-catalogue.mjs';
 import {validDate} from './update-evidence.mjs';
+import {replaceGeneratedSection} from './generated-section.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const clean=s=>String(s??'').replaceAll('|','\\|').replace(/[\r\n]/g,' ').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const link=(n,u)=>`[${clean(n)}](${u})`;
@@ -17,11 +18,11 @@ export function buildCommunityReport(){
   `#### 👤 ${creator}`,'','| Resource | Access | Platforms | Purpose and requirements |','|---|---|---|---|',
   ...items.map(e=>`| ${link(e.name,e.url)} | ${e.access} | ${e.platforms} | ${e.description} |`),'']);
  const marker='## 🔎 Community discoveries';
- let directory=read('data/external-tools.md').split(marker)[0].trimEnd();
+ let directory=read('data/external-tools.md');
  directory=directory.replace(/\*\*\d+ external destinations\*\*/,`**${c.total_count} external destinations**`).replace('Versions, updates and changelogs for all 72 resources','Earlier update audit: 72 resources');
  directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.','The browser tree returned a loading shell; a later API scan retrieved all 707 manifests. See the [package inventory](reactor-inventory.md); compatibility still varies by package.');
  directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/awesome-resolve-list/blob/main/data/reactor-inventory.md)').replace('awesome-resolve-ai/blob/main/data/reactor-inventory.md','awesome-resolve-list/blob/main/data/reactor-inventory.md');
- write('data/external-tools.md',(directory+'\n\n'+marker+'\n\n'+`**${c.added_count} additions** from the [community search](community-discovery-report.md). ${link('Versions and package dates','community-discovery-report.md#-versions-and-update-evidence')} are recorded separately from the earlier audit.\n\n`+tables.join('\n')).trimEnd()+'\n');
+ write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} additions** from the [community search](community-discovery-report.md). ${link('Versions and package dates','community-discovery-report.md#-versions-and-update-evidence')} are recorded separately from the earlier audit.\n\n`+tables.join('\n')));
  const coverage=[
  ['🧩 Reactor / GitLab','https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms',`${r.folder_count} folders enumerated through all API pages; ${r.retrieved_count} manifests read. Full inventory published separately; 19 packages curated.`],
  ['💬 We Suck Less','https://www.steakunderwater.com/wesuckless/viewtopic.php?t=4176','Searched Fuse/release discussions and followed EXRIO and Reactor references. Manifest 0.6 supersedes older ReadEXR thread versions.'],

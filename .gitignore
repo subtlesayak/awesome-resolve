@@ -1,0 +1,4 @@
+# Local research can contain raw page data and private source material.
+.research/
+.release-notes/
+node_modules/
