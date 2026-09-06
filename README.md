@@ -18,7 +18,15 @@ Browse the categories below or download the [CSV catalogue](data/repositories.cs
 
 Qualifiers identify separate service, infrastructure, or hardware costs. Resolve Studio requirements are separate from the price of a listed project. Public availability does not necessarily mean open source. Consult each upstream repository for current requirements and licensing.
 
-[Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/subtlesayak/awesome-resolve/releases)
+## Release history
+
+| Version | Catalogue update | Total repositories |
+| --- | --- | ---: |
+| [v1.2](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.2) | Added documented platform support and emoji labels. | 130 |
+| [v1.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.1) | Added 16 repositories discovered through Reddit, plus seven additional resources in the discovery report. | 130 |
+| [v1.0](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.0) | Initial catalogue: all 114 repositories added before the Reddit discovery pass. | 114 |
+
+See the [full changelog](CHANGELOG.md) for every addition, or browse [GitHub releases](https://github.com/subtlesayak/awesome-resolve/releases). Versions identify catalogue updates, not upstream software releases.
 
 ## Contents
 
