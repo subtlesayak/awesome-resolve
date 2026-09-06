@@ -1,6 +1,6 @@
 # Licensing and attribution
 
-Copyright (C) 2026 Awesome Resolve contributors.
+Copyright (C) 2026 Subtle Resolve List contributors.
 
 This project's original scripts, documentation and original catalogue contributions are licensed under **GNU GPL version 3 only (GPL-3.0-only)**. See [LICENSE](LICENSE). Contributions to this original work are accepted under those terms.
 
