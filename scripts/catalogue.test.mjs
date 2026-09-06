@@ -30,7 +30,7 @@ test('CSV quotes and commas round-trip correctly', () => {
   assert.deepEqual(parseCsv('"name","description"\n"a","A comma, and ""quote"""\n'), [{name:'a', description:'A comma, and "quote"'}]);
 });
 test('generated views preserve all entries, sort order and valid local links', () => {
-  assert.equal(entries.length, 114);
+  assert.equal(entries.length, 130);
   assert.equal(new Set(entries.map(e => e.url)).size, entries.length);
   for (const key of Object.keys(sorts)) {
     const file = path.join(root, 'views', key + '.md');
@@ -47,7 +47,7 @@ test('generated views preserve all entries, sort order and valid local links', (
       assert.ok(fs.existsSync(destination), `${file}: broken link ${link}`);
       if (anchor) {
         const content = fs.readFileSync(destination, 'utf8');
-        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
+        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.trim().replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
       }
     }
   }

@@ -18,3 +18,5 @@ To refresh stars and latest repository push dates, install Node.js, authenticate
 Relative ages (such as `1 week back`) are calculated as of the metadata-check timestamp, so static GitHub pages do not imply a live clock. Sorting always uses exact timestamps or numeric star counts. **Type** is the catalogue category, not a claim about a project's plugin format. Access badges preserve the original access qualifiers and do not imply that every public project is free.
 
 Run `node --test scripts/catalogue.test.mjs` to verify sorting, relative dates, data preservation, and generated links before submitting.
+
+For each catalogue update, add a dated entry to `CHANGELOG.md` listing every added resource, its purpose, access conditions, compatibility caveats, and discovery source. Group the update into one GitHub release using those notes; use an incrementing `vYYYY.MM.DD.N` tag for updates on the same day. Tag the verified catalogue commit, and keep unresolved leads clearly labelled. Catalogue releases do not imply upstream software releases or installation testing.

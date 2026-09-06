@@ -1,0 +1,266 @@
+{
+  "researched_at": "2026-09-06",
+  "method": "Targeted web searches and accessible r/davinciresolve posts/comments; public GitHub API metadata and upstream READMEs checked. Not a complete subreddit scrape: bulk JSON was unavailable; wiki subpages could not be fetched.",
+  "sources": {
+    "may": "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/",
+    "april": "https://www.reddit.com/r/davinciresolve/comments/1se5hyi/april_developertool_creator_thread_building_or/",
+    "dctl": "https://www.reddit.com/r/davinciresolve/comments/1pnrx5w/list_of_current_dctls_for_davinci_resolve/",
+    "linux_audio": "https://www.reddit.com/r/davinciresolve/comments/1vywcqr/vst_plugins_now_work_in_fairlight_on_linux_i/",
+    "agx": "https://www.reddit.com/r/davinciresolve/comments/1vo2zmd/dctl_causes_crash_upon_usage_need_help_with/",
+    "dwg": "https://www.reddit.com/r/davinciresolve/comments/1vq3pk5/studio_version_for_ipad_mini_and_gptune_transform/",
+    "resolver": "https://www.reddit.com/r/davinciresolve/comments/1qbdbdf/introducing_resolver_a_small_open_source_cli_for/",
+    "rename": "https://www.reddit.com/r/davinciresolve/comments/1qv4i68/davinci_resolve_bulk_rename_script/",
+    "qr": "https://www.reddit.com/r/davinciresolve/comments/1tlfbqa/do_you_know_this_open_source_ofx_qr_code_generator/",
+    "plugins": "https://www.reddit.com/r/davinciresolve/comments/1nxgc8r/the_best_plugins_for_davinci_resolve_2025_that/",
+    "recommendations": "https://www.reddit.com/r/davinciresolve/comments/1nw4cu6/what_are_the_free_best_plugins_to_install/",
+    "rembg": "https://www.reddit.com/r/davinciresolve/comments/1mw79tb/free_ai_plugin_for_background_removal_in_resolve/",
+    "wiki": "https://www.reddit.com/r/davinciresolve/wiki/index/"
+  },
+  "additions": [
+    {
+      "repository": "vulture-s/arkiv",
+      "category_index": 4,
+      "source": "may",
+      "access": "Free; source-available, restricted competing-product use",
+      "description": "Local-first footage indexing, semantic search, metadata, and Resolve import/marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/media dependencies.",
+      "note": "Reddit advertised MIT; current upstream README specifies PolyForm Perimeter and free commercial use with competing-product restrictions.",
+      "upstream_url": "https://github.com/vulture-s/arkiv",
+      "license_detected": "NOASSERTION",
+      "metadata_checked_at": "2026-09-06T11:14:02Z"
+    },
+    {
+      "repository": "abhirup780/fast-autocut",
+      "category_index": 2,
+      "source": "may",
+      "access": "Free",
+      "description": "Silence removal that builds a new timeline while retaining externally recorded audio sync. Windows, Resolve Studio 18.5+, Python, and FFmpeg required.",
+      "note": "Distinct from the SyncPass product discussed nearby in the same thread.",
+      "upstream_url": "https://github.com/abhirup780/fast-autocut",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:04Z"
+    },
+    {
+      "repository": "Creative-Crafter/davinci-shortform-overlays",
+      "category_index": 1,
+      "source": "may",
+      "access": "Free",
+      "description": "Fusion generator with switchable TikTok, Shorts, and Reels safe-zone overlays; distributed as a .drfx template. Check guides against current platform layouts.",
+      "note": "Upstream describes safe-zone guides, not a general pack of animated short-form effects.",
+      "upstream_url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:05Z"
+    },
+    {
+      "repository": "JaySNL/VSTForResolveLinux",
+      "category_index": 6,
+      "source": "linux_audio",
+      "access": "Free",
+      "description": "Experimental VST2/VST3/CLAP bridge for Resolve Studio 21 on Linux. Patches process memory and may crash Resolve; Windows plugins need patched yabridge. See current latency limitations.",
+      "note": "Current README reports latency compensation since v0.2.9; the original Reddit post's no-compensation warning is outdated. Playback-start silence and dynamic-latency caveats remain.",
+      "upstream_url": "https://github.com/JaySNL/VSTForResolveLinux",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:07Z"
+    },
+    {
+      "repository": "roukou3/DCTL",
+      "category_index": 0,
+      "source": "dctl",
+      "access": "Free",
+      "description": "Fisheye correction and projection conversion DCTL for Resolve Studio. Older documented Resolve versions and macOS GPU compatibility caveats.",
+      "note": "MIT; upstream documents Studio 16/17, not a current-version test.",
+      "upstream_url": "https://github.com/roukou3/DCTL",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:08Z"
+    },
+    {
+      "repository": "Xaryen/DCTLs",
+      "category_index": 0,
+      "source": "dctl",
+      "access": "Public",
+      "description": "Minimax-style DCTL for comparing effects with After Effects. Slow at larger values; author recommends Alpha Matte Shrink and Grow OFX for production.",
+      "note": "No licence identified by GitHub metadata; retain Public.",
+      "upstream_url": "https://github.com/Xaryen/DCTLs",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:10Z"
+    },
+    {
+      "repository": "mitkunz/resolve_DCTLs",
+      "category_index": 0,
+      "source": "dctl",
+      "access": "Free",
+      "description": "Grading DCTLs including Technicolor-style RGB mixing, film saturation, adjustable grey cards, and letterboxing. GPL-3.0.",
+      "note": "Upstream README and GPL-3.0 metadata checked.",
+      "upstream_url": "https://github.com/mitkunz/resolve_DCTLs",
+      "license_detected": "GPL-3.0",
+      "metadata_checked_at": "2026-09-06T11:14:11Z"
+    },
+    {
+      "repository": "xavijulez/Tetrahedral-Interpolation-DCTL",
+      "category_index": 0,
+      "source": "dctl",
+      "access": "Free",
+      "description": "CIE XYZ tetrahedral color transformation ported to DCTL, with credits to the earlier Nuke and Fusion implementations.",
+      "note": "MIT; an actual DCTL port rather than the Nuke-only source reference.",
+      "upstream_url": "https://github.com/xavijulez/Tetrahedral-Interpolation-DCTL",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:14Z"
+    },
+    {
+      "repository": "hotgluebanjo/halation-dctl",
+      "category_index": 0,
+      "source": "dctl",
+      "access": "Public",
+      "description": "Adjustable halation with exponential falloff. Requires scene-linear input and the DCTL OFX effect; licensing not established.",
+      "note": "Upstream input requirements checked; do not apply directly to log-encoded footage.",
+      "upstream_url": "https://github.com/hotgluebanjo/halation-dctl",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:16Z"
+    },
+    {
+      "repository": "EaryChow/Blender-AgX-Resolve",
+      "category_index": 0,
+      "source": "agx",
+      "access": "Public",
+      "description": "Experimental AgX fork with defaults aimed at Blender matching, separate working primaries, and added controls. Distinct from sobotka/AgX-Resolve; not installation-tested.",
+      "note": "Fork retained because upstream explicitly documents Blender matching changes. Discovered in a crash-help thread; discovery is not a compatibility endorsement.",
+      "upstream_url": "https://github.com/EaryChow/Blender-AgX-Resolve",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:17Z"
+    },
+    {
+      "repository": "thatcherfreeman/dwg-transforms",
+      "category_index": 0,
+      "source": "dwg",
+      "access": "Public",
+      "description": "DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/Intermediate, including a GoPro GP-Log transform.",
+      "note": "Repository metadata and Reddit file link checked. No root README returned; licence not established.",
+      "upstream_url": "https://github.com/thatcherfreeman/dwg-transforms",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:19Z"
+    },
+    {
+      "repository": "DMiradakis/resolver",
+      "category_index": 4,
+      "source": "resolver",
+      "access": "Free",
+      "description": "CLI for self-contained Resolve project workflows: scaffold project folders, export render artifacts, and archive projects.",
+      "note": "MIT; upstream README confirms the three workflows.",
+      "upstream_url": "https://github.com/DMiradakis/resolver",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:20Z"
+    },
+    {
+      "repository": "adrian-goe/resolve-immich-export",
+      "category_index": 4,
+      "source": "april",
+      "access": "Public; Immich hosting separate",
+      "description": "Uploads completed Resolve renders to an Immich server and selected album. Beta; Studio 21+, an Immich instance, and API key required. README release links contain placeholders.",
+      "note": "No licence identified; README install links still reference yourname. Listing is not a verified installer recommendation.",
+      "upstream_url": "https://github.com/adrian-goe/resolve-immich-export",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:22Z"
+    },
+    {
+      "repository": "Googleholic/Media_Relinker_for_Davinci_Resolve",
+      "category_index": 4,
+      "source": "april",
+      "access": "Free",
+      "description": "Matches renamed or moved offline media using metadata, with match review and relink history. Studio 19.1+ and ExifTool required; Windows/macOS/Linux documented.",
+      "note": "Upstream describes relinking, not the effect-library deletion utility mentioned elsewhere in the thread.",
+      "upstream_url": "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:23Z"
+    },
+    {
+      "repository": "Pinionist/Resolve-Conform-tools",
+      "category_index": 4,
+      "source": "rename",
+      "access": "Public",
+      "description": "Resolve Studio Lua tools for VFX conforming, plate publishing, clip renaming, and version switching. Timeline renamer requires 20.2; see upstream retime/keyframe caveat.",
+      "note": "Credits to Thatcher Freeman preserved upstream; licence not established.",
+      "upstream_url": "https://github.com/Pinionist/Resolve-Conform-tools",
+      "license_detected": null,
+      "metadata_checked_at": "2026-09-06T11:14:25Z"
+    },
+    {
+      "repository": "nikita-petrovich/OFX-QRCoder",
+      "category_index": 1,
+      "source": "qr",
+      "access": "Free",
+      "description": "Proof-of-concept QR-code generator for Resolve and other OpenFX hosts. macOS distribution; Windows support and performance optimization remain on the upstream to-do list.",
+      "note": "MIT; macOS installation documented. No installer or binary executed.",
+      "upstream_url": "https://github.com/nikita-petrovich/OFX-QRCoder",
+      "license_detected": "MIT",
+      "metadata_checked_at": "2026-09-06T11:14:26Z"
+    }
+  ],
+  "excluded": [
+    {
+      "repository": "calvinsilly/Tetrahedral-Interpolation",
+      "source": "dctl",
+      "reason": "Nuke expression/BlinkScript implementation; retain as provenance for the DCTL port, not a native Resolve addition."
+    }
+  ],
+  "already_listed": [
+    "Akascape/Rembg-Fuse",
+    "Kartaverse/Reactor-Standalone",
+    "thatcherfreeman/utility-dctls",
+    "xtremestuff/resolve-dctl",
+    "Wavechaser/NamiColor",
+    "npeason/Tetra-DCTLOFX",
+    "EmberLightVFX/Tetrahedral-Interpolation-for-Fusion",
+    "veritus-git/BadWords",
+    "tmoroney/auto-subs"
+  ],
+  "other_resources": [
+    {
+      "name": "Resolve Directory",
+      "url": "https://resolve.directory/",
+      "source": "may",
+      "status": "Official page checked",
+      "note": "Directory for free PowerGrades, LUTs, and camera log LUTs; individual downloads and licences not audited."
+    },
+    {
+      "name": "DCTLs.info / Colorist Resources",
+      "url": "https://dctls.info/",
+      "source": "dctl",
+      "status": "Page title reachable; content unavailable",
+      "note": "DCTL discovery lead; current catalogue contents and pricing need manual review."
+    },
+    {
+      "name": "FrameSeek",
+      "url": "https://frameseek.app/",
+      "source": "may",
+      "status": "Official page checked",
+      "note": "Apple Silicon/macOS 15+ footage search with FCPXML/EDL export. Current page lists $59 one-time, superseding Reddit's $39. Local processing plus optional Gemini API; not unconditionally offline."
+    },
+    {
+      "name": "SafeFrame",
+      "url": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "source": "may",
+      "status": "Reddit lead; upstream fetch failed",
+      "note": "Creator describes free platform safe-zone guides for Resolve Free and Studio; current availability and terms unverified."
+    },
+    {
+      "name": "Tagger for Resolve",
+      "url": "https://www.tagger.mov/",
+      "source": "may",
+      "status": "Reddit lead; upstream fetch failed",
+      "note": "Creator describes AI metadata tagging for Resolve Studio on macOS with a limited demo; current price and data handling unverified."
+    },
+    {
+      "name": "SyncPass",
+      "url": "https://jklediting.com/syncpass",
+      "source": "may",
+      "status": "Reddit lead only",
+      "note": "Windows/Studio text-based editing beta with a time-limited trial in the post. Current availability and terms unverified; separate from Fast AutoCut."
+    },
+    {
+      "name": "Subreddit wiki",
+      "url": "https://www.reddit.com/r/davinciresolve/wiki/index/",
+      "source": "wiki",
+      "status": "Index checked; plugin/resource subpages unavailable",
+      "note": "Starting points for training, Free versus Studio, media import, offline media, playback issues, and plugins."
+    }
+  ]
+}

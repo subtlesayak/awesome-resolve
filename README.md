@@ -1,12 +1,14 @@
 # 🎬 Awesome Resolve
 
-A curated directory of **114 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
+A curated directory of **130 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
 
 Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet.
 
-**GitHub metadata checked: 2026-09-06T11:12:24Z.** Stars and relative ages are a snapshot as of this date. Last updated means GitHub's latest repository push (`pushedAt`), not the latest release; exact UTC timestamps are in the CSV.
+**GitHub metadata checked: 2026-09-06T11:16:31Z.** Stars and relative ages are a snapshot as of this date. Last updated means GitHub's latest repository push (`pushedAt`), not the latest release; exact UTC timestamps are in the CSV.
 
 **Research snapshot: 6 September 2026.** Descriptions, access labels, and compatibility notes come from the supplied research catalogue. They have not been independently revalidated during this import. These are researched listings, not installation tests or security audits; this directory does not claim exhaustive coverage.
+
+**Reddit discovery pass: 6 September 2026.** Added 16 repositories after checking upstream metadata and documentation. See the [discovery report](data/reddit-discovery-report.md) for source threads, compatibility caveats, and additional websites. The original 114 entries retain their existing research status.
 
 ## Access labels
 
@@ -15,6 +17,8 @@ Browse the categories below or download the [CSV catalogue](data/repositories.cs
 - **Mixed**: separate paid editions, optional paid services, or a catalogue containing commercial products.
 
 Qualifiers identify separate service, infrastructure, or hardware costs. Resolve Studio requirements are separate from the price of a listed project. Public availability does not necessarily mean open source. Consult each upstream repository for current requirements and licensing.
+
+[Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/subtlesayak/awesome-resolve/releases)
 
 ## Contents
 
@@ -32,13 +36,13 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 
 ### 🗂️ Browse by category
 
-- [🎨 Color grading, DCTLs, film looks, and color science](#category-1) (27)
-- [✨ Fusion, motion graphics, visual effects, and package management](#category-2) (22)
-- [💬 Subtitles, transcription, dialogue cleanup, and automatic editing](#category-3) (13)
+- [🎨 Color grading, DCTLs, film looks, and color science](#category-1) (34)
+- [✨ Fusion, motion graphics, visual effects, and package management](#category-2) (24)
+- [💬 Subtitles, transcription, dialogue cleanup, and automatic editing](#category-3) (14)
 - [🤖 AI assistants, MCP servers, and ComfyUI integrations](#category-4) (6)
-- [🛠️ Productivity scripts, workflow bridges, and integrations](#category-5) (13)
+- [🛠️ Productivity scripts, workflow bridges, and integrations](#category-5) (18)
 - [🎞️ Encoding, codecs, proxy generation, rendering, and project servers](#category-6) (9)
-- [🐧 Linux installation, compatibility, and troubleshooting](#category-7) (8)
+- [🐧 Linux installation, compatibility, and troubleshooting](#category-7) (9)
 - [📚 Developer libraries and scripting references](#category-8) (5)
 - [🎛️ Hardware, control surfaces, MIDI, and Speed Editor tools](#category-9) (6)
 - [🧭 Directories covering free and commercial products](#category-10) (5)
@@ -49,7 +53,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 
 ## 🎨 Color grading, DCTLs, film looks, and color science
 
-27 repositories.
+34 repositories.
 
 | Repository | What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | ---: | --- |
@@ -72,7 +76,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [caryknoop/DCTL](https://github.com/caryknoop/DCTL) | Diagnostic tools for marking and analyzing image changes through nodes. | ![Free](assets/badges/free.svg) | 30 | 1 year back |
 | [jai-panjwani/DCTLS](https://github.com/jai-panjwani/DCTLS) | Additional Resolve DCTL scripts. | ![Public](assets/badges/public.svg) | 22 | 1 year back |
 | [Senthil360/RenderHub-DCTLs](https://github.com/Senthil360/RenderHub-DCTLs) | Creative and film-look DCTL collection for Resolve Studio. | ![Public](assets/badges/public.svg) | 25 | 5 days back |
-| [thatcherfreeman/aces-transforms](https://github.com/thatcherfreeman/aces-transforms) | Custom ACES input and output transforms. | ![Public](assets/badges/public.svg) | 60 | 1 week back |
+| [thatcherfreeman/aces-transforms](https://github.com/thatcherfreeman/aces-transforms) | Custom ACES input and output transforms. | ![Public](assets/badges/public.svg) | 60 | 2 weeks back |
 | [exones/davinci](https://github.com/exones/davinci) | Custom Resolve DCTL effects. | ![Free](assets/badges/free.svg) | 2 | 1 year back |
 | [Georj01/davinci-dctl](https://github.com/Georj01/davinci-dctl) | Minimalist DCTL visual tools and effects. | ![Public](assets/badges/public.svg) | 2 | 1 month back |
 | [kubabar/DCTLs](https://github.com/kubabar/DCTLs) | Technical color-space conversion tools, including XYZ conversion. | ![Free](assets/badges/free.svg) | 2 | 2 years back |
@@ -80,19 +84,26 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio](https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio) | Film-look system combining DCTLs, LUTs, and PowerGrades in a Studio/DWG workflow. | ![Public](assets/badges/public.svg) | 0 | 1 year back |
 | [lakravana/Martis-Bleach-Bypass](https://github.com/lakravana/Martis-Bleach-Bypass) | Bleach-bypass-style DCTL look. | ![Public](assets/badges/public.svg) | 0 | 1 month back |
 | [shenmintao/V-Log-Alchemy](https://github.com/shenmintao/V-Log-Alchemy) | Film-look/color tools aimed at V-Log footage. | ![Public](assets/badges/public.svg) | 357 | 2 weeks back |
+| [roukou3/DCTL](https://github.com/roukou3/DCTL) | Fisheye correction and projection conversion DCTL for Resolve Studio. Older documented Resolve versions and macOS GPU compatibility caveats. | ![Free](assets/badges/free.svg) | 37 | 3 years back |
+| [Xaryen/DCTLs](https://github.com/Xaryen/DCTLs) | Minimax-style DCTL for comparing effects with After Effects. Slow at larger values; author recommends Alpha Matte Shrink and Grow OFX for production. | ![Public](assets/badges/public.svg) | 1 | 2 years back |
+| [mitkunz/resolve_DCTLs](https://github.com/mitkunz/resolve_DCTLs) | Grading DCTLs including Technicolor-style RGB mixing, film saturation, adjustable grey cards, and letterboxing. GPL-3.0. | ![Free](assets/badges/free.svg) | 21 | 1 year back |
+| [xavijulez/Tetrahedral-Interpolation-DCTL](https://github.com/xavijulez/Tetrahedral-Interpolation-DCTL) | CIE XYZ tetrahedral color transformation ported to DCTL, with credits to the earlier Nuke and Fusion implementations. | ![Free](assets/badges/free.svg) | 17 | 5 years back |
+| [hotgluebanjo/halation-dctl](https://github.com/hotgluebanjo/halation-dctl) | Adjustable halation with exponential falloff. Requires scene-linear input and the DCTL OFX effect; licensing not established. | ![Public](assets/badges/public.svg) | 103 | 2 years back |
+| [EaryChow/Blender-AgX-Resolve](https://github.com/EaryChow/Blender-AgX-Resolve) | Experimental AgX fork with defaults aimed at Blender matching, separate working primaries, and added controls. Distinct from sobotka/AgX-Resolve; not installation-tested. | ![Public](assets/badges/public.svg) | 3 | 11 months back |
+| [thatcherfreeman/dwg-transforms](https://github.com/thatcherfreeman/dwg-transforms) | DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/Intermediate, including a GoPro GP-Log transform. | ![Public](assets/badges/public.svg) | 109 | 1 month back |
 
 <a id="category-2"></a>
 
 ## ✨ Fusion, motion graphics, visual effects, and package management
 
-22 repositories.
+24 repositories.
 
 | Repository | What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | ---: | --- |
 | [Kartaverse/Reactor-Standalone](https://github.com/Kartaverse/Reactor-Standalone) | Standalone desktop package manager for community Fusion/Resolve tools. Beta; package compatibility varies. | ![Free](assets/badges/free.svg) | 95 | 1 week back |
 | [Kartaverse/VonkUltra](https://github.com/Kartaverse/VonkUltra) | Data-driven and generative node tools for Fusion. | ![Public](assets/badges/public.svg) | 11 | 1 month back |
-| [Kartaverse/Kartaverse-Docs](https://github.com/Kartaverse/Kartaverse-Docs) | KartaVR and immersive-workflow documentation. KartaVR active support ended in January 2026, although packages remain available through Reactor. | ![Free](assets/badges/free.svg) Free reference | 11 | 1 month back |
-| [nmbr73/Shaderfuse](https://github.com/nmbr73/Shaderfuse) | Shadertoy-style GPU shaders converted into Fusion Fuses. | ![Public](assets/badges/public.svg) | 78 | 1 day back |
+| [Kartaverse/Kartaverse-Docs](https://github.com/Kartaverse/Kartaverse-Docs) | KartaVR and immersive-workflow documentation. KartaVR active support ended in January 2026, although packages remain available through Reactor. | ![Free](assets/badges/free.svg) Free reference | 11 | 2 months back |
+| [nmbr73/Shaderfuse](https://github.com/nmbr73/Shaderfuse) | Shadertoy-style GPU shaders converted into Fusion Fuses. | ![Public](assets/badges/public.svg) | 78 | 2 days back |
 | [J-i-P-i/Shadertoys](https://github.com/J-i-P-i/Shadertoys) | Experimental Shadertoy-to-Fusion shader collection/incubator. | ![Public](assets/badges/public.svg) | 4 | 3 years back |
 | [baldavenger/BaldavengerPlugins](https://github.com/baldavenger/BaldavengerPlugins) | OpenFX image-processing and grading plugins; check older binaries against your system. | ![Public](assets/badges/public.svg) | 148 | 5 years back |
 | [ntsc-rs/ntsc-rs](https://github.com/ntsc-rs/ntsc-rs) | VHS, NTSC, and analog-video effects, including an OpenFX plugin. | ![Free](assets/badges/free.svg) | 2552 | Today |
@@ -111,12 +122,14 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [mrJohnHolt/davinci-resolve-fusion-expressions](https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions) | Expressions, macros, and reusable visual templates. | ![Public](assets/badges/public.svg) | 2 | 3 months back |
 | [EmberLightVFX/Gyroflow-to-CSV](https://github.com/EmberLightVFX/Gyroflow-to-CSV) | Gyro telemetry export for Fusion camera/data-driven workflows. | ![Public](assets/badges/public.svg) | 18 | 3 years back |
 | [raghavdhin/CapitalEase](https://github.com/raghavdhin/CapitalEase) | Easing presets and live curve editing. Its UI requires Studio on Resolve 19.1+. | ![Free](assets/badges/free.svg) | 1 | 1 month back |
+| [Creative-Crafter/davinci-shortform-overlays](https://github.com/Creative-Crafter/davinci-shortform-overlays) | Fusion generator with switchable TikTok, Shorts, and Reels safe-zone overlays; distributed as a .drfx template. Check guides against current platform layouts. | ![Free](assets/badges/free.svg) | 5 | 2 weeks back |
+| [nikita-petrovich/OFX-QRCoder](https://github.com/nikita-petrovich/OFX-QRCoder) | Proof-of-concept QR-code generator for Resolve and other OpenFX hosts. macOS distribution; Windows support and performance optimization remain on the upstream to-do list. | ![Free](assets/badges/free.svg) | 7 | 1 year back |
 
 <a id="category-3"></a>
 
 ## 💬 Subtitles, transcription, dialogue cleanup, and automatic editing
 
-13 repositories.
+14 repositories.
 
 | Repository | What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | ---: | --- |
@@ -133,6 +146,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [ikm-san/autotitles-community](https://github.com/ikm-san/autotitles-community) | CLI/API subtitle-to-Fusion-title workflow for Studio. Free for commercial video work, but not open source; separate GUI editions exist. | ![Mixed](assets/badges/mixed.svg) | 0 | 1 month back |
 | [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) | Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin. | ![Public](assets/badges/public.svg) | 5164 | 3 days back |
 | [JiginJayaprakash/resolve-textplus-srt-importer](https://github.com/JiginJayaprakash/resolve-textplus-srt-importer) | Imports SRT subtitles as styled Fusion Text+ clips. | ![Free](assets/badges/free.svg) | 2 | 5 months back |
+| [abhirup780/fast-autocut](https://github.com/abhirup780/fast-autocut) | Silence removal that builds a new timeline while retaining externally recorded audio sync. Windows, Resolve Studio 18.5+, Python, and FFmpeg required. | ![Free](assets/badges/free.svg) | 1 | 2 months back |
 
 <a id="category-4"></a>
 
@@ -145,7 +159,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) | AI-client access to media, timeline, rendering, and other Resolve operations through MCP. Studio workflow. | ![Public](assets/badges/public.svg) Public; AI costs separate | 2414 | Today |
 | [barckley75/resolve-claude-mcp](https://github.com/barckley75/resolve-claude-mcp) | Claude/MCP integration for Resolve automation. | ![Public](assets/badges/public.svg) Public; AI costs separate | 350 | 3 months back |
 | [apvlv/davinci-resolve-mcp](https://github.com/apvlv/davinci-resolve-mcp) | Another Resolve/Fusion MCP implementation; capabilities differ from the other servers. | ![Public](assets/badges/public.svg) Public; AI costs separate | 77 | 5 months back |
-| [hoyt-harness/davinci-mcp-professional](https://github.com/hoyt-harness/davinci-mcp-professional) | MCP automation organized around Resolve workflows/domains. “Professional” is the project name, not proof of a paid license. | ![Public](assets/badges/public.svg) | 24 | 2 days back |
+| [hoyt-harness/davinci-mcp-professional](https://github.com/hoyt-harness/davinci-mcp-professional) | MCP automation organized around Resolve workflows/domains. “Professional” is the project name, not proof of a paid license. | ![Public](assets/badges/public.svg) | 24 | 3 days back |
 | [barckley75/comfyUI_DaVinciResolve](https://github.com/barckley75/comfyUI_DaVinciResolve) | ComfyUI nodes connecting generative workflows to Resolve. | ![Public](assets/badges/public.svg) | 46 | 2 years back |
 | [CelaviiHQ/cutmaster-ai](https://github.com/CelaviiHQ/cutmaster-ai) | MCP toolkit and Resolve workflow panel. The public toolkit is separate from the paid CutMaster Studio macOS app. | ![Mixed](assets/badges/mixed.svg) | 3 | 1 month back |
 
@@ -153,7 +167,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 
 ## 🛠️ Productivity scripts, workflow bridges, and integrations
 
-13 repositories.
+18 repositories.
 
 | Repository | What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | ---: | --- |
@@ -170,6 +184,11 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [tin2tin/VSE_OTIO_Export](https://github.com/tin2tin/VSE_OTIO_Export) | Blender Video Sequence Editor timeline export through OpenTimelineIO. | ![Public](assets/badges/public.svg) | 32 | 2 years back |
 | [MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve](https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve) | Helps locate/install fonts for Resolve workflows. Font licenses remain separate. | ![Free](assets/badges/free.svg) | 5 | 1 year back |
 | [LucasHT22/davinci-resolve-wakatime](https://github.com/LucasHT22/davinci-resolve-wakatime) | WakaTime activity-tracking integration. External service terms are separate. | ![Public](assets/badges/public.svg) Public + service | 23 | 1 year back |
+| [vulture-s/arkiv](https://github.com/vulture-s/arkiv) | Local-first footage indexing, semantic search, metadata, and Resolve import/marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/media dependencies. | ![Free](assets/badges/free.svg) Free; source-available, restricted competing-product use | 71 | 1 day back |
+| [DMiradakis/resolver](https://github.com/DMiradakis/resolver) | CLI for self-contained Resolve project workflows: scaffold project folders, export render artifacts, and archive projects. | ![Free](assets/badges/free.svg) | 5 | 2 months back |
+| [adrian-goe/resolve-immich-export](https://github.com/adrian-goe/resolve-immich-export) | Uploads completed Resolve renders to an Immich server and selected album. Beta; Studio 21+, an Immich instance, and API key required. README release links contain placeholders. | ![Public](assets/badges/public.svg) Public; Immich hosting separate | 0 | 4 months back |
+| [Googleholic/Media_Relinker_for_Davinci_Resolve](https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve) | Matches renamed or moved offline media using metadata, with match review and relink history. Studio 19.1+ and ExifTool required; Windows/macOS/Linux documented. | ![Free](assets/badges/free.svg) | 0 | 4 months back |
+| [Pinionist/Resolve-Conform-tools](https://github.com/Pinionist/Resolve-Conform-tools) | Resolve Studio Lua tools for VFX conforming, plate publishing, clip renaming, and version switching. Timeline renamer requires 20.2; see upstream retime/keyframe caveat. | ![Public](assets/badges/public.svg) | 14 | 3 months back |
 
 <a id="category-6"></a>
 
@@ -193,7 +212,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 
 ## 🐧 Linux installation, compatibility, and troubleshooting
 
-8 repositories.
+9 repositories.
 
 | Repository | What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | ---: | --- |
@@ -205,6 +224,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [psygreg/autoresolvedeb](https://github.com/psygreg/autoresolvedeb) | Automates downloading and repackaging Resolve through MakeResolveDeb. | ![Public](assets/badges/public.svg) | 29 | 1 week back |
 | [yioannides/fedora-resolve](https://github.com/yioannides/fedora-resolve) | Fedora installation scripts. The maintainer warns the method may already be obsolete. | ![Free](assets/badges/free.svg) Free; legacy warning | 26 | 4 weeks back |
 | [Chillsmeit/resolve-tumbleweed](https://github.com/Chillsmeit/resolve-tumbleweed) | openSUSE Tumbleweed fixes. Maintainer no longer uses that distribution. | ![Free](assets/badges/free.svg) Free; maintenance caution | 21 | 1 month back |
+| [JaySNL/VSTForResolveLinux](https://github.com/JaySNL/VSTForResolveLinux) | Experimental VST2/VST3/CLAP bridge for Resolve Studio 21 on Linux. Patches process memory and may crash Resolve; Windows plugins need patched yabridge. See current latency limitations. | ![Free](assets/badges/free.svg) | 8 | 1 day back |
 
 <a id="category-8"></a>
 
@@ -232,7 +252,7 @@ Access qualifiers and compatibility details remain in each entry. Stars and date
 | [fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter](https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter) | Uses a Behringer X-Touch Mini to control Resolve through Windows hotkeys. | ![Public](assets/badges/public.svg) Public; hardware separate | 30 | 5 years back |
 | [RudyB24/AutoHotKey_Bome_MIDI_2_Key](https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key) | Maps incoming MIDI messages to Resolve keyboard shortcuts. | ![Public](assets/badges/public.svg) Public; dependencies separate | 21 | 3 years back |
 | [shaise/DiSE](https://github.com/shaise/DiSE) | DIY speed-editor hardware for Resolve and other video-editing applications. | ![Public](assets/badges/public.svg) Public; build cost | 60 | 3 years back |
-| [KipJM/blackmacro-hardware](https://github.com/KipJM/blackmacro-hardware) | Configurable DIY editing keyboard based on Raspberry Pi Pico 2W. | ![Public](assets/badges/public.svg) Public; build cost | 23 | 1 week back |
+| [KipJM/blackmacro-hardware](https://github.com/KipJM/blackmacro-hardware) | Configurable DIY editing keyboard based on Raspberry Pi Pico 2W. | ![Public](assets/badges/public.svg) Public; build cost | 23 | 2 weeks back |
 | [derwok/SpeedEditorCheatSheet](https://github.com/derwok/SpeedEditorCheatSheet) | Printable Speed Editor reference/cheat sheet. | ![Free](assets/badges/free.svg) Free reference | 41 | 2 years back |
 
 <a id="category-10"></a>
