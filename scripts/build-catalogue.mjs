@@ -73,17 +73,18 @@ export function relativeDate(timestamp, checkedAt) {
   return `${value} ${unit}${value === 1 ? '' : 's'} back`;
 }
 const escape = text => text.replaceAll('|', '\\|').replaceAll('\n', ' ');
+const wrapText = text => escape(text).replace(/([A-Za-z0-9]{10})(?=[A-Za-z0-9])/g, '$1&#8203;').replace(/([/_])/g, '$1&#8203;');
 export const platformIcons = { Windows: '🪟', macOS: '🍎', Linux: '🐧', iPadOS: '📱', Reference: '📖', Unverified: '❔' };
 export function platformLabel(e) {
   const platforms = (e.platforms || 'Unverified').split(';');
   if (platforms.some(p => !platformIcons[p])) throw new Error(`Invalid platform for ${e.repository}`);
   const label = platforms.map(p => `${platformIcons[p]} ${p}`).join(' · ');
   const linked = e.platform_source ? `[${label}](${e.platform_source})` : label;
-  return linked + (e.platform_notes ? `<br><sub>${escape(e.platform_notes)}</sub>` : '');
+  return linked + (e.platform_notes ? `<br><sub>${wrapText(e.platform_notes)}</sub>` : '');
 }
 function accessLabel(e, prefix) {
   const group = accessGroup(e);
-  const qualifier = e.access === group ? '' : ` ${escape(e.access)}`;
+  const qualifier = e.access === group ? '' : ` ${wrapText(e.access)}`;
   return `![${group}](${prefix}assets/badges/${group.toLowerCase()}.svg)${qualifier}`;
 }
 export function repositoryLabel(repository) {
@@ -95,7 +96,7 @@ function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const label = repositoryLabel(e.repository);
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
-  const details = `${escape(e.description)}${type}`;
+  const details = `${wrapText(e.description)}${type}`;
   const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
   return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | <sub>${updated}</sub> |`;
 }

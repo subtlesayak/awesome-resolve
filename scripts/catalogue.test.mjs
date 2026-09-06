@@ -40,7 +40,7 @@ test('platform labels retain evidence and caveats without guessing support', () 
     assert.match(entry.platform_checked_at, /^\d{4}-\d{2}-\d{2}$/);
     const output = platformLabel(entry);
     for (const platform of entry.platforms.split(';')) assert.ok(output.includes(platformIcons[platform]));
-    if (entry.platform_notes) assert.ok(output.includes(entry.platform_notes));
+    if (entry.platform_notes) assert.ok(output.replaceAll('&#8203;', '').includes(entry.platform_notes));
   }
   assert.match(platformLabel(entries.find(e => e.repository === 'Nusscookie/clautter')), /untested/);
   assert.match(platformLabel(entries.find(e => e.repository === 'elliotmatson/Docker-Davinci-Resolve-Project-Server')), /server hosts/);
@@ -53,10 +53,11 @@ test('compact tables retain every field and allow long repository names to wrap'
     const row = readme.split('\n').find(line => line.startsWith('| [') && line.includes(`](${entry.url})`));
     assert.ok(row, `Missing ${entry.repository}`);
     assert.equal(row.split(/(?<!\\)\|/).length, 8, `Expected six columns for ${entry.repository}`);
-    assert.ok(row.includes(entry.description.replaceAll('|', '\\|').replaceAll('\n', ' ')));
+    const readableRow = row.replaceAll('&#8203;', '');
+    assert.ok(readableRow.includes(entry.description.replaceAll('|', '\\|').replaceAll('\n', ' ')));
     assert.ok(row.includes(platformLabel(entry)));
     assert.ok(row.includes(`![${accessGroup(entry)}]`));
-    if (entry.access !== accessGroup(entry)) assert.ok(row.includes(entry.access.replaceAll('|', '\\|')));
+    if (entry.access !== accessGroup(entry)) assert.ok(readableRow.includes(entry.access.replaceAll('|', '\\|')));
     const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
     assert.ok(row.includes(`| ${entry.stars} | <sub>${updated}</sub> |`));
     assert.ok(!row.includes('<br><br>'));
