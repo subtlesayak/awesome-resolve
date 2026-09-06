@@ -2,6 +2,43 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.5](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.5) — 2026-09-06
+
+### Added
+
+- **21 external resources**, bringing the external directory to **32**; GitHub catalogue stays at **225 repositories**.
+- [Plugin wiki discovery report](data/wiki-discovery-report.md) and [evidence ledger](data/wiki-discoveries.json), with duplicate detection, upstream redirects, and unresolved leads.
+
+- [MONONODES](https://mononodes.com/dctl-and-more/) — DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements. **Mixed; free tools and demos alongside commercial tools.** ❔ Per tool.
+- [CinePrint35](https://www.tombolles.net/cineprint35) — Film-emulation PowerGrades with native Resolve nodes. Free Resolve can use the grades with the Studio-only Grain node disabled. The supplied CinePrint16 URL redirects here. **Paid PowerGrades; separate LUT offering.** 🪟 Windows · 🍎 macOS.
+- [Basic Node Tree](https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree) — Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix. **Free; store download.** ❔ Unverified.
+- [CineMatch](https://www.filmconvert.com/plugin/cinematch) — Camera-profile matching with exposure, white balance, and LUT generation. FilmConvert lists Resolve support; select its Resolve download rather than another host's package. **Paid; watermarked trial.** ❔ Confirm current installer.
+- [FilmConvert tools](https://www.filmconvert.com/) — Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support. **Commercial products; trials available.** ❔ Per product.
+- [Filmbox Pro](https://videovillage.com/filmbox/) — Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. **Paid; 14-day trial listed.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Gaussian Splatting for DaVinci Resolve](https://aescripts.com/gaussian-splatting-for-davinci-resolve/) — Import, manipulate, and GPU-render Gaussian-splat PLY scenes, including depth output. Product compatibility lists Resolve 18–21; OS requirements were not established in the retrieved page. **Commercial licensed plugin; check current offer.** ❔ Unverified.
+- [WippTemplates EditorCollection](https://wipptemplates.com/products/editorcollection) — Editing and animation toolkit for Resolve Free and Studio; current product page lists Resolve 20 and 21. Individual effects can carry a rendering-performance cost. **Paid collection.** ❔ Unverified.
+- [Boris FX Sapphire](https://borisfx.com/products/sapphire/) — VFX and transition suite with documented Resolve and Fusion Studio OFX support. Check host, GPU, and Linux-distribution requirements for the selected release. **Paid; trial available.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Boris FX SynthEyes](https://borisfx.com/products/syntheyes/) — Camera/object tracking and matchmoving with Fusion/Resolve scene export. This is a standalone pipeline companion. Linux documentation specifies RHEL 8+ or compatible x86_64 distributions. **Commercial standalone tool.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Neat Video](https://www.neatvideo.com/) — Noise and flicker reduction with documented Resolve support. Select the matching host/version package and verify its OS/GPU requirements. **Commercial plugin.** ❔ Confirm Resolve edition.
+- [RE:Vision Effects for Resolve](https://revisionfx.com/products/for/resolve/) — Resolve-specific product directory covering Twixtor retiming, ReelSmart Motion Blur, DEFlicker, DE:Noise, and other effects. Compatibility and licensing vary by product. **Commercial products and bundles.** ❔ Per product.
+- [Digital Anarchy Resolve tools](https://digitalanarchy.com/) — Resolve/OFX downloads are listed for Beauty Box Video, Flicker Free, Samurai Sharpen, and Data Storyteller. Do not assume the vendor's AE/FCP-only or free products also support Resolve. **Commercial products; separate free products exist.** ❔ Per product.
+- [Filmworkz OFX DVO](https://filmworkz.com/ofx/) — Restoration and correction plugin pack for Resolve, Mistika, and Scratch. Current vendor page documents desktop OS support and the updated Performance Pack with DVO Despeckle. **Commercial; subscription options.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [End Boost](https://alexaudiobutler.com/) — Automatic audio mixing, denoising, and loudness mastering. The Alex Audio Butler website now presents End Boost as a standalone application usable with Resolve workflows. **Paid standalone app.** 🪟 Windows · 🍎 macOS.
+- [Auburn Sounds Renegate](https://www.auburnsounds.com/products/Renegate.html) — Audio gate with VST/AU and other builds. Icons describe available plugin builds; Linux availability does not establish native Fairlight Linux hosting compatibility. **Free edition; paid full edition.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [TBProAudio dpMeter](https://www.tbproaudio.de/products/dpmeter) — Multichannel audio metering with VST/VST3/AU builds; macOS Intel and ARM downloads are listed. Choose a 64-bit format supported by the installed Resolve host. **Free.** 🪟 Windows · 🍎 macOS.
+- [Valhalla Supermassive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) — Reverb and delay effect with official Windows and native Intel/Apple Silicon Mac builds. Resolve host compatibility still depends on plugin format and host version. **Free.** 🪟 Windows · 🍎 macOS.
+- [Simon Says for Resolve](https://www.simonsaysai.com/blackmagic-davinci-resolve-extension) — Transcription, speaker-colored markers, captions, and translated subtitles. Retrieved download instructions name Resolve 16–18 on Mac and Studio 17–18 on Windows; newer-version support needs confirmation. **Service pricing; introductory credit listed.** 🪟 Windows · 🍎 macOS.
+- [SNS ShareBrowser integration](https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/) — Media search, preview, tagging, and import through ShareBrowser. Vendor announcement specifies EVO users and Resolve Studio 17+; the integration is not a standalone free MAM service. **Included with paid EVO infrastructure.** ❔ Confirm deployment.
+- [EditShare FLOW panel](https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/) — FLOW asset/metadata access, proxy switching, and review workflows inside Resolve Studio. The checked announcement targets FLOW 2021 and Resolve 17; current deployment compatibility remains unverified. **Enterprise product; confirm current licensing.** ❔ Confirm deployment.
+
+### Changed
+
+- Used the newly accessible [Reddit plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) and selected supplied public links as discovery sources; checked original product pages before adding entries.
+- Updated stale product/platform claims for CinePrint35, End Boost, and Filmbox; preserved historical version caveats for enterprise integrations.
+- Kept unavailable or insufficiently documented resources out of verified counts. Preserved all GitHub rows, stars, relative dates, and sorted views.
+
+Only curated public links and research findings are published. These listings reflect documentation review, not installation tests.
+
 ## [v1.4](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.4) — 2026-09-06
 
 ### Added

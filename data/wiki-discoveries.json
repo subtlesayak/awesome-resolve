@@ -1,0 +1,414 @@
+{
+  "checked_at": "2026-09-06",
+  "wiki_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/",
+  "added_external_resources": 21,
+  "github_repository_total": 225,
+  "github_repositories_added": 0,
+  "privacy": "Only selected public product links are retained. No bookmark export, folder names, timestamps, local paths, account links, or tracking parameters are published.",
+  "additions": [
+    {
+      "category": "🎨 Color / Film",
+      "name": "MONONODES",
+      "url": "https://mononodes.com/dctl-and-more/",
+      "access": "Mixed; free tools and demos alongside commercial tools",
+      "platforms": "❔ Per tool",
+      "notes": "DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://mononodes.com/dctl-and-more/"
+      ],
+      "discovery_source": "https://mononodes.com/dctl-and-more/"
+    },
+    {
+      "category": "🎨 Color / Film",
+      "name": "CinePrint35",
+      "url": "https://www.tombolles.net/cineprint35",
+      "access": "Paid PowerGrades; separate LUT offering",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "notes": "Film-emulation PowerGrades with native Resolve nodes. Free Resolve can use the grades with the Studio-only Grain node disabled. The supplied CinePrint16 URL redirects here.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.tombolles.net/cineprint35"
+      ],
+      "discovery_source": "https://www.tombolles.net/cineprint35"
+    },
+    {
+      "category": "🎨 Color / Film",
+      "name": "Basic Node Tree",
+      "url": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
+      "access": "Free; store download",
+      "platforms": "❔ Unverified",
+      "notes": "Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree"
+      ],
+      "discovery_source": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree"
+    },
+    {
+      "category": "🎨 Color / Film",
+      "name": "CineMatch",
+      "url": "https://www.filmconvert.com/plugin/cinematch",
+      "access": "Paid; watermarked trial",
+      "platforms": "❔ Confirm current installer",
+      "notes": "Camera-profile matching with exposure, white balance, and LUT generation. FilmConvert lists Resolve support; select its Resolve download rather than another host's package.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.filmconvert.com/plugin/cinematch"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎨 Color / Film",
+      "name": "FilmConvert tools",
+      "url": "https://www.filmconvert.com/",
+      "access": "Commercial products; trials available",
+      "platforms": "❔ Per product",
+      "notes": "Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.filmconvert.com/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎨 Color / Film",
+      "name": "Filmbox Pro",
+      "url": "https://videovillage.com/filmbox/",
+      "access": "Paid; 14-day trial listed",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "notes": "Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://videovillage.com/filmbox/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Gaussian Splatting for DaVinci Resolve",
+      "url": "https://aescripts.com/gaussian-splatting-for-davinci-resolve/",
+      "access": "Commercial licensed plugin; check current offer",
+      "platforms": "❔ Unverified",
+      "notes": "Import, manipulate, and GPU-render Gaussian-splat PLY scenes, including depth output. Product compatibility lists Resolve 18–21; OS requirements were not established in the retrieved page.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://aescripts.com/gaussian-splatting-for-davinci-resolve/"
+      ],
+      "discovery_source": "https://aescripts.com/gaussian-splatting-for-davinci-resolve/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "WippTemplates EditorCollection",
+      "url": "https://wipptemplates.com/products/editorcollection",
+      "access": "Paid collection",
+      "platforms": "❔ Unverified",
+      "notes": "Editing and animation toolkit for Resolve Free and Studio; current product page lists Resolve 20 and 21. Individual effects can carry a rendering-performance cost.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://wipptemplates.com/products/editorcollection"
+      ],
+      "discovery_source": "https://wipptemplates.com/products/editorcollection"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Boris FX Sapphire",
+      "url": "https://borisfx.com/products/sapphire/",
+      "access": "Paid; trial available",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "notes": "VFX and transition suite with documented Resolve and Fusion Studio OFX support. Check host, GPU, and Linux-distribution requirements for the selected release.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://borisfx.com/products/sapphire/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Boris FX SynthEyes",
+      "url": "https://borisfx.com/products/syntheyes/",
+      "access": "Commercial standalone tool",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "notes": "Camera/object tracking and matchmoving with Fusion/Resolve scene export. This is a standalone pipeline companion. Linux documentation specifies RHEL 8+ or compatible x86_64 distributions.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://borisfx.com/products/syntheyes/"
+      ],
+      "discovery_source": "https://borisfx.com/products/syntheyes/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Neat Video",
+      "url": "https://www.neatvideo.com/",
+      "access": "Commercial plugin",
+      "platforms": "❔ Confirm Resolve edition",
+      "notes": "Noise and flicker reduction with documented Resolve support. Select the matching host/version package and verify its OS/GPU requirements.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.neatvideo.com/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "RE:Vision Effects for Resolve",
+      "url": "https://revisionfx.com/products/for/resolve/",
+      "access": "Commercial products and bundles",
+      "platforms": "❔ Per product",
+      "notes": "Resolve-specific product directory covering Twixtor retiming, ReelSmart Motion Blur, DEFlicker, DE:Noise, and other effects. Compatibility and licensing vary by product.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://revisionfx.com/products/for/resolve/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Digital Anarchy Resolve tools",
+      "url": "https://digitalanarchy.com/",
+      "access": "Commercial products; separate free products exist",
+      "platforms": "❔ Per product",
+      "notes": "Resolve/OFX downloads are listed for Beauty Box Video, Flicker Free, Samurai Sharpen, and Data Storyteller. Do not assume the vendor's AE/FCP-only or free products also support Resolve.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://digitalanarchy.com/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "✨ Effects / Fusion",
+      "name": "Filmworkz OFX DVO",
+      "url": "https://filmworkz.com/ofx/",
+      "access": "Commercial; subscription options",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "notes": "Restoration and correction plugin pack for Resolve, Mistika, and Scratch. Current vendor page documents desktop OS support and the updated Performance Pack with DVO Despeckle.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://filmworkz.com/ofx/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎧 Audio / Fairlight companions",
+      "name": "End Boost",
+      "url": "https://alexaudiobutler.com/",
+      "access": "Paid standalone app",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "notes": "Automatic audio mixing, denoising, and loudness mastering. The Alex Audio Butler website now presents End Boost as a standalone application usable with Resolve workflows.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://alexaudiobutler.com/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎧 Audio / Fairlight companions",
+      "name": "Auburn Sounds Renegate",
+      "url": "https://www.auburnsounds.com/products/Renegate.html",
+      "access": "Free edition; paid full edition",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "notes": "Audio gate with VST/AU and other builds. Icons describe available plugin builds; Linux availability does not establish native Fairlight Linux hosting compatibility.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.auburnsounds.com/products/Renegate.html"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎧 Audio / Fairlight companions",
+      "name": "TBProAudio dpMeter",
+      "url": "https://www.tbproaudio.de/products/dpmeter",
+      "access": "Free",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "notes": "Multichannel audio metering with VST/VST3/AU builds; macOS Intel and ARM downloads are listed. Choose a 64-bit format supported by the installed Resolve host.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.tbproaudio.de/products/dpmeter"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🎧 Audio / Fairlight companions",
+      "name": "Valhalla Supermassive",
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+      "access": "Free",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "notes": "Reverb and delay effect with official Windows and native Intel/Apple Silicon Mac builds. Resolve host compatibility still depends on plugin format and host version.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🛠️ Workflow / Media management",
+      "name": "Simon Says for Resolve",
+      "url": "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension",
+      "access": "Service pricing; introductory credit listed",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "notes": "Transcription, speaker-colored markers, captions, and translated subtitles. Retrieved download instructions name Resolve 16–18 on Mac and Studio 17–18 on Windows; newer-version support needs confirmation.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🛠️ Workflow / Media management",
+      "name": "SNS ShareBrowser integration",
+      "url": "https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/",
+      "access": "Included with paid EVO infrastructure",
+      "platforms": "❔ Confirm deployment",
+      "notes": "Media search, preview, tagging, and import through ShareBrowser. Vendor announcement specifies EVO users and Resolve Studio 17+; the integration is not a standalone free MAM service.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    },
+    {
+      "category": "🛠️ Workflow / Media management",
+      "name": "EditShare FLOW panel",
+      "url": "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/",
+      "access": "Enterprise product; confirm current licensing",
+      "platforms": "❔ Confirm deployment",
+      "notes": "FLOW asset/metadata access, proxy switching, and review workflows inside Resolve Studio. The checked announcement targets FLOW 2021 and Resolve 17; current deployment compatibility remains unverified.",
+      "checked_at": "2026-09-06",
+      "sources": [
+        "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/"
+      ],
+      "discovery_source": "https://www.reddit.com/r/davinciresolve/wiki/plugins/"
+    }
+  ],
+  "unresolved_leads": [
+    {
+      "name": "sobotka/filmic-resolve",
+      "url": "https://github.com/sobotka/filmic-resolve",
+      "status": "GitHub repository and README endpoints returned 404. Do not silently substitute an unrelated mirror."
+    },
+    {
+      "name": "SuperVHS",
+      "url": "https://akascape.gumroad.com/l/supervhs",
+      "status": "Page returned no readable product body; current price, compatibility, and availability remain unverified."
+    },
+    {
+      "name": "Tika Studio film title pack",
+      "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "status": "Page returned no readable product body; current terms and requirements remain unverified."
+    },
+    {
+      "name": "Nomadic George PowerGrades",
+      "url": "https://nomadicgeorge.sellfy.store/davinci-resolve-powergrades/",
+      "status": "The storefront explicitly returned Page not found."
+    },
+    {
+      "name": "KaurH store",
+      "url": "https://store.kaurh.com/",
+      "status": "Fetch failed. The separate documented GitHub DCTL collection is already listed."
+    },
+    {
+      "name": "Dehancer",
+      "url": "https://www.dehancer.com/store/video/davinci_resolve",
+      "status": "Product-page fetch failed. Official Windows/Linux download indexes and historical release notes were found, but current product terms need confirmation."
+    },
+    {
+      "name": "Colourlab.ai",
+      "url": "https://www.colourlab.ai/",
+      "status": "Official-page fetch failed; current offerings and compatibility need verification."
+    },
+    {
+      "name": "GPU Audio",
+      "url": "https://www.gpu.audio/",
+      "status": "Page returned no readable body; no Resolve-specific compatibility was established."
+    },
+    {
+      "name": "Textuler",
+      "url": "https://textuler.io/features",
+      "status": "Page title identifies a Resolve tool, but no readable product body was returned."
+    },
+    {
+      "name": "FXHome Ignite Pro",
+      "url": "https://fxhome.com/ignite-pro",
+      "status": "Wiki product URL could not be fetched; current availability not established."
+    },
+    {
+      "name": "MainConcept Resolve plugins",
+      "url": "https://www.mainconcept.com/blackmagic-plugins",
+      "status": "Former plugin URL redirected to the generic company homepage; this does not verify a current Resolve product."
+    },
+    {
+      "name": "Primestream Xchange",
+      "url": "https://primestream.com/news/press-release/xchange-mam-pam-and-davinci-resolve-17-now-integrated/",
+      "status": "Historical integration URL could not be fetched."
+    },
+    {
+      "name": "ViatorDSP",
+      "url": "https://www.patreon.com/ViatorDSP/posts",
+      "status": "Creator-page fetch failed; exact plugin packages, licensing, and host support need review."
+    },
+    {
+      "name": "NewBlue",
+      "url": "https://newbluefx.com/",
+      "status": "Homepage redirected to a broadcast-appliance page. Its name Fusion is not proof of a Blackmagic Fusion integration."
+    },
+    {
+      "name": "LiveGrain",
+      "url": "https://www.livegrain.com/",
+      "status": "Official site was reachable; a current Resolve support statement was not established from the reviewed page."
+    },
+    {
+      "name": "iZotope",
+      "url": "https://www.izotope.com/",
+      "status": "Current restoration/mixing catalogue was reachable; exact Resolve-supported plugin editions and formats need review."
+    },
+    {
+      "name": "Native Instruments",
+      "url": "https://www.native-instruments.com/",
+      "status": "General music-production catalogue is not evidence that all instruments/effects work in Fairlight."
+    },
+    {
+      "name": "Waves",
+      "url": "https://www.waves.com/",
+      "status": "General audio catalogue was reachable; Resolve-specific support and edition requirements need product-level review."
+    },
+    {
+      "name": "igorski.nl",
+      "url": "https://www.igorski.nl/download",
+      "status": "Audio effects directory was reachable; individual packages and Resolve host compatibility were not verified."
+    },
+    {
+      "name": "Maxon",
+      "url": "https://www.maxon.net/en/",
+      "status": "General product site was reachable; verify the selected Red Giant/Universe product and current Resolve compatibility."
+    },
+    {
+      "name": "Arch Linux VST package group",
+      "url": "https://archlinux.org/groups/x86_64/vst-plugins/",
+      "status": "Package index was reachable. Package availability is not proof of native Resolve Linux audio-plugin hosting."
+    },
+    {
+      "name": "MagicGradient",
+      "url": "https://ko-fi.com/s/aed8dd3b04",
+      "status": "Supplied creator-store link retained for follow-up; the broader MrAlexTech directory is already included."
+    }
+  ],
+  "duplicates": [
+    "baldavenger/DCTLs",
+    "Demystify-Color/DCTLs",
+    "hotgluebanjo/TetraInterp-DCTL",
+    "npeason/Tetra-DCTLOFX",
+    "sobotka/AgX-Resolve",
+    "thatcherfreeman/utility-dctls",
+    "tmoroney/auto-subs",
+    "JuanPabloZambrano/DCTL",
+    "octimot/StoryToolkitAI",
+    "VilleOlof/Toolbox"
+  ],
+  "existing_external": [
+    "PixelTools",
+    "Reactor",
+    "Voukoder Pro",
+    "Meta Fide",
+    "MrAlexTech"
+  ]
+}
