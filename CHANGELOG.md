@@ -2,7 +2,7 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
-## [v2026.09.06.2](https://github.com/subtlesayak/awesome-resolve/releases/tag/v2026.09.06.2) — 2026-09-06
+## [v1.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.1) — 2026-09-06
 
 ### Changed
 
@@ -13,7 +13,7 @@ Each catalogue update is published as one GitHub release. Every added resource h
 - Refreshed stars and latest push dates; normalized push dates to ISO 8601 UTC and added a regression check against locale-formatted timestamps.
 - Verified platform rendering, source links, sort order, relative ages, and deterministic regeneration with six passing checks. Platform labels reflect upstream documentation, not installation testing.
 
-## [v2026.09.06.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v2026.09.06.1) — 2026-09-06
+## [v1.0](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.0) — 2026-09-06
 
 ## Added
 
