@@ -35,6 +35,20 @@ export const categories = [
   ['🎛️', 'Hardware / MIDI', 'Hardware, control surfaces, MIDI, and Speed Editor tools'],
   ['🧭', 'Directories', 'Directories covering free and commercial products'],
 ];
+export function parseExternalResources(text) {
+  const entries = [];
+  for (const raw of text.split('\n')) {
+    const line = raw.trim();
+    if (!line.startsWith('| [')) continue;
+    const cells = line.split(/(?<!\\)\|/).slice(1, -1).map(cell => cell.trim());
+    const link = cells[0]?.match(/^\[([^\]]+)\]\((https:\/\/[^)]+)\)$/);
+    if (cells.length !== 4 || !link) throw new Error(`Invalid external resource: ${line}`);
+    const [, name, url] = link;
+    entries.push({ name, url, access: cells[1], platforms: cells[2], description: cells[3] });
+  }
+  if (new Set(entries.map(entry => entry.url)).size !== entries.length) throw new Error('Duplicate external resource');
+  return entries;
+}
 const categoryFor = e => categories.find(c => c[2] === e.category);
 const compare = (a, b) => a.toLowerCase() < b.toLowerCase() ? -1 : a.toLowerCase() > b.toLowerCase() ? 1 : 0;
 const byName = (a, b) => compare(a.repository.split('/')[1], b.repository.split('/')[1]) || compare(a.repository, b.repository);
@@ -110,9 +124,17 @@ function table(entries, prefix, includeType = false) {
 function navigation(prefix) {
   return Object.entries(sorts).map(([key, [label]]) => `[${label}](${prefix}${key}.md)`).join(' · ');
 }
+function externalTable(entries) {
+  return [
+    '| 🌐 Resource | 📝 Details | 💰 Access | 💻 Platforms |',
+    '| :--- | :--- | :--- | :--- |',
+    ...[...entries].sort((a, b) => compare(a.name, b.name)).map(e => `| [${e.name}](${e.url}) | ${e.description} | ${e.access} | ${e.platforms} |`),
+  ].join('\n');
+}
 
 export function build() {
   const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
+  const external = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
   if (new Set(entries.map(e => e.url)).size !== entries.length) throw new Error('Duplicate repository');
   for (const e of entries) {
     if (!categoryFor(e) || !/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/.test(e.url) || !/^\d+$/.test(e.stars)) throw new Error('Invalid entry');
@@ -123,11 +145,13 @@ export function build() {
   const end = old.indexOf('## Compatibility notes');
   if (start < 0 || end < start) throw new Error('README section markers missing');
   let intro = old.slice(0, start).replace(/^# Awesome Resolve/m, '# 🎬 Awesome Resolve');
+  intro = intro.replace(/\*\*\d+ public GitHub repositories\*\*(?: and \*\*\d+ external resources\*\*)?/, `**${entries.length} public GitHub repositories** and **${external.length} external resources**`);
   // Rebuilding only replaces the generated section; editorial notes stay intact.
   const content = [
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
     'Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.', '',
+    'All external resources appear together in the [🌐 External resources](#external-resources) category, sorted A–Z by resource name. Their links open the developer website or store. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to these entries.', '',
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
@@ -142,6 +166,7 @@ export function build() {
     'Click an entry\'s platform labels for its upstream source. Labels reflect documented support or installation instructions, not our own installation tests. Omitted platforms are unverified, not necessarily unsupported. Untested, partial, hardware, and server-host limitations are shown beside the labels. Platform review dates and sources are recorded separately in the CSV; refreshing stars does not recheck platform support.', '',
     '### 🗂️ Browse by category', '',
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
+    `- [🌐 External resources](#external-resources) (${external.length})`,
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
     ...categories.flatMap(([emoji, , title], i) => {
       const members = entries.filter(e => e.category === title);
@@ -153,6 +178,9 @@ export function build() {
           table(g.entries, ''), '',
         ])];
     }),
+    '<a id="external-resources"></a>', '', '## 🌐 External resources', '',
+    `${external.length} external resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
+    externalTable(external), '',
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
   fs.mkdirSync(path.join(root, 'views'), { recursive: true });

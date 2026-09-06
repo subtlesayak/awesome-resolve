@@ -15,6 +15,8 @@ Each README category starts with a complete repository list sorted A–Z by repo
 
 Before submitting, confirm that repository URLs are unique, README and CSV entries agree, and links contain no tracking parameters or local file paths.
 
+Maintain external websites and stores in `data/external-tools.md`, then run `node scripts/build-catalogue.mjs`. The generator includes every external entry in one alphabetical **🌐 External resources** category in the README, preserving direct links, descriptions, access conditions, and platform notes. Edit the source directory rather than the generated README rows.
+
 To refresh stars and latest repository push dates, install Node.js, authenticate the GitHub CLI, and run `pwsh -File scripts/update-metadata.ps1` from the repository. This refreshes the CSV, README, and sorted views from GitHub and records a UTC fetch timestamp. It does not revalidate descriptions, access labels, or compatibility notes. Review the changes before committing.
 
 Relative ages (such as `1 week back`) are calculated as of the metadata-check timestamp, so static GitHub pages do not imply a live clock. Sorting always uses exact timestamps or numeric star counts. **Type** is the catalogue category, not a claim about a project's plugin format. Access badges preserve the original access qualifiers and do not imply that every public project is free.

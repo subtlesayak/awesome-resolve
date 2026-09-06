@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
+import { parseCsv, parseExternalResources, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 const discovery = JSON.parse(fs.readFileSync(path.join(root, 'data/web-discoveries.json'), 'utf8'));
@@ -149,6 +149,17 @@ test('marketplace additions are unique, traceable, and present in the external d
       assert.equal(url.search, '', 'Evidence URLs must not contain tracking parameters');
     }
   }
+});
+
+test('README includes every external resource once in one alphabetical category', () => {
+  const source = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  assert.equal(readme.split('## 🌐 External resources').length - 1, 1);
+  const section = readme.split('## 🌐 External resources\n')[1].split('## Compatibility notes')[0];
+  const rows = section.split('\n').filter(line => line.startsWith('| ['));
+  const expected = [...source].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0);
+  assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description} | ${e.access} | ${e.platforms} |`));
+  assert.ok(readme.includes(`[🌐 External resources](#external-resources) (${source.length})`));
 });
 
 test('regeneration is deterministic and preserves CSV', () => {
