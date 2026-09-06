@@ -678,3 +678,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for additions and corrections. Keep the R
 Badge assets are stored in this repository; access classifications follow this catalogue's own research notes.
 
 All listed projects belong to their respective authors and retain their own licenses. This directory links to upstream repositories and does not redistribute their code, binaries, or assets. Inclusion does not imply endorsement or affiliation with Blackmagic Design or the listed maintainers.
+
+### Credits
+
+Credit to the owners and contributors of the directories referenced in this catalogue:
+
+- **Akascape** — [PluginLibrary-Resolve](https://github.com/Akascape/PluginLibrary-Resolve).
+- **CommandPost** — [ResolveCafe](https://github.com/CommandPost/ResolveCafe).
+- **cutbypham** — [awesome-davinci-resolve](https://github.com/cutbypham/awesome-davinci-resolve).
+- **Greenysmac** — [awesome-davinci-resolve](https://github.com/Greenysmac/awesome-davinci-resolve).
+- **hassaancode** — [Fx-Library](https://github.com/hassaancode/Fx-Library).
+- **PostFlows** — [PostFlows script directory](https://postflows.github.io/).
+
+Thanks also to the maintainers of [Editors Lab](https://editorslab.store/), [Resolve Directory](https://resolve.directory/), and [DCTLs.info / Colorist Resources](https://dctls.info/), and the **r/davinciresolve moderators and wiki contributors** for the [community resource and plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) referenced in the discovery reports.
