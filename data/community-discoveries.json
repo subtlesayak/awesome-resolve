@@ -1,0 +1,613 @@
+{
+  "checked_at": "2026-09-06",
+  "baseline_count": 72,
+  "added_count": 32,
+  "total_count": 104,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web.",
+  "additions": [
+    {
+      "creator": "heiba",
+      "name": "DaVinci TTS",
+      "url": "https://ko-fi.com/s/9e769243b5",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Generates speech from timeline text or subtitles and imports audio into the Media Pool. Supports Microsoft, MiniMax and OpenAI voices; external provider terms and costs apply. Store price and availability did not render reliably.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://ko-fi.com/s/9e769243b5"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "heiba",
+      "name": "DaVinci Image AI",
+      "url": "https://ko-fi.com/s/b36e40dd54",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Integrates Google Nano Banana image generation and editing into Resolve. Requires an external AI service; store price, edition requirements and availability were not established.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://ko-fi.com/s/b36e40dd54"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "heiba",
+      "name": "DaVinci Sub Translator",
+      "url": "https://ko-fi.com/s/706feb3730",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Translates subtitle tracks through online translation or LLM services and imports translated subtitles into a timeline track. Provider costs may apply; store availability was not established.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://ko-fi.com/s/706feb3730"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "heiba",
+      "name": "DaVinci Sub Tool (Edit & Translate)",
+      "url": "https://ko-fi.com/s/5e9dcdeae5",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Batch subtitle editing, search/replace and online translation. Listed separately from Sub Translator by the creator; overlap or upgrade entitlement is not established. Provider costs may apply.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://ko-fi.com/s/5e9dcdeae5"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "William",
+      "name": "Just Highlighter Plus",
+      "url": "https://ko-fi.com/s/cb7b432737",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Animated highlighting for text and animated lines in Resolve. Indexed creator listing establishes its purpose; direct retrieval was blocked and current price is unknown.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary listing; direct retrieval blocked",
+      "sources": [
+        "https://ko-fi.com/s/cb7b432737"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Ludooki",
+      "name": "Outline plugin",
+      "url": "https://ko-fi.com/s/6a120fb931",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "❔ Not established",
+      "description": "Adds outlines to images, clips and transitions in Resolve. Indexed creator listing; current price, host requirements and update history are not established.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary listing; direct retrieval failed",
+      "sources": [
+        "https://ko-fi.com/s/6a120fb931"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Calver - Digital Creative School",
+      "name": "Calver Glow V2 Lite",
+      "url": "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297",
+      "category": "Community tools and resources",
+      "access": "🆓 Public Lite download; separate full edition",
+      "platforms": "❔ Not established",
+      "description": "Glow effect with curve-controlled threshold and look, distributed as a DRFX for Resolve and Fusion. Public Lite download link is present; the full edition is separate.",
+      "version": "V2 Lite",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "A Blackbird Called Sue",
+      "name": "Free Analog Counter",
+      "url": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+      "category": "Community tools and resources",
+      "access": "🆓 Free template",
+      "platforms": "❔ Not established",
+      "description": "Animated analog-counter Fusion composition. Creator explicitly shares a free template; current host/edition compatibility is not specified.",
+      "version": "v3 attachment",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary post; direct retrieval timed out",
+      "sources": [
+        "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Catharsis",
+      "name": "Nintendo Direct Graphics Pack",
+      "url": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+      "category": "Community tools and resources",
+      "access": "🆓 Free public pack",
+      "platforms": "❔ Not established",
+      "description": "Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary post; direct retrieval unavailable",
+      "sources": [
+        "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "vfxblend",
+      "name": "Eric’s Keyframes",
+      "url": "https://www.patreon.com/posts/mograph-tools-26571904",
+      "category": "Community tools and resources",
+      "access": "📦 Public post; attachment access not tested",
+      "platforms": "❔ Not established",
+      "description": "Fusion motion-graphics macro supplied as a .setting attachment with tutorials. Legacy 2019 post; current host compatibility and download entitlement are not established.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://www.patreon.com/posts/mograph-tools-26571904"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Fractale",
+      "name": "Cheetah Video Proxy Generator",
+      "url": "https://fractale.itch.io/cheetah-video-proxy-generator",
+      "category": "Community tools and resources",
+      "access": "📦 Public download; store terms may differ",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Creates H.264/H.265, DNxHR and ProRes proxies for Resolve, including portrait-aware sizing. macOS requires a separate FFmpeg installation. Windows is also distributed through Microsoft Store.",
+      "version": "Windows 0.3.6; macOS 0.3.4",
+      "updated": "2024-07-29",
+      "date_kind": "Windows 0.3.6 devlog",
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://fractale.itch.io/cheetah-video-proxy-generator"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "RavinMaddHatter",
+      "name": "YouTube Prep Tool",
+      "url": "https://ravinmaddhatter.itch.io/youtube-prep-tool",
+      "category": "Community tools and resources",
+      "access": "💰 Name your own price",
+      "platforms": "❔ Not established",
+      "description": "Prepares gameplay edits using audio-volume cuts, description templates and subtitle transcription. Marked in development; the download points to an external GitHub release and was not followed.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://ravinmaddhatter.itch.io/youtube-prep-tool"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Aedan / spektrafilm OFX",
+      "name": "spektrafilm OFX",
+      "url": "https://spektrafilm.114c.de/",
+      "category": "Community tools and resources",
+      "access": "🆓 Free beta",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Beta spectral film-emulation OFX with negative, print and scan stages. Official install instructions require Resolve Studio; possible macOS Free behavior is unconfirmed. Linux packaging information differs between the site and repository instructions.",
+      "version": "macOS 0.4.6; Windows/Linux 0.3.11",
+      "updated": "2026-09-04",
+      "date_kind": "macOS plugin update",
+      "evidence_mode": "Reviewed primary page",
+      "sources": [
+        "https://spektrafilm.114c.de/",
+        "https://spektrafilm.114c.de/changelog/",
+        "https://github.com/chaert-s/spektrafilm-ofx/blob/main/install_instructions.txt"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Stefan Ihringer",
+      "name": "ExponentialGlow",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Exponential-falloff glow macro designed for linear-gamma floating-point imagery. Author recommends float32 to avoid banding in strong glows.",
+      "version": "1",
+      "updated": "2013-03-09",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.StefanIhringer.ExponentialGlow"
+    },
+    {
+      "creator": "Stefan Ihringer",
+      "name": "XfChroma Fuse",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Color-separated transformation Fuse for chromatic-aberration effects.",
+      "version": "1.7",
+      "updated": "2025-09-29",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.StefanIhringer.XfChroma"
+    },
+    {
+      "creator": "Mug",
+      "name": "Mug Advanced Halftone",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Halftone generator for Resolve and Fusion with grid/dot controls, jitter and RGB offsets. Includes Edit-page effects and Fusion integration; manifest states MIT licensing.",
+      "version": "3.02",
+      "updated": "2026-04-25",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.muglalb.mug-advanced-halftone"
+    },
+    {
+      "creator": "stib",
+      "name": "displace plus plus",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "GPU displacement Fuse with XY, angle/radius, rotation and image-gradient modes, plus edge-overflow controls.",
+      "version": "0.3",
+      "updated": "2026-04-03",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.pureandapplied.stibs_fuses.displaceplusplus"
+    },
+    {
+      "creator": "AlbertoGZ",
+      "name": "ColorLabels",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Assigns node tile/text colors using palettes. Python script for Fusion; current Resolve edition requirements are unverified.",
+      "version": "1",
+      "updated": "2018-06-17",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.AlbertoGZ.ColorLabels"
+    },
+    {
+      "creator": "AlbertoGZ",
+      "name": "ReloadLoaders",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Refreshes all or selected Fusion Loader nodes by rereading their clip paths. Python and current host compatibility must be checked.",
+      "version": "1.03",
+      "updated": "2019-09-24",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.AlbertoGZ.ReloadLoaders"
+    },
+    {
+      "creator": "Alexey Bogomolov",
+      "name": "Attribute Spreadsheet",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom",
+      "category": "Community tools and resources",
+      "access": "🆓 MIT",
+      "platforms": "❔ Not established",
+      "description": "Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash.",
+      "version": "0.33",
+      "updated": "2024-04-01",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.AlexBogomolov.AttributeSpreadsheet"
+    },
+    {
+      "creator": "FrameTools",
+      "name": "FrameTools CapCut Caption Pack",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom",
+      "category": "Community tools and resources",
+      "access": "🆓 Free templates",
+      "platforms": "❔ Not established",
+      "description": "Eight animated Edit-page caption/title templates built from standard Fusion nodes. Manifest explicitly supports Resolve Free; bundled fonts have separate licenses.",
+      "version": "1",
+      "updated": "2026-04-26",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.FrameTools.CapCutCaptions"
+    },
+    {
+      "creator": "FusionPixelStudios",
+      "name": "Flow Character Rigger",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Rigging macro for separately layered 2D character parts, with joint positions and body-part angles. Requires prepared character layers.",
+      "version": "1",
+      "updated": "2024-08-18",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.FusionPixelStudios.FlowCharacterRigger"
+    },
+    {
+      "creator": "Gregory Chalenko",
+      "name": "Gradient Match",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Builds a procedural gradient from a reference image. Legacy Fusion macro; modern host compatibility has not been established.",
+      "version": "1.0",
+      "updated": "2011-07-16",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.GregoryChalenko.GradientMatch"
+    },
+    {
+      "creator": "Jacob Danell",
+      "name": "Despiller Plus",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+.",
+      "version": "1.3",
+      "updated": "2022-07-30",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.JacobDanell.DeSpillerPlus"
+    },
+    {
+      "creator": "Jacob Danell",
+      "name": "Oidn Denoiser",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "🪟 Windows · 🍎 macOS (legacy packages)",
+      "description": "Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim.",
+      "version": "1.1",
+      "updated": "2020-04-19",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.JacobDanell.OidnDenoiser"
+    },
+    {
+      "creator": "Emilio Sapia - Millolab",
+      "name": "FastExpoGlow",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Fusion glow macro with Fibonacci mode, glow mask/output and highlight rolloff. Manifest discusses Fusion 16 optimization.",
+      "version": "3.1",
+      "updated": "2020-01-31",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.Millolab.FastExpoGlow"
+    },
+    {
+      "creator": "Emilio Sapia - Millolab",
+      "name": "SkinCorrector",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Frequency-separation macro for skin retouching and beauty work in Fusion.",
+      "version": "5",
+      "updated": "2021-02-17",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.Millolab.SkinCorrector"
+    },
+    {
+      "creator": "Emilio Sapia - Millolab",
+      "name": "VolumeHaze",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Compositing macro that spills background light over foreground elements in atmospheric scenes.",
+      "version": "2.1",
+      "updated": "2019-12-04",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.Millolab.VolumeHaze"
+    },
+    {
+      "creator": "Stefan Bredereck/MuseVFX",
+      "name": "FastLightWrap",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Legacy Fusion light-wrap macro. Current Resolve compatibility is not established.",
+      "version": "1.0",
+      "updated": "2009-08-31",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.MuseVFX.FastLightWrap"
+    },
+    {
+      "creator": "Dan De'Etremont",
+      "name": "Fringe Fighter Turbo",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry.",
+      "version": "1.1",
+      "updated": "2020-07-02",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.MuseVFX.FringeFighterTurbo"
+    },
+    {
+      "creator": "Pieter Van Houte",
+      "name": "Suck Less Audio",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "Drives numeric and point parameters from WAV audio. Requires Microsoft WAV signed 16-bit PCM; other audio formats are not interchangeable.",
+      "version": "2.72",
+      "updated": "2024-08-03",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.PieterVanHoute.SuckLessAudio"
+    },
+    {
+      "creator": "We Suck Less",
+      "name": "ReadEXR Ultra",
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom",
+      "category": "Community tools and resources",
+      "access": "📦 Public Reactor package; check package license",
+      "platforms": "❔ Not established",
+      "description": "EXR-reading Fuse with scriptable filename input and optional Vonk text input. The author explicitly describes it as pre-alpha.",
+      "version": "0.6",
+      "updated": "2023-04-01",
+      "date_kind": "Reactor manifest date",
+      "evidence_mode": "Direct GitLab manifest",
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom"
+      ],
+      "checked_at": "2026-09-06",
+      "package_id": "com.wesuckless.ReadEXRUltra"
+    }
+  ],
+  "held_candidates": [
+    {
+      "name": "CAS_Sharp / Max Sat / 2499 DRT",
+      "source": "https://www.liftgammagain.com/forum/",
+      "reason": "Discussion/index leads; canonical distribution and current licensing not established in this pass."
+    },
+    {
+      "name": "Random Text Generator",
+      "source": "https://forum.blackmagicdesign.com/viewtopic.php?f=22&t=51470",
+      "reason": "Legacy 2016 announcement; linked current distribution not verified."
+    },
+    {
+      "name": "Resolve MCP Pro",
+      "source": "https://y1uda.itch.io/resolve-mcp-pro",
+      "reason": "Paid listing makes unusually broad Free-edition claims; integration and compatibility need further checking."
+    }
+  ],
+  "duplicates": [
+    {
+      "name": "sh4rk Audio Visualiser",
+      "source": "https://ko-fi.com/s/69decc7488",
+      "existing_url": "https://sh4rkk.com/visualiser-plugin"
+    },
+    {
+      "name": "Nx LiquidGlass",
+      "source": "https://ko-fi.com/s/8d429085e2",
+      "reason": "Already in the external catalogue."
+    },
+    {
+      "name": "VideoRemap",
+      "source": "https://valuef.itch.io/videoremap",
+      "reason": "Already in the external catalogue."
+    },
+    {
+      "name": "X-Raym scripts",
+      "source": "https://forum.blackmagicdesign.com/viewtopic.php?p=820943&t=154369",
+      "reason": "Already represented by the GitHub repository."
+    }
+  ]
+}

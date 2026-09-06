@@ -24,12 +24,14 @@ test('ambiguous and impossible dates are not eligible for relative release ages'
  assert.equal(audit.external.find(e=>e.name==='SuperModulation').date,null);
 });
 
-test('audit covers every catalogue destination exactly once and matches metadata',()=>{
+test('audit snapshot plus later discoveries cover every destination exactly once',()=>{
  const repos=parseCsv(read('data/repositories.csv'));
  const urls=[...read('data/external-tools.md').matchAll(/^\| \[[^\]]+\]\((https:\/\/[^)]+)\)/gm)].map(m=>m[1]);
- assert.equal(audit.scope.github,repos.length);assert.equal(audit.scope.external,urls.length);
+ const later=JSON.parse(read('data/community-discoveries.json'));
+ assert.equal(audit.scope.github,repos.length);assert.equal(audit.scope.external,audit.external.length);
+ assert.equal(audit.scope.external,later.baseline_count);
  assert.deepEqual(audit.github.map(e=>e.repository).sort(),repos.map(e=>e.repository).sort());
- assert.deepEqual(audit.external.map(e=>e.url).sort(),urls.sort());
+ assert.deepEqual([...audit.external,...later.additions].map(e=>e.url).sort(),urls.sort());
  for(const e of audit.github){
   const r=repos.find(r=>r.repository===e.repository);assert.equal(String(e.stars),r.stars);assert.equal(e.last_pushed_at||'',r.last_pushed_at);assert.equal(e.checked_at,r.metadata_checked_at);
   if(e.latest_stable_release)assert.equal(e.latest_stable_release.prerelease,false);

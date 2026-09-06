@@ -135,7 +135,9 @@ test('marketplace additions are unique, traceable, and present in the external d
   const urls = [...directory.matchAll(/^\| \[[^\]]+\]\((https:\/\/[^)]+)\)/gm)].map(m => m[1]);
   assert.equal(ledger.baseline_count + ledger.added_count, ledger.total_count);
   assert.equal(ledger.additions.length, ledger.added_count);
-  assert.equal(urls.length, ledger.total_count);
+  const community = JSON.parse(fs.readFileSync(path.join(root, 'data/community-discoveries.json'), 'utf8'));
+  assert.equal(community.baseline_count, ledger.total_count);
+  assert.equal(urls.length, community.total_count);
   assert.equal(new Set(urls).size, urls.length);
   assert.equal(new Set(ledger.additions.map(e => e.url)).size, ledger.added_count);
   for (const e of ledger.additions) {

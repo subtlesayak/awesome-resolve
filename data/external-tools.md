@@ -1,8 +1,8 @@
 # 🌐 Tools beyond the GitHub catalogue
 
-[← Main catalogue](../README.md) · [🕒 Versions, updates and changelogs for all 72 resources](update-audit.md#-external-resources) · [Web discovery report](web-discovery-report.md)
+[← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.md#-external-resources) · [Web discovery report](web-discovery-report.md)
 
-**72 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**104 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -22,7 +22,7 @@
 | [Krokodove](https://www.komkomdoorn.com/krokodove/) | 📂 Public download; consult package terms | 🪟 🍎 🐧 | Collection of Fusion/Resolve 2D, 3D, vector, and data tools. Studio required. The published matrix is version-specific: 18.5–19 Windows; 17–18 Windows/macOS; Linux appears in older 8–9 builds. Do not read the icons as current all-platform support. |
 | [Meta Fide Computer Vision](https://www.metafide.com/?product=computer-vision) | 🆓 Free product; checkout workflow | 🪟 🍎 🐧 | ASCII-art Fusion Effect and Fuse for Resolve 15+. Version 1.1 addresses Resolve 19 compatibility; Linux is available by custom order. |
 | [MrAlexTech toolkit](https://www.mralextech.com/) | 💰 Mixed; product terms vary | ❔ Per product | Animation, grading, and storyboard tools. The current site links commercial MagicGrade/MagicStoryboard and a new MagicAnimate OFX. Older MagicAnimate, MagicZoom, and MagicSubtitles remain on the [legacy site](https://mralextech.podia.com/); do not assume a legacy free offer covers a new product. |
-| [Reactor](https://gitlab.com/WeSuckLess/Reactor) | 📦 Public package manager; package terms vary | ❔ Per package | Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The tree returned a loading shell during this pass, so individual package compatibility was not audited. Related standalone tooling is already in the GitHub catalogue. |
+| [Reactor](https://gitlab.com/WeSuckLess/Reactor) | 📦 Public package manager; package terms vary | ❔ Per package | Canonical GitLab home of the Fusion/Resolve Atom package ecosystem. Browse the [Atom tree](https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms) and [community forum](https://www.steakunderwater.com/wesuckless/). The browser tree returned a loading shell; a later API scan retrieved all 707 manifests. See the [package inventory](https://github.com/subtlesayak/awesome-resolve-list/blob/main/data/reactor-inventory.md); compatibility still varies by package. Related standalone tooling is already in the GitHub catalogue. |
 
 ## 🛠️ Script collections and workflow tools
 
@@ -282,3 +282,159 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 | --- | --- | --- | --- |
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
+
+## 🔎 Community discoveries
+
+**32 additions** from the [community search](community-discovery-report.md). [Versions and package dates](community-discovery-report.md#-versions-and-update-evidence) are recorded separately from the earlier audit.
+
+#### 👤 A Blackbird Called Sue
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Free Analog Counter](https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066) | 🆓 Free template | ❔ Not established | Animated analog-counter Fusion composition. Creator explicitly shares a free template; current host/edition compatibility is not specified. |
+
+#### 👤 Aedan / spektrafilm OFX
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [spektrafilm OFX](https://spektrafilm.114c.de/) | 🆓 Free beta | 🪟 Windows · 🍎 macOS · 🐧 Linux | Beta spectral film-emulation OFX with negative, print and scan stages. Official install instructions require Resolve Studio; possible macOS Free behavior is unconfirmed. Linux packaging information differs between the site and repository instructions. |
+
+#### 👤 AlbertoGZ
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [ColorLabels](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Assigns node tile/text colors using palettes. Python script for Fusion; current Resolve edition requirements are unverified. |
+| [ReloadLoaders](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Refreshes all or selected Fusion Loader nodes by rereading their clip paths. Python and current host compatibility must be checked. |
+
+#### 👤 Alexey Bogomolov
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Attribute Spreadsheet](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom) | 🆓 MIT | ❔ Not established | Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash. |
+
+#### 👤 Calver - Digital Creative School
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Calver Glow V2 Lite](https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297) | 🆓 Public Lite download; separate full edition | ❔ Not established | Glow effect with curve-controlled threshold and look, distributed as a DRFX for Resolve and Fusion. Public Lite download link is present; the full edition is separate. |
+
+#### 👤 Catharsis
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Nintendo Direct Graphics Pack](https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139) | 🆓 Free public pack | ❔ Not established | Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility. |
+
+#### 👤 Dan De'Etremont
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Fringe Fighter Turbo](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry. |
+
+#### 👤 Emilio Sapia - Millolab
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [FastExpoGlow](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Fusion glow macro with Fibonacci mode, glow mask/output and highlight rolloff. Manifest discusses Fusion 16 optimization. |
+| [SkinCorrector](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Frequency-separation macro for skin retouching and beauty work in Fusion. |
+| [VolumeHaze](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Compositing macro that spills background light over foreground elements in atmospheric scenes. |
+
+#### 👤 Fractale
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Cheetah Video Proxy Generator](https://fractale.itch.io/cheetah-video-proxy-generator) | 📦 Public download; store terms may differ | 🪟 Windows · 🍎 macOS | Creates H.264/H.265, DNxHR and ProRes proxies for Resolve, including portrait-aware sizing. macOS requires a separate FFmpeg installation. Windows is also distributed through Microsoft Store. |
+
+#### 👤 FrameTools
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [FrameTools CapCut Caption Pack](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom) | 🆓 Free templates | ❔ Not established | Eight animated Edit-page caption/title templates built from standard Fusion nodes. Manifest explicitly supports Resolve Free; bundled fonts have separate licenses. |
+
+#### 👤 FusionPixelStudios
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Flow Character Rigger](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Rigging macro for separately layered 2D character parts, with joint positions and body-part angles. Requires prepared character layers. |
+
+#### 👤 Gregory Chalenko
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Gradient Match](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Builds a procedural gradient from a reference image. Legacy Fusion macro; modern host compatibility has not been established. |
+
+#### 👤 heiba
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [DaVinci Image AI](https://ko-fi.com/s/b36e40dd54) | 📦 Public listing; price/download access not established | ❔ Not established | Integrates Google Nano Banana image generation and editing into Resolve. Requires an external AI service; store price, edition requirements and availability were not established. |
+| [DaVinci Sub Tool (Edit & Translate)](https://ko-fi.com/s/5e9dcdeae5) | 📦 Public listing; price/download access not established | ❔ Not established | Batch subtitle editing, search/replace and online translation. Listed separately from Sub Translator by the creator; overlap or upgrade entitlement is not established. Provider costs may apply. |
+| [DaVinci Sub Translator](https://ko-fi.com/s/706feb3730) | 📦 Public listing; price/download access not established | ❔ Not established | Translates subtitle tracks through online translation or LLM services and imports translated subtitles into a timeline track. Provider costs may apply; store availability was not established. |
+| [DaVinci TTS](https://ko-fi.com/s/9e769243b5) | 📦 Public listing; price/download access not established | ❔ Not established | Generates speech from timeline text or subtitles and imports audio into the Media Pool. Supports Microsoft, MiniMax and OpenAI voices; external provider terms and costs apply. Store price and availability did not render reliably. |
+
+#### 👤 Jacob Danell
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Despiller Plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+. |
+| [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) | 📦 Public Reactor package; check package license | 🪟 Windows · 🍎 macOS (legacy packages) | Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim. |
+
+#### 👤 Ludooki
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Outline plugin](https://ko-fi.com/s/6a120fb931) | 📦 Public listing; price/download access not established | ❔ Not established | Adds outlines to images, clips and transitions in Resolve. Indexed creator listing; current price, host requirements and update history are not established. |
+
+#### 👤 Mug
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Mug Advanced Halftone](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Halftone generator for Resolve and Fusion with grid/dot controls, jitter and RGB offsets. Includes Edit-page effects and Fusion integration; manifest states MIT licensing. |
+
+#### 👤 Pieter Van Houte
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Suck Less Audio](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Drives numeric and point parameters from WAV audio. Requires Microsoft WAV signed 16-bit PCM; other audio formats are not interchangeable. |
+
+#### 👤 RavinMaddHatter
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [YouTube Prep Tool](https://ravinmaddhatter.itch.io/youtube-prep-tool) | 💰 Name your own price | ❔ Not established | Prepares gameplay edits using audio-volume cuts, description templates and subtitle transcription. Marked in development; the download points to an external GitHub release and was not followed. |
+
+#### 👤 Stefan Bredereck/MuseVFX
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [FastLightWrap](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Legacy Fusion light-wrap macro. Current Resolve compatibility is not established. |
+
+#### 👤 Stefan Ihringer
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [ExponentialGlow](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Exponential-falloff glow macro designed for linear-gamma floating-point imagery. Author recommends float32 to avoid banding in strong glows. |
+| [XfChroma Fuse](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Color-separated transformation Fuse for chromatic-aberration effects. |
+
+#### 👤 stib
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [displace plus plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | GPU displacement Fuse with XY, angle/radius, rotation and image-gradient modes, plus edge-overflow controls. |
+
+#### 👤 vfxblend
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Eric’s Keyframes](https://www.patreon.com/posts/mograph-tools-26571904) | 📦 Public post; attachment access not tested | ❔ Not established | Fusion motion-graphics macro supplied as a .setting attachment with tutorials. Legacy 2019 post; current host compatibility and download entitlement are not established. |
+
+#### 👤 We Suck Less
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [ReadEXR Ultra](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom) | 📦 Public Reactor package; check package license | ❔ Not established | EXR-reading Fuse with scriptable filename input and optional Vonk text input. The author explicitly describes it as pre-alpha. |
+
+#### 👤 William
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Just Highlighter Plus](https://ko-fi.com/s/cb7b432737) | 📦 Public listing; price/download access not established | ❔ Not established | Animated highlighting for text and animated lines in Resolve. Indexed creator listing establishes its purpose; direct retrieval was blocked and current price is unknown. |
