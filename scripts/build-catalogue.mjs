@@ -58,6 +58,14 @@ export function relativeDate(timestamp, checkedAt) {
   return `${value} ${unit}${value === 1 ? '' : 's'} back`;
 }
 const escape = text => text.replaceAll('|', '\\|').replaceAll('\n', ' ');
+export const platformIcons = { Windows: '🪟', macOS: '🍎', Linux: '🐧', iPadOS: '📱', Reference: '📖', Unverified: '❔' };
+export function platformLabel(e) {
+  const platforms = (e.platforms || 'Unverified').split(';');
+  if (platforms.some(p => !platformIcons[p])) throw new Error(`Invalid platform for ${e.repository}`);
+  const label = platforms.map(p => `${platformIcons[p]} ${p}`).join(' · ');
+  const linked = e.platform_source ? `[${label}](${e.platform_source})` : label;
+  return linked + (e.platform_notes ? `<br><sub>${escape(e.platform_notes)}</sub>` : '');
+}
 function accessLabel(e, prefix) {
   const group = accessGroup(e);
   const qualifier = e.access === group ? '' : ` ${escape(e.access)}`;
@@ -66,12 +74,12 @@ function accessLabel(e, prefix) {
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const type = includeType ? ` ${c[0]} ${c[1]} |` : '';
-  return `| [${e.repository}](${e.url}) |${type} ${escape(e.description)} | ${accessLabel(e, prefix)} | ${e.stars} | ${relativeDate(e.last_pushed_at, e.metadata_checked_at)} |`;
+  return `| [${e.repository}](${e.url}) |${type} ${escape(e.description)} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | ${relativeDate(e.last_pushed_at, e.metadata_checked_at)} |`;
 }
 function table(entries, prefix, includeType = false) {
   return [
-    `| Repository |${includeType ? ' 🏷️ Type |' : ''} What it provides | 💰 Access | ⭐ Stars | 🕒 Last updated |`,
-    `| --- |${includeType ? ' --- |' : ''} --- | --- | ---: | --- |`,
+    `| Repository |${includeType ? ' 🏷️ Type |' : ''} What it provides | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Last updated |`,
+    `| --- |${includeType ? ' --- |' : ''} --- | --- | --- | ---: | --- |`,
     ...entries.map(e => row(e, prefix, includeType)),
   ].join('\n');
 }
@@ -100,6 +108,15 @@ export function build() {
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and dates use the metadata snapshot above.', '',
+    '<a id="platforms-supported"></a>', '', '### 💻 Platforms supported', '',
+    '| Platform | Meaning |', '| --- | --- |',
+    '| 🪟 Windows | Windows support or installation documented upstream. |',
+    '| 🍎 macOS | Mac support or installation documented upstream; check Intel/Apple Silicon notes. |',
+    '| 🐧 Linux | Linux support or installation documented upstream; distribution and GPU requirements vary. |',
+    '| 📱 iPadOS | An iPad workflow is explicitly documented; Resolve version restrictions may apply. |',
+    '| 📖 Reference | Documentation or a directory, not a desktop-platform compatibility claim. |',
+    '| ❔ Unverified | Platform support has not been established from the reviewed documentation. |', '',
+    'Click an entry\'s platform labels for its upstream source. Labels reflect documented support or installation instructions, not our own installation tests. Omitted platforms are unverified, not necessarily unsupported. Untested, partial, hardware, and server-host limitations are shown beside the labels. Platform review dates and sources are recorded separately in the CSV; refreshing stars does not recheck platform support.', '',
     '### 🗂️ Browse by category', '',
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',

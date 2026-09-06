@@ -2,6 +2,17 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v2026.09.06.2](https://github.com/subtlesayak/awesome-resolve/releases/tag/v2026.09.06.2) — 2026-09-06
+
+### Changed
+
+- Added a **Platforms supported** legend and platform columns to the README and all five sorted catalogue views: 🪟 Windows, 🍎 macOS, 🐧 Linux, 📱 iPadOS, 📖 Reference, and ❔ Unverified.
+- Reviewed upstream documentation for platform claims across the 130-entry catalogue. Each entry links to its source and records a separate platform-review date in the CSV. Missing evidence remains unverified.
+- Preserved caveats for untested platforms, Apple Silicon requirements, Linux distributions, source-only builds, and server-host support. OS omissions do not imply unsupported platforms.
+- Kept all 130 repositories and existing descriptions/access classifications. This update adds no repositories.
+- Refreshed stars and latest push dates; normalized push dates to ISO 8601 UTC and added a regression check against locale-formatted timestamps.
+- Verified platform rendering, source links, sort order, relative ages, and deterministic regeneration with six passing checks. Platform labels reflect upstream documentation, not installation testing.
+
 ## [v2026.09.06.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v2026.09.06.1) — 2026-09-06
 
 ## Added

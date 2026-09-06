@@ -35,7 +35,8 @@ for ($start = 0; $start -lt $entries.Count; $start += 20) {
 foreach ($entry in $entries) {
     $item = $metadata[$entry.url]
     $entry | Add-Member -Force NoteProperty stars ([int]$item.stargazerCount)
-    $entry | Add-Member -Force NoteProperty last_pushed_at $item.pushedAt
+    $pushedAt = if ($item.pushedAt) { ([DateTimeOffset]$item.pushedAt).UtcDateTime.ToString('yyyy-MM-ddTHH:mm:ssZ') } else { '' }
+    $entry | Add-Member -Force NoteProperty last_pushed_at $pushedAt
     $entry | Add-Member -Force NoteProperty metadata_checked_at $checkedAt
 }
 

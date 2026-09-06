@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, sorted, relativeDate, sorts, build, accessGroup } from './build-catalogue.mjs';
+import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 
@@ -29,6 +29,21 @@ test('sorts use exact dates, numeric stars, project names and categories', () =>
 test('CSV quotes and commas round-trip correctly', () => {
   assert.deepEqual(parseCsv('"name","description"\n"a","A comma, and ""quote"""\n'), [{name:'a', description:'A comma, and "quote"'}]);
 });
+test('platform labels retain evidence and caveats without guessing support', () => {
+  assert.equal(platformLabel({}), '❔ Unverified');
+  assert.throws(() => platformLabel({platforms:'All'}), /Invalid platform/);
+  for (const entry of entries) {
+    if (entry.last_pushed_at) assert.match(entry.last_pushed_at, /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/);
+    assert.ok(entry.platforms.split(';').every(p => platformIcons[p]));
+    assert.ok(entry.platform_source.startsWith(entry.url));
+    assert.match(entry.platform_checked_at, /^\d{4}-\d{2}-\d{2}$/);
+    const output = platformLabel(entry);
+    for (const platform of entry.platforms.split(';')) assert.ok(output.includes(platformIcons[platform]));
+    if (entry.platform_notes) assert.ok(output.includes(entry.platform_notes));
+  }
+  assert.match(platformLabel(entries.find(e => e.repository === 'Nusscookie/clautter')), /untested/);
+  assert.match(platformLabel(entries.find(e => e.repository === 'elliotmatson/Docker-Davinci-Resolve-Project-Server')), /server hosts/);
+});
 test('generated views preserve all entries, sort order and valid local links', () => {
   assert.equal(entries.length, 130);
   assert.equal(new Set(entries.map(e => e.url)).size, entries.length);
@@ -47,7 +62,7 @@ test('generated views preserve all entries, sort order and valid local links', (
       assert.ok(fs.existsSync(destination), `${file}: broken link ${link}`);
       if (anchor) {
         const content = fs.readFileSync(destination, 'utf8');
-        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.trim().replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
+        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
       }
     }
   }
