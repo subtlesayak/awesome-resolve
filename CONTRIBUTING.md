@@ -2,6 +2,14 @@
 
 Suggest additions and corrections through an issue or pull request.
 
+Use the resource or correction form under [New issue](https://github.com/subtlesayak/awesome-resolve-list/issues/new/choose). The pull request template asks for the same source evidence and practical context.
+
+Write descriptions in plain language: lead with the task a resource helps accomplish, explain its distinguishing feature, and keep important requirements in the entry. Use consistent capitalization, full sentences and final punctuation. Avoid promotional claims, unsupported superlatives and quality rankings based on stars. Preserve upstream names and technical identifiers.
+
+Discovery and recommendation are separate. A recommended starting choice requires reviewed contributor experience with an exact setup, useful result and limitations. Disclose creator/vendor affiliations. Write **Not tested** when there is no first-hand experience; do not invent endorsements. Workflow routes in [START-HERE.md](START-HERE.md) do not imply installation testing.
+
+Keep explicit archived/deprecated evidence in `data/legacy.json`, including the source, check date and reason. Regeneration builds the separate legacy view while retaining entries in the complete catalogue. Do not classify projects as legacy from stars or old push dates alone. Recheck the provider before changing a status.
+
 Original contributions are GPL-3.0-only; see [LICENSE](LICENSE), [attribution](NOTICE.md), and [reuse guidance](REUSE.md). This does not relicense any upstream package. Link to providers rather than uploading their installers or paid assets.
 
 Every catalogue entry has an explicit version state in `data/versions.json`. After `node scripts/check-updates.mjs --github`, run `node scripts/build-versions.mjs --github .research/update-check/github.json`, then regenerate the catalogue. Stable releases, prereleases, commit revisions, vendor versions and Reactor package versions must stay distinguishable. Vendor evidence retains its original check date. Missing vendor versions remain `unverified`; never invent version numbers. CI validates the catalogue on Windows and Linux without uploading local reports.

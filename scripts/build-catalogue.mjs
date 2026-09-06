@@ -197,26 +197,12 @@ export function build() {
   const content = [
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
-    'Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.', '',
-    '[🏢 Official Blackmagic Design resources](#official-resources) appear first, followed by repository categories and [🌐 External resources](#external-resources). Each external section is sorted A–Z. Community forum posts remain separate from official resources. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to websites.', '',
-    '### 🏷️ Labels', '',
-    activityLegend, '',
-    '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
-    'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
-    '<a id="platforms-supported"></a>', '', '### 💻 Platforms supported', '',
-    '| Platform | Meaning |', '| --- | --- |',
-    '| 🪟 Windows | Windows support or installation documented upstream. |',
-    '| 🍎 macOS | Mac support or installation documented upstream; check Intel/Apple Silicon notes. |',
-    '| 🐧 Linux | Linux support or installation documented upstream; distribution and GPU requirements vary. |',
-    '| 📱 iPadOS | An iPad workflow is explicitly documented; Resolve version restrictions may apply. |',
-    '| 📖 Reference | Documentation or a directory, not a desktop-platform compatibility claim. |',
-    '| ❔ Unverified | Platform support has not been established from the reviewed documentation. |', '',
-    'Click an entry\'s platform labels for its upstream source. Labels reflect documented support or installation instructions, not our own installation tests. Omitted platforms are unverified, not necessarily unsupported. Untested, partial, hardware, and server-host limitations are shown beside the labels. Platform review dates and sources are recorded separately in the CSV; refreshing stars does not recheck platform support.', '',
+    '[🧭 Start with a task](START-HERE.md) · [🗄️ Legacy resources](views/legacy.md) · [📖 Labels and evidence](CATALOGUE-GUIDE.md)', '',
     '### 🗂️ Browse by category', '',
     `- [🏢 Official Blackmagic Design resources](#official-resources) (${official.length})`,
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
     `- [🌐 External resources](#external-resources) (${thirdParty.length})`,
-    '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
+    '- [⚠️ Compatibility notes](#compatibility-notes)', '',
     '<a id="official-resources"></a>', '', '## 🏢 Official Blackmagic Design resources', '',
     `${official.length} official product, support, training and developer resources. Version labels distinguish advertised product families from exact releases. Unknown update dates are not inferred from website checks.`, '',
     externalTable(official), '',
@@ -234,6 +220,9 @@ export function build() {
     `${thirdParty.length} third-party and community resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
     'Updated ages use the same days/weeks/months/years format as repository rows, calculated at the recorded review date. Hover over an age for its exact date; the link opens provider evidence. The label beneath each age identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.', '',
     externalTable(thirdParty), '',
+    activityLegend, '',
+    '<a id="access-labels"></a>', '<a id="platforms-supported"></a>', '',
+    'See the [access and platform guide](CATALOGUE-GUIDE.md) for label definitions, version evidence and browsing conventions.', '',
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
   fs.mkdirSync(path.join(root, 'views'), { recursive: true });
@@ -243,11 +232,20 @@ export function build() {
       navigation(''), '', `**${entries.length} repositories + ${external.length} external resources · ${description}.**`, '',
       'Official Blackmagic resources come first. The selected sort applies within the official group and across all remaining entries. Unknown dates and inapplicable stars sort last; — means stars do not apply.', '',
       activityLegend, '',
-      `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).`, '',
+      `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../CATALOGUE-GUIDE.md#access-labels).`, '',
       '## 🏢 Official Blackmagic Design resources', '', catalogueTable(sortCatalogue(official,key)), '',
       '## 🌐 Community and third-party resources', '', catalogueTable(sortCatalogue([...entries,...thirdParty],key)), '',
     ].join('\n'));
   }
+  const legacy=JSON.parse(fs.readFileSync(path.join(root,'data/legacy.json'),'utf8')).entries;
+  const byUrl=new Map(entries.map(e=>[e.url,e]));
+  for(const item of legacy)if(!byUrl.has(item.url)||!['archived','deprecated'].includes(item.status)||!item.source||!Number.isFinite(Date.parse(item.checked_at)))throw Error('Invalid legacy evidence');
+  fs.writeFileSync(path.join(root,'views/legacy.md'),[
+    '# 🗄️ Legacy resources','', '[🎬 Full catalogue](../README.md) · [🧭 Start with a task](../START-HERE.md)','',
+    `${legacy.length} repositories with explicit archived or deprecated status. All remain in the full catalogue. Inactivity alone is not a reason for inclusion. Status is a dated observation; check upstream before choosing a resource.`,'',
+    ...legacy.map(e=>`- [${e.repository}](${e.source}) — **${e.status}**; checked ${e.checked_at.slice(0,10)}. ${e.reason}`),'',
+    table(sorted(legacy.map(e=>byUrl.get(e.url)),'name'),'../',true),'',
+  ].join('\n'));
   console.log(`Built README and ${Object.keys(sorts).length} sorted views for ${entries.length} repositories.`);
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) build();

@@ -1,0 +1,38 @@
+name: Suggest a resource
+description: Propose a Resolve resource with sources and practical context.
+title: "Resource: "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Resource name and primary URL
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: What does it help you do?
+      description: Explain the practical benefit, distinguishing feature and existing alternatives or duplicates.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements and evidence
+      description: Include OS, architecture, Resolve version, Free/Studio, dependencies, price and license sources. Mark unknown facts explicitly.
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience
+      description: Describe the exact setup, task, result and limitations. Write Not tested if you have not used it.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: State whether you created, sell or are affiliated with this resource, or write None.
+    validations:
+      required: true

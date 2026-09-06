@@ -1,0 +1,17 @@
+name: Correct an entry
+description: Report outdated versions, broken links or inaccurate requirements.
+title: "Correction: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Catalogue entry URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong and what should change?
+      description: Include the current text, proposed correction and a primary source. For failed links, include the check date and response; a blocked request alone does not establish a dead product.
+    validations:
+      required: true

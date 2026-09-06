@@ -1,32 +1,8 @@
-# 🎬 Awesome Resolve — DaVinci Resolve Tools & Resources
+# 🎬 Awesome Resolve
 
-An AI-assisted directory of **225 public GitHub repositories** and **112 external resources** for **DaVinci Resolve and Fusion**. Find free and paid plugins, DCTLs, PowerGrades, Fusion Fuses, subtitle tools, Python and Lua scripts, workflow automation, and Linux utilities, with access labels and documented platform requirements.
+An AI-assisted directory of **225 public GitHub repositories** and **112 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
 
-Built for video editors, colorists, motion designers, and Resolve developers. AI assists catalogue research and organization; the directory covers both AI and non-AI tools. Entries link to original creators, with discovery sources and compatibility notes available for review.
-
-**Start here:** [Color grading and DCTLs](#category-1) · [Fusion effects](#category-2) · [Subtitles and transcription](#category-3) · [Scripts and automation](#category-5) · [External plugins and stores](#external-resources) · [Common questions](#frequently-asked-questions)
-
-Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), [🕒 upstream updates and changelogs](data/update-audit.json), the [🔎 web source ledger](data/web-discoveries.json), [plugin wiki discoveries](data/wiki-discoveries.json), [marketplace discoveries](data/marketplace-discoveries.json), and the [catalogue changelog](CHANGELOG.md).
-
-## Find tools for your use case with AI
-
-Share this repository with an AI assistant and describe the result you want, your Resolve version and Free/Studio edition, operating system, budget, and any offline/privacy or installation constraints. For example:
-
-> Use this directory to find tools for animated subtitles in DaVinci Resolve Free on Windows. I need local processing, no subscription, and a simple installation. Compare up to three suitable options, link to their original sources, and flag anything you cannot verify.
-
-**For assistants:** use the [tool-matching guide](TOOL-FINDER.md), [repository CSV](data/repositories.csv), and [external resource directory](data/external-tools.md). Match the requested outcome and hard requirements before considering popularity. Check both GitHub and external entries, deduplicate repeated creator listings, and verify shortlisted tools against their upstream documentation. Ask only for missing details that affect the choice. Return a best match and useful alternatives with reasons, costs, requirements, source links, and unresolved caveats. If nothing meets the requirements, say so; do not present an unverified match as compatible.
-
-## Access labels
-
-🏷️ Every entry shows a [version state](data/versions.json): release, prerelease, source revision, vendor/package version, document edition, not applicable, or not established. Commit revisions are not releases; versions are dated evidence snapshots. The separate Reactor inventory uses manifest versions. [License and attribution](NOTICE.md) · [Links and redistribution](REUSE.md).
-
-New: [🔎 community discoveries](data/community-discoveries.json) and a [🧩 complete Reactor package inventory](data/reactor-inventory.md), including package versions and manifest dates.
-
-- **Free**: the research identified explicit free availability or an open-source license.
-- **Public**: repository files are accessible; licensing, commercial reuse rights, and ready-made binaries have not been fully audited.
-- **Mixed**: separate paid editions, optional paid services, or a catalogue containing commercial products.
-
-Qualifiers identify separate service, infrastructure, or hardware costs. Resolve Studio requirements are separate from the price of a listed project. Public availability does not necessarily mean open source. Consult each upstream repository for current requirements and licensing.
+[🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
 
 ## Contents
 
@@ -34,32 +10,7 @@ Qualifiers identify separate service, infrastructure, or hardware costs. Resolve
 
 [🕒 Latest updated](views/latest-updated.md) · [🔤 Name](views/name.md) · [🏷️ Type](views/type.md) · [⭐ Stars](views/stars.md) · [💰 Access](views/access.md)
 
-Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.
-
-[🏢 Official Blackmagic Design resources](#official-resources) appear first, followed by repository categories and [🌐 External resources](#external-resources). Each external section is sorted A–Z. Community forum posts remain separate from official resources. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to websites.
-
-### 🏷️ Labels
-
-**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. For external resources, † marks a recorded provider or package date older than 2 years at review. Neither marker establishes abandonment or compatibility; unknown dates are not marked.
-
-![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.
-
-Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.
-
-<a id="platforms-supported"></a>
-
-### 💻 Platforms supported
-
-| Platform | Meaning |
-| --- | --- |
-| 🪟 Windows | Windows support or installation documented upstream. |
-| 🍎 macOS | Mac support or installation documented upstream; check Intel/Apple Silicon notes. |
-| 🐧 Linux | Linux support or installation documented upstream; distribution and GPU requirements vary. |
-| 📱 iPadOS | An iPad workflow is explicitly documented; Resolve version restrictions may apply. |
-| 📖 Reference | Documentation or a directory, not a desktop-platform compatibility claim. |
-| ❔ Unverified | Platform support has not been established from the reviewed documentation. |
-
-Click an entry's platform labels for its upstream source. Labels reflect documented support or installation instructions, not our own installation tests. Omitted platforms are unverified, not necessarily unsupported. Untested, partial, hardware, and server-host limitations are shown beside the labels. Platform review dates and sources are recorded separately in the CSV; refreshing stars does not recheck platform support.
+[🧭 Start with a task](START-HERE.md) · [🗄️ Legacy resources](views/legacy.md) · [📖 Labels and evidence](CATALOGUE-GUIDE.md)
 
 ### 🗂️ Browse by category
 
@@ -76,7 +27,6 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 - [🧭 Directories covering free and commercial products](#category-10) (5)
 - [🌐 External resources](#external-resources) (105)
 - [⚠️ Compatibility notes](#compatibility-notes)
-- [🤝 Contributing](#contributing)
 
 <a id="official-resources"></a>
 
@@ -726,6 +676,13 @@ Updated ages use the same days/weeks/months/years format as repository rows, cal
 | [WippTemplates EditorCollection](https://wipptemplates.com/products/editorcollection) | Editing and animation toolkit for Resolve Free and Studio; current product page lists Resolve 20 and 21. Individual effects can carry a rendering-performance cost.<br><sub>🏷️ Version not established</sub> | Paid collection | ❔ Unverified | Unknown |
 | [XfChroma Fuse](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom) | Color-separated transformation Fuse for chromatic-aberration effects.<br><sub>🏷️ [1.7 (package)](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom)</sub> | 📦 Public Reactor package; check package license | ❔ Not established | [11&nbsp;months&nbsp;back](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom "2025-09-29")<br><sub>Reactor manifest date</sub> |
 | [YouTube Prep Tool](https://ravinmaddhatter.itch.io/youtube-prep-tool) | Prepares gameplay edits using audio-volume cuts, description templates and subtitle transcription. Marked in development; the download points to an external GitHub release and was not followed.<br><sub>🏷️ Version not established</sub> | 💰 Name your own price | ❔ Not established | Unknown |
+
+**†** No repository push for more than 2 years (730 days) as of its metadata snapshot. For external resources, † marks a recorded provider or package date older than 2 years at review. Neither marker establishes abandonment or compatibility; unknown dates are not marked.
+
+<a id="access-labels"></a>
+<a id="platforms-supported"></a>
+
+See the [access and platform guide](CATALOGUE-GUIDE.md) for label definitions, version evidence and browsing conventions.
 
 ## Compatibility notes
 

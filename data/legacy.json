@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "url": "https://github.com/VilleOlof/Toolbox",
+      "repository": "VilleOlof/Toolbox",
+      "status": "archived",
+      "source": "https://github.com/VilleOlof/Toolbox",
+      "checked_at": "2026-09-06T18:02:28.198Z",
+      "reason": "Repository archived on GitHub; retained for historical workflows."
+    },
+    {
+      "url": "https://github.com/CommandPost/ResolveCafe",
+      "repository": "CommandPost/ResolveCafe",
+      "status": "archived",
+      "source": "https://github.com/CommandPost/ResolveCafe",
+      "checked_at": "2026-09-06T18:02:28.198Z",
+      "reason": "Repository archived on GitHub; retained for historical workflows."
+    },
+    {
+      "url": "https://github.com/veryqiang/footbrake",
+      "repository": "veryqiang/footbrake",
+      "status": "archived",
+      "source": "https://github.com/veryqiang/footbrake",
+      "checked_at": "2026-09-06T18:02:28.198Z",
+      "reason": "Repository archived on GitHub; retained for historical workflows."
+    },
+    {
+      "url": "https://github.com/in03/squawk",
+      "repository": "in03/squawk",
+      "status": "archived",
+      "source": "https://github.com/in03/squawk",
+      "checked_at": "2026-09-06T18:02:28.198Z",
+      "reason": "Repository archived on GitHub; retained for historical workflows."
+    }
+  ]
+}

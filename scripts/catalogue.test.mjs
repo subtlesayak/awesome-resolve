@@ -225,7 +225,7 @@ test('official resources precede all other categories and external entries appea
 });
 
 test('regeneration is deterministic and preserves CSV', () => {
-  const files = ['README.md', 'data/repositories.csv', ...Object.keys(sorts).map(k => `views/${k}.md`)];
+  const files = ['README.md', 'data/repositories.csv', 'views/legacy.md', ...Object.keys(sorts).map(k => `views/${k}.md`)];
   const before = files.map(f => fs.readFileSync(path.join(root, f), 'utf8'));
   build();
   assert.deepEqual(files.map(f => fs.readFileSync(path.join(root, f), 'utf8')), before);
