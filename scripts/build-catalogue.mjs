@@ -88,20 +88,21 @@ function accessLabel(e, prefix) {
 }
 export function repositoryLabel(repository) {
   const [owner, name] = repository.split('/');
-  const wrap = text => text.replace(/([_-])/g, '$1&#8203;').replace(/([A-Za-z0-9.]{18})(?=[A-Za-z0-9.])/g, '$1&#8203;');
+  const wrap = text => text.replace(/([_-])/g, '$1&#8203;').replace(/([A-Za-z0-9.]{12})(?=[A-Za-z0-9.])/g, '$1&#8203;');
   return { name: wrap(name), owner: wrap(owner) };
 }
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const label = repositoryLabel(e.repository);
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
-  const details = `${escape(e.description)}${type}<br><br>${accessLabel(e, prefix)}<br>${platformLabel(e)}`;
-  return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ⭐ ${e.stars}<br>🕒 ${relativeDate(e.last_pushed_at, e.metadata_checked_at)} |`;
+  const details = `${escape(e.description)}${type}`;
+  const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
+  return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | <sub>${updated}</sub> |`;
 }
 function table(entries, prefix, includeType = false) {
   return [
-    '| Repository | Details | Activity |',
-    '| --- | --- | --- |',
+    '| Repository | Details | Access | Platforms | Stars | Updated |',
+    '| :--- | :--- | :--- | :--- | ---: | :--- |',
     ...entries.map(e => row(e, prefix, includeType)),
   ].join('\n');
 }

@@ -47,16 +47,19 @@ test('platform labels retain evidence and caveats without guessing support', () 
 });
 test('compact tables retain every field and allow long repository names to wrap', () => {
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
-  assert.ok(readme.includes('| Repository | Details | Activity |'));
+  assert.ok(readme.includes('| Repository | Details | Access | Platforms | Stars | Updated |'));
+  assert.ok(readme.includes('| :--- | :--- | :--- | :--- | ---: | :--- |'));
   for (const entry of entries) {
     const row = readme.split('\n').find(line => line.startsWith('| [') && line.includes(`](${entry.url})`));
     assert.ok(row, `Missing ${entry.repository}`);
-    assert.equal(row.split(/(?<!\\)\|/).length, 5, `Expected three columns for ${entry.repository}`);
+    assert.equal(row.split(/(?<!\\)\|/).length, 8, `Expected six columns for ${entry.repository}`);
     assert.ok(row.includes(entry.description.replaceAll('|', '\\|').replaceAll('\n', ' ')));
     assert.ok(row.includes(platformLabel(entry)));
     assert.ok(row.includes(`![${accessGroup(entry)}]`));
     if (entry.access !== accessGroup(entry)) assert.ok(row.includes(entry.access.replaceAll('|', '\\|')));
-    assert.ok(row.includes(`⭐ ${entry.stars}<br>🕒 ${relativeDate(entry.last_pushed_at, entry.metadata_checked_at)}`));
+    const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
+    assert.ok(row.includes(`| ${entry.stars} | <sub>${updated}</sub> |`));
+    assert.ok(!row.includes('<br><br>'));
     const label = repositoryLabel(entry.repository);
     assert.equal(`${label.owner}/${label.name}`.replaceAll('&#8203;', ''), entry.repository);
     for (const part of [label.owner, label.name]) assert.ok(part.split('&#8203;').every(chunk => chunk.length <= 20));
