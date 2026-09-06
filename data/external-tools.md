@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**104 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**112 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -284,7 +284,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**32 additions** from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**40 additions** from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -310,6 +310,24 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Attribute Spreadsheet](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom) | 🆓 MIT | ❔ Not established | Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash. |
+
+#### 👤 Blackmagic Design
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Blackmagic developer resources](https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview) | 📦 Public SDK resources; hardware and license terms apply | 📖 Reference | Desktop Video SDK, capture/playback integration resources and links to developer support. Relevant to DeckLink and UltraStudio workflows; this SDK is separate from the Resolve scripting API. |
+| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official host downloads and edition overview. The page advertises Resolve 21 and includes Krokodove tools in its new-feature overview; this is a product-family version, not a verified latest patch or release date. |
+| [DaVinci Resolve training and lesson files](https://www.blackmagicdesign.com/products/davinciresolve/training) | 🆓 Public videos, PDFs and lesson downloads | 📖 Reference; lesson requirements vary | Official editing, color, Fairlight and Fusion training with downloadable practice media. The reviewed book collection includes Resolve 20 editions; the collection has no single software version. |
+| [Fairlight Sound Library and audio guide](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf) | 🆓 Library for use in projects; original terms apply | 📖 Reference; library installation requirements vary | Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library. |
+| [Fusion Fuse SDK guide and reference](https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf) | 🆓 Public PDF; original terms apply | 📖 Reference | Official Fuse API guide and reference, dated June 2023 on its cover. Covers Lua-based Fuse development; a document edition is not the current Fusion application version. |
+| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | ❔ Confirm OS and hardware for the selected installer | Standalone node-based compositing application. Official page advertises Fusion 21 and activation using a DaVinci Resolve license. Check the Support Center for exact builds and installation requirements. |
+| [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) | 📦 Public support; download conditions vary | 📖 Reference; select the correct OS download | Official destination for installers, manuals, support notes and release information. Dynamic download records did not render in this review, so no latest patch number or release date is claimed. |
+
+#### 👤 Blackmagic forum community
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) | 📦 Public examples; per-author terms apply | 📖 Reference; snippet requirements vary | Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. |
 
 #### 👤 Calver - Digital Creative School
 

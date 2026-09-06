@@ -2,6 +2,21 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.11](https://github.com/subtlesayak/awesome-resolve-list/releases/tag/v1.11) — 2026-09-06
+
+### Added
+
+Eight Blackmagic-site resources; 112 external destinations and 225 GitHub repositories. Product-family versions are distinguished from exact installer releases.
+
+- [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) — Official host downloads and edition overview. The page advertises Resolve 21 and includes Krokodove tools in its new-feature overview; this is a product-family version, not a verified latest patch or release date. **🆓 Free edition; 💰 Studio license.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) — Standalone node-based compositing application. Official page advertises Fusion 21 and activation using a DaVinci Resolve license. Check the Support Center for exact builds and installation requirements. **💰 Licensed software.** ❔ Confirm OS and hardware for the selected installer.
+- [DaVinci Resolve training and lesson files](https://www.blackmagicdesign.com/products/davinciresolve/training) — Official editing, color, Fairlight and Fusion training with downloadable practice media. The reviewed book collection includes Resolve 20 editions; the collection has no single software version. **🆓 Public videos, PDFs and lesson downloads.** 📖 Reference; lesson requirements vary.
+- [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) — Official destination for installers, manuals, support notes and release information. Dynamic download records did not render in this review, so no latest patch number or release date is claimed. **📦 Public support; download conditions vary.** 📖 Reference; select the correct OS download.
+- [Fusion Fuse SDK guide and reference](https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf) — Official Fuse API guide and reference, dated June 2023 on its cover. Covers Lua-based Fuse development; a document edition is not the current Fusion application version. **🆓 Public PDF; original terms apply.** 📖 Reference.
+- [Fairlight Sound Library and audio guide](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf) — Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library. **🆓 Library for use in projects; original terms apply.** 📖 Reference; library installation requirements vary.
+- [Blackmagic developer resources](https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview) — Desktop Video SDK, capture/playback integration resources and links to developer support. Relevant to DeckLink and UltraStudio workflows; this SDK is separate from the Resolve scripting API. **📦 Public SDK resources; hardware and license terms apply.** 📖 Reference.
+- [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) — Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. **📦 Public examples; per-author terms apply.** 📖 Reference; snippet requirements vary.
+
 ## [v1.10](https://github.com/subtlesayak/awesome-resolve-list/releases/tag/v1.10) — 2026-09-06
 
 ### Added

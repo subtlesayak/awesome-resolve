@@ -2798,6 +2798,86 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "Blackmagic developer resources",
+      "url": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "DaVinci Resolve — official downloads",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "kind": "vendor-version",
+      "version": "21 (advertised product family)",
+      "source": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "DaVinci Resolve training and lesson files",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Fairlight Sound Library and audio guide",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Fusion Fuse SDK guide and reference",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Fusion Studio — official product",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "kind": "vendor-version",
+      "version": "21 (advertised product family)",
+      "source": "https://www.blackmagicdesign.com/products/fusion",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Resolve and Fusion Support Center",
+      "url": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Creating Scripts for DaVinci Resolve — examples thread",
+      "url": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06"
+    },
+    {
       "name": "Calver Glow V2 Lite",
       "url": "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297",
       "kind": "vendor-version",
