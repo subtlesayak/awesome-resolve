@@ -86,15 +86,22 @@ function accessLabel(e, prefix) {
   const qualifier = e.access === group ? '' : ` ${escape(e.access)}`;
   return `![${group}](${prefix}assets/badges/${group.toLowerCase()}.svg)${qualifier}`;
 }
+export function repositoryLabel(repository) {
+  const [owner, name] = repository.split('/');
+  const wrap = text => text.replace(/([_-])/g, '$1&#8203;').replace(/([A-Za-z0-9.]{18})(?=[A-Za-z0-9.])/g, '$1&#8203;');
+  return { name: wrap(name), owner: wrap(owner) };
+}
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
-  const type = includeType ? ` ${c[0]} ${c[1]} |` : '';
-  return `| [${e.repository}](${e.url}) |${type} ${escape(e.description)} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | ${relativeDate(e.last_pushed_at, e.metadata_checked_at)} |`;
+  const label = repositoryLabel(e.repository);
+  const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
+  const details = `${escape(e.description)}${type}<br><br>${accessLabel(e, prefix)}<br>${platformLabel(e)}`;
+  return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ⭐ ${e.stars}<br>🕒 ${relativeDate(e.last_pushed_at, e.metadata_checked_at)} |`;
 }
 function table(entries, prefix, includeType = false) {
   return [
-    `| Repository |${includeType ? ' 🏷️ Type |' : ''} What it provides | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Last updated |`,
-    `| --- |${includeType ? ' --- |' : ''} --- | --- | --- | ---: | --- |`,
+    '| Repository | Details | Activity |',
+    '| --- | --- | --- |',
     ...entries.map(e => row(e, prefix, includeType)),
   ].join('\n');
 }

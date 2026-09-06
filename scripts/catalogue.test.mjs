@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups } from './build-catalogue.mjs';
+import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 const discovery = JSON.parse(fs.readFileSync(path.join(root, 'data/web-discoveries.json'), 'utf8'));
@@ -45,6 +45,24 @@ test('platform labels retain evidence and caveats without guessing support', () 
   assert.match(platformLabel(entries.find(e => e.repository === 'Nusscookie/clautter')), /untested/);
   assert.match(platformLabel(entries.find(e => e.repository === 'elliotmatson/Docker-Davinci-Resolve-Project-Server')), /server hosts/);
 });
+test('compact tables retain every field and allow long repository names to wrap', () => {
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  assert.ok(readme.includes('| Repository | Details | Activity |'));
+  for (const entry of entries) {
+    const row = readme.split('\n').find(line => line.startsWith('| [') && line.includes(`](${entry.url})`));
+    assert.ok(row, `Missing ${entry.repository}`);
+    assert.equal(row.split(/(?<!\\)\|/).length, 5, `Expected three columns for ${entry.repository}`);
+    assert.ok(row.includes(entry.description.replaceAll('|', '\\|').replaceAll('\n', ' ')));
+    assert.ok(row.includes(platformLabel(entry)));
+    assert.ok(row.includes(`![${accessGroup(entry)}]`));
+    if (entry.access !== accessGroup(entry)) assert.ok(row.includes(entry.access.replaceAll('|', '\\|')));
+    assert.ok(row.includes(`⭐ ${entry.stars}<br>🕒 ${relativeDate(entry.last_pushed_at, entry.metadata_checked_at)}`));
+    const label = repositoryLabel(entry.repository);
+    assert.equal(`${label.owner}/${label.name}`.replaceAll('&#8203;', ''), entry.repository);
+    for (const part of [label.owner, label.name]) assert.ok(part.split('&#8203;').every(chunk => chunk.length <= 20));
+  }
+});
+
 test('generated views preserve all entries, sort order and valid local links', () => {
   assert.equal(entries.length, discovery.total_count);
   assert.equal(new Set(entries.map(e => e.url.toLowerCase())).size, entries.length);
