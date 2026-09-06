@@ -1,8 +1,8 @@
 # 🎬 Awesome Resolve (AI-assisted List)
 
-A curated directory of **130 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
+A curated directory of **225 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
 
-Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet.
+Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), the [🔎 web discovery report](data/web-discovery-report.md), and the [changelog](CHANGELOG.md).
 
 ## Access labels
 
@@ -24,7 +24,7 @@ The default lists below sort repositories A–Z by repository name within each c
 
 ![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.
 
-Access qualifiers and compatibility details remain in each entry. Stars and dates use the metadata snapshot above.
+Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.
 
 <a id="platforms-supported"></a>
 

@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
+const discovery = JSON.parse(fs.readFileSync(path.join(root, 'data/web-discoveries.json'), 'utf8'));
 
 test('relative dates handle singular, plural, missing and future timestamps', () => {
   const now = '2026-09-06T12:00:00Z';
@@ -45,8 +46,8 @@ test('platform labels retain evidence and caveats without guessing support', () 
   assert.match(platformLabel(entries.find(e => e.repository === 'elliotmatson/Docker-Davinci-Resolve-Project-Server')), /server hosts/);
 });
 test('generated views preserve all entries, sort order and valid local links', () => {
-  assert.equal(entries.length, 130);
-  assert.equal(new Set(entries.map(e => e.url)).size, entries.length);
+  assert.equal(entries.length, discovery.total_count);
+  assert.equal(new Set(entries.map(e => e.url.toLowerCase())).size, entries.length);
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   const defaultUrls = [...readme.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^/)]+\/[^/)]+)\)/gm)].map(m => m[1]);
   assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => sorted(entries.filter(e => e.category === category), 'name').map(e => e.url)));
@@ -56,7 +57,7 @@ test('generated views preserve all entries, sort order and valid local links', (
     const urls = [...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^)]+)\)/gm)].map(m => m[1]);
     assert.deepEqual(urls, sorted(entries, key).map(e => e.url));
   }
-  for (const file of ['README.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+  for (const file of ['README.md', 'CHANGELOG.md', 'data/web-discovery-report.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     for (const [, link] of text.matchAll(/\]\(([^)]+)\)/g)) {
       if (/^https?:/.test(link)) continue;
@@ -69,6 +70,26 @@ test('generated views preserve all entries, sort order and valid local links', (
       }
     }
   }
+});
+
+test('web additions have matching catalogue records and traceable upstream evidence', () => {
+  assert.equal(discovery.baseline_count + discovery.added_count, discovery.total_count);
+  assert.equal(discovery.additions.length, discovery.added_count);
+  const additions = new Set(discovery.additions.map(e => e.repository.toLowerCase()));
+  assert.equal(additions.size, discovery.added_count);
+  for (const added of discovery.additions) {
+    const entry = entries.find(e => e.repository === added.repository);
+    assert.ok(entry, `Missing addition ${added.repository}`);
+    for (const key of ['category', 'url', 'description', 'access', 'platforms', 'platform_notes', 'platform_source', 'platform_checked_at', 'research_snapshot']) assert.equal(entry[key], added[key]);
+    assert.ok(added.discovery_sources.length > 0);
+    for (const source of [...added.discovery_sources, added.evidence_source]) assert.equal(new URL(source).protocol, 'https:');
+    assert.equal(added.evidence_source, entry.platform_source);
+  }
+  for (const held of discovery.held_candidates) assert.ok(!additions.has(held.repository.toLowerCase()));
+  assert.match(entries.find(e => e.repository === 'IgorRidanovic/DaVinciResolve-ExportProjects').description, /DELETE the source projects/);
+  assert.match(entries.find(e => e.repository === 'in03/patchwork').description, /unfinished/);
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  assert.ok(readme.includes(`**${entries.length} public GitHub repositories**`));
 });
 test('regeneration is deterministic and preserves CSV', () => {
   const files = ['README.md', 'data/repositories.csv', ...Object.keys(sorts).map(k => `views/${k}.md`)];

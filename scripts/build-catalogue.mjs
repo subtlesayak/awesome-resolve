@@ -106,7 +106,7 @@ export function build() {
     'The default lists below sort repositories A–Z by repository name within each category; owner breaks ties. Choose a view above to browse all projects in another order. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category.', '',
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
-    'Access qualifiers and compatibility details remain in each entry. Stars and dates use the metadata snapshot above.', '',
+    'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
     '<a id="platforms-supported"></a>', '', '### 💻 Platforms supported', '',
     '| Platform | Meaning |', '| --- | --- |',
     '| 🪟 Windows | Windows support or installation documented upstream. |',
