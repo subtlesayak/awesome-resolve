@@ -675,6 +675,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for additions and corrections. Keep the R
 
 ## Scope and attribution
 
-Badge styling is inspired by [Greenysmac's awesome-davinci-resolve](https://github.com/Greenysmac/awesome-davinci-resolve). Badge assets are stored in this repository; access classifications follow this catalogue's own research notes.
+Badge assets are stored in this repository; access classifications follow this catalogue's own research notes.
 
 All listed projects belong to their respective authors and retain their own licenses. This directory links to upstream repositories and does not redistribute their code, binaries, or assets. Inclusion does not imply endorsement or affiliation with Blackmagic Design or the listed maintainers.
