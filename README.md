@@ -2,7 +2,7 @@
 
 A curated directory of **225 public GitHub repositories** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
 
-Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), the [🔎 web discovery report](data/web-discovery-report.md), [plugin wiki discoveries](data/wiki-discovery-report.md), and the [changelog](CHANGELOG.md).
+Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), the [🔎 web discovery report](data/web-discovery-report.md), [plugin wiki discoveries](data/wiki-discovery-report.md), [marketplace discoveries](data/marketplace-discovery-report.md), and the [changelog](CHANGELOG.md).
 
 ## Access labels
 

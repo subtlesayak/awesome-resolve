@@ -73,7 +73,7 @@ test('generated views preserve all entries, sort order and valid local links', (
     const urls = [...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^)]+)\)/gm)].map(m => m[1]);
     assert.deepEqual(urls, sorted(entries, key).map(e => e.url));
   }
-  for (const file of ['README.md', 'CHANGELOG.md', 'data/web-discovery-report.md', 'data/wiki-discovery-report.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+  for (const file of ['README.md', 'CHANGELOG.md', 'data/web-discovery-report.md', 'data/wiki-discovery-report.md', 'data/marketplace-discovery-report.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     for (const [, link] of text.matchAll(/\]\(([^)]+)\)/g)) {
       if (/^https?:/.test(link)) continue;
@@ -107,6 +107,28 @@ test('web additions have matching catalogue records and traceable upstream evide
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   assert.ok(readme.includes(`**${entries.length} public GitHub repositories**`));
 });
+test('marketplace additions are unique, traceable, and present in the external directory', () => {
+  const ledger = JSON.parse(fs.readFileSync(path.join(root, 'data/marketplace-discoveries.json'), 'utf8'));
+  const directory = fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8');
+  const urls = [...directory.matchAll(/^\| \[[^\]]+\]\((https:\/\/[^)]+)\)/gm)].map(m => m[1]);
+  assert.equal(ledger.baseline_count + ledger.added_count, ledger.total_count);
+  assert.equal(ledger.additions.length, ledger.added_count);
+  assert.equal(urls.length, ledger.total_count);
+  assert.equal(new Set(urls).size, urls.length);
+  assert.equal(new Set(ledger.additions.map(e => e.url)).size, ledger.added_count);
+  for (const e of ledger.additions) {
+    assert.ok(urls.includes(e.url), `Missing resource ${e.name}`);
+    assert.ok(directory.includes(`#### 👤 ${e.creator}`));
+    assert.ok(directory.includes(e.description));
+    assert.ok(e.evidence_mode && e.checked_at && e.sources.includes(e.url));
+    for (const source of e.sources) {
+      const url = new URL(source);
+      assert.equal(url.protocol, 'https:');
+      assert.equal(url.search, '', 'Evidence URLs must not contain tracking parameters');
+    }
+  }
+});
+
 test('regeneration is deterministic and preserves CSV', () => {
   const files = ['README.md', 'data/repositories.csv', ...Object.keys(sorts).map(k => `views/${k}.md`)];
   const before = files.map(f => fs.readFileSync(path.join(root, f), 'utf8'));

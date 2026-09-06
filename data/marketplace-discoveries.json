@@ -1,0 +1,573 @@
+{
+  "checked_at": "2026-09-06",
+  "baseline_count": 32,
+  "added_count": 40,
+  "total_count": 72,
+  "scope": "External products, collections, marketplaces and pipeline companions; no installation testing or exhaustive-web claim.",
+  "additions": [
+    {
+      "creator": "Akascape",
+      "name": "BlockGlitch",
+      "url": "https://akascape.gumroad.com/l/blockglitch",
+      "category": "✨ Effects and animation",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Block-glitch Fuse for Resolve 17+ Free or Studio. The creator explicitly offers a free download; the amount field can show a suggested donation.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/blockglitch"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperGlitch",
+      "url": "https://akascape.gumroad.com/l/superglitch",
+      "category": "✨ Effects and animation",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Glitch-effect Fuse for Resolve 17+ Free or Studio. The creator explicitly offers a free download; check the selected amount at checkout.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/superglitch"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperModulation",
+      "url": "https://akascape.gumroad.com/l/supermodulation",
+      "category": "✨ Effects and animation",
+      "access": "💰 Free edition / paid full edition",
+      "platforms": "❔ Not established",
+      "description": "Frequency-modulation Fuse. V1 is free; V2+ adds controls including colored modulation and direction. Supports Resolve Free and Studio.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/supermodulation"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperPixelSort",
+      "url": "https://akascape.gumroad.com/l/superpixelsort",
+      "category": "✨ Effects and animation",
+      "access": "💰 Free edition / paid full edition",
+      "platforms": "❔ Not established",
+      "description": "Pixel-sorting Fuse with displacement and rank modes. Free edition has fewer features; Resolve 17+ Free or Studio.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/superpixelsort"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperPolygons",
+      "url": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "category": "✨ Effects and animation",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/super-polygons-beta"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperSlitScanner",
+      "url": "https://akascape.gumroad.com/l/superslitscanner",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Slit-scan Fuse with wave, stretch, time-warp, and modulation modes. Resolve 17+ Free or Studio.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/superslitscanner"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperTrails",
+      "url": "https://akascape.gumroad.com/l/supertrails",
+      "category": "✨ Effects and animation",
+      "access": "💰 Free edition / paid full edition",
+      "platforms": "❔ Not established",
+      "description": "Ghost-trail mode is free; the full edition adds trail modes. Resolve 17+ Free or Studio.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/supertrails"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SuperVHS",
+      "url": "https://akascape.gumroad.com/l/supervhs",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "VHS-style bloom, distortion, and color damage inside Fusion. Resolve 17+ Free or Studio. Previously unresolved wiki lead, now supported by its indexed creator listing.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/supervhs"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "SupaScale",
+      "url": "https://akascape.gumroad.com/l/supascale",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid full edition; free trial",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "AI upscaling/restoration Fuse with multiple models. Resolve 19+ Free or Studio. Trial includes a limited model; test compatibility before purchase.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/supascale"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Akascape",
+      "name": "BlobTrackingFuse",
+      "url": "https://akascape.gumroad.com/l/blobtracker",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Motion-responsive lines, rectangles, and text effects. Resolve 17+ Free or Studio. Creator warns that AMD devices may not work properly.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://akascape.gumroad.com/l/blobtracker"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "StirlingSupplyCo.",
+      "name": "Easier Ease",
+      "url": "https://stirlingsupply.co/products/easier-ease",
+      "category": "✨ Effects and animation",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Applies easing to position, scale, and rotation keyframes. Requires Resolve 19.1+. A separate paid Pro edition exists.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://stirlingsupply.co/products/easier-ease"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "StirlingSupplyCo.",
+      "name": "Edit Page Masks",
+      "url": "https://stirlingsupply.co/products/edit-page-masks",
+      "category": "✨ Effects and animation",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Drag-and-drop Edit-page masks with outline and shape controls. Current listing does not establish a minimum version or OS matrix.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://stirlingsupply.co/products/edit-page-masks"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "StirlingSupplyCo.",
+      "name": "Proto V3",
+      "url": "https://stirlingsupply.co/products/proto-v3",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Distortion and glow effects with presets. Current release requires Resolve 20.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://stirlingsupply.co/products/proto-v3"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "StirlingSupplyCo.",
+      "name": "TextBox+",
+      "url": "https://stirlingsupply.co/products/textbox",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Animated text-box preset for Resolve. Consult current installation requirements; no OS matrix was established.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://stirlingsupply.co/products/textbox"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "MotionVFX",
+      "name": "mTransition Movie DVR",
+      "url": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "🪟 Windows · 🍎 macOS · 📱 iPadOS",
+      "description": "Cinema-inspired transition pack. Desktop requires Resolve 18.1.2+; vendor also labels the DVR edition iPad-compatible. Select the DVR product.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "MotionVFX",
+      "name": "mTitle Refined DVR",
+      "url": "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid",
+      "platforms": "🪟 Windows · 🍎 macOS · 📱 iPadOS",
+      "description": "Animated typography pack. Desktop requires Resolve 19.1, 16 GB RAM and 4 GB VRAM; vendor recommends 32/8 GB for 4K and lists iPad compatibility.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Gabriel Grenier",
+      "name": "Amalgam",
+      "url": "https://aescripts.com/amalgam/",
+      "category": "✨ Effects and animation",
+      "access": "💳 Paid; trial available",
+      "platforms": "🍎 macOS confirmed; other OS unverified",
+      "description": "Frequency-based image blending OFX; compatibility lists Resolve 16–21. Mac support is evidenced by the release notes. The separate Premiere transition feature is not a Resolve guarantee.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://aescripts.com/amalgam/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "imk-design",
+      "name": "AE Fusion 3D Bridge",
+      "url": "https://aescripts.com/ae-fusion-3d-bridge/",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Paid; trial available",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Transfers supported 3D layouts, cameras, and baked animation between After Effects and Fusion/Resolve. Does not embed media or reproduce the entire rendered appearance.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://aescripts.com/ae-fusion-3d-bridge/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Limitless Creative",
+      "name": "Blender to Resolve Bridge",
+      "url": "https://superhivemarket.com/products/blender-to-resolve-bridge",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Paid; time-limited updates/support",
+      "platforms": "🪟 Windows",
+      "description": "Blender render handoff with bins, timeline settings, and color transforms. Windows 10/11, Blender 4.2+, Resolve 19. Studio auto-push needs Python 3.11/3.12; Free uses a browser workflow.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://superhivemarket.com/products/blender-to-resolve-bridge",
+        "https://superhivemarket.com/products/blender-to-resolve-bridge/docs"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "BelAmiMax",
+      "name": "BlenderEXR",
+      "url": "https://superhivemarket.com/products/blenderexr",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Paid",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Installs Blender OCIO configuration and a Fusion EXR/pass template. Windows 10/11 or Apple Silicon Mac; Resolve 19–21. Intel Mac support is not established.",
+      "evidence_mode": "indexed primary listing and documentation",
+      "sources": [
+        "https://superhivemarket.com/products/blenderexr",
+        "https://superhivemarket.com/products/blenderexr/docs"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "CStudio.ao",
+      "name": "Pipeline Studio Manager",
+      "url": "https://superhivemarket.com/products/pipeline-studio-manager",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Blender production-management add-on with structured Resolve handoff packages. A pipeline companion, not an in-Resolve plugin. Listing specifies Blender 4.0–5.2; live collaboration is beta.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://superhivemarket.com/products/pipeline-studio-manager"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "ValueFactory",
+      "name": "VideoRemap",
+      "url": "https://valuef.itch.io/videoremap",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Paid; patterned-output demo",
+      "platforms": "🪟 Windows",
+      "description": "Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://valuef.itch.io/videoremap"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Jumper",
+      "name": "Jumper",
+      "url": "https://getjumper.io/",
+      "category": "🛠️ Workflow and pipeline",
+      "access": "💳 Commercial; free trial",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Local visual and spoken-content search for editors, with Resolve integration. Vendor states processing stays on device. Confirm current host/version requirements for the chosen installer.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://getjumper.io/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "sh4rk",
+      "name": "Audio Visualiser Plugin",
+      "url": "https://sh4rkk.com/visualiser-plugin",
+      "category": "✨ Effects and animation",
+      "access": "💰 Free edition / paid full edition",
+      "platforms": "❔ Not established",
+      "description": "Audio-reactive Fusion toolkit and Edit-page visualizers. Supports Resolve 19.1–21 Free and Studio. Uses the supplied audio-converter workflow; current creator site supersedes the Ko-fi listing.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://sh4rkk.com/visualiser-plugin",
+        "https://ko-fi.com/s/2f9e1d69d4"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Mixkit",
+      "name": "Mixkit Resolve templates",
+      "url": "https://mixkit.co/free-davinci-resolve-templates/",
+      "category": "📚 Templates and discovery",
+      "access": "🆓 Free under Mixkit License; no signup",
+      "platforms": "❔ Not established",
+      "description": "Titles, callouts, lower thirds, transitions, and social templates. FAQ says designed for Resolve 16; newer-version compatibility needs checking per template.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://mixkit.co/free-davinci-resolve-templates/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Motion Array",
+      "name": "Motion Array free Resolve templates",
+      "url": "https://motionarray.com/davinci-resolve-templates/free/",
+      "category": "📚 Templates and discovery",
+      "access": "🆓 Free selection; broader catalogue has paid plans",
+      "platforms": "❔ Not established",
+      "description": "Resolve-filtered titles, logos, promos, and other templates. Use the software-version filter and inspect each item’s requirements and download/license conditions.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://motionarray.com/davinci-resolve-templates/free/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Envato",
+      "name": "Envato Resolve templates",
+      "url": "https://elements.envato.com/video-templates/compatible-with-davinci-resolve",
+      "category": "📚 Templates and discovery",
+      "access": "💳 Subscription catalogue",
+      "platforms": "❔ Not established",
+      "description": "Resolve-specific template marketplace. Check item-level version, plugin, font, and media requirements; preview footage/music may be excluded.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://elements.envato.com/video-templates/compatible-with-davinci-resolve",
+        "https://elements.envato.com/fast-titles-davinci-resolve-JR8WSKF"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Editors Lab",
+      "name": "Editors Lab",
+      "url": "https://editorslab.store/",
+      "category": "📚 Templates and discovery",
+      "access": "📂 Public directory; verify creator terms",
+      "platforms": "❔ Not established",
+      "description": "Community discovery hub for Resolve macros, Fuses, presets, and tutorials. Follow original creator listings for licenses and compatibility; its entries overlap other resources here.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://editorslab.store/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Tool&KITS",
+      "name": "Sony S-Log3 Cine Film Emulation PowerGrade",
+      "url": "https://toolandkits.gumroad.com/l/wfczb",
+      "category": "🎨 Color and PowerGrades",
+      "access": "🆓 Free; store download",
+      "platforms": "❔ Not established",
+      "description": "Node-based film-inspired starting point for Sony S-Log3 / S-Gamut3.Cine. Built for Resolve Free with its included film LUTs; not an exact film-stock reproduction.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://toolandkits.gumroad.com/l/wfczb"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Night Owl Stories",
+      "name": "C.R.A.F.T. PowerGrade",
+      "url": "https://nightowlstories.gumroad.com/l/craft-powergrade",
+      "category": "🎨 Color and PowerGrades",
+      "access": "🆓 Free early access; mailing-list enrollment",
+      "platforms": "❔ Not established",
+      "description": "Kodak/Fuji PowerGrade variants with a setup guide. Preconfigured for Sony S-Log3; input CST can be changed. Free/Studio compatible; texture is a placeholder.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://nightowlstories.gumroad.com/l/craft-powergrade"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "yesjmo",
+      "name": "PowerGrade Library",
+      "url": "https://yesjmo.gumroad.com/l/powergradelibrary",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Modular grading library, signature looks, and guides. Resolve 19+ Free or Studio; designed for DaVinci Wide Gamut with Rec.709 output.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://yesjmo.gumroad.com/l/powergradelibrary"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "open iso",
+      "name": "Cine16",
+      "url": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "16 mm-inspired color PowerGrade with tutorial and test clips. All features require Resolve Studio.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://openiso.sellfy.store/p/film-emulation-powergrade/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "open iso",
+      "name": "Timeless",
+      "url": "https://openiso.sellfy.store/p/timeless-film-emulation-powergrade/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Black-and-white PowerGrade with tutorial and test clips. All features require Resolve Studio. Distinct from similarly named products by other creators.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://openiso.sellfy.store/p/timeless-film-emulation-powergrade/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "The Jake Fisher",
+      "name": "TJF PowerGrade",
+      "url": "https://thejakefisher.sellfy.store/p/tjf-powergrade/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Modular film-inspired grade with tutorial. Free Resolve is supported with noise reduction and grain disabled; Studio enables those features.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://thejakefisher.sellfy.store/p/tjf-powergrade/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Mark Bone + Nik Pilecki",
+      "name": "MB+NP PowerGrade",
+      "url": "https://mark-bone.sellfy.store/p/power-grade-mbnp/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid",
+      "platforms": "❔ Not established",
+      "description": "Resolve PowerGrade, LUT suite, and grading masterclass with multiple camera color-space workflows. Current listing does not establish Free/Studio or OS requirements.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://mark-bone.sellfy.store/p/power-grade-mbnp/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "James Miller / DELUTS",
+      "name": "DELUTS Universe DCTLs",
+      "url": "https://jamesmiller.sellfy.store/p/davinci-resolve-studio-dctl/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid; demo sets available",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Studio DCTL collection for color, lens effects, film texture, and utilities. Installation paths cover three OSes; test the demo for GPU compatibility. The listed minimum-version text is ambiguous.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://jamesmiller.sellfy.store/p/davinci-resolve-studio-dctl/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Dehancer",
+      "name": "Dehancer Pro",
+      "url": "https://www.dehancer.com/shop/davinci_resolve/pro",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Commercial; trial offered",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Film-emulation OFX with grain, halation, bloom, and color-pipeline controls. Current page lists all three OSes; displayed Mac requirements are macOS 13+, Metal GPU, Resolve 19+.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://www.dehancer.com/shop/davinci_resolve/pro"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Colourlab.ai",
+      "name": "Colourlab AI for Resolve",
+      "url": "https://colourlab.ai/colourlab-ai-for-davinci-resolve/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Subscription plans",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Reference matching through a Resolve plugin and desktop app. Official page specifies Resolve 18–20, including Free. Pro adds LookDesigner and GrainLab; newer-host support needs confirmation.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://colourlab.ai/colourlab-ai-for-davinci-resolve/"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Nx Color",
+      "name": "Nx LiquidGlass",
+      "url": "https://ko-fi.com/s/8d429085e2",
+      "category": "🎨 Color and PowerGrades",
+      "access": "🆓 Free; store download",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Refraction and magnification DCTL. Requires Resolve Studio 19+; creator lists Metal, CUDA, and OpenCL support. Ko-fi listing points to the creator’s website download.",
+      "evidence_mode": "indexed primary listing",
+      "sources": [
+        "https://ko-fi.com/s/8d429085e2"
+      ],
+      "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "Ravengrade",
+      "name": "Ravengrade tools",
+      "url": "https://ravengrade.com/",
+      "category": "🎨 Color and PowerGrades",
+      "access": "💳 Paid perpetual licenses or subscription",
+      "platforms": "❔ Not established",
+      "description": "Collection of Resolve film-look, contrast, subtractive-color tools, and LUTs. Check each product’s Studio, GPU, and version requirements; collection membership does not establish shared compatibility.",
+      "evidence_mode": "page",
+      "sources": [
+        "https://ravengrade.com/"
+      ],
+      "checked_at": "2026-09-06"
+    }
+  ]
+}
