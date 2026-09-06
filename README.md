@@ -1,4 +1,4 @@
-# 🎬 Subtle Resolve
+# 🎬 Subtle Resolve List
 
 An AI-assisted directory of **225 public GitHub repositories** and **112 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
 
