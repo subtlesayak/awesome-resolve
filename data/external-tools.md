@@ -48,21 +48,35 @@ Twenty-one additional products, collections, and integrations reviewed through t
 
 ### 🎨 Color / Film
 
+#### 👤 FilmConvert
+
+| Resource | Access | Platforms | Purpose and requirements |
+| --- | --- | --- | --- |
+| [CineMatch](https://www.filmconvert.com/plugin/cinematch) | Paid; watermarked trial | ❔ Confirm current installer | Camera-profile matching with exposure, white balance, and LUT generation. FilmConvert lists Resolve support; select its Resolve download rather than another host's package. |
+| [FilmConvert tools](https://www.filmconvert.com/) | Commercial products; trials available | ❔ Per product | Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support. |
+
+#### Other creators
+
 | Resource | Access | Platforms | Purpose and requirements |
 | --- | --- | --- | --- |
 | [Basic Node Tree](https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree) | Free; store download | ❔ Unverified | Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix. |
-| [CineMatch](https://www.filmconvert.com/plugin/cinematch) | Paid; watermarked trial | ❔ Confirm current installer | Camera-profile matching with exposure, white balance, and LUT generation. FilmConvert lists Resolve support; select its Resolve download rather than another host's package. |
 | [CinePrint35](https://www.tombolles.net/cineprint35) | Paid PowerGrades; separate LUT offering | 🪟 Windows · 🍎 macOS | Film-emulation PowerGrades with native Resolve nodes. Free Resolve can use the grades with the Studio-only Grain node disabled. The supplied CinePrint16 URL redirects here. |
 | [Filmbox Pro](https://videovillage.com/filmbox/) | Paid; 14-day trial listed | 🪟 Windows · 🍎 macOS · 🐧 Linux | Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. |
-| [FilmConvert tools](https://www.filmconvert.com/) | Commercial products; trials available | ❔ Per product | Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support. |
 | [MONONODES](https://mononodes.com/dctl-and-more/) | Mixed; free tools and demos alongside commercial tools | ❔ Per tool | DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements. |
 
 ### ✨ Effects / Fusion
+
+#### 👤 Boris FX
 
 | Resource | Access | Platforms | Purpose and requirements |
 | --- | --- | --- | --- |
 | [Boris FX Sapphire](https://borisfx.com/products/sapphire/) | Paid; trial available | 🪟 Windows · 🍎 macOS · 🐧 Linux | VFX and transition suite with documented Resolve and Fusion Studio OFX support. Check host, GPU, and Linux-distribution requirements for the selected release. |
 | [Boris FX SynthEyes](https://borisfx.com/products/syntheyes/) | Commercial standalone tool | 🪟 Windows · 🍎 macOS · 🐧 Linux | Camera/object tracking and matchmoving with Fusion/Resolve scene export. This is a standalone pipeline companion. Linux documentation specifies RHEL 8+ or compatible x86_64 distributions. |
+
+#### Other creators
+
+| Resource | Access | Platforms | Purpose and requirements |
+| --- | --- | --- | --- |
 | [Digital Anarchy Resolve tools](https://digitalanarchy.com/) | Commercial products; separate free products exist | ❔ Per product | Resolve/OFX downloads are listed for Beauty Box Video, Flicker Free, Samurai Sharpen, and Data Storyteller. Do not assume the vendor's AE/FCP-only or free products also support Resolve. |
 | [Filmworkz OFX DVO](https://filmworkz.com/ofx/) | Commercial; subscription options | 🪟 Windows · 🍎 macOS · 🐧 Linux | Restoration and correction plugin pack for Resolve, Mistika, and Scratch. Current vendor page documents desktop OS support and the updated Performance Pack with DVO Despeckle. |
 | [Gaussian Splatting for DaVinci Resolve](https://aescripts.com/gaussian-splatting-for-davinci-resolve/) | Commercial licensed plugin; check current offer | ❔ Unverified | Import, manipulate, and GPU-render Gaussian-splat PLY scenes, including depth output. Product compatibility lists Resolve 18–21; OS requirements were not established in the retrieved page. |

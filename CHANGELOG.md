@@ -2,6 +2,15 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.6](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.6) — 2026-09-06
+
+### Changed
+
+- Grouped repositories from the same GitHub owner under linked creator subheadings within README categories. Creator groups and their tools sort alphabetically; single-entry creators share the remaining table.
+- Grouped FilmConvert and Boris FX products under creator subheadings in the external directory.
+- Preserved all 225 repositories, 32 external resources, individual metadata, platform notes, and all five catalogue-wide sort views.
+- Updated generation, contribution guidance, and ordering checks so regeneration preserves the grouping. No resources added or removed.
+
 ## [v1.5](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.5) — 2026-09-06
 
 ### Added

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories } from './build-catalogue.mjs';
+import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 const discovery = JSON.parse(fs.readFileSync(path.join(root, 'data/web-discoveries.json'), 'utf8'));
@@ -50,7 +50,12 @@ test('generated views preserve all entries, sort order and valid local links', (
   assert.equal(new Set(entries.map(e => e.url.toLowerCase())).size, entries.length);
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   const defaultUrls = [...readme.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^/)]+\/[^/)]+)\)/gm)].map(m => m[1]);
-  assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => sorted(entries.filter(e => e.category === category), 'name').map(e => e.url)));
+  assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => creatorGroups(entries.filter(e => e.category === category)).flatMap(g => g.entries.map(e => e.url))));
+  assert.match(readme, /### 👤 \[postflows\]\(https:\/\/github.com\/postflows\)/);
+  const fixture = ['Beta/z', 'Solo/a', 'alpha/b', 'Beta/a', 'ALPHA/a'].map(repository => ({...entries[0], repository}));
+  assert.deepEqual(creatorGroups(fixture).map(g => [g.owner, g.entries.map(e => e.repository)]), [
+    ['alpha', ['ALPHA/a', 'alpha/b']], ['Beta', ['Beta/a', 'Beta/z']], [null, ['Solo/a']],
+  ]);
   for (const key of Object.keys(sorts)) {
     const file = path.join(root, 'views', key + '.md');
     const text = fs.readFileSync(file, 'utf8');

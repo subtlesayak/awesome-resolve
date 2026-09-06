@@ -49,6 +49,21 @@ export const sorts = {
   access: ['💰 Access', 'Free, Mixed, Public; then project name A–Z', (a, b) => compare(accessGroup(a), accessGroup(b)) || byName(a, b)],
 };
 export function sorted(entries, key) { return [...entries].sort(sorts[key][2]); }
+export function creatorGroups(entries) {
+  const owners = new Map();
+  for (const entry of entries) {
+    const owner = entry.repository.split('/')[0];
+    const key = owner.toLowerCase();
+    if (!owners.has(key)) owners.set(key, { owner, entries: [] });
+    owners.get(key).entries.push(entry);
+  }
+  const groups = [...owners.values()].filter(g => g.entries.length > 1)
+    .sort((a, b) => compare(a.owner, b.owner))
+    .map(g => ({ ...g, entries: sorted(g.entries, 'name') }));
+  const singles = [...owners.values()].filter(g => g.entries.length === 1).flatMap(g => g.entries);
+  if (singles.length) groups.push({ owner: null, entries: sorted(singles, 'name') });
+  return groups;
+}
 export function relativeDate(timestamp, checkedAt) {
   if (!timestamp) return 'Unavailable';
   const days = Math.floor((Date.parse(checkedAt) - Date.parse(timestamp)) / 86400000);
@@ -103,7 +118,7 @@ export function build() {
   const content = [
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
-    'The default lists below sort repositories A–Z by repository name within each category; owner breaks ties. Choose a view above to browse all projects in another order. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category.', '',
+    'Within each category, creators with multiple repositories have their own subheading, ordered A–Z by GitHub owner. Tools within each creator group and the remaining entries sort A–Z by repository name. Choose a view above for a catalogue-wide sort. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category.', '',
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
@@ -120,8 +135,13 @@ export function build() {
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
     ...categories.flatMap(([emoji, , title], i) => {
-      const members = sorted(entries.filter(e => e.category === title), 'name');
-      return [`<a id="category-${i + 1}"></a>`, '', `## ${emoji} ${title}`, '', `${members.length} repositories.`, '', table(members, ''), ''];
+      const members = entries.filter(e => e.category === title);
+      const groups = creatorGroups(members);
+      return [`<a id="category-${i + 1}"></a>`, '', `## ${emoji} ${title}`, '', `${members.length} repositories.`, '',
+        ...groups.flatMap(g => [
+          ...(g.owner ? [`### 👤 [${g.owner}](https://github.com/${g.owner})`, ''] : groups.length > 1 ? ['### Other creators', ''] : []),
+          table(g.entries, ''), '',
+        ])];
     }),
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
