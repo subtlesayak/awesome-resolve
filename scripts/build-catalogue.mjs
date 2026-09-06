@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {versionLabel} from './versions.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export function parseCsv(text) {
@@ -78,6 +79,11 @@ export function creatorGroups(entries) {
   if (singles.length) groups.push({ owner: null, entries: sorted(singles, 'name') });
   return groups;
 }
+export function olderThanYear(timestamp, checkedAt) {
+  const elapsed = Date.parse(checkedAt) - Date.parse(timestamp);
+  return Number.isFinite(elapsed) && elapsed > 365 * 86400000;
+}
+const activityLegend = '**†** No repository push for more than 365 days as of its metadata snapshot. This marks repository activity, not abandonment or compatibility. External resources without comparable push dates are not marked.';
 export function relativeDate(timestamp, checkedAt) {
   if (!timestamp) return 'Unavailable';
   const days = Math.floor((Date.parse(checkedAt) - Date.parse(timestamp)) / 86400000);
@@ -109,8 +115,9 @@ export function repositoryLabel(repository) {
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const label = repositoryLabel(e.repository);
+  if (olderThanYear(e.last_pushed_at, e.metadata_checked_at)) label.name += ' †';
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
-  const details = `${wrapText(e.description)}${type}`;
+  const details = `${wrapText(e.description)}${type}<br><sub>${versionLabel(e.url)}</sub>`;
   const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
   return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | <sub>${updated}</sub> |`;
 }
@@ -128,7 +135,7 @@ function externalTable(entries) {
   return [
     '| 🌐 Resource | 📝 Details | 💰 Access | 💻 Platforms |',
     '| :--- | :--- | :--- | :--- |',
-    ...[...entries].sort((a, b) => compare(a.name, b.name)).map(e => `| [${e.name}](${e.url}) | ${e.description} | ${e.access} | ${e.platforms} |`),
+    ...[...entries].sort((a, b) => compare(a.name, b.name)).map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} |`),
   ].join('\n');
 }
 
@@ -153,6 +160,7 @@ export function build() {
     'Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.', '',
     'All external resources appear together in the [🌐 External resources](#external-resources) category, sorted A–Z by resource name. Their links open the developer website or store. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to these entries.', '',
     '### 🏷️ Labels', '',
+    activityLegend, '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and relative ages use the metadata-check timestamp recorded in the CSV.', '',
     '<a id="platforms-supported"></a>', '', '### 💻 Platforms supported', '',
@@ -188,6 +196,7 @@ export function build() {
     fs.writeFileSync(path.join(root, 'views', key + '.md'), [
       `# ${label}`, '', '[🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
       navigation(''), '', `**${entries.length} repositories · ${description}.**`, '',
+      activityLegend, '',
       `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).`, '',
       table(sorted(entries, key), '../', true), '',
     ].join('\n'));

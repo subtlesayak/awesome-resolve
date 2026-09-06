@@ -3,10 +3,30 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { olderThanYear } from './build-catalogue.mjs';
+import {versionLabel} from './versions.mjs';
 import { parseCsv, parseExternalResources, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 const discovery = JSON.parse(fs.readFileSync(path.join(root, 'data/web-discoveries.json'), 'utf8'));
+
+test('activity marker uses exact dates and requires more than 365 days', () => {
+  const now = '2026-09-06T12:00:00Z';
+  const cutoff = Date.parse(now) - 365 * 86400000;
+  assert.equal(olderThanYear(new Date(cutoff).toISOString(), now), false);
+  assert.equal(olderThanYear(new Date(cutoff - 1).toISOString(), now), true);
+  for (const date of ['', 'invalid', '2026-09-07T12:00:00Z']) assert.equal(olderThanYear(date, now), false);
+  assert.equal(olderThanYear('2020-01-01', 'invalid'), false);
+  for (const file of ['README.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+    const text = fs.readFileSync(path.join(root, file), 'utf8');
+    assert.ok(text.includes('**†** No repository push for more than 365 days'));
+    for (const entry of entries) {
+      const rows = text.split('\n').filter(line => line.startsWith('| [') && line.includes(`](${entry.url})`));
+      assert.ok(rows.length > 0);
+      for (const row of rows) assert.equal(row.includes(` †](${entry.url})`), olderThanYear(entry.last_pushed_at, entry.metadata_checked_at), `${file}: ${entry.repository}`);
+    }
+  }
+});
 
 test('relative dates handle singular, plural, missing and future timestamps', () => {
   const now = '2026-09-06T12:00:00Z';
@@ -160,7 +180,7 @@ test('README includes every external resource once in one alphabetical category'
   const section = readme.split('## 🌐 External resources\n')[1].split('## Compatibility notes')[0];
   const rows = section.split('\n').filter(line => line.startsWith('| ['));
   const expected = [...source].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0);
-  assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description} | ${e.access} | ${e.platforms} |`));
+  assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} |`));
   assert.ok(readme.includes(`[🌐 External resources](#external-resources) (${source.length})`));
 });
 

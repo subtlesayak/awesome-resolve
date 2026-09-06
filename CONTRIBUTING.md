@@ -2,6 +2,12 @@
 
 Suggest additions and corrections through an issue or pull request.
 
+Original contributions are GPL-3.0-only; see [LICENSE](LICENSE), [attribution](NOTICE.md), and [reuse guidance](REUSE.md). This does not relicense any upstream package. Link to providers rather than uploading their installers or paid assets.
+
+Every catalogue entry has an explicit version state in `data/versions.json`. After `node scripts/check-updates.mjs --github`, run `node scripts/build-versions.mjs --github .research/update-check/github.json`, then regenerate the catalogue. Stable releases, prereleases, commit revisions, vendor versions and Reactor package versions must stay distinguishable. Vendor evidence retains its original check date. Missing vendor versions remain `unverified`; never invent version numbers. CI validates the catalogue on Windows and Linux without uploading local reports.
+
+Record newly checked vendor versions in `data/version-overrides.json`, with their exact source and check date. These override earlier discovery evidence without rewriting historical snapshots. Do not convert listing/forum ages into release dates.
+
 **Reports are local-only.** Do not commit or upload audit, research, or discovery reports. Keep them in the ignored report paths and show them locally. Publish catalogue entries and structured source data only; public documentation must not link to ignored reports.
 
 Use **Node.js 22 or newer** for the generators and tests (`Map.groupBy` is required). Metadata refresh also requires PowerShell 7 and authenticated GitHub CLI. There are no npm package dependencies. Run `node scripts/build-community-report.mjs`, `node scripts/build-update-report.mjs`, then `node scripts/build-catalogue.mjs` to regenerate all pages. Run `node --test scripts/*.test.mjs` afterward.

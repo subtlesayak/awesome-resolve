@@ -1,0 +1,9 @@
+# Links, metadata and third-party rights
+
+This catalogue links to official repositories, creator pages and stores. It does not distribute their installers, plugin payloads or paid downloads. A link, free price, public repository or entry in Reactor is not a license to redistribute the underlying software.
+
+The Reactor inventory contains selected factual manifest fields: package identifiers, names, creators, categories, versions, dates and source links. It excludes manifest descriptions and executable payloads. Attribution and upstream links must be retained. Reactor's repository carries [GPL-3.0](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/LICENSE); individual package licenses and dependencies must be checked separately before copying code or binaries. This project does not relicense those packages.
+
+Facts and short names are generally outside copyright protection in the United States, but creative descriptions, images and code can be protected. Bulk extraction can also implicate database rights and website terms in other jurisdictions. Therefore this catalogue makes no blanket grant over third-party inventories or content. See the [U.S. Copyright Office](https://www.copyright.gov/help/faq/faq-protect.html) and [European Commission database guidance](https://digital-strategy.ec.europa.eu/en/policies/protection-databases).
+
+Use provider pages for downloads. Preserve required notices, obtain permission where needed, and follow each license's attribution, source-distribution and other conditions. Public GitHub access permits viewing/forking through GitHub; without a license it does not grant unrestricted redistribution. See [GitHub's licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
