@@ -8,6 +8,14 @@ Built for video editors, colorists, motion designers, and Resolve developers. AI
 
 Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), [🕒 upstream updates and changelogs](data/update-audit.md), the [🔎 web discovery report](data/web-discovery-report.md), [plugin wiki discoveries](data/wiki-discovery-report.md), [marketplace discoveries](data/marketplace-discovery-report.md), and the [catalogue changelog](CHANGELOG.md).
 
+## Find tools for your use case with AI
+
+Share this repository with an AI assistant and describe the result you want, your Resolve version and Free/Studio edition, operating system, budget, and any offline/privacy or installation constraints. For example:
+
+> Use this directory to find tools for animated subtitles in DaVinci Resolve Free on Windows. I need local processing, no subscription, and a simple installation. Compare up to three suitable options, link to their original sources, and flag anything you cannot verify.
+
+**For assistants:** use the [tool-matching guide](TOOL-FINDER.md), [repository CSV](data/repositories.csv), and [external resource directory](data/external-tools.md). Match the requested outcome and hard requirements before considering popularity. Check both GitHub and external entries, deduplicate repeated creator listings, and verify shortlisted tools against their upstream documentation. Ask only for missing details that affect the choice. Return a best match and useful alternatives with reasons, costs, requirements, source links, and unresolved caveats. If nothing meets the requirements, say so; do not present an unverified match as compatible.
+
 ## Access labels
 
 - **Free**: the research identified explicit free availability or an open-source license.

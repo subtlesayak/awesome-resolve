@@ -95,7 +95,7 @@ test('generated views preserve all entries, sort order and valid local links', (
     const urls = [...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^)]+)\)/gm)].map(m => m[1]);
     assert.deepEqual(urls, sorted(entries, key).map(e => e.url));
   }
-  for (const file of ['README.md', 'CHANGELOG.md', 'data/web-discovery-report.md', 'data/wiki-discovery-report.md', 'data/marketplace-discovery-report.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
+  for (const file of ['README.md', 'TOOL-FINDER.md', 'CHANGELOG.md', 'data/web-discovery-report.md', 'data/wiki-discovery-report.md', 'data/marketplace-discovery-report.md', 'data/external-tools.md', ...Object.keys(sorts).map(k => `views/${k}.md`)]) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     for (const [, link] of text.matchAll(/\]\(([^)]+)\)/g)) {
       if (/^https?:/.test(link)) continue;
