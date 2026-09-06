@@ -1,6 +1,10 @@
-# 🎬 Awesome Resolve (AI-assisted List)
+# 🎬 Awesome Resolve — DaVinci Resolve Tools & Resources
 
-A curated directory of **225 public GitHub repositories** and **72 external resources** for DaVinci Resolve and Fusion, covering color grading, visual effects, subtitles, automation, Linux support, development, and hardware.
+An AI-assisted directory of **225 public GitHub repositories** and **72 external resources** for **DaVinci Resolve and Fusion**. Find free and paid plugins, DCTLs, PowerGrades, Fusion Fuses, subtitle tools, Python and Lua scripts, workflow automation, and Linux utilities, with access labels and documented platform requirements.
+
+Built for video editors, colorists, motion designers, and Resolve developers. AI assists catalogue research and organization; the directory covers both AI and non-AI tools. Entries link to original creators, with discovery sources and compatibility notes available for review.
+
+**Start here:** [Color grading and DCTLs](#category-1) · [Fusion effects](#category-2) · [Subtitles and transcription](#category-3) · [Scripts and automation](#category-5) · [External plugins and stores](#external-resources) · [Common questions](#frequently-asked-questions)
 
 Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), [🕒 upstream updates and changelogs](data/update-audit.md), the [🔎 web discovery report](data/web-discovery-report.md), [plugin wiki discoveries](data/wiki-discovery-report.md), [marketplace discoveries](data/marketplace-discovery-report.md), and the [catalogue changelog](CHANGELOG.md).
 
@@ -668,6 +672,24 @@ These notes reflect the research snapshot; check upstream documentation against 
 - **AI and automation:** external scripting requirements, model dependencies, GPU support, and AI-service charges vary by project.
 - **Directories:** a commercial plugin appearing in a GitHub directory does not imply that its source is public or that a license is included.
 - **Maintenance:** archived, beta, and legacy notes describe the research snapshot and may change over time.
+
+## Frequently asked questions
+
+### Where can I find free DaVinci Resolve plugins and scripts?
+
+Browse the [catalogue by access](views/access.md) for entries labelled **Free**, or explore [Fusion effects](#category-2), [DCTLs](#category-1), and [workflow scripts](#category-5). The [external resources](#external-resources) section includes developer websites and stores. Check each creator's licence and download terms; **Public** does not necessarily mean free or open source.
+
+### Do these tools work with DaVinci Resolve Free or Studio?
+
+Requirements vary by tool. A free plugin can still require a paid Resolve Studio licence. Read the entry's description, platform notes, and upstream documentation for edition, version, GPU, and operating-system requirements.
+
+### Does Awesome Resolve list only AI tools?
+
+No. AI assists the directory's research and organization. The collection covers color grading, Fusion effects, subtitles, encoding, hardware, and other workflows. [AI assistants, MCP servers, and ComfyUI integrations](#category-4) have their own category.
+
+### How can I reuse the catalogue or check an entry's sources?
+
+Use the [repository CSV](data/repositories.csv) for structured GitHub entries and the [external directory](data/external-tools.md) for websites and stores. Provider links, platform-source fields, and discovery reports document the research. The [upstream update report](data/update-audit.md) links to release and changelog evidence; the [catalogue changelog](CHANGELOG.md) records additions to this directory. Creator subheadings repeat entries for browsing, so use the CSV when counting unique repositories.
 
 ## Contributing
 
