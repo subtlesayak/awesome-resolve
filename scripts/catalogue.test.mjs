@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { olderThanTwoYears, externalUpdated } from './build-catalogue.mjs';
+import { olderThanTwoYears, externalUpdated, isOfficialResource } from './build-catalogue.mjs';
 import {versionLabel, versionFor} from './versions.mjs';
 import { parseCsv, parseExternalResources, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -187,15 +187,22 @@ test('external update dates require valid provider evidence and preserve date sc
   assert.equal(externalUpdated(null), 'Unknown');
 });
 
-test('README includes every external resource once in one alphabetical category', () => {
+test('official resources precede all other categories and external entries appear once', () => {
   const source = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   assert.equal(readme.split('## 🌐 External resources').length - 1, 1);
-  const section = readme.split('## 🌐 External resources\n')[1].split('## Compatibility notes')[0];
+  assert.ok(readme.indexOf('## 🏢 Official Blackmagic Design resources') < readme.indexOf('<a id="category-1">'));
+  assert.equal(isOfficialResource({url:'https://forum.blackmagicdesign.com/viewtopic.php?t=175315'}),false);
+  for (const [heading, items] of [
+    ['## 🏢 Official Blackmagic Design resources',source.filter(isOfficialResource)],
+    ['## 🌐 External resources',source.filter(e=>!isOfficialResource(e))]
+  ]) {
+  const section = readme.split(heading+'\n')[1].split('\n## ')[0];
   const rows = section.split('\n').filter(line => line.startsWith('| ['));
-  const expected = [...source].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0);
+  const expected = [...items].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0);
   assert.deepEqual(rows, expected.map(e => `| [${e.name}](${e.url}) | ${e.description}<br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} | ${externalUpdated(versionFor(e.url))} |`));
-  assert.ok(readme.includes(`[🌐 External resources](#external-resources) (${source.length})`));
+  }
+  for(const e of source) assert.equal(readme.split('\n').filter(line=>line.startsWith('| [')&&line.includes(']('+e.url+')')).length,1);
 });
 
 test('regeneration is deterministic and preserves CSV', () => {

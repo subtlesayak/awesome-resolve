@@ -148,9 +148,15 @@ function externalTable(entries) {
   ].join('\n');
 }
 
+export function isOfficialResource(entry) {
+  return ['www.blackmagicdesign.com', 'documents.blackmagicdesign.com'].includes(new URL(entry.url).hostname);
+}
+
 export function build() {
   const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
   const external = parseExternalResources(fs.readFileSync(path.join(root, 'data/external-tools.md'), 'utf8'));
+  const official = external.filter(isOfficialResource);
+  const thirdParty = external.filter(e => !isOfficialResource(e));
   if (new Set(entries.map(e => e.url)).size !== entries.length) throw new Error('Duplicate repository');
   for (const e of entries) {
     if (!categoryFor(e) || !/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/.test(e.url) || !/^\d+$/.test(e.stars)) throw new Error('Invalid entry');
@@ -167,7 +173,7 @@ export function build() {
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
     'Each category starts with an all-repositories list sorted A–Z by repository name. Creator subheadings follow for owners with multiple repositories, ordered A–Z by GitHub owner; their tools also sort A–Z. These repeat entries from the complete list for browsing by creator. Choose a view above for a catalogue-wide sort. **Type** means the catalogue category.', '',
-    'All external resources appear together in the [🌐 External resources](#external-resources) category, sorted A–Z by resource name. Their links open the developer website or store. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to these entries.', '',
+    '[🏢 Official Blackmagic Design resources](#official-resources) appear first, followed by repository categories and [🌐 External resources](#external-resources). Each external section is sorted A–Z. Community forum posts remain separate from official resources. Access and platform notes are retained; GitHub stars and repository-push dates do not apply to websites.', '',
     '### 🏷️ Labels', '',
     activityLegend, '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
@@ -182,9 +188,13 @@ export function build() {
     '| ❔ Unverified | Platform support has not been established from the reviewed documentation. |', '',
     'Click an entry\'s platform labels for its upstream source. Labels reflect documented support or installation instructions, not our own installation tests. Omitted platforms are unverified, not necessarily unsupported. Untested, partial, hardware, and server-host limitations are shown beside the labels. Platform review dates and sources are recorded separately in the CSV; refreshing stars does not recheck platform support.', '',
     '### 🗂️ Browse by category', '',
+    `- [🏢 Official Blackmagic Design resources](#official-resources) (${official.length})`,
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
-    `- [🌐 External resources](#external-resources) (${external.length})`,
+    `- [🌐 External resources](#external-resources) (${thirdParty.length})`,
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
+    '<a id="official-resources"></a>', '', '## 🏢 Official Blackmagic Design resources', '',
+    `${official.length} official product, support, training and developer resources. Version labels distinguish advertised product families from exact releases. Unknown update dates are not inferred from website checks.`, '',
+    externalTable(official), '',
     ...categories.flatMap(([emoji, , title], i) => {
       const members = entries.filter(e => e.category === title);
       const groups = creatorGroups(members).filter(g => g.owner);
@@ -196,9 +206,9 @@ export function build() {
         ])];
     }),
     '<a id="external-resources"></a>', '', '## 🌐 External resources', '',
-    `${external.length} external resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
+    `${thirdParty.length} third-party and community resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
     'Updated ages use the same days/weeks/months/years format as repository rows, calculated at the recorded review date. Hover over an age for its exact date; the link opens provider evidence. The label beneath each age identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.', '',
-    externalTable(external), '',
+    externalTable(thirdParty), '',
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));
   fs.mkdirSync(path.join(root, 'views'), { recursive: true });

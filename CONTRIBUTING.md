@@ -27,7 +27,7 @@ Each README category starts with a complete repository list sorted A–Z by repo
 
 Before submitting, confirm that repository URLs are unique, README and CSV entries agree, and links contain no tracking parameters or local file paths.
 
-Maintain external websites and stores in `data/external-tools.md`, then run `node scripts/build-catalogue.mjs`. The generator includes every external entry in one alphabetical **🌐 External resources** category in the README, preserving direct links, descriptions, access conditions, and platform notes. Edit the source directory rather than the generated README rows.
+Maintain external websites and stores in `data/external-tools.md`, then run `node scripts/build-catalogue.mjs`. Official resources on Blackmagic Design's product and document hosts appear in **🏢 Official Blackmagic Design resources**, before all repository categories. Other websites, stores and community forum posts appear in **🌐 External resources**. Both sections sort A–Z and preserve each entry once, including its version, access and platform notes. Edit the source directory rather than the generated README rows.
 
 To refresh stars and latest repository push dates, install Node.js, authenticate the GitHub CLI, and run `pwsh -File scripts/update-metadata.ps1` from the repository. This refreshes the CSV, README, and sorted views from GitHub and records a UTC fetch timestamp. It does not revalidate descriptions, access labels, or compatibility notes. Review the changes before committing.
 
