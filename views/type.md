@@ -8,7 +8,7 @@
 
 GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [comfyUI_&#8203;DaVinciResol&#8203;ve](https://github.com/barckley75/comfyUI_DaVinciResolve)<br><sub>barckley75</sub> | ComfyUI nodes connecting generative workflows to Resolve.<br><sub>🤖 AI / MCP</sub> | ![Public](../assets/badges/public.svg) | [❔ Unverified](https://github.com/barckley75/comfyUI_DaVinciResolve#readme) | 46 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [cutmaster-&#8203;ai](https://github.com/CelaviiHQ/cutmaster-ai)<br><sub>CelaviiHQ</sub> | MCP toolkit and Resolve workflow panel. The public toolkit is separate from the paid CutMaster Studio macOS app.<br><sub>🤖 AI / MCP</sub> | ![Mixed](../assets/badges/mixed.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/CelaviiHQ/cutmaster-ai#readme)<br><sub>Public toolkit platforms; the separate paid Studio app is macOS-only.</sub> | 3 | <sub>1&nbsp;month&nbsp;ago</sub> |

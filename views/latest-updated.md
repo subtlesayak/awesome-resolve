@@ -8,7 +8,7 @@
 
 GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [davinci-&#8203;resolve-&#8203;mcp](https://github.com/samuelgursky/davinci-resolve-mcp)<br><sub>samuelgursky</sub> | AI-client access to media, timeline, rendering, and other Resolve operations through MCP. Studio workflow.<br><sub>🤖 AI / MCP</sub> | ![Public](../assets/badges/public.svg) Public; AI costs separate | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/samuelgursky/davinci-resolve-mcp#readme) | 2414 | <sub>Today</sub> |
 | [auto-&#8203;subs](https://github.com/tmoroney/auto-subs)<br><sub>tmoroney</sub> | Local transcript&#8203;ion and styled/&#8203;animated subtitle workflows, with standalone and Resolve integratio&#8203;n.<br><sub>💬 Captions / Editing</sub> | ![Free](../assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/tmoroney/auto-subs#readme) | 4137 | <sub>Today</sub> |

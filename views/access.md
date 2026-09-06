@@ -8,7 +8,7 @@
 
 GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [ACES_&#8203;DCTL](https://github.com/baldavenger/ACES_DCTL)<br><sub>baldavenger</sub> | ACES color transforms implemente&#8203;d as DCTLs for Resolve Studio.<br><sub>🎨 Color / DCTL</sub> | ![Free](../assets/badges/free.svg) | [❔ Unverified](https://github.com/baldavenger/ACES_DCTL#readme) | 73 | <sub>5&nbsp;years&nbsp;ago</sub> |
 | [arkiv](https://github.com/vulture-s/arkiv)<br><sub>vulture-&#8203;s</sub> | Local-first footage indexing, semantic search, metadata, and Resolve import/&#8203;marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/&#8203;media dependenci&#8203;es.<br><sub>🛠️ Workflow / Scripts</sub> | ![Free](../assets/badges/free.svg) Free; source-available, restricted competing-product use | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/vulture-s/arkiv#readme)<br><sub>Prebuilt apps: Windows x64 and macOS Apple Silicon. Linux and Intel Mac require source setup.</sub> | 71 | <sub>1&nbsp;day&nbsp;ago</sub> |

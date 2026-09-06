@@ -64,7 +64,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [aces-&#8203;transforms](https://github.com/thatcherfreeman/aces-transforms)<br><sub>thatcherfree&#8203;man</sub> | Custom ACES input and output transforms. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS](https://github.com/thatcherfreeman/aces-transforms#readme) | 60 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [ACES_&#8203;DCTL](https://github.com/baldavenger/ACES_DCTL)<br><sub>baldavenger</sub> | ACES color transforms implemente&#8203;d as DCTLs for Resolve Studio. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/baldavenger/ACES_DCTL#readme) | 73 | <sub>5&nbsp;years&nbsp;ago</sub> |
@@ -118,35 +118,35 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [baldavenger](https://github.com/baldavenger)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [ACES_&#8203;DCTL](https://github.com/baldavenger/ACES_DCTL)<br><sub>baldavenger</sub> | ACES color transforms implemente&#8203;d as DCTLs for Resolve Studio. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/baldavenger/ACES_DCTL#readme) | 73 | <sub>5&nbsp;years&nbsp;ago</sub> |
 | [DCTLs](https://github.com/baldavenger/DCTLs)<br><sub>baldavenger</sub> | Technical transforms, charts, noise, convolutio&#8203;n, and grading utilities. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/baldavenger/DCTLs#readme) | 350 | <sub>2&nbsp;years&nbsp;ago</sub> |
 
 ### 👤 [hotgluebanjo](https://github.com/hotgluebanjo)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [halation-&#8203;dctl](https://github.com/hotgluebanjo/halation-dctl)<br><sub>hotgluebanjo</sub> | Adjustable halation with exponentia&#8203;l falloff. Requires scene-linear input and the DCTL OFX effect; licensing not establishe&#8203;d. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/hotgluebanjo/halation-dctl#readme) | 103 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [TetraInterp-&#8203;DCTL](https://github.com/hotgluebanjo/TetraInterp-DCTL)<br><sub>hotgluebanjo</sub> | Tetrahedra&#8203;l-interpolat&#8203;ion-based color manipulati&#8203;on. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/hotgluebanjo/TetraInterp-DCTL#readme) | 78 | <sub>2&nbsp;years&nbsp;ago</sub> |
 
 ### 👤 [jedypod](https://github.com/jedypod)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [gamut-&#8203;compress](https://github.com/jedypod/gamut-compress)<br><sub>jedypod</sub> | Out-of-gamut color handling; includes DCTL and Fusion implementa&#8203;tions. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/jedypod/gamut-compress#readme) | 110 | <sub>4&nbsp;years&nbsp;ago</sub> |
 | [open-&#8203;display-&#8203;transform](https://github.com/jedypod/open-display-transform)<br><sub>jedypod</sub> | Scene-linear, wide-gamut image rendering for SDR/&#8203;HDR; includes Resolve Studio DCTLs. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/jedypod/open-display-transform#readme) | 517 | <sub>6&nbsp;months&nbsp;ago</sub> |
 
 ### 👤 [MoazElgabry](https://github.com/MoazElgabry)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [DCTLs](https://github.com/MoazElgabry/DCTLs)<br><sub>MoazElgabry</sub> | Look-developmen&#8203;t tools including filmic contrast, ratio shaping, localized contrast, and hue controls. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS](https://github.com/MoazElgabry/DCTLs#readme) | 66 | <sub>2&nbsp;months&nbsp;ago</sub> |
 | [ME_&#8203;OpenDRT-&#8203;OFX](https://github.com/MoazElgabry/ME_OpenDRT-OFX)<br><sub>MoazElgabry</sub> | OpenDRT 1.1 port to OpenFX with UI controls and presets. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/MoazElgabry/ME_OpenDRT-OFX#readme)<br><sub>GPU backend varies by OS; macOS Intel and Apple Silicon documented.</sub> | 11 | <sub>1&nbsp;month&nbsp;ago</sub> |
 
 ### 👤 [OwenYou](https://github.com/OwenYou)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [DavinciResol&#8203;veDCTL_&#8203;ChromaticAda&#8203;ptation](https://github.com/OwenYou/DavinciResolveDCTL_ChromaticAdaptation)<br><sub>OwenYou</sub> | Chromatic-adaptation DCTL. Upstream testing covers Resolve 15; current-version compatibil&#8203;ity unverified. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/OwenYou/DavinciResolveDCTL_ChromaticAdaptation#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 9 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [DavinciResol&#8203;veDCTL_&#8203;HKEstimation](https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation)<br><sub>OwenYou</sub> | Helmholtz-Kohlrausch effect estimation and compensati&#8203;on using four methods. Requires ACES2065-1 AP0/&#8203;linear input; documented for Resolve 17. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 14 | <sub>4&nbsp;years&nbsp;ago</sub> |
@@ -154,7 +154,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [thatcherfreeman](https://github.com/thatcherfreeman)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [aces-&#8203;transforms](https://github.com/thatcherfreeman/aces-transforms)<br><sub>thatcherfree&#8203;man</sub> | Custom ACES input and output transforms. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS](https://github.com/thatcherfreeman/aces-transforms#readme) | 60 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [dwg-&#8203;transforms](https://github.com/thatcherfreeman/dwg-transforms)<br><sub>thatcherfree&#8203;man</sub> | DCTL input transforms from camera and other color spaces into DaVinci Wide Gamut/&#8203;Intermedia&#8203;te, including a GoPro GP-Log transform. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/thatcherfreeman/dwg-transforms#readme) | 109 | <sub>1&nbsp;month&nbsp;ago</sub> |
@@ -162,7 +162,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [xtremestuff](https://github.com/xtremestuff)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [protune-&#8203;transforms](https://github.com/xtremestuff/protune-transforms)<br><sub>xtremestuff</sub> | GoPro Protune and GP-Log transforms for managed color workflows. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux · 📱 iPadOS](https://github.com/xtremestuff/protune-transforms#readme)<br><sub>iPad workflow restrictio&#8203;ns vary with Resolve version.</sub> | 176 | <sub>3&nbsp;months&nbsp;ago</sub> |
 | [resolve-&#8203;aces](https://github.com/xtremestuff/resolve-aces)<br><sub>xtremestuff</sub> | Custom ACES input and output transforms. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux · 📱 iPadOS](https://github.com/xtremestuff/resolve-aces#readme)<br><sub>iPad requires Resolve 18.6.2 or newer.</sub> | 22 | <sub>2&nbsp;years&nbsp;ago</sub> |
@@ -176,7 +176,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Anchor-&#8203;Point-&#8203;Corners-&#8203;for-&#8203;DaVinci-&#8203;Resolve](https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve)<br><sub>neezr</sub> | Set Fusion anchor points to corners and edges. Studio instructio&#8203;ns; timeline keyframes are unsupporte&#8203;d. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve#readme) | 6 | <sub>4&nbsp;months&nbsp;ago</sub> |
 | [Auto-&#8203;Rename-&#8203;for-&#8203;DaVinci-&#8203;Resolve](https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve)<br><sub>neezr</sub> | Auto-rename Fusion MediaIn, Background, Text, and MultiMerge nodes based on their contents. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve#readme) | 17 | <sub>4&nbsp;months&nbsp;ago</sub> |
@@ -227,7 +227,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [Akascape](https://github.com/Akascape)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Rembg-&#8203;Fuse](https://github.com/Akascape/Rembg-Fuse)<br><sub>Akascape</sub> | AI background removal inside Fusion using external Python/&#8203;model dependenci&#8203;es. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/Akascape/Rembg-Fuse#readme) | 208 | <sub>2&nbsp;months&nbsp;ago</sub> |
 | [RemObj-&#8203;Fuse](https://github.com/Akascape/RemObj-Fuse)<br><sub>Akascape</sub> | Masked object removal/&#8203;inpainting using LaMa; README supports Free and Studio. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/Akascape/RemObj-Fuse#readme) | 20 | <sub>2&nbsp;months&nbsp;ago</sub> |
@@ -235,7 +235,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [brunocbreis](https://github.com/brunocbreis)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [FuAlign](https://github.com/brunocbreis/FuAlign)<br><sub>brunocbreis</sub> | Align and distribute visual elements in Fusion compositio&#8203;ns. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS](https://github.com/brunocbreis/FuAlign#readme) | 33 | <sub>4&nbsp;years&nbsp;ago</sub> |
 | [SplitScreene&#8203;r](https://github.com/brunocbreis/SplitScreener)<br><sub>brunocbreis</sub> | SplitScree&#8203;ner layout generator producing Fusion compositio&#8203;ns for split-screen grids; distinct from its in-compositio&#8203;n script version. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/brunocbreis/SplitScreener#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 8 | <sub>4&nbsp;years&nbsp;ago</sub> |
@@ -243,14 +243,14 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [EmberLightVFX](https://github.com/EmberLightVFX)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Gyroflow-&#8203;to-&#8203;CSV](https://github.com/EmberLightVFX/Gyroflow-to-CSV)<br><sub>EmberLightVF&#8203;X</sub> | Gyro telemetry export for Fusion camera/&#8203;data-driven workflows. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/EmberLightVFX/Gyroflow-to-CSV#readme) | 18 | <sub>3&nbsp;years&nbsp;ago</sub> |
 | [Tetrahedral-&#8203;Interpolatio&#8203;n-&#8203;for-&#8203;Fusion](https://github.com/EmberLightVFX/Tetrahedral-Interpolation-for-Fusion)<br><sub>EmberLightVF&#8203;X</sub> | Fusion implementa&#8203;tion of tetrahedra&#8203;l color manipulati&#8203;on. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/EmberLightVFX/Tetrahedral-Interpolation-for-Fusion#readme) | 32 | <sub>5&nbsp;years&nbsp;ago</sub> |
 
 ### 👤 [Kartaverse](https://github.com/Kartaverse)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Kartaverse-&#8203;Docs](https://github.com/Kartaverse/Kartaverse-Docs)<br><sub>Kartaverse</sub> | KartaVR and immersive-workflow documentat&#8203;ion. KartaVR active support ended in January 2026, although packages remain available through Reactor. | ![Free](assets/badges/free.svg) Free reference | [📖 Reference](https://github.com/Kartaverse/Kartaverse-Docs#readme) | 11 | <sub>1&nbsp;month&nbsp;ago</sub> |
 | [Reactor-&#8203;Standalone](https://github.com/Kartaverse/Reactor-Standalone)<br><sub>Kartaverse</sub> | Standalone desktop package manager for community Fusion/&#8203;Resolve tools. Beta; package compatibil&#8203;ity varies. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/Kartaverse/Reactor-Standalone#readme) | 95 | <sub>1&nbsp;week&nbsp;ago</sub> |
@@ -258,14 +258,14 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [neezr](https://github.com/neezr)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Anchor-&#8203;Point-&#8203;Corners-&#8203;for-&#8203;DaVinci-&#8203;Resolve](https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve)<br><sub>neezr</sub> | Set Fusion anchor points to corners and edges. Studio instructio&#8203;ns; timeline keyframes are unsupporte&#8203;d. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve#readme) | 6 | <sub>4&nbsp;months&nbsp;ago</sub> |
 | [Auto-&#8203;Rename-&#8203;for-&#8203;DaVinci-&#8203;Resolve](https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve)<br><sub>neezr</sub> | Auto-rename Fusion MediaIn, Background, Text, and MultiMerge nodes based on their contents. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve#readme) | 17 | <sub>4&nbsp;months&nbsp;ago</sub> |
 
 ### 👤 [Spicy-Acorn](https://github.com/Spicy-Acorn)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [fusionjson](https://github.com/Spicy-Acorn/fusionjson)<br><sub>Spicy-&#8203;Acorn</sub> | Fusion nodes for JSON file reading, writing, and value manipulati&#8203;on. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/Spicy-Acorn/fusionjson#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 9 | <sub>6&nbsp;years&nbsp;ago</sub> |
 | [fusionmatrix](https://github.com/Spicy-Acorn/fusionmatrix)<br><sub>Spicy-&#8203;Acorn</sub> | Fusion matrix-math Fuse library; requires the separate lua-matrix dependency. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/Spicy-Acorn/fusionmatrix#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 7 | <sub>6&nbsp;years&nbsp;ago</sub> |
@@ -281,7 +281,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [auto-&#8203;editor](https://github.com/WyattBlue/auto-editor)<br><sub>WyattBlue</sub> | Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/WyattBlue/auto-editor#readme) | 5164 | <sub>3&nbsp;days&nbsp;ago</sub> |
 | [auto-&#8203;silence-&#8203;cut](https://github.com/YourAverageMo/auto-silence-cut)<br><sub>YourAverageM&#8203;o</sub> | Automatic silence cutting with an editable Resolve workflow. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS](https://github.com/YourAverageMo/auto-silence-cut#readme) | 24 | <sub>11&nbsp;months&nbsp;ago</sub> |
@@ -305,7 +305,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [2445868686](https://github.com/2445868686)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [DaVinci-&#8203;Resolve-&#8203;TTS](https://github.com/2445868686/DaVinci-Resolve-TTS)<br><sub>2445868686</sub> | Text-to-speech integratio&#8203;ns with external voice providers; provider usage can cost money. | ![Mixed](assets/badges/mixed.svg) | [🪟 Windows · 🍎 macOS](https://github.com/2445868686/DaVinci-Resolve-TTS#readme) | 19 | <sub>1&nbsp;year&nbsp;ago</sub> |
 | [DaVinci-&#8203;Resolve-&#8203;Whisper](https://github.com/2445868686/DaVinci-Resolve-Whisper)<br><sub>2445868686</sub> | Whisper transcript&#8203;ion through local or cloud-backed workflows. | ![Public](assets/badges/public.svg) Public; optional service costs | [🪟 Windows · 🍎 macOS](https://github.com/2445868686/DaVinci-Resolve-Whisper#readme) | 10 | <sub>1&nbsp;year&nbsp;ago</sub> |
@@ -318,7 +318,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [comfyUI_&#8203;DaVinciResol&#8203;ve](https://github.com/barckley75/comfyUI_DaVinciResolve)<br><sub>barckley75</sub> | ComfyUI nodes connecting generative workflows to Resolve. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/barckley75/comfyUI_DaVinciResolve#readme) | 46 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [cutmaster-&#8203;ai](https://github.com/CelaviiHQ/cutmaster-ai)<br><sub>CelaviiHQ</sub> | MCP toolkit and Resolve workflow panel. The public toolkit is separate from the paid CutMaster Studio macOS app. | ![Mixed](assets/badges/mixed.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/CelaviiHQ/cutmaster-ai#readme)<br><sub>Public toolkit platforms; the separate paid Studio app is macOS-only.</sub> | 3 | <sub>1&nbsp;month&nbsp;ago</sub> |
@@ -331,7 +331,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [barckley75](https://github.com/barckley75)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [comfyUI_&#8203;DaVinciResol&#8203;ve](https://github.com/barckley75/comfyUI_DaVinciResolve)<br><sub>barckley75</sub> | ComfyUI nodes connecting generative workflows to Resolve. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/barckley75/comfyUI_DaVinciResolve#readme) | 46 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [resolve-&#8203;claude-&#8203;mcp](https://github.com/barckley75/resolve-claude-mcp)<br><sub>barckley75</sub> | Claude/&#8203;MCP integratio&#8203;n for Resolve automation. | ![Public](assets/badges/public.svg) Public; AI costs separate | [🍎 macOS](https://github.com/barckley75/resolve-claude-mcp#readme)<br><sub>Tested on Apple Silicon only; Windows/&#8203;Linux core tools unverified. Transcript&#8203;ion and screenshot&#8203;s are macOS-only.</sub> | 350 | <sub>3&nbsp;months&nbsp;ago</sub> |
@@ -344,7 +344,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [AfterEffects_&#8203;to_&#8203;DaVinci_&#8203;Resolve](https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve)<br><sub>IgorRidanovi&#8203;c</sub> | Brings After Effects renders into Resolve workflows. | ![Public](assets/badges/public.svg) | [🪟 Windows](https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve#readme)<br><sub>Distribute&#8203;d Windows version; other platforms require customizat&#8203;ion.</sub> | 39 | <sub>7&nbsp;years&nbsp;ago</sub> |
 | [arkiv](https://github.com/vulture-s/arkiv)<br><sub>vulture-&#8203;s</sub> | Local-first footage indexing, semantic search, metadata, and Resolve import/&#8203;marker workflows. PolyForm Perimeter source-available licence; not MIT. Requires external local AI/&#8203;media dependenci&#8203;es. | ![Free](assets/badges/free.svg) Free; source-available, restricted competing-product use | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/vulture-s/arkiv#readme)<br><sub>Prebuilt apps: Windows x64 and macOS Apple Silicon. Linux and Intel Mac require source setup.</sub> | 71 | <sub>1&nbsp;day&nbsp;ago</sub> |
@@ -395,7 +395,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [ambustion](https://github.com/ambustion)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [BSafe_&#8203;Resolve](https://github.com/ambustion/BSafe_Resolve)<br><sub>ambustion</sub> | Scan rendered video for broadcast-safe exceptions and generate reports, markers, and previews. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/ambustion/BSafe_Resolve#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 7 | <sub>5&nbsp;years&nbsp;ago</sub> |
 | [CDL2Resolve](https://github.com/ambustion/CDL2Resolve)<br><sub>ambustion</sub> | Import folders of CDL color decisions into a Resolve timeline. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/ambustion/CDL2Resolve#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 6 | <sub>5&nbsp;years&nbsp;ago</sub> |
@@ -403,14 +403,14 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [bryanrandell](https://github.com/bryanrandell)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [DaVinci-&#8203;Resolve-&#8203;LUT-&#8203;Explorer](https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer)<br><sub>bryanrandell</sub> | Preview LUTs on current footage through a dedicated explorer. Upstream specifies Resolve 17.x only. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS](https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer#readme) | 18 | <sub>4&nbsp;years&nbsp;ago</sub> |
 | [DaVinci-&#8203;Resolve-&#8203;Timeline-&#8203;Utility](https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility)<br><sub>bryanrandell</sub> | List, filter, and switch Resolve timelines. Documentat&#8203;ion targets Resolve 17 and FFmpeg 5.0. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS](https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility#readme) | 22 | <sub>3&nbsp;years&nbsp;ago</sub> |
 
 ### 👤 [IgorRidanovic](https://github.com/IgorRidanovic)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [AfterEffects_&#8203;to_&#8203;DaVinci_&#8203;Resolve](https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve)<br><sub>IgorRidanovi&#8203;c</sub> | Brings After Effects renders into Resolve workflows. | ![Public](assets/badges/public.svg) | [🪟 Windows](https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve#readme)<br><sub>Distribute&#8203;d Windows version; other platforms require customizat&#8203;ion.</sub> | 39 | <sub>7&nbsp;years&nbsp;ago</sub> |
 | [ChangeClipTi&#8203;mecode](https://github.com/IgorRidanovic/ChangeClipTimecode)<br><sub>IgorRidanovi&#8203;c</sub> | Batch-change source clip start timecodes in the current bin. Requires Resolve Studio. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/IgorRidanovic/ChangeClipTimecode#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 15 | <sub>5&nbsp;years&nbsp;ago</sub> |
@@ -419,7 +419,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [postflows](https://github.com/postflows)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [Fusion-&#8203;MediaIn-&#8203;ID-&#8203;Update-&#8203;](https://github.com/postflows/Fusion-MediaIn-ID-Update-)<br><sub>postflows</sub> | Repair Fusion MediaIn IDs after transferri&#8203;ng projects by matching files in the current Media Pool. Filename collisions can choose the wrong source. | ![Free](assets/badges/free.svg) Free; MIT stated upstream | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/postflows/Fusion-MediaIn-ID-Update-#readme) | 2 | <sub>4&nbsp;months&nbsp;ago</sub> |
 | [resolve-&#8203;batch-&#8203;rename](https://github.com/postflows/resolve-batch-rename)<br><sub>postflows</sub> | Batch-rename Media Pool clips and timelines with previews, counters, and filename restoratio&#8203;n. Resolve Studio 20+. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS](https://github.com/postflows/resolve-batch-rename#readme) | 2 | <sub>5&nbsp;months&nbsp;ago</sub> |
@@ -441,7 +441,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [davinci-&#8203;linux-&#8203;aac-&#8203;codec](https://github.com/Toxblh/davinci-linux-aac-codec)<br><sub>Toxblh</sub> | AAC encoding plugin for Resolve Studio on Linux. | ![Public](assets/badges/public.svg) | [🐧 Linux](https://github.com/Toxblh/davinci-linux-aac-codec#readme) | 117 | <sub>1&nbsp;year&nbsp;ago</sub> |
 | [davinci-&#8203;resolve-&#8203;postgresql-&#8203;workflow-&#8203;tools](https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools)<br><sub>sethgoldin</sub> | Automatic project-database backups and maintenanc&#8203;e. | ![Public](assets/badges/public.svg) | [🍎 macOS · 🐧 Linux](https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools#readme)<br><sub>PostgreSQL server hosts; macOS and RHEL workflows.</sub> | 101 | <sub>3&nbsp;years&nbsp;ago</sub> |
@@ -464,14 +464,14 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [IgorRidanovic](https://github.com/IgorRidanovic)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [DaVinciResol&#8203;ve-&#8203;ExportProjec&#8203;ts](https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects)<br><sub>IgorRidanovi&#8203;c</sub> | Export projects as DRP files and then DELETE the source projects from the project manager. Resolve Studio 16+; this is a destructiv&#8203;e archive/&#8203;move workflow. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 19 | <sub>4&nbsp;years&nbsp;ago</sub> |
 | [Resolve-&#8203;backup-&#8203;Postgres](https://github.com/IgorRidanovic/Resolve-backup-Postgres)<br><sub>IgorRidanovi&#8203;c</sub> | PostgreSQL backup scripts for Resolve project databases. Legacy documentat&#8203;ion warns about cross-OS restoratio&#8203;n limitation&#8203;s. | ![Free](assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/IgorRidanovic/Resolve-backup-Postgres#readme) | 25 | <sub>8&nbsp;years&nbsp;ago</sub> |
 
 ### 👤 [in03](https://github.com/in03)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [patchwork](https://github.com/in03/patchwork)<br><sub>in03</sub> | Early prototype for patching changed render segments with Resolve and FFmpeg. Roadmap still lists codec patching and automatic change detection as unfinished. | ![Free](assets/badges/free.svg) Free; prototype | [❔ Unverified](https://github.com/in03/patchwork#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 7 | <sub>2&nbsp;years&nbsp;ago</sub> |
 | [proxima](https://github.com/in03/proxima)<br><sub>in03</sub> | Queues, distribute&#8203;s, encodes, and automatica&#8203;lly links proxy media across workers. | ![Public](assets/badges/public.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/in03/proxima#readme) | 74 | <sub>5&nbsp;days&nbsp;ago</sub> |
@@ -484,7 +484,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [autoresolved&#8203;eb](https://github.com/psygreg/autoresolvedeb)<br><sub>psygreg</sub> | Automates downloadin&#8203;g and repackagin&#8203;g Resolve through MakeResolv&#8203;eDeb. | ![Public](assets/badges/public.svg) | [🐧 Linux](https://github.com/psygreg/autoresolvedeb#readme) | 29 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [davinci-&#8203;helper](https://github.com/H3rz3n/davinci-helper)<br><sub>H3rz3n</sub> | Linux companion utilities for Resolve. | ![Public](assets/badges/public.svg) | [🐧 Linux](https://github.com/H3rz3n/davinci-helper#readme)<br><sub>Fedora family only; Debian support is planned.</sub> | 313 | <sub>1&nbsp;year&nbsp;ago</sub> |
@@ -506,7 +506,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [davinci-&#8203;resolve-&#8203;api](https://github.com/diop/davinci-resolve-api)<br><sub>diop</sub> | Community Python API documentat&#8203;ion. Treat it as a reference, not the latest official SDK. | ![Free](assets/badges/free.svg) Free reference | [📖 Reference](https://github.com/diop/davinci-resolve-api#readme) | 98 | <sub>7&nbsp;years&nbsp;ago</sub> |
 | [Davinci-&#8203;Resolve-&#8203;Functions-&#8203;Toolkit](https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit)<br><sub>FusionPixelS&#8203;tudio</sub> | VS Code toolkit with Resolve API snippets and scripting templates for Lua, Python, and JavaScript. | ![Free](assets/badges/free.svg) | [❔ Unverified](https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 11 | <sub>1&nbsp;year&nbsp;ago</sub> |
@@ -523,7 +523,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [thatcherfreeman](https://github.com/thatcherfreeman)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [dctl-&#8203;text-&#8203;rendering](https://github.com/thatcherfreeman/dctl-text-rendering)<br><sub>thatcherfree&#8203;man</sub> | DCTL text-rendering example and Python font-header generator for tool developers. | ![Public](assets/badges/public.svg) | [❔ Unverified](https://github.com/thatcherfreeman/dctl-text-rendering#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 11 | <sub>1&nbsp;year&nbsp;ago</sub> |
 | [dctl-&#8203;tutorial](https://github.com/thatcherfreeman/dctl-tutorial)<br><sub>thatcherfree&#8203;man</sub> | DCTL programmin&#8203;g tutorial notes and supporting code. | ![Public](assets/badges/public.svg) | [📖 Reference](https://github.com/thatcherfreeman/dctl-tutorial#readme) | 29 | <sub>1&nbsp;year&nbsp;ago</sub> |
@@ -536,7 +536,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [AutoHotKey_&#8203;Bome_&#8203;MIDI_&#8203;2_&#8203;Key](https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key)<br><sub>RudyB24</sub> | Maps incoming MIDI messages to Resolve keyboard shortcuts. | ![Public](assets/badges/public.svg) Public; dependenci&#8203;es separate | [🪟 Windows](https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key#readme) | 21 | <sub>3&nbsp;years&nbsp;ago</sub> |
 | [blackmacro-&#8203;hardware](https://github.com/KipJM/blackmacro-hardware)<br><sub>KipJM</sub> | Configurab&#8203;le DIY editing keyboard based on Raspberry Pi Pico 2W. | ![Public](assets/badges/public.svg) Public; build cost | [❔ Unverified](https://github.com/KipJM/blackmacro-hardware#readme) | 23 | <sub>1&nbsp;week&nbsp;ago</sub> |
@@ -552,7 +552,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### 👤 [KipJM](https://github.com/KipJM)
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [blackmacro-&#8203;hardware](https://github.com/KipJM/blackmacro-hardware)<br><sub>KipJM</sub> | Configurab&#8203;le DIY editing keyboard based on Raspberry Pi Pico 2W. | ![Public](assets/badges/public.svg) Public; build cost | [❔ Unverified](https://github.com/KipJM/blackmacro-hardware#readme) | 23 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [blackmacro-&#8203;lib](https://github.com/KipJM/blackmacro-lib)<br><sub>KipJM</sub> | USB Speed Editor emulation firmware for custom microcontr&#8203;oller/&#8203;macropad projects. Hardware required; Bluetooth and iPad support are absent. | ![Free](assets/badges/free.svg) Free; AGPLv3 stated upstream, hardware separate | [❔ Unverified](https://github.com/KipJM/blackmacro-lib#readme)<br><sub>OS support not establishe&#8203;d by the reviewed documentat&#8203;ion.</sub> | 12 | <sub>2&nbsp;months&nbsp;ago</sub> |
@@ -565,7 +565,7 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 ### All repositories
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [awesome-&#8203;davinci-&#8203;resolve](https://github.com/cutbypham/awesome-davinci-resolve)<br><sub>cutbypham</sub> | Plugins, scripts, assets, and editing resources. Bundled copies may be older than upstream releases. | ![Mixed](assets/badges/mixed.svg) Free/&#8203;paid resource directory | [📖 Reference](https://github.com/cutbypham/awesome-davinci-resolve#readme) | 63 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [awesome-&#8203;davinci-&#8203;resolve](https://github.com/Greenysmac/awesome-davinci-resolve)<br><sub>Greenysmac</sub> | Broad community directory spanning AI tools, audio, DCTLs, effects, templates, and workflows. | ![Mixed](assets/badges/mixed.svg) Free/&#8203;paid product directory | [📖 Reference](https://github.com/Greenysmac/awesome-davinci-resolve#readme) | 284 | <sub>3&nbsp;months&nbsp;ago</sub> |

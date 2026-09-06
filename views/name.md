@@ -8,7 +8,7 @@
 
 GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [aces-&#8203;transforms](https://github.com/thatcherfreeman/aces-transforms)<br><sub>thatcherfree&#8203;man</sub> | Custom ACES input and output transforms.<br><sub>🎨 Color / DCTL</sub> | ![Public](../assets/badges/public.svg) | [🪟 Windows · 🍎 macOS](https://github.com/thatcherfreeman/aces-transforms#readme) | 60 | <sub>1&nbsp;week&nbsp;ago</sub> |
 | [ACES_&#8203;DCTL](https://github.com/baldavenger/ACES_DCTL)<br><sub>baldavenger</sub> | ACES color transforms implemente&#8203;d as DCTLs for Resolve Studio.<br><sub>🎨 Color / DCTL</sub> | ![Free](../assets/badges/free.svg) | [❔ Unverified](https://github.com/baldavenger/ACES_DCTL#readme) | 73 | <sub>5&nbsp;years&nbsp;ago</sub> |

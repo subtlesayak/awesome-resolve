@@ -102,7 +102,7 @@ function row(e, prefix, includeType = false) {
 }
 function table(entries, prefix, includeType = false) {
   return [
-    '| Repository | Details | Access | Platforms | Stars | Updated |',
+    '| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |',
     '| :--- | :--- | :--- | :--- | ---: | :--- |',
     ...entries.map(e => row(e, prefix, includeType)),
   ].join('\n');

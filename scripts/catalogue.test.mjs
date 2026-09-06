@@ -47,7 +47,7 @@ test('platform labels retain evidence and caveats without guessing support', () 
 });
 test('compact tables retain every field and allow long repository names to wrap', () => {
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
-  assert.ok(readme.includes('| Repository | Details | Access | Platforms | Stars | Updated |'));
+  assert.ok(readme.includes('| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |'));
   assert.ok(readme.includes('| :--- | :--- | :--- | :--- | ---: | :--- |'));
   for (const entry of entries) {
     const row = readme.split('\n').find(line => line.startsWith('| [') && line.includes(`](${entry.url})`));

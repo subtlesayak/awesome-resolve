@@ -8,7 +8,7 @@
 
 GitHub metadata checked: **2026-09-06T11:36:37Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
-| Repository | Details | Access | Platforms | Stars | Updated |
+| 📦 Repository | 📝 Details | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |
 | :--- | :--- | :--- | :--- | ---: | :--- |
 | [auto-&#8203;editor](https://github.com/WyattBlue/auto-editor)<br><sub>WyattBlue</sub> | Standalone automatic editing with NLE timeline-export workflows; not a native Resolve plugin.<br><sub>💬 Captions / Editing</sub> | ![Public](../assets/badges/public.svg) | [❔ Unverified](https://github.com/WyattBlue/auto-editor#readme) | 5164 | <sub>3&nbsp;days&nbsp;ago</sub> |
 | [auto-&#8203;subs](https://github.com/tmoroney/auto-subs)<br><sub>tmoroney</sub> | Local transcript&#8203;ion and styled/&#8203;animated subtitle workflows, with standalone and Resolve integratio&#8203;n.<br><sub>💬 Captions / Editing</sub> | ![Free](../assets/badges/free.svg) | [🪟 Windows · 🍎 macOS · 🐧 Linux](https://github.com/tmoroney/auto-subs#readme) | 4137 | <sub>Today</sub> |
