@@ -115,10 +115,9 @@ export function repositoryLabel(repository) {
 function row(e, prefix, includeType = false) {
   const c = categoryFor(e);
   const label = repositoryLabel(e.repository);
-  if (olderThanTwoYears(e.last_pushed_at, e.metadata_checked_at)) label.name += ' †';
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
   const details = `${wrapText(e.description)}${type}<br><sub>${versionLabel(e.url)}</sub>`;
-  const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
+  const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;') + (olderThanTwoYears(e.last_pushed_at, e.metadata_checked_at) ? '&nbsp;†' : '');
   return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | <sub>${updated}</sub> |`;
 }
 function table(entries, prefix, includeType = false) {

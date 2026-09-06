@@ -23,7 +23,10 @@ test('activity marker uses exact dates and requires more than 2 years (730 days)
     for (const entry of entries) {
       const rows = text.split('\n').filter(line => line.startsWith('| [') && line.includes(`](${entry.url})`));
       assert.ok(rows.length > 0);
-      for (const row of rows) assert.equal(row.includes(` †](${entry.url})`), olderThanTwoYears(entry.last_pushed_at, entry.metadata_checked_at), `${file}: ${entry.repository}`);
+      for (const row of rows) {
+        assert.ok(!row.includes(` †](${entry.url})`));
+        assert.equal(row.endsWith('&nbsp;†</sub> |'), olderThanTwoYears(entry.last_pushed_at, entry.metadata_checked_at), `${file}: ${entry.repository}`);
+      }
     }
   }
 });
@@ -78,7 +81,7 @@ test('compact tables retain every field and allow long repository names to wrap'
     assert.ok(row.includes(platformLabel(entry)));
     assert.ok(row.includes(`![${accessGroup(entry)}]`));
     if (entry.access !== accessGroup(entry)) assert.ok(readableRow.includes(entry.access.replaceAll('|', '\\|')));
-    const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
+    const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;') + (olderThanTwoYears(entry.last_pushed_at, entry.metadata_checked_at) ? '&nbsp;†' : '');
     assert.ok(row.includes(`| ${entry.stars} | <sub>${updated}</sub> |`));
     assert.ok(!row.includes('<br><br>'));
     const label = repositoryLabel(entry.repository);
