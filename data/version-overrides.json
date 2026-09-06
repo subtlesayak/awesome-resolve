@@ -9,6 +9,56 @@
       "date_kind": null,
       "checked_at": "2026-09-06",
       "note": "Official listing names the 2.2.0 full and demo installers. Relative forum-post age is not used as a release date."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06",
+      "note": "Reference, discussion or collection with no single product version."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06",
+      "note": "Reference, discussion or collection with no single product version."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06",
+      "note": "Reference, discussion or collection with no single product version."
+    },
+    {
+      "url": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06",
+      "note": "Reference, discussion or collection with no single product version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf",
+      "kind": "reference-edition",
+      "version": "June 2023",
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-06",
+      "note": "Edition printed on the document cover; not an application release."
     }
   ]
 }

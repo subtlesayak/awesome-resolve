@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { olderThanTwoYears, externalUpdated, isOfficialResource } from './build-catalogue.mjs';
+import { olderThanTwoYears, externalUpdated, isOfficialResource, sortCatalogue } from './build-catalogue.mjs';
 import {versionLabel, versionFor} from './versions.mjs';
 import { parseCsv, parseExternalResources, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories, creatorGroups, repositoryLabel } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -81,7 +81,7 @@ test('compact tables retain every field and allow long repository names to wrap'
     assert.ok(row.includes(platformLabel(entry)));
     assert.ok(row.includes(`![${accessGroup(entry)}]`));
     if (entry.access !== accessGroup(entry)) assert.ok(readableRow.includes(entry.access.replaceAll('|', '\\|')));
-    const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;') + (olderThanTwoYears(entry.last_pushed_at, entry.metadata_checked_at) ? '&nbsp;†' : '');
+    const updated = relativeDate(entry.last_pushed_at, entry.metadata_checked_at).replaceAll(' ', '&nbsp;') + (olderThanTwoYears(entry.last_pushed_at, entry.metadata_checked_at) ? '&nbsp;†' : '');
     assert.ok(row.includes(`| ${entry.stars} | <sub>${updated}</sub> |`));
     assert.ok(!row.includes('<br><br>'));
     const label = repositoryLabel(entry.repository);
@@ -178,13 +178,32 @@ test('marketplace additions are unique, traceable, and present in the external d
 
 test('external update dates require valid provider evidence and preserve date scope', () => {
   const record = {kind:'vendor-version', date:'2024-01-01', checked_at:'2026-09-06T12:00:00Z', source:'https://example.com/releases', date_kind:'release'};
-  assert.equal(externalUpdated(record), '[2&nbsp;years&nbsp;ago](https://example.com/releases "2024-01-01")&nbsp;†<br><sub>release</sub>');
-  assert.ok(externalUpdated({...record,date:'2026-08-30'}).startsWith('[1&nbsp;week&nbsp;ago]'));
+  assert.equal(externalUpdated(record), '[2&nbsp;years&nbsp;back](https://example.com/releases "2024-01-01")&nbsp;†<br><sub>release</sub>');
+  assert.ok(externalUpdated({...record,date:'2026-08-30'}).startsWith('[1&nbsp;week&nbsp;back]'));
   assert.ok(externalUpdated({...record,date:'2026-09-06'}).startsWith('[Today]'));
   assert.ok(!externalUpdated({...record,date:'2026-01-01'}).includes('†'));
   assert.ok(externalUpdated({...record,kind:'package-version',date_kind:'Reactor manifest date'}).includes('Reactor manifest date'));
   for (const changes of [{date:null},{date:'2026-02-30'},{date:'2027-01-01'},{source:''},{checked_at:'invalid'},{date_kind:'website checked'},{kind:'unverified'}]) assert.equal(externalUpdated({...record,...changes}), 'Unknown');
   assert.equal(externalUpdated(null), 'Unknown');
+  assert.match(externalUpdated({...record,date_kind:'devlog',date_platform:'Windows',date_version:'0.3.7'}),/devlog · Windows · 0.3.7/);
+});
+
+test('alternate views contain the whole catalogue once with official resources first',()=>{
+ const external=parseExternalResources(fs.readFileSync(path.join(root,'data/external-tools.md'),'utf8'));
+ const all=[...entries,...external];
+ for(const key of Object.keys(sorts)){
+  const text=fs.readFileSync(path.join(root,'views',key+'.md'),'utf8');
+  const urls=[...text.matchAll(/^\| \[[^\]]+\]\((https:\/\/[^)]+)\)/gm)].map(m=>m[1]);
+  assert.deepEqual(urls,sortCatalogue(all,key).map(e=>e.url));
+  assert.equal(new Set(urls).size,all.length);
+ }
+  const directory=fs.readFileSync(path.join(root,'data/external-tools.md'),'utf8');
+  assert.ok(directory.indexOf('## 🏢 Official Blackmagic Design resources')<directory.indexOf('## 🎨 Color tools'));
+  const official={name:'Z official',url:'https://www.blackmagicdesign.com/support',category:'Reference',access:'Public'};
+  const vendor={name:'A vendor',url:'https://example.com/tool',category:'Scripts',access:'Paid'};
+  const repo={...entries[0],repository:'example/B-repo',url:'https://github.com/example/B-repo',stars:'0'};
+  assert.deepEqual(sortCatalogue([repo,vendor,official],'name').map(e=>e.url),[official.url,vendor.url,repo.url]);
+  assert.deepEqual(sortCatalogue([vendor,repo],'stars').map(e=>e.url),[repo.url,vendor.url]);
 });
 
 test('official resources precede all other categories and external entries appear once', () => {

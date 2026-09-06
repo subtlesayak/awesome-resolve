@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {relativeDate} from './build-catalogue.mjs';
+import {relativeDate,isOfficialResource} from './build-catalogue.mjs';
 import {validDate} from './update-evidence.mjs';
 import {replaceGeneratedSection} from './generated-section.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -13,16 +13,18 @@ export function buildCommunityReport(){
  const c=JSON.parse(read('data/community-discoveries.json')),r=JSON.parse(read('data/reactor-inventory.json'));
  const age=d=>validDate(d)?`${relativeDate(d+'T00:00:00Z',c.checked_at+'T12:00:00Z')} (${d})`:'Not established';
  const entries=[...c.additions].sort((a,b)=>a.creator.localeCompare(b.creator)||a.name.localeCompare(b.name));
- const groups=Map.groupBy(entries,e=>e.creator);
- const tables=[...groups].flatMap(([creator,items])=>[
+ const tablesFor=items=>[...Map.groupBy(items,e=>e.creator)].flatMap(([creator,items])=>[
   `#### 👤 ${creator}`,'','| Resource | Access | Platforms | Purpose and requirements |','|---|---|---|---|',
-  ...items.map(e=>`| ${link(e.name,e.url)} | ${e.access} | ${e.platforms} | ${e.description} |`),'']);
+  ...items.map(e=>`| ${link(e.name,e.url)} | ${e.access} | ${e.platforms} | ${e.description} |`),'']).join('\n');
  const marker='## 🔎 Community discoveries';
  let directory=read('data/external-tools.md');
+ const officialMarker='## 🏢 Official Blackmagic Design resources';
+ if(!directory.includes(officialMarker)) directory=directory.replace('## 🎨 Color tools',officialMarker+'\n<!-- end official resources -->\n\n## 🎨 Color tools');
+ directory=replaceGeneratedSection(directory,officialMarker,'<!-- end official resources -->','\n'+tablesFor(entries.filter(isOfficialResource))+'\n');
  directory=directory.replace(/\*\*\d+ external destinations\*\*/,`**${c.total_count} external destinations**`).replace('Versions, updates and changelogs for all 72 resources','Earlier update audit: 72 resources');
  directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.','The browser tree returned a loading shell; a later API scan retrieved all 707 manifests. See the [package inventory](reactor-inventory.md); compatibility still varies by package.');
  directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/awesome-resolve-list/blob/main/data/reactor-inventory.md)').replace('awesome-resolve-ai/blob/main/data/reactor-inventory.md','awesome-resolve-list/blob/main/data/reactor-inventory.md');
- write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} additions** from the [community source data](community-discoveries.json). ${link('Versions and package dates','community-discoveries.json')} are recorded separately from the earlier audit.\n\n`+tables.join('\n')));
+ write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} later additions**, including the official resources above, from the [community source data](community-discoveries.json). ${link('Versions and package dates','community-discoveries.json')} are recorded separately from the earlier audit.\n\n`+tablesFor(entries.filter(e=>!isOfficialResource(e)))));
  const coverage=[
  ['🧩 Reactor / GitLab','https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms',`${r.folder_count} folders enumerated through all API pages; ${r.retrieved_count} manifests read. Full inventory published separately; 19 packages curated.`],
  ['💬 We Suck Less','https://www.steakunderwater.com/wesuckless/viewtopic.php?t=4176','Searched Fuse/release discussions and followed EXRIO and Reactor references. Manifest 0.6 supersedes older ReadEXR thread versions.'],

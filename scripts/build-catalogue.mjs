@@ -38,14 +38,16 @@ export const categories = [
 ];
 export function parseExternalResources(text) {
   const entries = [];
+  let category = 'Resources';
   for (const raw of text.split('\n')) {
     const line = raw.trim();
+    if (/^#{2,3} /.test(line)) category = line.replace(/^#+\s*/, '').replace(/^[^\p{L}\p{N}]+/u, '');
     if (!line.startsWith('| [')) continue;
     const cells = line.split(/(?<!\\)\|/).slice(1, -1).map(cell => cell.trim());
     const link = cells[0]?.match(/^\[([^\]]+)\]\((https:\/\/[^)]+)\)$/);
     if (cells.length !== 4 || !link) throw new Error(`Invalid external resource: ${line}`);
     const [, name, url] = link;
-    entries.push({ name, url, access: cells[1], platforms: cells[2], description: cells[3] });
+    entries.push({ name, url, access: cells[1], platforms: cells[2], description: cells[3], category });
   }
   if (new Set(entries.map(entry => entry.url)).size !== entries.length) throw new Error('Duplicate external resource');
   return entries;
@@ -57,11 +59,11 @@ export function accessGroup(entry) {
   return entry.access.startsWith('Mixed') || entry.access.startsWith('Free/paid') ? 'Mixed' : entry.access.startsWith('Free') ? 'Free' : 'Public';
 }
 export const sorts = {
-  'latest-updated': ['🕒 Latest updated', 'Latest repository push first', (a, b) => compare(b.last_pushed_at || '', a.last_pushed_at || '') || byName(a, b)],
+  'latest-updated': ['🕒 Latest updated', 'Latest supported update first', (a, b) => compare(b.last_pushed_at || '', a.last_pushed_at || '') || byName(a, b)],
   name: ['🔤 Name', 'Project name A–Z; owner breaks ties', byName],
   type: ['🏷️ Type', 'Category A–Z, then project name A–Z', (a, b) => compare(categoryFor(a)[1], categoryFor(b)[1]) || byName(a, b)],
   stars: ['⭐ Stars', 'Most stars first', (a, b) => Number(b.stars) - Number(a.stars) || byName(a, b)],
-  access: ['💰 Access', 'Free, Mixed, Public; then project name A–Z', (a, b) => compare(accessGroup(a), accessGroup(b)) || byName(a, b)],
+  access: ['💰 Access', 'Free, Mixed, Paid, Public; then project name A–Z', (a, b) => compare(accessGroup(a), accessGroup(b)) || byName(a, b)],
 };
 export function sorted(entries, key) { return [...entries].sort(sorts[key][2]); }
 export function creatorGroups(entries) {
@@ -117,7 +119,7 @@ function row(e, prefix, includeType = false) {
   const label = repositoryLabel(e.repository);
   const type = includeType ? `<br><sub>${c[0]} ${c[1]}</sub>` : '';
   const details = `${wrapText(e.description)}${type}<br><sub>${versionLabel(e.url)}</sub>`;
-  const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;') + (olderThanTwoYears(e.last_pushed_at, e.metadata_checked_at) ? '&nbsp;†' : '');
+  const updated = relativeDate(e.last_pushed_at, e.metadata_checked_at).replaceAll(' ', '&nbsp;') + (olderThanTwoYears(e.last_pushed_at, e.metadata_checked_at) ? '&nbsp;†' : '');
   return `| [${label.name}](${e.url})<br><sub>${label.owner}</sub> | ${details} | ${accessLabel(e, prefix)} | ${platformLabel(e)} | ${e.stars} | <sub>${updated}</sub> |`;
 }
 function table(entries, prefix, includeType = false) {
@@ -134,11 +136,11 @@ export function externalUpdated(e) {
   if (!e || !['vendor-version', 'package-version'].includes(e.kind) || !/^https:\/\//.test(e.source || '') || !/^\d{4}-\d{2}-\d{2}$/.test(e.date || '')) return 'Unknown';
   const timestamp = Date.parse(`${e.date}T00:00:00Z`);
   if (!Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== e.date || !Number.isFinite(Date.parse(e.checked_at)) || timestamp > Date.parse(e.checked_at)) return 'Unknown';
-  const dateKinds = ['release', 'Windows download update', 'listed product-group update', 'installer update', 'macOS plugin update', 'Reactor manifest date', 'Windows 0.3.6 devlog'];
+  const dateKinds = ['release', 'Windows download update', 'listed product-group update', 'installer update', 'macOS plugin update', 'Reactor manifest date', 'devlog'];
   if (!dateKinds.includes(e.date_kind)) return 'Unknown';
   const marker = olderThanTwoYears(e.date, e.checked_at) ? '&nbsp;†' : '';
-  const age = relativeDate(e.date, e.checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
-  return `[${age}](${e.source} "${e.date}")${marker}<br><sub>${escape(e.date_kind)}</sub>`;
+  const age = relativeDate(e.date, e.checked_at).replaceAll(' ', '&nbsp;');
+  return `[${age}](${e.source} "${e.date}")${marker}<br><sub>${escape([e.date_kind,e.date_platform,e.date_version].filter(Boolean).join(' · '))}</sub>`;
 }
 function externalTable(entries) {
   return [
@@ -150,6 +152,29 @@ function externalTable(entries) {
 
 export function isOfficialResource(entry) {
   return ['www.blackmagicdesign.com', 'documents.blackmagicdesign.com'].includes(new URL(entry.url).hostname);
+}
+
+export function sortCatalogue(entries, key) {
+  const name = e => e.repository ? e.repository.split('/')[1] : e.name;
+  const type = e => e.repository ? categoryFor(e)[1] : e.category;
+  const access = e => e.repository ? accessGroup(e) : /mixed|free.*paid|🆓.*[💰💳]/iu.test(e.access) ? 'Mixed' : /free|🆓/i.test(e.access) ? 'Free' : /paid|💰|💳/i.test(e.access) ? 'Paid' : 'Public';
+  const date = e => e.repository ? Date.parse(e.last_pushed_at) : externalUpdated(versionFor(e.url)) === 'Unknown' ? NaN : Date.parse(versionFor(e.url).date);
+  const number = value => Number.isFinite(value) ? value : -Infinity;
+  return [...entries].sort((a,b) => {
+    if (isOfficialResource(a) !== isOfficialResource(b)) return isOfficialResource(a) ? -1 : 1;
+    let order = 0;
+    if(key === 'latest-updated') order = number(date(b)) - number(date(a));
+    if(key === 'stars') order = number(b.repository ? Number(b.stars) : NaN) - number(a.repository ? Number(a.stars) : NaN);
+    if(key === 'type') order = compare(type(a),type(b));
+    if(key === 'access') order = compare(access(a),access(b));
+    return (Number.isNaN(order) ? 0 : order) || compare(name(a),name(b)) || compare(a.repository || a.url,b.repository || b.url);
+  });
+}
+
+function catalogueTable(entries) {
+  return ['| 📦 Resource | 📝 Details / type | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Updated |',
+    '| :--- | :--- | :--- | :--- | ---: | :--- |',
+    ...entries.map(e => e.repository ? row(e,'../',true) : `| [${e.name}](${e.url}) | ${e.description}<br><sub>${escape(e.category)}</sub><br><sub>${versionLabel(e.url)}</sub> | ${e.access} | ${e.platforms} | — | ${externalUpdated(versionFor(e.url))} |`)].join('\n');
 }
 
 export function build() {
@@ -215,10 +240,12 @@ export function build() {
   for (const [key, [label, description]] of Object.entries(sorts)) {
     fs.writeFileSync(path.join(root, 'views', key + '.md'), [
       `# ${label}`, '', '[🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
-      navigation(''), '', `**${entries.length} repositories · ${description}.**`, '',
+      navigation(''), '', `**${entries.length} repositories + ${external.length} external resources · ${description}.**`, '',
+      'Official Blackmagic resources come first. The selected sort applies within the official group and across all remaining entries. Unknown dates and inapplicable stars sort last; — means stars do not apply.', '',
       activityLegend, '',
       `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).`, '',
-      table(sorted(entries, key), '../', true), '',
+      '## 🏢 Official Blackmagic Design resources', '', catalogueTable(sortCatalogue(official,key)), '',
+      '## 🌐 Community and third-party resources', '', catalogueTable(sortCatalogue([...entries,...thirdParty],key)), '',
     ].join('\n'));
   }
   console.log(`Built README and ${Object.keys(sorts).length} sorted views for ${entries.length} repositories.`);

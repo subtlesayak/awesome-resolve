@@ -22,6 +22,7 @@ Search descriptions and caveats as well as names. Use the route below to build a
 
 | Desired outcome or search terms | Start here |
 | --- | --- |
+| Official downloads, manuals, training, SDKs and support | [Official Blackmagic Design resources](README.md#official-resources) |
 | Color grading, film emulation, LUTs, PowerGrades, DCTLs, color transforms | [Color and DCTL tools](README.md#category-1) |
 | Motion graphics, keying, tracking, background removal, shaders, Fuses, effects | [Fusion and VFX](README.md#category-2) |
 | Subtitles, transcription, captions, silence removal, dialogue editing | [Captions and editing](README.md#category-3) |
@@ -32,7 +33,7 @@ Search descriptions and caveats as well as names. Use the route below to build a
 | Scripting API, Python/Lua development, DCTL development, code examples | [Developer libraries and references](README.md#category-8) |
 | MIDI, control surfaces, Speed Editor, shortcut devices | [Hardware tools](README.md#category-9) |
 | Wider collections and community discovery | [Directories](README.md#category-10) |
-| Commercial plugins, creator stores, audio effects, PowerGrades, companion apps | [All external resources](README.md#external-resources) |
+| Commercial plugins, creator stores, audio effects, PowerGrades, companion apps | [Community and third-party resources](README.md#external-resources) |
 
 ## Read the catalogue accurately
 
@@ -45,7 +46,9 @@ Search descriptions and caveats as well as names. Use the route below to build a
 | `platform_source`, `platform_checked_at`, `research_snapshot` | Trace the evidence and its review date. Recheck upstream if compatibility is decisive. |
 | `stars`, `last_pushed_at`, `metadata_checked_at` | Popularity and activity snapshots. Stars do not prove quality or suitability; a push timestamp is not a release date. |
 | [data/external-tools.md](data/external-tools.md) | Canonical external entries with direct links, access, platforms, and descriptions. Collections may overlap separately listed products. |
-| [data/update-audit.json](data/update-audit.json) and [JSON evidence](data/update-audit.json) | Recorded versions, changelog links, dates, and retrieval limitations. An old audit is not proof of today's latest version. |
+| [data/versions.json](data/versions.json) | Current reviewed version states and source dates. Distinguishes releases, source revisions, document editions, not applicable and unknown. |
+| [data/version-overrides.json](data/version-overrides.json) | Reviewed corrections that take precedence during version generation; retain the exact source and check date. |
+| [data/update-audit.json](data/update-audit.json) and [later discovery evidence](data/community-discoveries.json) | Historical baseline and subsequent additions. Read both; an old audit is not proof of today's latest version. |
 | README and [sorted views](views/name.md) | Human-readable browsing. Creator groups intentionally repeat repositories; deduplicate by canonical URL. |
 | [Catalogue changelog](CHANGELOG.md) | Additions and updates to this directory. Its version numbers are not the listed providers' software versions. |
 
