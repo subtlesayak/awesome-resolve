@@ -137,7 +137,8 @@ export function externalUpdated(e) {
   const dateKinds = ['release', 'Windows download update', 'listed product-group update', 'installer update', 'macOS plugin update', 'Reactor manifest date', 'Windows 0.3.6 devlog'];
   if (!dateKinds.includes(e.date_kind)) return 'Unknown';
   const marker = olderThanTwoYears(e.date, e.checked_at) ? '&nbsp;†' : '';
-  return `[${e.date}](${e.source})${marker}<br><sub>${escape(e.date_kind)}</sub>`;
+  const age = relativeDate(e.date, e.checked_at).replace(/ back$/, ' ago').replaceAll(' ', '&nbsp;');
+  return `[${age}](${e.source} "${e.date}")${marker}<br><sub>${escape(e.date_kind)}</sub>`;
 }
 function externalTable(entries) {
   return [
@@ -196,7 +197,7 @@ export function build() {
     }),
     '<a id="external-resources"></a>', '', '## 🌐 External resources', '',
     `${external.length} external resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).`, '',
-    'Updated dates link to recorded provider evidence. The label beneath each date identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.', '',
+    'Updated ages use the same days/weeks/months/years format as repository rows, calculated at the recorded review date. Hover over an age for its exact date; the link opens provider evidence. The label beneath each age identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.', '',
     externalTable(external), '',
   ].join('\n');
   fs.writeFileSync(readmePath, intro + content + '\n' + old.slice(end));

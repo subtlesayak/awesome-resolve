@@ -178,7 +178,9 @@ test('marketplace additions are unique, traceable, and present in the external d
 
 test('external update dates require valid provider evidence and preserve date scope', () => {
   const record = {kind:'vendor-version', date:'2024-01-01', checked_at:'2026-09-06T12:00:00Z', source:'https://example.com/releases', date_kind:'release'};
-  assert.equal(externalUpdated(record), '[2024-01-01](https://example.com/releases)&nbsp;†<br><sub>release</sub>');
+  assert.equal(externalUpdated(record), '[2&nbsp;years&nbsp;ago](https://example.com/releases "2024-01-01")&nbsp;†<br><sub>release</sub>');
+  assert.ok(externalUpdated({...record,date:'2026-08-30'}).startsWith('[1&nbsp;week&nbsp;ago]'));
+  assert.ok(externalUpdated({...record,date:'2026-09-06'}).startsWith('[Today]'));
   assert.ok(!externalUpdated({...record,date:'2026-01-01'}).includes('†'));
   assert.ok(externalUpdated({...record,kind:'package-version',date_kind:'Reactor manifest date'}).includes('Reactor manifest date'));
   for (const changes of [{date:null},{date:'2026-02-30'},{date:'2027-01-01'},{source:''},{checked_at:'invalid'},{date_kind:'website checked'},{kind:'unverified'}]) assert.equal(externalUpdated({...record,...changes}), 'Unknown');
