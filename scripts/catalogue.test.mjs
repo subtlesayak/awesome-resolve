@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons } from './build-catalogue.mjs';
+import { parseCsv, sorted, relativeDate, sorts, build, accessGroup, platformLabel, platformIcons, categories } from './build-catalogue.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const entries = parseCsv(fs.readFileSync(path.join(root, 'data/repositories.csv'), 'utf8'));
 
@@ -47,6 +47,9 @@ test('platform labels retain evidence and caveats without guessing support', () 
 test('generated views preserve all entries, sort order and valid local links', () => {
   assert.equal(entries.length, 130);
   assert.equal(new Set(entries.map(e => e.url)).size, entries.length);
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const defaultUrls = [...readme.matchAll(/^\| \[[^\]]+\]\((https:\/\/github.com\/[^/)]+\/[^/)]+)\)/gm)].map(m => m[1]);
+  assert.deepEqual(defaultUrls, categories.flatMap(([, , category]) => sorted(entries.filter(e => e.category === category), 'name').map(e => e.url)));
   for (const key of Object.keys(sorts)) {
     const file = path.join(root, 'views', key + '.md');
     const text = fs.readFileSync(file, 'utf8');
@@ -62,7 +65,7 @@ test('generated views preserve all entries, sort order and valid local links', (
       assert.ok(fs.existsSync(destination), `${file}: broken link ${link}`);
       if (anchor) {
         const content = fs.readFileSync(destination, 'utf8');
-        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
+        assert.ok(content.includes(`id="${anchor}"`) || content.split('\n').some(l => l.startsWith('#') && l.trim().replace(/^#+\s+/, '').toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s/g, '-') === anchor), `Missing anchor ${anchor}`);
       }
     }
   }

@@ -6,7 +6,7 @@
 
 **130 repositories · Project name A–Z; owner breaks ties.**
 
-GitHub metadata checked: **2026-09-06T11:20:45Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [research snapshot and label definitions](../README.md#access-labels).
+GitHub metadata checked: **2026-09-06T11:20:45Z**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).
 
 | Repository | 🏷️ Type | What it provides | 💰 Access | 💻 Platforms | ⭐ Stars | 🕒 Last updated |
 | --- | --- | --- | --- | --- | ---: | --- |

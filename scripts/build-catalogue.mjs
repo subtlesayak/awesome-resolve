@@ -99,12 +99,11 @@ export function build() {
   const end = old.indexOf('## Compatibility notes');
   if (start < 0 || end < start) throw new Error('README section markers missing');
   let intro = old.slice(0, start).replace(/^# Awesome Resolve/m, '# 🎬 Awesome Resolve');
-  intro = intro.replace(/\*\*GitHub metadata checked:.*$/m, `**GitHub metadata checked: ${entries[0].metadata_checked_at}.** Stars and relative ages are a snapshot as of this date. Last updated means GitHub's latest repository push (\`pushedAt\`), not the latest release; exact UTC timestamps are in the CSV.`);
   // Rebuilding only replaces the generated section; editorial notes stay intact.
   const content = [
     '## Contents', '',
     '### ↕️ Sort the catalogue', '', navigation('views/'), '',
-    'Choose a view to browse all projects in that order. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category. Name sorts by project name, then owner.', '',
+    'The default lists below sort repositories A–Z by repository name within each category; owner breaks ties. Choose a view above to browse all projects in another order. These are pre-sorted GitHub pages; table headers are labels. **Type** means the catalogue category.', '',
     '### 🏷️ Labels', '',
     '![Free](assets/badges/free.svg) Explicit free availability or open-source license · ![Public](assets/badges/public.svg) Public files; licensing not fully audited · ![Mixed](assets/badges/mixed.svg) Free and paid offerings.', '',
     'Access qualifiers and compatibility details remain in each entry. Stars and dates use the metadata snapshot above.', '',
@@ -121,7 +120,7 @@ export function build() {
     ...categories.map(([emoji, , title], i) => `- [${emoji} ${title}](#category-${i + 1}) (${entries.filter(e => e.category === title).length})`),
     '- [⚠️ Compatibility notes](#compatibility-notes)', '- [🤝 Contributing](#contributing)', '',
     ...categories.flatMap(([emoji, , title], i) => {
-      const members = entries.filter(e => e.category === title);
+      const members = sorted(entries.filter(e => e.category === title), 'name');
       return [`<a id="category-${i + 1}"></a>`, '', `## ${emoji} ${title}`, '', `${members.length} repositories.`, '', table(members, ''), ''];
     }),
   ].join('\n');
@@ -131,7 +130,7 @@ export function build() {
     fs.writeFileSync(path.join(root, 'views', key + '.md'), [
       `# ${label}`, '', '[🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
       navigation(''), '', `**${entries.length} repositories · ${description}.**`, '',
-      `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [research snapshot and label definitions](../README.md#access-labels).`, '',
+      `GitHub metadata checked: **${entries[0].metadata_checked_at}**. Relative ages are as of this snapshot. Updated = latest repository push, not release date; exact UTC timestamps are in the CSV. Type = category. Access and compatibility reflect the [access label definitions](../README.md#access-labels).`, '',
       table(sorted(entries, key), '../', true), '',
     ].join('\n'));
   }

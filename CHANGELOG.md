@@ -2,6 +2,16 @@
 
 Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.3](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.3) — 2026-09-06
+
+### Changed
+
+- Sorted the default README lists A–Z by repository name within each category, ignoring case and using the owner to break ties.
+- Made the catalogue generator preserve this order on every rebuild; all 130 entries and existing alternative sort views remain available.
+- Added a check for README ordering and corrected anchor validation for Windows line endings.
+- Removed the metadata-check, research-snapshot, and Reddit-discovery paragraphs from the README introduction.
+- No repositories added in this update.
+
 ## [v1.2](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.2) — 2026-09-06
 
 ### Changed
