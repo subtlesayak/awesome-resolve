@@ -1,6 +1,6 @@
 # 🧩 Reactor package inventory
 
-[🎬 Catalogue](../README.md) · [🔎 Discovery report](community-discovery-report.md) · [📥 Inventory JSON](reactor-inventory.json)
+[🎬 Catalogue](../README.md) · [🔎 Source data](community-discoveries.json) · [📥 Inventory JSON](reactor-inventory.json)
 
 Snapshot **2026-09-06**: **707 package folders**, **707 manifests retrieved** through GitLab’s public API. One manifest used different filename capitalization; its actual path is retained.
 

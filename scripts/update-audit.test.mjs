@@ -43,6 +43,7 @@ test('audit snapshot plus later discoveries cover every destination exactly once
 });
 
 test('report includes every resource and regenerates deterministically',()=>{
+ buildUpdateReport(); // Local reports are intentionally absent from Git.
  const before=read('data/update-audit.md');buildUpdateReport();assert.equal(read('data/update-audit.md'),before);
  for(const e of [...audit.github,...audit.external])assert.ok(before.includes(']('+e.url+')'));
  assert.ok(before.includes('HTTP 404'));

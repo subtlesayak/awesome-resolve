@@ -1,6 +1,6 @@
 # 🌐 Tools beyond the GitHub catalogue
 
-[← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.md#-external-resources) · [Web discovery report](web-discovery-report.md)
+[← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
 **104 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
@@ -39,12 +39,12 @@
 | [Shutter Encoder](https://www.shutterencoder.com/) | 🆓 Free; optional donations | 🪟 🍎 🐧 | Standalone FFmpeg-based media preparation and delivery companion: DNxHR/ProRes conversion, rewrap, subtitles, cut detection, EDL export, and QC functions. Official builds include Windows x64, macOS Intel/Apple Silicon, and Linux. This is a companion application, not a Resolve plugin. |
 | [Voukoder Pro](https://www.voukoder.org/) | 💳 Paid; trial available | 🪟 🍎 | FFmpeg-based encoding service with a Resolve Studio connector. The current connector matrix supports Windows x64 and macOS Apple Silicon beta; Windows ARM64 and Linux connectors remain in development. Current Pro licensing is paid despite older articles describing the predecessor as free. |
 
-For previously discovered websites and unresolved community leads, see the [Reddit discovery report](reddit-discovery-report.md#additional-websites-and-learning-resources).
+For previously discovered websites and unresolved community leads, see the [Reddit source ledger](reddit-discoveries.json).
 
 
 ## 🔎 Wiki and supplied-link discoveries
 
-Twenty-one additional products, collections, and integrations reviewed through the [Reddit plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) and supplied public resource links. See the [source report](wiki-discovery-report.md) for duplicates, redirects, and unresolved leads. Audio platform icons describe vendor builds; they do not certify Fairlight compatibility on every platform.
+Twenty-one additional products, collections, and integrations reviewed through the [Reddit plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) and supplied public resource links. See the [source ledger](wiki-discoveries.json) for duplicates, redirects, and unresolved leads. Audio platform icons describe vendor builds; they do not certify Fairlight compatibility on every platform.
 
 ### 🎨 Color / Film
 
@@ -103,7 +103,7 @@ Twenty-one additional products, collections, and integrations reviewed through t
 
 ## 🛍️ Marketplace and creator-store discoveries
 
-Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, and template libraries. See the [research report](marketplace-discovery-report.md) for evidence quality and exclusions. Listed support is publisher-stated, not installation-tested. 📱 means iPadOS.
+Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, and template libraries. See the [source ledger](marketplace-discoveries.json) for evidence quality and exclusions. Listed support is publisher-stated, not installation-tested. 📱 means iPadOS.
 
 ### ✨ Effects and animation
 
@@ -284,7 +284,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**32 additions** from the [community search](community-discovery-report.md). [Versions and package dates](community-discovery-report.md#-versions-and-update-evidence) are recorded separately from the earlier audit.
+**32 additions** from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 

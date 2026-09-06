@@ -22,6 +22,7 @@ test('inventory keeps every folder distinct and does not imply compatibility',()
  for(const file of ['data/community-discoveries.json','data/reactor-inventory.json'])assert.doesNotMatch(read(file),/[A-Z]:\\|file:\/\/|C:\/Users|D:\/Projects|refund_policy/);
 });
 test('community reports regenerate without duplicating entries and use valid local links',()=>{
+ buildCommunityReport(); // Local reports need not exist in a fresh checkout.
  const files=['data/external-tools.md','data/community-discovery-report.md','data/reactor-inventory.md'];
  const before=files.map(read);buildCommunityReport();assert.deepEqual(files.map(read),before);
  for(const file of files)for(const m of read(file).matchAll(/\]\(([^)]+)\)/g)){const target=m[1].split('#')[0];if(!target||/^https?:/.test(target))continue;assert.ok(fs.existsSync(new URL(target,new URL(file,root))));}

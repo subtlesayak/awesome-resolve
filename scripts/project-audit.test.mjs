@@ -47,3 +47,14 @@ test('private scratch is ignored and absent from tracked files',()=>{
  const ignored=execFileSync('git',['check-ignore','.research/example.json','.release-notes/example.md'],{cwd:root,encoding:'utf8'});
  assert.ok(ignored.includes('.research/example.json')&&ignored.includes('.release-notes/example.md'));
 });
+test('reports remain local and public pages do not link to them',()=>{
+ const isReport=f=>f==='PROJECT-AUDIT.md'||/^data\/.*-report\.md$/.test(f)||f==='data/update-audit.md';
+ assert.ok(!files.some(isReport));
+ for(const file of files.filter(f=>f.endsWith('.md'))){
+  for(const [,raw]of fs.readFileSync(path.join(root,file),'utf8').matchAll(/\]\(([^)]+)\)/g)){
+   if(/^[a-z]+:/i.test(raw))continue;
+   const target=path.relative(root,path.resolve(root,path.dirname(file),raw.split('#')[0])).replaceAll('\\','/');
+   assert.ok(!isReport(target),`${file} links to a local report`);
+  }
+ }
+});

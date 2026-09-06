@@ -6,7 +6,7 @@ Built for video editors, colorists, motion designers, and Resolve developers. AI
 
 **Start here:** [Color grading and DCTLs](#category-1) · [Fusion effects](#category-2) · [Subtitles and transcription](#category-3) · [Scripts and automation](#category-5) · [External plugins and stores](#external-resources) · [Common questions](#frequently-asked-questions)
 
-Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), [🕒 upstream updates and changelogs](data/update-audit.md), the [🔎 web discovery report](data/web-discovery-report.md), [plugin wiki discoveries](data/wiki-discovery-report.md), [marketplace discoveries](data/marketplace-discovery-report.md), and the [catalogue changelog](CHANGELOG.md).
+Browse the categories below or download the [CSV catalogue](data/repositories.csv) for filtering and importing into a spreadsheet. Explore [🌐 tools beyond GitHub](data/external-tools.md), [🕒 upstream updates and changelogs](data/update-audit.json), the [🔎 web source ledger](data/web-discoveries.json), [plugin wiki discoveries](data/wiki-discoveries.json), [marketplace discoveries](data/marketplace-discoveries.json), and the [catalogue changelog](CHANGELOG.md).
 
 ## Find tools for your use case with AI
 
@@ -18,7 +18,7 @@ Share this repository with an AI assistant and describe the result you want, you
 
 ## Access labels
 
-New: [🔎 community discoveries](data/community-discovery-report.md) and a [🧩 complete Reactor package inventory](data/reactor-inventory.md), including package versions and manifest dates.
+New: [🔎 community discoveries](data/community-discoveries.json) and a [🧩 complete Reactor package inventory](data/reactor-inventory.md), including package versions and manifest dates.
 
 - **Free**: the research identified explicit free availability or an open-source license.
 - **Public**: repository files are accessible; licensing, commercial reuse rights, and ready-made binaries have not been fully audited.
@@ -707,8 +707,8 @@ Click an entry's platform labels for its upstream source. Labels reflect documen
 
 These notes reflect the research snapshot; check upstream documentation against the exact Resolve version, edition, operating system, and distribution you use.
 
-- **Free versus Studio:** older Free-edition compatibility statements may not apply to newer versions. The supplied research reports that CapitalEase's UI excludes Resolve Free 19.1 onward; ordinary Fuses and standalone applications may have different requirements.
-- **Mac App Store builds:** the supplied research reports that AutoSubs and BadWords exclude the Mac App Store distribution from their integrations.
+- **Free versus Studio:** older Free-edition compatibility statements may not apply to newer versions. The supplied source ledgers that CapitalEase's UI excludes Resolve Free 19.1 onward; ordinary Fuses and standalone applications may have different requirements.
+- **Mac App Store builds:** the supplied source ledgers that AutoSubs and BadWords exclude the Mac App Store distribution from their integrations.
 - **Linux AAC:** the listed AAC plugins provide encoding. Do not assume they also add audio importing or decoding.
 - **Color pipelines:** display transforms such as AgX and Open Display Transform serve a different purpose from creative LUT packs.
 - **AI and automation:** external scripting requirements, model dependencies, GPU support, and AI-service charges vary by project.
@@ -731,7 +731,7 @@ No. AI assists the directory's research and organization. The collection covers 
 
 ### How can I reuse the catalogue or check an entry's sources?
 
-Use the [repository CSV](data/repositories.csv) for structured GitHub entries and the [external directory](data/external-tools.md) for websites and stores. Provider links, platform-source fields, and discovery reports document the research. The [upstream update report](data/update-audit.md) links to release and changelog evidence; the [catalogue changelog](CHANGELOG.md) records additions to this directory. Creator subheadings repeat entries for browsing, so use the CSV when counting unique repositories.
+Use the [repository CSV](data/repositories.csv) for structured GitHub entries and the [external directory](data/external-tools.md) for websites and stores. Provider links, platform-source fields, and source ledgers document the research. The [upstream update data](data/update-audit.json) links to release and changelog evidence; the [catalogue changelog](CHANGELOG.md) records additions to this directory. Creator subheadings repeat entries for browsing, so use the CSV when counting unique repositories.
 
 ## Contributing
 
@@ -754,4 +754,4 @@ Credit to the owners and contributors of the directories referenced in this cata
 - **hassaancode** — [Fx-Library](https://github.com/hassaancode/Fx-Library).
 - **PostFlows** — [PostFlows script directory](https://postflows.github.io/).
 
-Thanks also to the maintainers of [Editors Lab](https://editorslab.store/), [Resolve Directory](https://resolve.directory/), and [DCTLs.info / Colorist Resources](https://dctls.info/), and the **r/davinciresolve moderators and wiki contributors** for the [community resource and plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) referenced in the discovery reports.
+Thanks also to the maintainers of [Editors Lab](https://editorslab.store/), [Resolve Directory](https://resolve.directory/), and [DCTLs.info / Colorist Resources](https://dctls.info/), and the **r/davinciresolve moderators and wiki contributors** for the [community resource and plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) referenced in the source ledgers.

@@ -45,7 +45,7 @@ Search descriptions and caveats as well as names. Use the route below to build a
 | `platform_source`, `platform_checked_at`, `research_snapshot` | Trace the evidence and its review date. Recheck upstream if compatibility is decisive. |
 | `stars`, `last_pushed_at`, `metadata_checked_at` | Popularity and activity snapshots. Stars do not prove quality or suitability; a push timestamp is not a release date. |
 | [data/external-tools.md](data/external-tools.md) | Canonical external entries with direct links, access, platforms, and descriptions. Collections may overlap separately listed products. |
-| [data/update-audit.md](data/update-audit.md) and [JSON evidence](data/update-audit.json) | Recorded versions, changelog links, dates, and retrieval limitations. An old audit is not proof of today's latest version. |
+| [data/update-audit.json](data/update-audit.json) and [JSON evidence](data/update-audit.json) | Recorded versions, changelog links, dates, and retrieval limitations. An old audit is not proof of today's latest version. |
 | README and [sorted views](views/name.md) | Human-readable browsing. Creator groups intentionally repeat repositories; deduplicate by canonical URL. |
 | [Catalogue changelog](CHANGELOG.md) | Additions and updates to this directory. Its version numbers are not the listed providers' software versions. |
 
