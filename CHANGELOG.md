@@ -1,23 +1,12 @@
 # Changelog
 
-Each catalogue update is published as one GitHub release. Every added resource has its own entry in that update. Versions identify catalogue snapshots, not upstream software releases.
+Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
-## [v1.9](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.9) — 2026-09-06
-
-### Updated
-
-- Audited all **297 catalogue destinations**: 225 GitHub repositories and 72 external resources. Added the [upstream update report](data/update-audit.md) and [reviewed evidence ledger](data/update-audit.json).
-- Recorded **79 repositories with stable releases**, **83 with any release**, **4 archived projects**, and **20 root changelog files**. Refreshed GitHub stars and push timestamps while preserving creator groups, labels, and sort views.
-- Added explicit vendor versions and dated updates where supported, including Filmbox Pro 3.5.3, Dehancer Pro 7.4.1, CineMatch 1.36, and Amalgam 1.4.6. Product dates use relative ages alongside exact dates; ambiguous or absent dates remain unassigned.
-- Marked **16 direct-request blocks** separately from vendor evidence obtained through web retrieval. Flagged Shutter Encoder's linked changelog as HTTP 404 while retaining its working homepage.
-- Added repeatable read-only collection scripts, deterministic report generation, and checks that prevent policy dates or host versions from becoming product updates. No resources were added or removed.
-
-## [v1.8](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.8) — 2026-09-06
+## [v1.8](https://github.com/subtlesayak/awesome-resolve-ai/releases/tag/v1.8) — 2026-09-06
 
 ### Added
 
-- **40 external resources**, bringing the external directory to **72**, grouped by creator with access and platform caveats.
-- [Marketplace discovery report](data/marketplace-discovery-report.md) and [evidence ledger](data/marketplace-discoveries.json), distinguishing direct page evidence from indexed primary listings.
+- **40 external resources**, bringing the external directory to **72**.
 - Resolved earlier leads for SuperVHS, Dehancer, and Colourlab AI. The 225-repository GitHub catalogue is unchanged.
 
 - [BlockGlitch](https://akascape.gumroad.com/l/blockglitch) — Block-glitch Fuse for Resolve 17+ Free or Studio. The creator explicitly offers a free download; the amount field can show a suggested donation. **🆓 Free; store download.** ❔ Not established.
@@ -61,30 +50,11 @@ Each catalogue update is published as one GitHub release. Every added resource h
 - [Nx LiquidGlass](https://ko-fi.com/s/8d429085e2) — Refraction and magnification DCTL. Requires Resolve Studio 19+; creator lists Metal, CUDA, and OpenCL support. Ko-fi listing points to the creator’s website download. **🆓 Free; store download.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
 - [Ravengrade tools](https://ravengrade.com/) — Collection of Resolve film-look, contrast, subtractive-color tools, and LUTs. Check each product’s Studio, GPU, and version requirements; collection membership does not establish shared compatibility. **💳 Paid perpetual licenses or subscription.** ❔ Not established.
 
-## [v1.7](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.7) — 2026-09-06
-
-### Changed
-
-- Added a complete alphabetical repository list at the start of every README category.
-- Placed creator subheadings after that list for owners with multiple repositories. Their entries repeat as a secondary browsing option; single-entry creators remain in the complete list.
-- Preserved all 225 unique repositories and the five alternate sort views. Updated the generator, contributor guidance, and layout checks; all seven checks pass.
-- No resources added or removed.
-
-## [v1.6](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.6) — 2026-09-06
-
-### Changed
-
-- Grouped repositories from the same GitHub owner under linked creator subheadings within README categories. Creator groups and their tools sort alphabetically; single-entry creators share the remaining table.
-- Grouped FilmConvert and Boris FX products under creator subheadings in the external directory.
-- Preserved all 225 repositories, 32 external resources, individual metadata, platform notes, and all five catalogue-wide sort views.
-- Updated generation, contribution guidance, and ordering checks so regeneration preserves the grouping. No resources added or removed.
-
-## [v1.5](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.5) — 2026-09-06
+## [v1.5](https://github.com/subtlesayak/awesome-resolve-ai/releases/tag/v1.5) — 2026-09-06
 
 ### Added
 
 - **21 external resources**, bringing the external directory to **32**; GitHub catalogue stays at **225 repositories**.
-- [Plugin wiki discovery report](data/wiki-discovery-report.md) and [evidence ledger](data/wiki-discoveries.json), with duplicate detection, upstream redirects, and unresolved leads.
 
 - [MONONODES](https://mononodes.com/dctl-and-more/) — DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements. **Mixed; free tools and demos alongside commercial tools.** ❔ Per tool.
 - [CinePrint35](https://www.tombolles.net/cineprint35) — Film-emulation PowerGrades with native Resolve nodes. Free Resolve can use the grades with the Studio-only Grain node disabled. The supplied CinePrint16 URL redirects here. **Paid PowerGrades; separate LUT offering.** 🪟 Windows · 🍎 macOS.
@@ -108,21 +78,12 @@ Each catalogue update is published as one GitHub release. Every added resource h
 - [SNS ShareBrowser integration](https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/) — Media search, preview, tagging, and import through ShareBrowser. Vendor announcement specifies EVO users and Resolve Studio 17+; the integration is not a standalone free MAM service. **Included with paid EVO infrastructure.** ❔ Confirm deployment.
 - [EditShare FLOW panel](https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/) — FLOW asset/metadata access, proxy switching, and review workflows inside Resolve Studio. The checked announcement targets FLOW 2021 and Resolve 17; current deployment compatibility remains unverified. **Enterprise product; confirm current licensing.** ❔ Confirm deployment.
 
-### Changed
 
-- Used the newly accessible [Reddit plugin wiki](https://www.reddit.com/r/davinciresolve/wiki/plugins/) and selected supplied public links as discovery sources; checked original product pages before adding entries.
-- Updated stale product/platform claims for CinePrint35, End Boost, and Filmbox; preserved historical version caveats for enterprise integrations.
-- Kept unavailable or insufficiently documented resources out of verified counts. Preserved all GitHub rows, stars, relative dates, and sorted views.
-
-Only curated public links and research findings are published. These listings reflect documentation review, not installation tests.
-
-## [v1.4](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.4) — 2026-09-06
+## [v1.4](https://github.com/subtlesayak/awesome-resolve-ai/releases/tag/v1.4) — 2026-09-06
 
 ### Added
 
 - **95 repositories**, bringing the catalogue to **225**, following broad GitHub, web, developer-site, and community-link discovery.
-- [Source-backed web discovery report](data/web-discovery-report.md) and [structured evidence ledger](data/web-discoveries.json): 741 unique GitHub search results, 107 shortlisted repositories checked, 12 held/superseded leads.
-- [Eleven official external destinations](data/external-tools.md), with access conditions and platform caveats. Collection overlap is explicit.
 
 #### 🎨 Color / DCTL
 
@@ -260,38 +221,9 @@ Only curated public links and research findings are published. These listings re
 - [Shutter Encoder](https://www.shutterencoder.com/) — free Windows/macOS/Linux media-conversion companion, optional donations.
 - [Voukoder Pro](https://www.voukoder.org/) — paid encoding service/trial; Resolve Studio connector on Windows x64 and macOS Apple Silicon beta; Linux/Windows ARM64 connectors in development.
 
-### Changed
+## [v1.1](https://github.com/subtlesayak/awesome-resolve-ai/releases/tag/v1.1) — 2026-09-06
 
-- Refreshed stars and latest-push timestamps for all 225 repositories; preserved emoji/access labels, relative ages, documented platform evidence, and five sort views.
-- Preserved A–Z repository-name sorting inside README categories and the simplified introduction.
-- Preserved the original 130 repository descriptions, access classifications, and platform evidence; no existing entries removed.
-
-Descriptions and limitations come from linked upstream documentation. This catalogue release is a research snapshot, not software installation testing. Discovery routes for every addition are recorded in the evidence ledger.
-
-## [v1.3](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.3) — 2026-09-06
-
-### Changed
-
-- Sorted the default README lists A–Z by repository name within each category, ignoring case and using the owner to break ties.
-- Made the catalogue generator preserve this order on every rebuild; all 130 entries and existing alternative sort views remain available.
-- Added a check for README ordering and corrected anchor validation for Windows line endings.
-- Removed the metadata-check, research-snapshot, and Reddit-discovery paragraphs from the README introduction.
-- No repositories added in this update.
-
-## [v1.2](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.2) — 2026-09-06
-
-### Changed
-
-- Added a **Platforms supported** legend and platform columns to the README and all five sorted catalogue views: 🪟 Windows, 🍎 macOS, 🐧 Linux, 📱 iPadOS, 📖 Reference, and ❔ Unverified.
-- Reviewed upstream documentation for platform claims across the 130-entry catalogue. Each entry links to its source and records a separate platform-review date in the CSV. Missing evidence remains unverified.
-- Preserved caveats for untested platforms, Apple Silicon requirements, Linux distributions, source-only builds, and server-host support. OS omissions do not imply unsupported platforms.
-- Kept all 130 repositories and existing descriptions/access classifications. This update adds no repositories.
-- Refreshed stars and latest push dates; normalized push dates to ISO 8601 UTC and added a regression check against locale-formatted timestamps.
-- Verified platform rendering, source links, sort order, relative ages, and deterministic regeneration with six passing checks. Platform labels reflect upstream documentation, not installation testing.
-
-## [v1.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.1) — 2026-09-06
-
-## Added
+### Added
 
 16 repositories added, expanding the catalogue from 114 to 130.
 
@@ -312,7 +244,7 @@ Descriptions and limitations come from linked upstream documentation. This catal
 - **[Pinionist/Resolve-Conform-tools](https://github.com/Pinionist/Resolve-Conform-tools)** — Resolve Studio Lua tools for VFX conforming, plate publishing, clip renaming, and version switching. Timeline renamer requires 20.2; see upstream retime/keyframe caveat. Access: Public. [Discovery source](https://www.reddit.com/r/davinciresolve/comments/1qv4i68/davinci_resolve_bulk_rename_script/).
 - **[nikita-petrovich/OFX-QRCoder](https://github.com/nikita-petrovich/OFX-QRCoder)** — Proof-of-concept QR-code generator for Resolve and other OpenFX hosts. macOS distribution; Windows support and performance optimization remain on the upstream to-do list. Access: Free. [Discovery source](https://www.reddit.com/r/davinciresolve/comments/1tlfbqa/do_you_know_this_open_source_ofx_qr_code_generator/).
 
-## Additional resources
+### Additional resources
 
 - **[Resolve Directory](https://resolve.directory/)** — Official page checked. Directory for free PowerGrades, LUTs, and camera log LUTs; individual downloads and licences not audited.
 - **[DCTLs.info / Colorist Resources](https://dctls.info/)** — Page title reachable; content unavailable. DCTL discovery lead; current catalogue contents and pricing need manual review.
@@ -322,17 +254,7 @@ Descriptions and limitations come from linked upstream documentation. This catal
 - **[SyncPass](https://jklediting.com/syncpass)** — Reddit lead only. Windows/Studio text-based editing beta with a time-limited trial in the post. Current availability and terms unverified; separate from Fast AutoCut.
 - **[Subreddit wiki](https://www.reddit.com/r/davinciresolve/wiki/index/)** — Index checked; plugin/resource subpages unavailable. Starting points for training, Free versus Studio, media import, offline media, playback issues, and plugins.
 
-## Updated
-
-- Refreshed GitHub stars and repository push dates for all 130 entries.
-- Regenerated the category tables and five sorted catalogue views.
-- Added a discovery report and structured provenance, including licence changes, compatibility limits, duplicates, and exclusions.
-
-## Verification
-
-Upstream metadata and documentation checked; no plugins installed or tested in Resolve. This is a targeted scan of accessible Reddit threads, not a complete historical scrape. Catalogue generation and consistency tests passed.
-
-## [v1.0](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.0) — 2026-09-06
+## [v1.0](https://github.com/subtlesayak/awesome-resolve-ai/releases/tag/v1.0) — 2026-09-06
 
 ### Added
 
@@ -481,13 +403,3 @@ The initial catalogue contains **114 public GitHub repositories**, covering all 
 - **[Akascape/PluginLibrary-Resolve](https://github.com/Akascape/PluginLibrary-Resolve)** — Launcher/catalogue linking to free and commercial plugins; it does not grant paid-product licenses. Access: Mixed.
 - **[hassaancode/Fx-Library](https://github.com/hassaancode/Fx-Library)** — Resolve/After Effects effects and creative-resource directory. Access: Mixed.
 - **[CommandPost/ResolveCafe](https://github.com/CommandPost/ResolveCafe)** — Community references, developer material, and website source. Archived in May 2025. Access: Free reference; archived.
-
-### Catalogue features
-
-- Categorized README and downloadable CSV with descriptions, access labels, GitHub stars, and repository push dates.
-- Five sorted views: latest updated, name, type, stars, and access.
-- Emoji labels, access badges, compatibility notes, and contribution guidance.
-
-### Scope
-
-This release points to the final 114-repository snapshot before the Reddit additions. Research descriptions and compatibility claims were imported from the supplied catalogue; listings are not installation tests or security audits.
