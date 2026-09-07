@@ -24,7 +24,22 @@ export function buildCommunityReport(){
  directory=directory.replace(/\*\*\d+ external destinations\*\*/,`**${c.total_count} external destinations**`).replace('Versions, updates and changelogs for all 72 resources','Earlier update audit: 72 resources');
  directory=directory.replace('The tree returned a loading shell during this pass, so individual package compatibility was not audited.','The browser tree returned a loading shell; a later API scan retrieved all 707 manifests. See the [package inventory](reactor-inventory.md); compatibility still varies by package.');
  directory=directory.replace('[package inventory](reactor-inventory.md)','[package inventory](https://github.com/subtlesayak/subtle-resolve-list/blob/main/data/reactor-inventory.md)');
- write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} later additions**, including the official resources above, from the [community source data](community-discoveries.json). ${link('Versions and package dates','community-discoveries.json')} are recorded separately from the earlier audit.\n\n`+tablesFor(entries.filter(e=>!isOfficialResource(e)))));
+ // Keep later products from an existing creator under that creator's heading.
+ const placedCreators=new Set();
+ for(const [creator,items] of Map.groupBy(entries.filter(e=>!isOfficialResource(e)),e=>e.creator)){
+  const heading=`#### 👤 ${creator}\n`,start=directory.indexOf(heading);
+  if(start<0||start>=directory.indexOf(marker))continue;
+  const open=`<!-- additional entries: ${creator} -->`,close=`<!-- end additional entries: ${creator} -->`;
+  if(!directory.includes(open)){
+   const bodyStart=start+heading.length,next=directory.slice(bodyStart).search(/^#{2,4} /m);
+   const end=next<0?directory.length:bodyStart+next;
+   directory=directory.slice(0,end)+open+'\n'+close+'\n\n'+directory.slice(end);
+  }
+  const table=tablesFor(items).slice(heading.length).trim();
+  directory=replaceGeneratedSection(directory,open,close,'\n\n'+table+'\n\n');
+  placedCreators.add(creator);
+ }
+ write('data/external-tools.md',replaceGeneratedSection(directory,marker,'<!-- end community discoveries -->',`\n**${c.added_count} later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). ${link('Versions and package dates','community-discoveries.json')} are recorded separately from the earlier audit.\n\n`+tablesFor(entries.filter(e=>!isOfficialResource(e)&&!placedCreators.has(e.creator)))));
  const coverage=[
  ['🧩 Reactor / GitLab','https://gitlab.com/WeSuckLess/Reactor/-/tree/master/Atoms',`${r.folder_count} folders enumerated through all API pages; ${r.retrieved_count} manifests read. Full inventory published separately; 19 packages curated.`],
  ['💬 We Suck Less','https://www.steakunderwater.com/wesuckless/viewtopic.php?t=4176','Searched Fuse/release discussions and followed EXRIO and Reactor references. Manifest 0.6 supersedes older ReadEXR thread versions.'],

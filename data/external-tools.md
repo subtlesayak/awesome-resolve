@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**122 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**157 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -135,6 +135,29 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [SuperSlitScanner](https://akascape.gumroad.com/l/superslitscanner) | 💳 Paid | ❔ Not established | Slit-scan Fuse with wave, stretch, time-warp, and modulation modes. Resolve 17+ Free or Studio. |
 | [SuperTrails](https://akascape.gumroad.com/l/supertrails) | 💰 Free edition / paid full edition | ❔ Not established | Ghost-trail mode is free; the full edition adds trail modes. Resolve 17+ Free or Studio. |
 | [SuperVHS](https://akascape.gumroad.com/l/supervhs) | 💳 Paid | ❔ Not established | VHS-style bloom, distortion, and color damage inside Fusion. Resolve 17+ Free or Studio. Previously unresolved wiki lead, now supported by its indexed creator listing. |
+
+<!-- additional entries: Akascape -->
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [DatamoshFuse](https://akascape.gumroad.com/l/datamoshfuse) | 💰 Paid | ❔ Not established | Bundle of Datamosh Classic and Datamosh Live Fuses for video-corruption and frame-repetition effects. Requires FFmpeg; works with Resolve Free or Studio. |
+| [DreamyFlare](https://akascape.gumroad.com/l/dreamyflare) | 💰 Paid | ❔ Not established | Creates horizontal and vertical anamorphic-style flares with color, intensity and spread controls. Requires Resolve 17+ Free or Studio. |
+| [ExtremeGlitch](https://akascape.gumroad.com/l/extremeglitch) | 💰 Paid | ❔ Not established | Combines RGB splitting, noise, interlacing, pixel sorting, waves and block glitches. Requires Resolve 17+ Free or Studio. |
+| [Pixel Dither](https://akascape.gumroad.com/l/pixeldither) | 💰 Paid | ❔ Not established | Produces pixelated, dithered imagery inspired by low-color handheld-game displays. Requires Resolve 17+ Free or Studio. |
+| [RuttEtra](https://akascape.gumroad.com/l/ruttetra) | 💰 Paid | ❔ Not established | Creates image-derived line geometry displaced according to brightness for a Rutt-Etra-style effect. Requires Resolve 18+ Free or Studio. |
+| [ShakeGlitch](https://akascape.gumroad.com/l/shakeglitch) | 💰 Paid | ❔ Not established | Creates animated RGB-split glitch effects inside Fusion. Requires Resolve 17+ Free or Studio. |
+| [SuperASCII Fuse](https://akascape.gumroad.com/l/superascii) | 💰 Paid | ❔ Not established | Converts footage to ASCII-style imagery with configurable characters, size, spacing and custom bitmap symbols. Requires Resolve 17+ Free or Studio. |
+| [SuperBokeh](https://akascape.gumroad.com/l/superbokeh) | 💰 Paid | ❔ Not established | Lens-blur Fusion Fuse with circular, disc, ring and polygonal bokeh modes and focus controls. Requires Resolve 17+ Free or Studio. |
+| [SuperCRT](https://akascape.gumroad.com/l/supercrt) | 💰 Paid | ❔ Not established | Recreates CRT display effects inside Fusion. Requires Resolve 17+ Free or Studio. |
+| [SuperDelusion](https://akascape.gumroad.com/l/superdelusion) | 💰 Paid | ❔ Not established | Four psychedelic visual-effect modes with color, pattern and distortion controls. Requires Resolve 17+ Free or Studio. |
+| [SuperLCD](https://akascape.gumroad.com/l/superlcd) | 💰 Paid | ❔ Not established | Simulates LCD pixel layouts, including RGB stripes and Pentile-style screen patterns. Requires Resolve 17+ Free or Studio. |
+| [SuperMatrixRain](https://akascape.gumroad.com/l/supermatrixrain) | 💰 Paid | ❔ Not established | Generates animated code-rain graphics with 2D layers and a simulated 3D camera mode. Requires Resolve 18+ Free or Studio. |
+| [SuperMesh](https://akascape.gumroad.com/l/supermesh) | 💰 Paid | ❔ Not established | Generates grid, wireframe and topographic-style image effects inside Fusion. Requires Resolve 17+ Free or Studio. |
+| [SuperNTSC](https://akascape.gumroad.com/l/superntsc) | 💰 Paid | ❔ Not established | Simulates analog television signal effects inside Fusion. Requires Resolve 17+ Free or Studio. |
+| [SuperPaperTear](https://akascape.gumroad.com/l/superpapertear) | 💰 Paid | ❔ Not established | Procedural paper-tear and cutout effects with edge fibers, texture, fold marks and shadows. Requires Resolve 17+ Free or Studio. |
+| [SuperPrintFX](https://akascape.gumroad.com/l/superprintfx) | 💰 Paid | ❔ Not established | Print-style Fusion effects including halftone, duotone, guilloche and newspaper dithering. Requires Resolve 17+ Free or Studio. |
+| [Upscaler Fuse](https://akascape.gumroad.com/l/upscaler) | 💰 Paid; trial available | ❔ Not established | Texture upscaling and sharpening Fuse based on AMD FSR and CAS algorithms. A trial is available; GPU support is not limited to AMD. Requires Resolve 17+; edition requirements should be checked. |
+| [WaterMemory](https://akascape.gumroad.com/l/watermemory) | 💰 Paid | ❔ Not established | Creates experimental dissolving and flowing motion effects inside Fusion. Requires Resolve 17+ Free or Studio. |
+<!-- end additional entries: Akascape -->
 
 #### 👤 Gabriel Grenier
 
@@ -298,7 +321,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**50 later additions**, including the official resources above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**85 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -325,6 +348,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Attribute Spreadsheet](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom) | 🆓 MIT | ❔ Not established | Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash. |
 
+#### 👤 ARISDA
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [ARISDA Bridge](https://arisdabridge.com/) | 💰 Business-only single-PC license | 🪟 Windows 11 | Timecode display, work-time tracking and studio clock companion. Creator-tested scope is Resolve Studio 21 on Windows 11. NTSC frame rates are unsupported; optional LTC routing and PunchLight hardware have separate setup requirements. |
+
 #### 👤 AutoCut
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -337,6 +366,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) | 📦 Public examples; per-author terms apply | 📖 Reference; snippet requirements vary | Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. |
 
+#### 👤 BUTTERY LUTs
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [BUTTERY LUTs collections](https://www.butteryluts.com/) | 💰 Paid LUT collections | ❔ Check camera profile and host LUT support | Camera-specific log-to-Rec.709 conversions and creative LUT collections. Choose the pack for the source camera and log profile; collections have no single plugin version. |
+
 #### 👤 Calver - Digital Creative School
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -348,6 +383,19 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Nintendo Direct Graphics Pack](https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139) | 🆓 Free public pack | ❔ Not established | Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility. |
+
+#### 👤 Chris Roy Films
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [PostSync](https://chrisroyfilms.com/postsync/) | 💰 Paid; 30-day trial | 🍎 macOS | Synchronizes workstation presets and settings and backs up or transfers Resolve preferences. Includes scheduling, share mounting and configurable cache cleanup; review selected folders before enabling cleanup. |
+| [PostWatch](https://chrisroyfilms.com/postwatch/) | 💰 Paid; Pushover terms apply | 🍎 macOS | Sends export, application and system alerts to Pushover on a phone or tablet. Resolve is among the listed supported applications. Requires macOS permissions and Pushover setup; notification delivery is separate from rendering. |
+
+#### 👤 CinePacks
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [CinePacks free samples](https://cinepacks.store/collections/free-packs) | 🆓 Sample packs; 💰 Full collections | ❔ Check individual asset formats | Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms. |
 
 #### 👤 Cutpoint Labs
 
@@ -362,6 +410,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Fringe Fighter Turbo](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Emulates a Disjoint Over composite to address edge artifacts when combining smoke and rendered holdout geometry. |
+
+#### 👤 DaVinci Kit
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Map Engine](https://davincikit.com/product/map-engine/) | 💰 Perpetual license; external map-service terms apply | 🪟 Windows · 🍎 macOS | Fusion map animation with location search, GeoJSON shapes, routes and custom tile styles. Requires Studio 18.6+; Free compatibility is limited to 18.6–19.0.3. Internet is required for tiles and licensing, and map-provider attribution is required. |
 
 #### 👤 Emilio Sapia - Millolab
 
@@ -401,11 +455,24 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Flow Character Rigger](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Rigging macro for separately layered 2D character parts, with joint positions and body-part angles. Requires prepared character layers. |
 
+#### 👤 fxphd
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Warren Eagles Resolve 18 training](https://www.fxphd.com/resolve18/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve 18 fundamentals, advanced grading and look-development courses with 18.1/18.6 update lessons. This is an older course edition, not evidence of current Resolve software or newer-version coverage. |
+
 #### 👤 Gregory Chalenko
 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Gradient Match](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Builds a procedural gradient from a reference image. Legacy Fusion macro; modern host compatibility has not been established. |
+
+#### 👤 Hedge
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [EditReady](https://hedge.co/products/editready) | 💰 Paid; trial limited to first minute of clips | 🍎 macOS | Standalone transcoding and proxy preparation for editing, including ProRes and DNxHD/DNxHR output, metadata controls and LUT previews. RAW capabilities vary by license tier. A companion media tool rather than a Resolve plugin. |
+| [OffShoot](https://hedge.co/products/offshoot) | 💰 Paid; 10-day trial | 🪟 Windows · 🍎 macOS | Copies and verifies camera media for offload, ingest and backup workflows. Formerly called Hedge; a standalone media-management companion for Resolve and other editors. License tiers and storage workflows vary. |
 
 #### 👤 heiba
 
@@ -416,6 +483,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [DaVinci Sub Translator](https://ko-fi.com/s/706feb3730) | 📦 Public listing; price/download access not established | ❔ Not established | Translates subtitle tracks through online translation or LLM services and imports translated subtitles into a timeline track. Provider costs may apply; store availability was not established. |
 | [DaVinci TTS](https://ko-fi.com/s/9e769243b5) | 📦 Public listing; price/download access not established | ❔ Not established | Generates speech from timeline text or subtitles and imports audio into the Media Pool. Supports Microsoft, MiniMax and OpenAI voices; external provider terms and costs apply. Store price and availability did not render reliably. |
 
+#### 👤 HKeys
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Resolve keyboard shortcuts and drills](https://hkeys.app/apps/davinci-resolve/macos) | 📖 Public shortcut reference | 📖 Browser reference; lesson requirements vary | Community shortcut reference with printable PDFs and practice drills. Includes links to Windows, macOS and Linux variants; custom keyboard mappings and Resolve versions can differ. |
+
 #### 👤 Jacob Danell
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -423,11 +496,29 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [Despiller Plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+. |
 | [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) | 📦 Public Reactor package; check package license | 🪟 Windows · 🍎 macOS (legacy packages) | Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim. |
 
+#### 👤 Lowepost
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Lowepost training](https://lowepost.com/home/) | 💰 Paid course access | 📖 Browser reference; lesson requirements vary | Post-production training with Resolve grading, film-look development, beauty retouching and Fusion lessons. The provider also teaches other applications; select the Resolve course and review its exercise requirements. |
+
 #### 👤 Ludooki
 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Outline plugin](https://ko-fi.com/s/6a120fb931) | 📦 Public listing; price/download access not established | ❔ Not established | Adds outlines to images, clips and transitions in Resolve. Indexed creator listing; current price, host requirements and update history are not established. |
+
+#### 👤 Maxon
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Red Giant tools for Resolve](https://www.maxon.net/en/red-giant) | 💰 Paid subscription | 🪟 Windows · 🍎 macOS | Effects and color tools, including supported Universe effects. The current host table lists Resolve 19 and 20; support is per effect, so After Effects-only tools in the wider suite are excluded from the Resolve claim. |
+
+#### 👤 Mixing Light
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Mixing Light Resolve training](https://mixinglight.com/) | 💰 Membership and standalone courses | 📖 Browser reference; lesson requirements vary | Color-grading and finishing tutorials, Resolve courses and practice projects. Tutorial-library membership and standalone course access are separate products; check each course’s host version and access period. |
 
 #### 👤 Mug
 
@@ -435,17 +526,41 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Mug Advanced Halftone](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Halftone generator for Resolve and Fusion with grid/dot controls, jitter and RGB offsets. Includes Edit-page effects and Fusion integration; manifest states MIT licensing. |
 
+#### 👤 NeoFinder
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [NeoFinder](https://www.cdfinder.de/) | 💰 Paid; trial available | 🍎 macOS | Catalogs online and offline media volumes with thumbnails, metadata and search, helping locate assets for edit projects. Requires macOS 10.15+ on Intel or Apple Silicon. The separate iOS companion has its own requirements. |
+
 #### 👤 Pieter Van Houte
 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Suck Less Audio](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Drives numeric and point parameters from WAV audio. Requires Microsoft WAV signed 16-bit PCM; other audio formats are not interchangeable. |
 
+#### 👤 Pro Sound Effects
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [SoundQ](https://www.prosoundeffects.com/soundq/) | 🆓 App and starter library; 💰 Additional sound libraries | 🪟 Windows · 🍎 macOS | Searches and organizes sound libraries with metadata editing and drag-and-drop into editors. Account required. Dedicated Spot to Timeline integration is listed for other hosts; do not assume that integration for Resolve. |
+
 #### 👤 RavinMaddHatter
 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [YouTube Prep Tool](https://ravinmaddhatter.itch.io/youtube-prep-tool) | 💰 Name your own price | ❔ Not established | Prepares gameplay edits using audio-volume cuts, description templates and subtitle transcription. Marked in development; the download points to an external GitHub release and was not followed. |
+
+#### 👤 Retouch4me
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Retouch4me video plugins](https://retouch4.me/videoretouching) | 💰 Paid plugins; demos available | 🪟 Windows · 🍎 macOS | Video skin cleanup and dodge-and-burn tools with OFX editions. Requires Resolve 18+ downloaded from Blackmagic; the Mac App Store build is unsupported. Individual products and installers have separate versions. |
+
+#### 👤 Ripple Training
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Resolve learning path](https://www.rippletraining.com/product-category/davinci-resolve-learning-path/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve learning pathway covering editing, color and media management. Reviewed listings include Resolve 20 color grading and Resolve 19 media management; lesson and exercise compatibility follows each course. |
 
 #### 👤 Stefan Bredereck/MuseVFX
 

@@ -2521,6 +2521,186 @@
       "checked_at": "2026-09-06T12:10:30.090Z"
     },
     {
+      "name": "DatamoshFuse",
+      "url": "https://akascape.gumroad.com/l/datamoshfuse",
+      "kind": "vendor-version",
+      "version": "Classic 0.4 / Live 0.1",
+      "source": "https://akascape.gumroad.com/l/datamoshfuse",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "DreamyFlare",
+      "url": "https://akascape.gumroad.com/l/dreamyflare",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/dreamyflare",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "ExtremeGlitch",
+      "url": "https://akascape.gumroad.com/l/extremeglitch",
+      "kind": "vendor-version",
+      "version": "0.2",
+      "source": "https://akascape.gumroad.com/l/extremeglitch",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Pixel Dither",
+      "url": "https://akascape.gumroad.com/l/pixeldither",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/pixeldither",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "RuttEtra",
+      "url": "https://akascape.gumroad.com/l/ruttetra",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/ruttetra",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "ShakeGlitch",
+      "url": "https://akascape.gumroad.com/l/shakeglitch",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://akascape.gumroad.com/l/shakeglitch",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperASCII Fuse",
+      "url": "https://akascape.gumroad.com/l/superascii",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/superascii",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperBokeh",
+      "url": "https://akascape.gumroad.com/l/superbokeh",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/superbokeh",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperCRT",
+      "url": "https://akascape.gumroad.com/l/supercrt",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/supercrt",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperDelusion",
+      "url": "https://akascape.gumroad.com/l/superdelusion",
+      "kind": "vendor-version",
+      "version": "0.2",
+      "source": "https://akascape.gumroad.com/l/superdelusion",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperLCD",
+      "url": "https://akascape.gumroad.com/l/superlcd",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/superlcd",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperMatrixRain",
+      "url": "https://akascape.gumroad.com/l/supermatrixrain",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/supermatrixrain",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperMesh",
+      "url": "https://akascape.gumroad.com/l/supermesh",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/supermesh",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperNTSC",
+      "url": "https://akascape.gumroad.com/l/superntsc",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/superntsc",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperPaperTear",
+      "url": "https://akascape.gumroad.com/l/superpapertear",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/superpapertear",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "SuperPrintFX",
+      "url": "https://akascape.gumroad.com/l/superprintfx",
+      "kind": "vendor-version",
+      "version": "0.2",
+      "source": "https://akascape.gumroad.com/l/superprintfx",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Upscaler Fuse",
+      "url": "https://akascape.gumroad.com/l/upscaler",
+      "kind": "vendor-version",
+      "version": "1.0",
+      "source": "https://akascape.gumroad.com/l/upscaler",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "WaterMemory",
+      "url": "https://akascape.gumroad.com/l/watermemory",
+      "kind": "vendor-version",
+      "version": "0.1",
+      "source": "https://akascape.gumroad.com/l/watermemory",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "Amalgam",
       "url": "https://aescripts.com/amalgam/",
       "kind": "vendor-version",
@@ -2872,6 +3052,16 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "ARISDA Bridge",
+      "url": "https://arisdabridge.com/",
+      "kind": "vendor-version",
+      "version": "1.0",
+      "source": "https://arisdabridge.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "AutoCut",
       "url": "https://www.autocut.com/en/",
       "kind": "unverified",
@@ -2893,6 +3083,17 @@
       "note": "Reference, discussion or collection with no single product version."
     },
     {
+      "name": "BUTTERY LUTs collections",
+      "url": "https://www.butteryluts.com/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.butteryluts.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
+    },
+    {
       "name": "Calver Glow V2 Lite",
       "url": "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297",
       "kind": "vendor-version",
@@ -2911,6 +3112,37 @@
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "PostSync",
+      "url": "https://chrisroyfilms.com/postsync/",
+      "kind": "vendor-version",
+      "version": "2.4.1",
+      "source": "https://chrisroyfilms.com/postsync/version-history/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "PostWatch",
+      "url": "https://chrisroyfilms.com/postwatch/",
+      "kind": "vendor-version",
+      "version": "4.10",
+      "source": "https://chrisroyfilms.com/postwatch/version-history/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "CinePacks free samples",
+      "url": "https://cinepacks.store/collections/free-packs",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://cinepacks.store/collections/free-packs",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
     },
     {
       "name": "CutDetect",
@@ -2951,6 +3183,16 @@
       "date": "2020-07-02",
       "date_kind": "Reactor manifest date",
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Map Engine",
+      "url": "https://davincikit.com/product/map-engine/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://davincikit.com/product/map-engine/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
     },
     {
       "name": "FastExpoGlow",
@@ -3035,6 +3277,17 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "Warren Eagles Resolve 18 training",
+      "url": "https://www.fxphd.com/resolve18/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.fxphd.com/resolve18/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
+    },
+    {
       "name": "Gradient Match",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom",
       "kind": "package-version",
@@ -3043,6 +3296,26 @@
       "date": "2011-07-16",
       "date_kind": "Reactor manifest date",
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "EditReady",
+      "url": "https://hedge.co/products/editready",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://hedge.co/products/editready",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "OffShoot",
+      "url": "https://hedge.co/products/offshoot",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://hedge.co/products/offshoot",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
     },
     {
       "name": "DaVinci Image AI",
@@ -3085,6 +3358,17 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "Resolve keyboard shortcuts and drills",
+      "url": "https://hkeys.app/apps/davinci-resolve/macos",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://hkeys.app/apps/davinci-resolve/macos",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
+    },
+    {
       "name": "Despiller Plus",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
       "kind": "package-version",
@@ -3105,6 +3389,17 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "Lowepost training",
+      "url": "https://lowepost.com/home/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://lowepost.com/home/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
+    },
+    {
       "name": "Outline plugin",
       "url": "https://ko-fi.com/s/6a120fb931",
       "kind": "unverified",
@@ -3113,6 +3408,27 @@
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Red Giant tools for Resolve",
+      "url": "https://www.maxon.net/en/red-giant",
+      "kind": "vendor-version",
+      "version": "2026.5.1",
+      "source": "https://support.maxon.net/hc/en-us/articles/13764887933596-Red-Giant-2026-5-1-August-12-2026",
+      "date": "2026-08-12",
+      "date_kind": "release",
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Mixing Light Resolve training",
+      "url": "https://mixinglight.com/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://mixinglight.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
     },
     {
       "name": "Mug Advanced Halftone",
@@ -3125,6 +3441,16 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "NeoFinder",
+      "url": "https://www.cdfinder.de/",
+      "kind": "vendor-version",
+      "version": "9.3",
+      "source": "https://www.cdfinder.de/versions.html",
+      "date": "2026-08-31",
+      "date_kind": "release",
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "Suck Less Audio",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom",
       "kind": "package-version",
@@ -3135,6 +3461,16 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "SoundQ",
+      "url": "https://www.prosoundeffects.com/soundq/",
+      "kind": "vendor-version",
+      "version": "2026.7.30",
+      "source": "https://www.prosoundeffects.com/soundq/download",
+      "date": "2026-07-30",
+      "date_kind": "release",
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "YouTube Prep Tool",
       "url": "https://ravinmaddhatter.itch.io/youtube-prep-tool",
       "kind": "unverified",
@@ -3143,6 +3479,28 @@
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Retouch4me video plugins",
+      "url": "https://retouch4.me/videoretouching",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://retouch4.me/videoretouching",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
+    },
+    {
+      "name": "Resolve learning path",
+      "url": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07",
+      "note": "Reference or collection with no single software release version."
     },
     {
       "name": "FastLightWrap",
