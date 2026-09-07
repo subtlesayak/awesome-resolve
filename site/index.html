@@ -5,7 +5,7 @@
   <meta name="description" content="Find DaVinci Resolve tools with source-backed compatibility, version history and clear requirements.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Awesome Resolve List — Find tools for your setup</title>
-  <link rel="stylesheet" href="style.css?v=2"><script type="module" src="app.mjs?v=3"></script>
+  <link rel="stylesheet" href="style.css?v=5"><script type="module" src="app.mjs?v=4"></script>
 </head>
 <body>
 <a class="skip" href="#results">Skip to results</a>
@@ -14,10 +14,10 @@
  <section id="catalogue" aria-labelledby="heading">
   <h1 id="heading">Find tools for your Resolve setup.</h1>
   <p class="lede">Source-backed compatibility, version history and clear requirements.</p>
-  <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Search tools, creators or tasks</span><input id="search" type="search" placeholder="Search tools, creators or tasks" autocomplete="off"></label>
+  <label class="search"><svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr-only">Search tools, creators or tasks</span><input id="search" type="search" placeholder="Search tools, creators or tasks" autocomplete="off"></label>
   <div class="modes" role="group" aria-label="Catalogue mode"><button id="all-mode" aria-pressed="true">Explore all</button><button id="tested-mode" aria-pressed="false">Tested starting points</button></div>
   <div class="workspace">
-   <aside aria-label="Catalogue filters"><h2>Your setup</h2><button type="button" id="filter-toggle" aria-expanded="false" aria-controls="filter-controls" class="outline">Filters and setup ▾</button><div id="filter-controls" data-collapsed="true"><form id="filters">
+   <aside aria-label="Catalogue filters"><h2>Your setup</h2><button type="button" id="filter-toggle" aria-expanded="false" aria-controls="filter-controls" class="outline"><span id="filter-label">Filters and setup</span><svg class="disclosure-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div id="filter-controls" data-collapsed="true"><form id="filters">
     <label>Task<select name="task"><option value="">All tasks</option></select></label>
     <label>Operating system<select name="platform"><option value="">Any platform</option><option>Windows</option><option>macOS</option><option>Linux</option><option>iPadOS</option></select></label>
     <label>Resolve edition<select name="edition"><option value="">Any edition</option><option>Free</option><option>Studio</option></select></label>
@@ -28,7 +28,7 @@
     <details class="more-filters"><summary>More requirements</summary><label>Payment model<select name="pricing"><option value="">Any payment model</option><option value="free">Free</option><option value="one-time">One-time license</option><option value="subscription">Subscription</option><option value="mixed">Mixed options</option><option value="unknown">Not established</option></select></label><label>Processor architecture<select name="architecture"><option value="">Any architecture</option><option value="x64">x64 / Intel</option><option value="arm64">ARM64 / Apple Silicon</option></select></label></details>
     <button type="button" id="clear" class="outline">Clear filters</button>
    </form><p class="filter-note">Filters match recorded requirements. Unknowns are excluded when you choose a requirement. Always check the linked source and exceptions.</p><button type="button" id="share" class="text-button">Copy this view’s link</button></div></aside>
-   <div class="catalogue-content"><div class="result-bar"><p id="count" role="status" aria-live="polite">Loading catalogue…</p><label class="sort"><span class="sr-only">Sort results</span><select id="sort"><option value="name">Name A–Z</option><option value="updated">Latest release / update</option><option value="activity">Repository activity</option><option value="stars">GitHub stars</option><option value="creator">Creator A–Z</option><option value="type">Type A–Z</option></select></label></div>
+   <div class="catalogue-content"><div class="result-bar"><p id="count" role="status" aria-live="polite">Loading catalogue…</p><label class="sort"><span>Sort results</span><select id="sort"><option value="name">Name A–Z</option><option value="updated">Latest release / update</option><option value="activity">Repository activity</option><option value="stars">GitHub stars</option><option value="creator">Creator A–Z</option><option value="type">Type A–Z</option></select></label></div><div id="active-filters" class="active-filters" role="group" aria-label="Active filters" hidden></div>
     <p id="mode-note" class="mode-note" hidden></p><div id="results" tabindex="-1"></div><button id="more" class="outline" hidden>Show more resources</button>
     <noscript><p>Enable JavaScript for filtering, or <a href="https://github.com/subtlesayak/awesome-resolve">browse the complete Markdown catalogue</a>.</p></noscript>
    </div>
