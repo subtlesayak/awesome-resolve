@@ -1,5 +1,7 @@
 # Contributing
 
+[🌐 Browse the website](https://subtlesayak.github.io/awesome-resolve/) · [Website maintenance](WEBSITE.md)
+
 Suggest additions and corrections through an issue or pull request.
 
 Use the resource or correction form under [New issue](https://github.com/subtlesayak/awesome-resolve/issues/new/choose). The pull request template asks for the same source evidence and practical context.

@@ -1,6 +1,6 @@
 # Reading the catalogue
 
-[🎬 Catalogue](README.md) · [🧭 Start with a task](START-HERE.md)
+[🌐 Searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Catalogue](README.md) · [🧭 Start with a task](START-HERE.md)
 
 ## Access labels
 
@@ -15,7 +15,7 @@ Resolve Studio, hardware and external service costs are separate from a tool's p
 
 [Version records](data/versions.json) distinguish stable releases, prereleases, source commits, vendor/package versions, document editions, not-applicable references and unknown versions. A commit is not a software release. Product-family numbers are labelled as such.
 
-Relative ages are calculated at the recorded check date, not a live clock. Repository ages describe pushes. External ages identify the supporting release, devlog, installer or manifest date. **†** means a recorded date is more than two years old; it does not prove abandonment. Unknown dates are never guessed from when a webpage was checked.
+Markdown relative ages are calculated at the recorded check date; the website calculates relative ages when viewed. Repository ages describe pushes. External ages identify the supporting release, devlog, installer or manifest date. **†** means a recorded date is more than two years old; it does not prove abandonment. Unknown dates are never guessed from when a webpage was checked.
 
 ## Platforms supported
 

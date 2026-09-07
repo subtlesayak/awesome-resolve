@@ -1,6 +1,6 @@
 # 💰 Access
 
-[🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)
+[🌐 Searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)
 
 [🕒 Latest updated](latest-updated.md) · [🔤 Name](name.md) · [🏷️ Type](type.md) · [⭐ Stars](stars.md) · [💰 Access](access.md)
 

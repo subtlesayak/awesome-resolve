@@ -4,7 +4,9 @@ Find tools for your Resolve setup—with source-backed compatibility, version hi
 
 Explore a directory of **225 public GitHub repositories** and **157 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
 
-[🌐 Website source and preview](WEBSITE.md) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
+[🌐 Browse the searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
+
+Search and filter the [website](https://subtlesayak.github.io/awesome-resolve/) by task, platform, Resolve version and requirements. See [website maintenance and hosting](WEBSITE.md) for the source and local preview instructions.
 
 ## Contents
 

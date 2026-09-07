@@ -1,11 +1,12 @@
 export const TASKS = { captions:'Captions & dialogue', color:'Color & film looks', fusion:'Fusion & animation', workflow:'Workflow & automation', media:'Media & delivery', audio:'Audio', development:'Development', learning:'Learning & references', hardware:'Hardware', linux:'Linux setup' };
 export const LEVELS = { documented:'Source documented', creator:'Creator confirmed', tested:'Community tested', unknown:'Not established' };
-export const DEFAULTS = { q:'', task:'', platform:'', edition:'', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', sort:'name', mode:'all' };
+export const DEFAULTS = { q:'', task:'', platform:'', edition:'', resolve:'', access:'', processing:'', pricing:'', architecture:'', evidence:'', official:'', sort:'name', mode:'all' };
 export function compareVersions(a,b) { const x=String(a).split('.').map(Number), y=String(b).split('.').map(Number); for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]||0)-(y[i]||0);if(d)return Math.sign(d);}return 0; }
 export function matchesVersion(entry,version,edition) { return entry.requirements.resolve.some(r=>(!r.edition||!edition||r.edition===edition)&&(!r.min||compareVersions(version,r.min)>=0)&&(!r.max||compareVersions(version,r.max)<=0)); }
 export function filterEntries(entries,state) {
  const words=(state.q||'').toLowerCase().trim().split(/\s+/).filter(Boolean);
  return entries.filter(e=>{
+  if(state.official==='hide'&&e.official)return false;
   if(!words.every(w=>`${e.name} ${e.creator} ${e.description} ${e.tasks.map(t=>TASKS[t]).join(' ')} ${e.category}`.toLowerCase().includes(w)))return false;
   if(state.mode==='tested'&&!e.recommended)return false;
   if(state.task&&!e.tasks.includes(state.task))return false;

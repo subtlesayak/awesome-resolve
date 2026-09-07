@@ -4,6 +4,16 @@ import fs from 'node:fs';
 import {buildSite} from './build-site.mjs';
 import {DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate} from '../site/model.mjs';
 const data=buildSite(),find=name=>data.entries.find(e=>e.name===name);
+test('hiding official BMD listings preserves third-party resources and shared preferences',()=>{
+  const state={...DEFAULTS,official:'hide',sort:'stars'};
+  const found=filterEntries(data.entries,state);
+  assert.equal(found.length,375);
+  assert.ok(found.every(e=>!e.official));
+  assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));
+  assert.deepEqual(stateFromUrl('?'+stateToUrl(state)).state,state);
+  assert.equal(filterEntries(data.entries,{...DEFAULTS}).length,382);
+  assert.equal(DEFAULTS.sort,'name');
+});
 test('website contains all 382 unique catalogue entries and no private outreach data',()=>{assert.equal(data.entries.length,382);assert.equal(new Set(data.entries.map(e=>e.id)).size,382);assert.equal(new Set(data.entries.map(e=>e.url)).size,382);const json=JSON.stringify(data);assert.doesNotMatch(json,/C:\\\\Users|D:\\\\Projects|gmail_draft_id|contact_email|gmail-receipts/);});
 test('filters combine requirements without promoting unknowns to supported',()=>{const state={...DEFAULTS,platform:'Windows',edition:'Free',task:'captions'};const found=filterEntries(data.entries,state);assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));assert.ok(!found.some(e=>e.name==='Tagger for Resolve'));assert.ok(!found.some(e=>e.name==='auto-subs'));assert.ok(filterEntries(data.entries,{...DEFAULTS,processing:'local',pricing:'free',task:'captions'}).some(e=>e.name==='BadWords'));});
 test('version ranges honor exact, minimum, maximum and edition scope',()=>{const e={requirements:{resolve:[{min:'18.6',max:'19.0.3',edition:'Free'},{min:'18.6',edition:'Studio'}]}};assert.equal(matchesVersion(e,'19.0.3','Free'),true);assert.equal(matchesVersion(e,'19.1','Free'),false);assert.equal(matchesVersion(e,'21','Studio'),true);assert.equal(matchesVersion(e,'18.5','Studio'),false);assert.equal(matchesVersion({requirements:{resolve:[]}},'21','Free'),false);});

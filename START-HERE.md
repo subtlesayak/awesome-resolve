@@ -1,6 +1,6 @@
 # Find a Resolve resource
 
-[🎬 Full catalogue](README.md) · [🏢 Official resources](README.md#official-resources) · [🔤 All entries by name](views/name.md)
+[🌐 Search and filter](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Full catalogue](README.md) · [🏢 Official resources](README.md#official-resources) · [🔤 All entries by name](views/name.md)
 
 Start with your task, then check the entry's Free/Studio requirements, operating system and access conditions. These routes help you explore the catalogue; they are not installation-tested recommendations.
 
