@@ -5,7 +5,7 @@
   <meta name="description" content="Find DaVinci Resolve tools with source-backed compatibility, version history and clear requirements.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Awesome Resolve List — Find tools for your setup</title>
-  <link rel="stylesheet" href="style.css?v=5"><script type="module" src="app.mjs?v=6"></script>
+  <link rel="stylesheet" href="style.css?v=7"><script type="module" src="app.mjs?v=7"></script>
 </head>
 <body>
 <a class="skip" href="#results">Skip to results</a>
@@ -25,7 +25,7 @@
     <label>Access<select name="access"><option value="">Any access</option><option value="free">🆓 Free</option><option value="mixed">Mixed / free tier</option><option value="paid">💰 Paid</option><option value="public">Public; check terms</option></select></label>
     <label>Processing<select name="processing"><option value="">Any processing</option><option value="local">Local workflow documented</option><option value="cloud">Cloud service</option><option value="hybrid">Local & online features</option><option value="unknown">Not established</option></select></label>
     <label>Evidence<select name="evidence"><option value="">Any evidence</option><option value="documented">Source documented</option><option value="creator">Creator confirmed</option><option value="tested">Community tested</option><option value="unknown">Has unknown requirements</option></select></label>
-    <label>Official BMD resources<select name="official"><option value="">Show</option><option value="hide">Hide</option></select></label>
+    <label class="checkbox-filter"><input type="checkbox" name="official" value="hide"><span>Hide official BMD resources</span></label>
     <details class="more-filters"><summary>More requirements</summary><label>Payment model<select name="pricing"><option value="">Any payment model</option><option value="free">Free</option><option value="one-time">One-time license</option><option value="subscription">Subscription</option><option value="mixed">Mixed options</option><option value="unknown">Not established</option></select></label><label>Processor architecture<select name="architecture"><option value="">Any architecture</option><option value="x64">x64 / Intel</option><option value="arm64">ARM64 / Apple Silicon</option></select></label></details>
     <button type="button" id="clear" class="outline">Clear filters</button>
    </form><p class="filter-note">Filters match recorded requirements. Unknowns are excluded when you choose a requirement. Always check the linked source and exceptions.</p><button type="button" id="share" class="text-button">Copy this view’s link</button></div></aside>

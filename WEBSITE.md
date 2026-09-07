@@ -4,7 +4,7 @@
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.
 
-Set **Official BMD resources** to **Hide** to browse only community and third-party listings. This preference is included in shared filter URLs. **Clear filters** restores all resources and clears the search and requirements while preserving the selected sort order.
+Check **Hide official BMD resources** to browse only community and third-party listings. Uncheck it to show official listings again. This preference is included in shared filter URLs. **Clear filters** restores all resources and clears the search and requirements while preserving the selected sort order.
 
 ## Run locally
 
