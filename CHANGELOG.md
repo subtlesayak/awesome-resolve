@@ -2,6 +2,25 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.12](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.12) — 2026-09-07
+
+### Added
+
+Ten verified external additions, bringing the directory to **122 external destinations** and the combined catalogue to **347 entries** (225 GitHub repositories). Creator-stated compatibility was reviewed; the tools were not installed or runtime-tested. Unknown current versions and update dates remain unverified.
+
+- [framechart](https://framechart.com/) — Renders animated bar, line, table and race charts from CSV data inside Resolve. OFX plugin for Resolve Free or Studio; the free tier includes all chart features with a watermark. **🆓 Watermarked free tier; 💰 License removes watermark.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [AutoCut](https://www.autocut.com/en/) — Automates silence removal, captions, zooms and other editing tasks. The download page lists Resolve 18.6, 19, 20 and 21; check feature and subscription requirements before use. **💰 Paid plans; 14-day free trial.** 🪟 Windows · 🍎 macOS.
+- [FireCut](https://firecut.ai/pricing/davinci-resolve/) — Free tools cover silence removal, multichannel audio splitting and marker management. Paid plans add captions and AI editing features. Supports Resolve Free; online AI, transcription and asset services require internet access. **🆓 Basic tools; 💰 Paid plans with 7-day trial.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Tagger for Resolve](https://tagger.mov/) — Adds AI keywords, descriptions and shot metadata to the Media Pool, plus local audio transcription. Requires Resolve Studio. Selected low-resolution frames are sent to an AI service for visual analysis; audio transcription runs locally. **🆓 First 20 files; 💰 One-time Pro license.** 🪟 Windows · 🍎 macOS.
+- [CutMatch](https://cutpointlabs.com/cutmatch/) — Matches flattened reference sections to source footage and exports a CMX3600 conform EDL. Requires a reference cut-list EDL and manual match review; unmatched events are omitted. Creator lists a free Mac App Store Preview. **🆓 Preview; 📦 Full-product access not established.** 🍎 macOS.
+- [CutDetect](https://cutpointlabs.com/cutdetect/) — Standalone hard-cut detection with visual review, manual adjustment and CMX3600 EDL export for conform workflows. Processes media locally. A versioned demonstration does not establish the latest downloadable build. **📦 Public listing; price/download access not established.** 🍎 macOS.
+- [LUT Tuner](https://cutpointlabs.com/lut-tuner/) — Edits, previews, compares and resizes .cube LUTs, with export of tunable DCTL approximations for Resolve. DCTL output approximates the LUT; review the fit measurements before using it in a color pipeline. **📦 Public listing; price/download access not established.** 🍎 macOS.
+- [Puppet Pin Tool](https://tangenten.gumroad.com/l/PuppetPinTool) — **1.2.2** — Mesh deformation and pin-based character animation with IK/FK rigs in Fusion. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. Layered PSD input requires Resolve Studio; separate image layers support the Free edition. **💰 Paid individual-seat license.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Flow Looper](https://tangenten.gumroad.com/l/FlowLooper) — **1.1.0** — Animates still images with spline-defined flow corridors and cross-faded loops for moving textures and backgrounds. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. **💰 Paid individual-seat license.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+- [Palette Pal](https://tangenten.gumroad.com/l/PalettePal) — **1.0.0** — Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+. **💰 Paid individual-seat license.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
+
+Discovery credit: [Greenysmac’s list](https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md), followed by primary-source checks and related Tangenten listings. Descriptions were written from the creator sources.
+
 ## [v1.11](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.11) — 2026-09-06
 
 ### Added

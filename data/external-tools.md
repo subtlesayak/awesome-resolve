@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**112 external destinations** checked on **6 September 2026**. These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**122 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -298,7 +298,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**40 later additions**, including the official resources above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**50 later additions**, including the official resources above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -325,6 +325,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Attribute Spreadsheet](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom) | 🆓 MIT | ❔ Not established | Edits and links multiple Fusion node inputs in a spreadsheet. Requires Fusion/Resolve 18, Python 3.8+ and PySide6. Avoid circular expression links: the author documents a crash. |
 
+#### 👤 AutoCut
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [AutoCut](https://www.autocut.com/en/) | 💰 Paid plans; 14-day free trial | 🪟 Windows · 🍎 macOS | Automates silence removal, captions, zooms and other editing tasks. The download page lists Resolve 18.6, 19, 20 and 21; check feature and subscription requirements before use. |
+
 #### 👤 Blackmagic forum community
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -343,6 +349,14 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Nintendo Direct Graphics Pack](https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139) | 🆓 Free public pack | ❔ Not established | Bumper, lower-third and transition assets with three editable Fusion compositions. Creator calls the pack free/public but has not confirmed Resolve Free compatibility. |
 
+#### 👤 Cutpoint Labs
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [CutDetect](https://cutpointlabs.com/cutdetect/) | 📦 Public listing; price/download access not established | 🍎 macOS | Standalone hard-cut detection with visual review, manual adjustment and CMX3600 EDL export for conform workflows. Processes media locally. A versioned demonstration does not establish the latest downloadable build. |
+| [CutMatch](https://cutpointlabs.com/cutmatch/) | 🆓 Preview; 📦 Full-product access not established | 🍎 macOS | Matches flattened reference sections to source footage and exports a CMX3600 conform EDL. Requires a reference cut-list EDL and manual match review; unmatched events are omitted. Creator lists a free Mac App Store Preview. |
+| [LUT Tuner](https://cutpointlabs.com/lut-tuner/) | 📦 Public listing; price/download access not established | 🍎 macOS | Edits, previews, compares and resizes .cube LUTs, with export of tunable DCTL approximations for Resolve. DCTL output approximates the LUT; review the fit measurements before using it in a color pipeline. |
+
 #### 👤 Dan De'Etremont
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -357,11 +371,23 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [SkinCorrector](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Frequency-separation macro for skin retouching and beauty work in Fusion. |
 | [VolumeHaze](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Compositing macro that spills background light over foreground elements in atmospheric scenes. |
 
+#### 👤 FireCut
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [FireCut](https://firecut.ai/pricing/davinci-resolve/) | 🆓 Basic tools; 💰 Paid plans with 7-day trial | 🪟 Windows · 🍎 macOS · 🐧 Linux | Free tools cover silence removal, multichannel audio splitting and marker management. Paid plans add captions and AI editing features. Supports Resolve Free; online AI, transcription and asset services require internet access. |
+
 #### 👤 Fractale
 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Cheetah Video Proxy Generator](https://fractale.itch.io/cheetah-video-proxy-generator) | 📦 Public download; store terms may differ | 🪟 Windows · 🍎 macOS | Creates H.264/H.265, DNxHR and ProRes proxies for Resolve, including portrait-aware sizing. macOS requires a separate FFmpeg installation. Windows is also distributed through Microsoft Store. |
+
+#### 👤 framechart
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [framechart](https://framechart.com/) | 🆓 Watermarked free tier; 💰 License removes watermark | 🪟 Windows · 🍎 macOS · 🐧 Linux | Renders animated bar, line, table and race charts from CSV data inside Resolve. OFX plugin for Resolve Free or Studio; the free tier includes all chart features with a watermark. |
 
 #### 👤 FrameTools
 
@@ -439,6 +465,20 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [displace plus plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | GPU displacement Fuse with XY, angle/radius, rotation and image-gradient modes, plus edge-overflow controls. |
+
+#### 👤 Tagger
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Tagger for Resolve](https://tagger.mov/) | 🆓 First 20 files; 💰 One-time Pro license | 🪟 Windows · 🍎 macOS | Adds AI keywords, descriptions and shot metadata to the Media Pool, plus local audio transcription. Requires Resolve Studio. Selected low-resolution frames are sent to an AI service for visual analysis; audio transcription runs locally. |
+
+#### 👤 Tangenten
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Flow Looper](https://tangenten.gumroad.com/l/FlowLooper) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Animates still images with spline-defined flow corridors and cross-faded loops for moving textures and backgrounds. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. |
+| [Palette Pal](https://tangenten.gumroad.com/l/PalettePal) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+. |
+| [Puppet Pin Tool](https://tangenten.gumroad.com/l/PuppetPinTool) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Mesh deformation and pin-based character animation with IK/FK rigs in Fusion. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. Layered PSD input requires Resolve Studio; separate image layers support the Free edition. |
 
 #### 👤 vfxblend
 

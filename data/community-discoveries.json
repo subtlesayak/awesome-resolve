@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-06",
+  "checked_at": "2026-09-07",
   "baseline_count": 72,
-  "added_count": 40,
-  "total_count": 112,
-  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06.",
+  "added_count": 50,
+  "total_count": 122,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained.",
   "additions": [
     {
       "creator": "heiba",
@@ -706,6 +706,209 @@
         "https://forum.blackmagicdesign.com/viewtopic.php?p=1105614&t=175315"
       ],
       "checked_at": "2026-09-06"
+    },
+    {
+      "creator": "framechart",
+      "name": "framechart",
+      "url": "https://framechart.com/",
+      "category": "Community tools and resources",
+      "access": "🆓 Watermarked free tier; 💰 License removes watermark",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Renders animated bar, line, table and race charts from CSV data inside Resolve. OFX plugin for Resolve Free or Studio; the free tier includes all chart features with a watermark.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://framechart.com/",
+        "https://framechart.com/download"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "AutoCut",
+      "name": "AutoCut",
+      "url": "https://www.autocut.com/en/",
+      "category": "Community tools and resources",
+      "access": "💰 Paid plans; 14-day free trial",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Automates silence removal, captions, zooms and other editing tasks. The download page lists Resolve 18.6, 19, 20 and 21; check feature and subscription requirements before use.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://www.autocut.com/en/",
+        "https://www.autocut.com/en/download/",
+        "https://www.autocut.com/en/updates/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "FireCut",
+      "name": "FireCut",
+      "url": "https://firecut.ai/pricing/davinci-resolve/",
+      "category": "Community tools and resources",
+      "access": "🆓 Basic tools; 💰 Paid plans with 7-day trial",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Free tools cover silence removal, multichannel audio splitting and marker management. Paid plans add captions and AI editing features. Supports Resolve Free; online AI, transcription and asset services require internet access.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://firecut.ai/pricing/davinci-resolve/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Tagger",
+      "name": "Tagger for Resolve",
+      "url": "https://tagger.mov/",
+      "category": "Community tools and resources",
+      "access": "🆓 First 20 files; 💰 One-time Pro license",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "description": "Adds AI keywords, descriptions and shot metadata to the Media Pool, plus local audio transcription. Requires Resolve Studio. Selected low-resolution frames are sent to an AI service for visual analysis; audio transcription runs locally.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://tagger.mov/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Cutpoint Labs",
+      "name": "CutMatch",
+      "url": "https://cutpointlabs.com/cutmatch/",
+      "category": "Community tools and resources",
+      "access": "🆓 Preview; 📦 Full-product access not established",
+      "platforms": "🍎 macOS",
+      "description": "Matches flattened reference sections to source footage and exports a CMX3600 conform EDL. Requires a reference cut-list EDL and manual match review; unmatched events are omitted. Creator lists a free Mac App Store Preview.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cutpointlabs.com/cutmatch/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Cutpoint Labs",
+      "name": "CutDetect",
+      "url": "https://cutpointlabs.com/cutdetect/",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "🍎 macOS",
+      "description": "Standalone hard-cut detection with visual review, manual adjustment and CMX3600 EDL export for conform workflows. Processes media locally. A versioned demonstration does not establish the latest downloadable build.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cutpointlabs.com/cutdetect/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Cutpoint Labs",
+      "name": "LUT Tuner",
+      "url": "https://cutpointlabs.com/lut-tuner/",
+      "category": "Community tools and resources",
+      "access": "📦 Public listing; price/download access not established",
+      "platforms": "🍎 macOS",
+      "description": "Edits, previews, compares and resizes .cube LUTs, with export of tunable DCTL approximations for Resolve. DCTL output approximates the LUT; review the fit measurements before using it in a color pipeline.",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cutpointlabs.com/lut-tuner/"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Tangenten",
+      "name": "Puppet Pin Tool",
+      "url": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "category": "Community tools and resources",
+      "access": "💰 Paid individual-seat license",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Mesh deformation and pin-based character animation with IK/FK rigs in Fusion. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. Layered PSD input requires Resolve Studio; separate image layers support the Free edition.",
+      "version": "1.2.2",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary creator listing; direct page did not render",
+      "sources": [
+        "https://tangenten.gumroad.com/l/PuppetPinTool"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Tangenten",
+      "name": "Flow Looper",
+      "url": "https://tangenten.gumroad.com/l/FlowLooper",
+      "category": "Community tools and resources",
+      "access": "💰 Paid individual-seat license",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Animates still images with spline-defined flow corridors and cross-faded loops for moving textures and backgrounds. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+.",
+      "version": "1.1.0",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary creator listing; direct page did not render",
+      "sources": [
+        "https://tangenten.gumroad.com/l/FlowLooper"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Tangenten",
+      "name": "Palette Pal",
+      "url": "https://tangenten.gumroad.com/l/PalettePal",
+      "category": "Community tools and resources",
+      "access": "💰 Paid individual-seat license",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+.",
+      "version": "1.0.0",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Indexed primary creator listing; direct page did not render",
+      "sources": [
+        "https://tangenten.gumroad.com/l/PalettePal"
+      ],
+      "discovery_sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md"
+      ],
+      "checked_at": "2026-09-07"
     }
   ],
   "held_candidates": [

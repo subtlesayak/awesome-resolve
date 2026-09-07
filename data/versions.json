@@ -2872,6 +2872,16 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "AutoCut",
+      "url": "https://www.autocut.com/en/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.autocut.com/en/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "Creating Scripts for DaVinci Resolve — examples thread",
       "url": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
       "kind": "not-applicable",
@@ -2901,6 +2911,36 @@
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "CutDetect",
+      "url": "https://cutpointlabs.com/cutdetect/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://cutpointlabs.com/cutdetect/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "CutMatch",
+      "url": "https://cutpointlabs.com/cutmatch/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://cutpointlabs.com/cutmatch/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "LUT Tuner",
+      "url": "https://cutpointlabs.com/lut-tuner/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://cutpointlabs.com/lut-tuner/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
     },
     {
       "name": "Fringe Fighter Turbo",
@@ -2943,6 +2983,16 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "FireCut",
+      "url": "https://firecut.ai/pricing/davinci-resolve/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://firecut.ai/pricing/davinci-resolve/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
       "name": "Cheetah Video Proxy Generator",
       "url": "https://fractale.itch.io/cheetah-video-proxy-generator",
       "kind": "vendor-version",
@@ -2953,6 +3003,16 @@
       "checked_at": "2026-09-06",
       "date_platform": "Windows",
       "date_version": "0.3.6"
+    },
+    {
+      "name": "framechart",
+      "url": "https://framechart.com/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://framechart.com/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
     },
     {
       "name": "FrameTools CapCut Caption Pack",
@@ -3123,6 +3183,46 @@
       "date": "2026-04-03",
       "date_kind": "Reactor manifest date",
       "checked_at": "2026-09-06"
+    },
+    {
+      "name": "Tagger for Resolve",
+      "url": "https://tagger.mov/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://tagger.mov/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Flow Looper",
+      "url": "https://tangenten.gumroad.com/l/FlowLooper",
+      "kind": "vendor-version",
+      "version": "1.1.0",
+      "source": "https://tangenten.gumroad.com/l/FlowLooper",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Palette Pal",
+      "url": "https://tangenten.gumroad.com/l/PalettePal",
+      "kind": "vendor-version",
+      "version": "1.0.0",
+      "source": "https://tangenten.gumroad.com/l/PalettePal",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
+    },
+    {
+      "name": "Puppet Pin Tool",
+      "url": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "kind": "vendor-version",
+      "version": "1.2.2",
+      "source": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-07"
     },
     {
       "name": "Eric’s Keyframes",
