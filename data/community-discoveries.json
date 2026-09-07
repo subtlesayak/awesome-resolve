@@ -577,15 +577,16 @@
       "category": "Official resources and community references",
       "access": "🆓 Free edition; 💰 Studio license",
       "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
-      "description": "Official host downloads and edition overview. The page advertises Resolve 21 and includes Krokodove tools in its new-feature overview; this is a product-family version, not a verified latest patch or release date.",
-      "version": "21 (advertised product family)",
-      "updated": null,
-      "date_kind": null,
+      "description": "Official host downloads and edition overview. The official download feed lists Resolve and Resolve Studio 21.0.4, released August 5, 2026. Check installer-specific requirements.",
+      "version": "21.0.4",
+      "updated": "2026-08-05",
+      "date_kind": "release",
       "evidence_mode": "Reviewed public primary page",
       "sources": [
+        "https://www.blackmagicdesign.com/api/support/us/downloads.json",
         "https://www.blackmagicdesign.com/products/davinciresolve"
       ],
-      "checked_at": "2026-09-06"
+      "checked_at": "2026-09-07"
     },
     {
       "creator": "Blackmagic Design",
@@ -593,16 +594,17 @@
       "url": "https://www.blackmagicdesign.com/products/fusion",
       "category": "Official resources and community references",
       "access": "💰 Licensed software",
-      "platforms": "❔ Confirm OS and hardware for the selected installer",
-      "description": "Standalone node-based compositing application. Official page advertises Fusion 21 and activation using a DaVinci Resolve license. Check the Support Center for exact builds and installation requirements.",
-      "version": "21 (advertised product family)",
-      "updated": null,
-      "date_kind": null,
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "description": "Standalone node-based compositing application. The official download feed lists Fusion Studio 21.0.4, released August 5, 2026, for Windows, macOS and Linux. A compatible license is required.",
+      "version": "21.0.4",
+      "updated": "2026-08-05",
+      "date_kind": "release",
       "evidence_mode": "Reviewed public primary page",
       "sources": [
+        "https://www.blackmagicdesign.com/api/support/us/downloads.json",
         "https://www.blackmagicdesign.com/products/fusion"
       ],
-      "checked_at": "2026-09-06"
+      "checked_at": "2026-09-07"
     },
     {
       "creator": "Blackmagic Design",
@@ -628,7 +630,7 @@
       "category": "Official resources and community references",
       "access": "📦 Public support; download conditions vary",
       "platforms": "📖 Reference; select the correct OS download",
-      "description": "Official destination for installers, manuals, support notes and release information. Dynamic download records did not render in this review, so no latest patch number or release date is claimed.",
+      "description": "Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries.",
       "version": null,
       "updated": null,
       "date_kind": null,
@@ -636,7 +638,7 @@
       "sources": [
         "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion"
       ],
-      "checked_at": "2026-09-06"
+      "checked_at": "2026-09-07"
     },
     {
       "creator": "Blackmagic Design",

@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "policy": "Only explicitly supported facts belong in structured filters. Empty arrays and unknown mean not established, not unsupported. Public creator statements are source documented; creator confirmed requires a direct attributable correction or confirmation. Community tested requires exact setup and outcome. No outreach message or metadata scan counts as testing.",
+  "entries": [
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21.0.4",
+            "max": "21.0.4"
+          }
+        ]
+      },
+      "tasks": [
+        "learning"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+          "checked_at": "2026-09-07",
+          "note": "Current host release, not a claim that third-party plugins support it."
+        }
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "accessGroup": "mixed"
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "requirements": {},
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+          "checked_at": "2026-09-07",
+          "note": "Standalone Fusion Studio is separate from the Resolve Free/Studio edition filter."
+        }
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
+    },
+    {
+      "url": "https://framechart.com/",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "pricing": "mixed"
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://framechart.com/",
+          "checked_at": "2026-09-07",
+          "note": "All chart features are available in the watermarked free tier; a license removes the watermark."
+        }
+      ]
+    },
+    {
+      "url": "https://www.autocut.com/en/",
+      "requirements": {
+        "resolve": [
+          {
+            "min": "18.6",
+            "max": "18.6"
+          },
+          {
+            "min": "19",
+            "max": "19.99"
+          },
+          {
+            "min": "20",
+            "max": "20.99"
+          },
+          {
+            "min": "21",
+            "max": "21.99"
+          }
+        ],
+        "pricing": "subscription"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.autocut.com/en/download/",
+          "checked_at": "2026-09-07",
+          "note": "Download page lists Resolve 18.6, 19, 20 and 21. Edition and feature requirements remain unknown."
+        }
+      ]
+    },
+    {
+      "url": "https://firecut.ai/pricing/davinci-resolve/",
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "processing": "unknown",
+        "pricing": "mixed",
+        "dependencies": "Online AI, transcription and asset services require internet access."
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://firecut.ai/pricing/davinci-resolve/",
+          "checked_at": "2026-09-07",
+          "note": "Free basic silence removal, audio splitting and markers; paid AI and caption features use online services. Studio support is not inferred."
+        }
+      ]
+    },
+    {
+      "url": "https://tagger.mov/",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "processing": "hybrid",
+        "pricing": "one-time",
+        "dependencies": "Selected low-resolution frames go to an AI service; audio transcription runs locally."
+      },
+      "tasks": [
+        "workflow",
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://tagger.mov/",
+          "checked_at": "2026-09-07",
+          "note": "First 20 files are free; a one-time Pro license expands access."
+        }
+      ],
+      "accessGroup": "mixed"
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "20"
+          }
+        ]
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://tangenten.gumroad.com/l/PuppetPinTool",
+          "checked_at": "2026-09-07",
+          "note": "Resolve 20+ Free/Studio or Fusion Studio 20+. Layered PSD input requires Resolve Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/FlowLooper",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "20"
+          }
+        ]
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://tangenten.gumroad.com/l/FlowLooper",
+          "checked_at": "2026-09-07",
+          "note": "Resolve 20+ Free/Studio or Fusion Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://arisdabridge.com/",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21",
+            "max": "21.99",
+            "edition": "Studio"
+          }
+        ],
+        "dependencies": "Windows 11; NTSC frame rates unsupported. Optional LTC routing and PunchLight setup are separate."
+      },
+      "tasks": [
+        "hardware",
+        "workflow"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://arisdabridge.com/",
+          "checked_at": "2026-09-07",
+          "note": "Creator-published tested scope: Resolve Studio 21 on Windows 11. Not tested by this catalogue."
+        }
+      ],
+      "platforms": [
+        "Windows"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/datamoshfuse",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "dependencies": "FFmpeg is required."
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/datamoshfuse",
+          "checked_at": "2026-09-07",
+          "note": "Datamosh Classic and Live have separate versions; platform support remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://chrisroyfilms.com/postsync/",
+      "requirements": {
+        "dependencies": "Review selected folders before enabling cache cleanup. Network or cloud synchronization setup depends on the chosen destination."
+      },
+      "tasks": [
+        "workflow"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://chrisroyfilms.com/postsync/",
+          "checked_at": "2026-09-07",
+          "note": "Settings synchronization, scheduling and configurable cleanup; no exact host-version requirement established."
+        }
+      ],
+      "platforms": [
+        "macOS"
+      ]
+    },
+    {
+      "url": "https://www.cdfinder.de/",
+      "requirements": {
+        "architectures": [
+          "x64",
+          "arm64"
+        ],
+        "dependencies": "macOS 10.15 or later; separate iOS companion has its own requirements."
+      },
+      "tasks": [
+        "media"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.cdfinder.de/versions.html",
+          "checked_at": "2026-09-07",
+          "note": "The macOS media catalogue supports Intel and Apple Silicon."
+        }
+      ],
+      "platforms": [
+        "macOS"
+      ]
+    },
+    {
+      "url": "https://github.com/tmoroney/auto-subs",
+      "requirements": {
+        "processing": "local",
+        "pricing": "free"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/tmoroney/auto-subs",
+          "checked_at": "2026-09-06",
+          "note": "Local transcription is documented; Resolve edition and host-version requirements are not inferred."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/veritus-git/BadWords",
+      "requirements": {
+        "processing": "local",
+        "pricing": "free"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/veritus-git/BadWords",
+          "checked_at": "2026-09-06",
+          "note": "Local transcript-based rough cutting; no installer or compatibility testing performed."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/david-ca6/Resolve-OpenCaptions",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "pricing": "free"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/david-ca6/Resolve-OpenCaptions",
+          "checked_at": "2026-09-06",
+          "note": "Upstream explicitly supports Resolve Free and Studio. Processing location not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/octimot/StoryToolkitAI",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "processing": "local",
+        "pricing": "mixed"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/octimot/StoryToolkitAI",
+          "checked_at": "2026-09-06",
+          "note": "Direct Resolve integration requires Studio. Local features are free; optional paid services are separate."
+        }
+      ],
+      "accessGroup": "mixed"
+    },
+    {
+      "url": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+      "requirements": {
+        "processing": "hybrid"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+          "checked_at": "2026-09-06",
+          "note": "Local and cloud-backed Whisper workflows are documented; optional services can cost money."
+        }
+      ],
+      "accessGroup": "mixed"
+    },
+    {
+      "url": "https://github.com/2445868686/DaVinci-Resolve-TTS",
+      "requirements": {
+        "processing": "cloud",
+        "pricing": "mixed"
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/2445868686/DaVinci-Resolve-TTS",
+          "checked_at": "2026-09-06",
+          "note": "Uses external voice providers with possible usage charges."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime",
+      "requirements": {
+        "processing": "local",
+        "gpu": "Windows NVIDIA RTX; macOS Apple Silicon. Other GPU tracks vary."
+      },
+      "tasks": [
+        "fusion"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime",
+          "checked_at": "2026-09-06",
+          "note": "Local AI keying; consult the upstream GPU matrix for your exact build."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ikm-san/autotitles-community",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ]
+      },
+      "tasks": [
+        "captions"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/ikm-san/autotitles-community",
+          "checked_at": "2026-09-06",
+          "note": "CLI/API subtitle-to-Fusion workflow for Studio; separate GUI editions exist."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "requirements": {
+        "installation": "Standalone command-line application with NLE timeline export; not a native Resolve plugin."
+      },
+      "tasks": [
+        "captions",
+        "media"
+      ],
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
+          "checked_at": "2026-09-07",
+          "note": "Resolve version and edition compatibility are not established by the recorded release notes."
+        }
+      ]
+    }
+  ]
+}

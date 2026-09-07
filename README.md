@@ -1,8 +1,10 @@
 # 🎬 Awesome Resolve List
 
-An AI-assisted directory of **225 public GitHub repositories** and **157 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
+Find tools for your Resolve setup—with source-backed compatibility, version history and clear requirements.
 
-[🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
+Explore a directory of **225 public GitHub repositories** and **157 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
+
+[🌐 Website source and preview](WEBSITE.md) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
 
 ## Contents
 
@@ -38,11 +40,11 @@ An AI-assisted directory of **225 public GitHub repositories** and **157 externa
 | :--- | :--- | :--- | :--- | :--- |
 | [Blackmagic developer resources](https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview) | Desktop Video SDK, capture/playback integration resources and links to developer support. Relevant to DeckLink and UltraStudio workflows; this SDK is separate from the Resolve scripting API.<br><sub>🏷️ Version not applicable (reference or collection)</sub> | 📦 Public SDK resources; hardware and license terms apply | 📖 Reference | Unknown |
 | [DaVinci Resolve training and lesson files](https://www.blackmagicdesign.com/products/davinciresolve/training) | Official editing, color, Fairlight and Fusion training with downloadable practice media. The reviewed book collection includes Resolve 20 editions; the collection has no single software version.<br><sub>🏷️ Version not applicable (reference or collection)</sub> | 🆓 Public videos, PDFs and lesson downloads | 📖 Reference; lesson requirements vary | Unknown |
-| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | Official host downloads and edition overview. The page advertises Resolve 21 and includes Krokodove tools in its new-feature overview; this is a product-family version, not a verified latest patch or release date.<br><sub>🏷️ [21.0.4](https://www.blackmagicdesign.com/api/support/us/downloads.json)</sub> | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | [1&nbsp;month&nbsp;back](https://www.blackmagicdesign.com/api/support/us/downloads.json "2026-08-05")<br><sub>release</sub> |
+| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | Official host downloads and edition overview. The official download feed lists Resolve and Resolve Studio 21.0.4, released August 5, 2026. Check installer-specific requirements.<br><sub>🏷️ [21.0.4](https://www.blackmagicdesign.com/api/support/us/downloads.json)</sub> | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | [1&nbsp;month&nbsp;back](https://www.blackmagicdesign.com/api/support/us/downloads.json "2026-08-05")<br><sub>release</sub> |
 | [Fairlight Sound Library and audio guide](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf) | Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library.<br><sub>🏷️ Version not established</sub> | 🆓 Library for use in projects; original terms apply | 📖 Reference; library installation requirements vary | Unknown |
 | [Fusion Fuse SDK guide and reference](https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf) | Official Fuse API guide and reference, dated June 2023 on its cover. Covers Lua-based Fuse development; a document edition is not the current Fusion application version.<br><sub>🏷️ [June 2023 (document edition)](https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf)</sub> | 🆓 Public PDF; original terms apply | 📖 Reference | Unknown |
-| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | Standalone node-based compositing application. Official page advertises Fusion 21 and activation using a DaVinci Resolve license. Check the Support Center for exact builds and installation requirements.<br><sub>🏷️ [21.0.4](https://www.blackmagicdesign.com/api/support/us/downloads.json)</sub> | 💰 Licensed software | ❔ Confirm OS and hardware for the selected installer | [1&nbsp;month&nbsp;back](https://www.blackmagicdesign.com/api/support/us/downloads.json "2026-08-05")<br><sub>release</sub> |
-| [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) | Official destination for installers, manuals, support notes and release information. Dynamic download records did not render in this review, so no latest patch number or release date is claimed.<br><sub>🏷️ Version not applicable (reference or collection)</sub> | 📦 Public support; download conditions vary | 📖 Reference; select the correct OS download | Unknown |
+| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | Standalone node-based compositing application. The official download feed lists Fusion Studio 21.0.4, released August 5, 2026, for Windows, macOS and Linux. A compatible license is required.<br><sub>🏷️ [21.0.4](https://www.blackmagicdesign.com/api/support/us/downloads.json)</sub> | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | [1&nbsp;month&nbsp;back](https://www.blackmagicdesign.com/api/support/us/downloads.json "2026-08-05")<br><sub>release</sub> |
+| [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) | Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries.<br><sub>🏷️ Version not applicable (reference or collection)</sub> | 📦 Public support; download conditions vary | 📖 Reference; select the correct OS download | Unknown |
 
 <a id="category-1"></a>
 
@@ -764,6 +766,8 @@ Use the [repository CSV](data/repositories.csv) for structured GitHub entries an
 See [CONTRIBUTING.md](CONTRIBUTING.md) for additions and corrections. Keep the README and CSV catalogue synchronized and link to the original upstream repository.
 
 ## Scope and attribution
+
+This project's original work is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). See [licensing and attribution](NOTICE.md) for scope and third-party rights.
 
 Badge assets are stored in this repository; access classifications follow this catalogue's own research notes.
 

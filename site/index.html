@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find DaVinci Resolve tools with source-backed compatibility, version history and clear requirements.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Awesome Resolve List — Find tools for your setup</title>
+  <link rel="stylesheet" href="style.css?v=2"><script type="module" src="app.mjs?v=3"></script>
+</head>
+<body>
+<a class="skip" href="#results">Skip to results</a>
+<header><a class="brand" href="./">Awesome Resolve List</a><nav aria-label="Main"><a href="#catalogue">Catalogue</a><a href="#updates">Updates</a><a href="#about">About</a><a href="https://github.com/subtlesayak/awesome-resolve">GitHub ↗</a></nav></header>
+<main>
+ <section id="catalogue" aria-labelledby="heading">
+  <h1 id="heading">Find tools for your Resolve setup.</h1>
+  <p class="lede">Source-backed compatibility, version history and clear requirements.</p>
+  <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Search tools, creators or tasks</span><input id="search" type="search" placeholder="Search tools, creators or tasks" autocomplete="off"></label>
+  <div class="modes" role="group" aria-label="Catalogue mode"><button id="all-mode" aria-pressed="true">Explore all</button><button id="tested-mode" aria-pressed="false">Tested starting points</button></div>
+  <div class="workspace">
+   <aside aria-label="Catalogue filters"><h2>Your setup</h2><button type="button" id="filter-toggle" aria-expanded="false" aria-controls="filter-controls" class="outline">Filters and setup ▾</button><div id="filter-controls" data-collapsed="true"><form id="filters">
+    <label>Task<select name="task"><option value="">All tasks</option></select></label>
+    <label>Operating system<select name="platform"><option value="">Any platform</option><option>Windows</option><option>macOS</option><option>Linux</option><option>iPadOS</option></select></label>
+    <label>Resolve edition<select name="edition"><option value="">Any edition</option><option>Free</option><option>Studio</option></select></label>
+    <label>Resolve version<select name="resolve"><option value="">Any version</option><option value="17">17</option><option value="18">18</option><option value="18.6">18.6</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="21.0.4">21.0.4</option></select></label>
+    <label>Access<select name="access"><option value="">Any access</option><option value="free">🆓 Free</option><option value="mixed">Mixed / free tier</option><option value="paid">💰 Paid</option><option value="public">Public; check terms</option></select></label>
+    <label>Processing<select name="processing"><option value="">Any processing</option><option value="local">Local workflow documented</option><option value="cloud">Cloud service</option><option value="hybrid">Local & online features</option><option value="unknown">Not established</option></select></label>
+    <label>Evidence<select name="evidence"><option value="">Any evidence</option><option value="documented">Source documented</option><option value="creator">Creator confirmed</option><option value="tested">Community tested</option><option value="unknown">Has unknown requirements</option></select></label>
+    <details class="more-filters"><summary>More requirements</summary><label>Payment model<select name="pricing"><option value="">Any payment model</option><option value="free">Free</option><option value="one-time">One-time license</option><option value="subscription">Subscription</option><option value="mixed">Mixed options</option><option value="unknown">Not established</option></select></label><label>Processor architecture<select name="architecture"><option value="">Any architecture</option><option value="x64">x64 / Intel</option><option value="arm64">ARM64 / Apple Silicon</option></select></label></details>
+    <button type="button" id="clear" class="outline">Clear filters</button>
+   </form><p class="filter-note">Filters match recorded requirements. Unknowns are excluded when you choose a requirement. Always check the linked source and exceptions.</p><button type="button" id="share" class="text-button">Copy this view’s link</button></div></aside>
+   <div class="catalogue-content"><div class="result-bar"><p id="count" role="status" aria-live="polite">Loading catalogue…</p><label class="sort"><span class="sr-only">Sort results</span><select id="sort"><option value="name">Name A–Z</option><option value="updated">Latest release / update</option><option value="activity">Repository activity</option><option value="stars">GitHub stars</option><option value="creator">Creator A–Z</option><option value="type">Type A–Z</option></select></label></div>
+    <p id="mode-note" class="mode-note" hidden></p><div id="results" tabindex="-1"></div><button id="more" class="outline" hidden>Show more resources</button>
+    <noscript><p>Enable JavaScript for filtering, or <a href="https://github.com/subtlesayak/awesome-resolve">browse the complete Markdown catalogue</a>.</p></noscript>
+   </div>
+  </div>
+ </section>
+ <section id="updates" class="secondary" aria-labelledby="updates-title"><h2 id="updates-title">What changed</h2><p>Verified version changes, with upstream sources. A catalogue check date is separate from a product’s release date.</p><div id="update-list"></div><details><summary>Catalogue releases</summary><ul id="release-list"></ul></details></section>
+ <section id="about" class="secondary" aria-labelledby="about-title"><h2 id="about-title">Know what the evidence means</h2><div class="evidence-guide"><p><strong>Source documented</strong><br>A linked provider page or repository supports the named fact. It does not mean the tool was installed or tested.</p><p><strong>Creator confirmed</strong><br>A creator explicitly confirmed the named fact in an attributable source. A listing notification is not confirmation.</p><p><strong>Community tested</strong><br>A reviewed report records the exact host, platform, tool version, task, result and limitations.</p><p><strong>Not established</strong><br>The catalogue has no adequate evidence for that field. Unknown does not mean unsupported.</p></div><p>Discovery and sorting are AI-assisted; sources, uncertainty and editorial review govern the data. Stars measure GitHub interest, not quality. Separate Reactor inventory: <a href="https://github.com/subtlesayak/awesome-resolve/blob/main/data/reactor-inventory.md">707 package records</a>, outside the 382 main listings.</p><p><a class="outline link-button" href="https://github.com/subtlesayak/awesome-resolve/issues/new?template=creator-confirmation.yml">Confirm or correct your creation ↗</a> <a href="https://github.com/subtlesayak/awesome-resolve/issues/new?template=testing.yml">Share a tested workflow ↗</a></p><p class="muted">This site runs in your browser. No analytics, tracking scripts or third-party fonts. Share links include your search and selected filters.</p></section>
+</main>
+<footer>Evidence describes the source. It does not imply installation testing. <a href="https://github.com/subtlesayak/awesome-resolve/blob/main/NOTICE.md">CC0 original work · Licensing & credits</a></footer>
+<dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><h2 id="dialog-title"></h2><button id="dialog-close" class="outline" aria-label="Close details">Close ×</button></div><div id="dialog-body"></div></dialog>
+<p id="notice" class="notice" role="status" aria-live="polite"></p>
+</body></html>

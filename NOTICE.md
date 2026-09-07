@@ -1,8 +1,8 @@
 # Licensing and attribution
 
-Copyright (C) 2026 Awesome Resolve List contributors.
+Original work by Awesome Resolve List contributors, 2026.
 
-This project's original scripts, documentation and original catalogue contributions are licensed under **GNU GPL version 3 only (GPL-3.0-only)**. See [LICENSE](LICENSE). Contributions to this original work are accepted under those terms.
+To the extent the contributors hold the relevant rights, this project's original scripts, documentation and original catalogue contributions are dedicated to the public domain under **CC0 1.0 Universal (CC0-1.0)**. See [LICENSE](LICENSE). New original contributions are accepted under those terms. Attribution to this project is appreciated but is not required by CC0.
 
 This grant covers only rights held by the contributors. Third-party names, trademarks, factual records, linked websites, software and other material retain their respective rights and licenses. It does not authorize repackaging linked commercial or unlicensed plugins.
 

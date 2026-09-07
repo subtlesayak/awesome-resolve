@@ -10,7 +10,7 @@ Discovery and recommendation are separate. A recommended starting choice require
 
 Keep explicit archived/deprecated evidence in `data/legacy.json`, including the source, check date and reason. Regeneration builds the separate legacy view while retaining entries in the complete catalogue. Do not classify projects as legacy from stars or old push dates alone. Recheck the provider before changing a status.
 
-Original contributions are GPL-3.0-only; see [LICENSE](LICENSE), [attribution](NOTICE.md), and [reuse guidance](REUSE.md). This does not relicense any upstream package. Link to providers rather than uploading their installers or paid assets.
+Original contributions are accepted under CC0-1.0; see [LICENSE](LICENSE), [attribution](NOTICE.md), and [reuse guidance](REUSE.md). Submit only work you have the right to contribute under CC0. This does not relicense any upstream package. Link to providers rather than uploading their installers or paid assets.
 
 Every catalogue entry has an explicit version state in `data/versions.json`. After `node scripts/check-updates.mjs --github`, run `node scripts/build-versions.mjs --github .research/update-check/github.json`, then regenerate the catalogue. Stable releases, prereleases, commit revisions, vendor versions and Reactor package versions must stay distinguishable. Vendor evidence retains its original check date. Missing vendor versions remain `unverified`; never invent version numbers. CI validates the catalogue on Windows and Linux without uploading local reports.
 
@@ -62,3 +62,7 @@ Version reconciliation runs offline in CI against the maintained external eviden
 Alternate views include every repository and external resource; official resources remain first. Name, type, access and date sorting apply across the remaining entries. Missing dates and inapplicable stars sort last. The source directory also keeps official resources first. External types follow source-directory headings.
 
 The link checker preserves functional query parameters and removes known trackers. PDF/binary responses are marked `unsupported_content` and cancelled; review them with a PDF reader. Dynamic support pages are marked `dynamic_content` and require a rendered-page or provider-API review. Truncation and unsupported encodings are explicit. A retrieved page is not a verified product release. Run generator tests serially because they regenerate shared catalogue files.
+
+## Website requirements and evidence
+
+Follow [the website data guide](WEBSITE.md) when adding structured compatibility, local/cloud behavior or payment models. Record the source, checked date and exact scope of every requirement. Creator confirmations and community tests use separate issue forms and require review before changing evidence labels. The tested-starting-points view accepts only recommendations backed by an exact tested setup. Regenerate with `node scripts/build-site.mjs`; the normal test command includes website checks.

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "name": "DaVinci Resolve / Studio",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21 (advertised product family)",
+      "to": "21.0.4",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": "2026-08-05",
+      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+      "summary": "Exact patch identified; proxy relinking, X-OCN formats and timeline scripting updates."
+    },
+    {
+      "name": "Fusion Studio",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21 (advertised product family)",
+      "to": "21.0.4",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": "2026-08-05",
+      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+      "summary": "Exact patch identified; Windows long-path support and stability improvements."
+    },
+    {
+      "name": "auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "from": "31.5.0",
+      "to": "31.6.0",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": "2026-09-06T21:01:15Z",
+      "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
+      "summary": "Audio tone and overlay generators; source-stream handling and decoder fixes."
+    },
+    {
+      "name": "DaVinci Resolve MCP",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v2.208.1",
+      "to": "v2.210.0",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": "2026-09-07T00:35:38Z",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.210.0",
+      "summary": "Broader safe-mode coverage and consistent destructive-action classifications."
+    },
+    {
+      "name": "PostSync",
+      "url": "https://chrisroyfilms.com/postsync/",
+      "from": "2.4.1",
+      "to": "2.5",
+      "release": "v1.14",
+      "catalogue_date": "2026-09-07",
+      "upstream_date": null,
+      "source": "https://chrisroyfilms.com/postsync/version-history/",
+      "summary": "Native Swift conversion, permissions onboarding and scheduled-operation controls."
+    }
+  ]
+}

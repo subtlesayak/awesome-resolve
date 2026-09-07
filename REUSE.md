@@ -1,5 +1,7 @@
 # Links, metadata and third-party rights
 
+The project's original work is dedicated to the public domain under [CC0 1.0 Universal](LICENSE), to the extent the contributors hold the relevant rights. Attribution to this project is appreciated but not required. This dedication does not cover third-party rights; see [NOTICE.md](NOTICE.md).
+
 This catalogue links to official repositories, creator pages and stores. It does not distribute their installers, plugin payloads or paid downloads. A link, free price, public repository or entry in Reactor is not a license to redistribute the underlying software.
 
 The Reactor inventory contains selected factual manifest fields: package identifiers, names, creators, categories, versions, dates and source links. It excludes manifest descriptions and executable payloads. Attribution and upstream links must be retained. Reactor's repository carries [GPL-3.0](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/LICENSE); individual package licenses and dependencies must be checked separately before copying code or binaries. This project does not relicense those packages.

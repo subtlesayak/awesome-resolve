@@ -1,0 +1,38 @@
+name: Share a tested workflow
+description: Report an exact setup, practical result and limitations for editorial review.
+title: "Tested workflow: "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource and exact tool version
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Exact setup
+      description: Resolve version and build, Free/Studio or standalone Fusion, OS version, architecture, GPU, drivers and dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Task, reproducible steps and result
+      description: Describe what you actually ran, expected versus observed results and installation steps. Use public or synthetic test material; no private project files.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and evidence
+      description: Include failures, unsupported features, example outputs or screenshots. Do not extrapolate one tested setup to other operating systems or host versions.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: State any relationship to the creator, or None. Submission does not automatically confer a recommendation.
+    validations:
+      required: true

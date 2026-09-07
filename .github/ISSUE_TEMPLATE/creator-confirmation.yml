@@ -1,0 +1,31 @@
+name: Confirm or correct your creation
+description: Confirm specific listing facts with an attributable primary source.
+title: "Confirm or correct: "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name and catalogue URL
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Your relationship to the resource
+      description: Link your public creator profile or an official page that establishes your role. Do not post private email, license keys or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: Facts you confirm or want corrected
+      description: Name each field separately. Include exact tool version, Resolve version, Free/Studio, OS, architecture, GPU, local/cloud behavior, account requirements or pricing where applicable. Mark anything unknown.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence and exceptions
+      description: Link official documentation or release notes. Describe version limits, unsupported combinations and feature-specific exceptions. A maintainer reviews each fact before adding Creator confirmed status.
+    validations:
+      required: true
