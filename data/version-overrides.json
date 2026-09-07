@@ -139,6 +139,26 @@
       "date_kind": null,
       "checked_at": "2026-09-07",
       "note": "Reference or collection with no single software release version."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "kind": "vendor-version",
+      "version": "21.0.4",
+      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+      "date": "2026-08-05",
+      "date_kind": "release",
+      "checked_at": "2026-09-07",
+      "note": "Exact patch release verified against the official support download feed; replaces the advertised product-family label."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "kind": "vendor-version",
+      "version": "21.0.4",
+      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+      "date": "2026-08-05",
+      "date_kind": "release",
+      "checked_at": "2026-09-07",
+      "note": "Exact patch release verified against the official support download feed; replaces the advertised product-family label."
     }
   ]
 }

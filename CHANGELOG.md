@@ -2,6 +2,19 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.14](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.14) — 2026-09-07
+
+### 🏢 Official Blackmagic Design updates
+
+- **DaVinci Resolve / Resolve Studio — 21 (advertised product family) → 21.0.4.** Replaces the broad family label with the verified August 5, 2026 patch release. Adds proxy relinking across formats, additional X-OCN formats, selected-timeline-clip scripting and improvements to cached-timeline playback. [Official download feed](https://www.blackmagicdesign.com/api/support/us/downloads.json).
+- **Fusion Studio — 21 (advertised product family) → 21.0.4.** Records the August 5, 2026 patch release, which improves Windows long-path support, performance and stability. [Official download feed](https://www.blackmagicdesign.com/api/support/us/downloads.json).
+
+### 🔄 Updated tools
+
+- **WyattBlue / auto-editor — 31.5.0 → 31.6.0.** Adds generated audio tones and drawbox overlay layers, includes all source streams with the add operation, and skips audio streams without an available decoder. [Upstream release](https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0).
+- **Samuel Gursky / DaVinci Resolve MCP — v2.208.1 → v2.210.0.** Expands safe-mode coverage and consistently classifies destructive actions, including operations that delete source clips or rewrite camera sidecars. [Upstream release](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.210.0).
+- **Chris Roy Films / PostSync — 2.4.1 → 2.5.** Completes the native Swift conversion, simplifies permissions onboarding, expands scheduled operation controls and improves settings synchronization. The live creator changelog establishes the version but provides no release date. [Creator version history](https://chrisroyfilms.com/postsync/version-history/).
+
 ## [v1.13](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.13) — 2026-09-07
 
 ### Added
