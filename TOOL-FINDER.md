@@ -1,6 +1,6 @@
 # Find DaVinci Resolve tools for a specific workflow
 
-This guide helps readers and AI assistants use [Subtle Resolve List](README.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
+This guide helps readers and AI assistants use [Awesome Resolve List](README.md) to recommend tools for a stated need. It describes how to interpret the catalogue; it does not establish new compatibility claims. Follow the user's requirements and use current provider documentation to resolve uncertain details.
 
 ## Understand the requirement
 

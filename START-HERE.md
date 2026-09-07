@@ -30,4 +30,4 @@ Share the [tool-finder guide](TOOL-FINDER.md) and a concrete request, for exampl
 
 ## Share first-hand experience
 
-Use the [resource submission form](https://github.com/subtlesayak/subtle-resolve-list/issues/new?template=resource.yml) to explain what worked, the exact setup you used, limitations and any affiliation. Mark “Not tested” when appropriate. A tool becomes a recommended starting choice only after a maintainer reviews evidence of contributor experience; discovery alone does not qualify it.
+Use the [resource submission form](https://github.com/subtlesayak/awesome-resolve/issues/new?template=resource.yml) to explain what worked, the exact setup you used, limitations and any affiliation. Mark “Not tested” when appropriate. A tool becomes a recommended starting choice only after a maintainer reviews evidence of contributor experience; discovery alone does not qualify it.

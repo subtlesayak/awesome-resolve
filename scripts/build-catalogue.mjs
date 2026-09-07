@@ -191,7 +191,7 @@ export function build() {
   const start = old.indexOf('## Contents');
   const end = old.indexOf('## Compatibility notes');
   if (start < 0 || end < start) throw new Error('README section markers missing');
-  let intro = old.slice(0, start).replace(/^# Subtle Resolve List/m, '# 🎬 Subtle Resolve List');
+  let intro = old.slice(0, start).replace(/^# Awesome Resolve List/m, '# 🎬 Awesome Resolve List');
   intro = intro.replace(/\*\*\d+ public GitHub repositories\*\*(?: and \*\*\d+ external resources\*\*)?/, `**${entries.length} public GitHub repositories** and **${external.length} external resources**`);
   // Rebuilding only replaces the generated section; editorial notes stay intact.
   const content = [
