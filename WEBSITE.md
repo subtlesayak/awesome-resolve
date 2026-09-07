@@ -6,6 +6,8 @@ The website in `site/` provides combined search and filters for tasks, platform,
 
 Check **Hide official BMD resources** to browse only community and third-party listings. Uncheck it to show official listings again. This preference is included in shared filter URLs. **Clear filters** restores all resources and clears the search and requirements while preserving the selected sort order.
 
+Filter options display match counts and disable empty combinations. Selecting a task hides filters without meaningful documented requirements for that task and clears conflicting requirements with a notice; search and sorting are preserved. Version filters use documented Resolve compatibility ranges, not provider release numbers. When version information is missing, a labelled action lets users remove the version constraint and inspect sources. Empty results suggest specific filters to remove, with the resulting counts; they never silently treat unknown compatibility as supported.
+
 ## Run locally
 
 With Node.js 22 or later:

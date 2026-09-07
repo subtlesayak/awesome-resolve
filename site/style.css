@@ -860,3 +860,24 @@ form label.checkbox-filter {
   margin: 0;
   accent-color: var(--teal);
 }
+.filter-help {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-block-start: 4px;
+}
+.version-note {
+  padding: 16px;
+  margin-block-end: 24px;
+  background: var(--wash);
+  border-inline-start: 3px solid var(--teal);
+  font-size: 13px;
+}
+.version-note p { margin-block-end: 12px; }
+.recovery-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-block-start: 20px;
+}
+.recovery-actions button { text-align: start; }

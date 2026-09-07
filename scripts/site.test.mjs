@@ -2,8 +2,38 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {buildSite} from './build-site.mjs';
-import {DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate} from '../site/model.mjs';
+import {DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate,facetCounts,adaptTaskSelection,recoveryOptions} from '../site/model.mjs';
 const data=buildSite(),find=name=>data.entries.find(e=>e.name===name);
+const fixture = (name,task,platform,edition,range) => ({...find('PostSync'),id:name,name,description:name,tasks:[task],platforms:[platform],requirements:{...find('PostSync').requirements,editions:edition?[edition]:[],resolve:range?[range]:[]}});
+const adaptiveEntries=[fixture('New captions','captions','Windows','Free',{min:'20',max:'21'}),fixture('Old captions','captions','macOS','Studio',{min:'18',max:'19'}),fixture('Unknown captions','captions','Windows','Free'),fixture('Controller','hardware','Windows')];
+test('facet counts exclude the edited constraint and keep unknown versions separate',()=>{
+ const state={...DEFAULTS,task:'captions',platform:'Windows',resolve:'21'};
+ assert.deepEqual(facetCounts(adaptiveEntries,state,'resolve',['','21','19']),{'':2,'21':1,'19':0});
+ assert.equal(filterEntries(adaptiveEntries,state)[0].name,'New captions');
+ assert.deepEqual(facetCounts(adaptiveEntries,{...state,task:'hardware'},'resolve',['','21']),{'':1,'21':0});
+});
+test('task changes clear conflicting requirements while preserving search and sort',()=>{
+ const initial={...DEFAULTS,task:'hardware',platform:'Windows',edition:'Free',resolve:'21',q:'Controller',sort:'stars',official:'hide'};
+ const result=adaptTaskSelection(adaptiveEntries,initial);
+ assert.deepEqual(result.cleared,['edition','resolve']);
+ assert.equal(result.state.platform,'Windows');
+ assert.equal(result.state.q,'Controller');
+ assert.equal(result.state.sort,'stars');
+ assert.equal(result.state.official,'hide');
+ assert.equal(filterEntries(adaptiveEntries,result.state).length,1);
+ assert.equal(initial.resolve,'21');
+});
+test('empty results offer concrete recovery choices without changing sorting or evidence',()=>{
+ const state={...DEFAULTS,task:'captions',platform:'macOS',resolve:'21',sort:'updated'};
+ const options=recoveryOptions(adaptiveEntries,state);
+ assert.ok(options.some(o=>o.key==='resolve'&&o.count===1));
+ assert.ok(options.some(o=>o.key==='platform'&&o.count===1));
+ for(const o of options){const next={...state,...o.patch};assert.equal(next.sort,'updated');assert.equal(filterEntries(adaptiveEntries,next).length,o.count);}
+ const fallback=recoveryOptions(adaptiveEntries,{...state,q:'does not exist',edition:'Free'});
+ assert.equal(fallback[0].key,'taskOnly');
+ assert.equal(fallback[0].count,3);
+ assert.deepEqual(recoveryOptions(adaptiveEntries,{...state,mode:'tested'}),[]);
+});
 test('hiding official BMD listings preserves third-party resources and shared preferences',()=>{
   const state={...DEFAULTS,official:'hide',sort:'stars'};
   const found=filterEntries(data.entries,state);

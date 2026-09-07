@@ -24,6 +24,39 @@ export function filterEntries(entries,state) {
   return true;
  });
 }
+export const REQUIREMENT_FILTERS = ['platform','edition','resolve','access','processing','evidence','pricing','architecture'];
+
+// Counts ignore the facet being edited so users can broaden that facet again.
+export function facetCounts(entries, state, key, values) {
+ const candidates=filterEntries(entries,{...state,[key]:DEFAULTS[key]});
+ return Object.fromEntries(values.map(value => [value, filterEntries(candidates, {...state, [key]:value}).length]));
+}
+
+export function adaptTaskSelection(entries, state) {
+ const scope = {...DEFAULTS, task:state.task, official:state.official};
+ const next = {...state}, cleared = [];
+ // Preserve search, sorting and mode. Requirements are retained in setup order
+ // only when they still describe at least one resource in the new task.
+ for(const key of REQUIREMENT_FILTERS) {
+  if(!state[key]) continue;
+  const candidate = {...scope, [key]:state[key]};
+  if(filterEntries(entries, candidate).length) scope[key] = state[key];
+  else { next[key] = ''; cleared.push(key); }
+ }
+ return {state:next, cleared};
+}
+
+export function recoveryOptions(entries, state) {
+ if(filterEntries(entries,state).length || state.mode==='tested') return [];
+ const options = [...REQUIREMENT_FILTERS,'q','official','task'].filter(key=>state[key]).map(key=>({
+  key, patch:{[key]:''}, count:filterEntries(entries,{...state,[key]:''}).length
+ })).filter(option=>option.count>0).sort((a,b)=>a.count-b.count);
+ if(options.length) return options.slice(0,3);
+ const taskOnly = {...DEFAULTS,task:state.task,official:state.official,sort:state.sort,mode:state.mode};
+ const count = filterEntries(entries,taskOnly).length;
+ if(count) return [{key:'taskOnly',patch:taskOnly,count}];
+ return [{key:'clear',patch:{...DEFAULTS,sort:state.sort},count:entries.length}];
+}
 export function sortEntries(entries,key='name') {
  const cmp=(a,b)=>a.localeCompare(b,'en',{sensitivity:'base'}),time=x=>Number.isFinite(Date.parse(x))?Date.parse(x):0;
  return [...entries].sort((a,b)=>Number(b.official)-Number(a.official)||(key==='updated'?time(b.releaseDate)-time(a.releaseDate):key==='activity'?time(b.activityDate)-time(a.activityDate):key==='stars'?(b.stars??-1)-(a.stars??-1):key==='creator'?cmp(a.creator,b.creator):key==='type'?cmp(a.category,b.category):0)||cmp(a.name,b.name)||cmp(a.id,b.id));
