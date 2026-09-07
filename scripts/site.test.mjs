@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {buildSite} from './build-site.mjs';
-import {DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate,facetCounts,adaptTaskSelection,recoveryOptions} from '../site/model.mjs';
+import {DEFAULTS as INITIAL_DEFAULTS,UNFILTERED as DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate,facetCounts,adaptTaskSelection,recoveryOptions} from '../site/model.mjs';
 const data=buildSite(),find=name=>data.entries.find(e=>e.name===name);
 const fixture = (name,task,platform,edition,range) => ({...find('PostSync'),id:name,name,description:name,tasks:[task],platforms:[platform],requirements:{...find('PostSync').requirements,editions:edition?[edition]:[],resolve:range?[range]:[]}});
 const adaptiveEntries=[fixture('New captions','captions','Windows','Free',{min:'20',max:'21'}),fixture('Old captions','captions','macOS','Studio',{min:'18',max:'19'}),fixture('Unknown captions','captions','Windows','Free'),fixture('Controller','hardware','Windows')];
@@ -15,7 +15,7 @@ test('facet counts exclude the edited constraint and keep unknown versions separ
 test('task changes clear conflicting requirements while preserving search and sort',()=>{
  const initial={...DEFAULTS,task:'hardware',platform:'Windows',edition:'Free',resolve:'21',q:'Controller',sort:'stars',official:'hide'};
  const result=adaptTaskSelection(adaptiveEntries,initial);
- assert.deepEqual(result.cleared,['edition','resolve']);
+ assert.deepEqual(result.cleared,['resolve']);
  assert.equal(result.state.platform,'Windows');
  assert.equal(result.state.q,'Controller');
  assert.equal(result.state.sort,'stars');
@@ -31,11 +31,11 @@ test('empty results offer concrete recovery choices without changing sorting or 
  for(const o of options){const next={...state,...o.patch};assert.equal(next.sort,'updated');assert.equal(filterEntries(adaptiveEntries,next).length,o.count);}
  const fallback=recoveryOptions(adaptiveEntries,{...state,q:'does not exist',edition:'Free'});
  assert.equal(fallback[0].key,'taskOnly');
- assert.equal(fallback[0].count,3);
+ assert.equal(fallback[0].count,2);
  assert.deepEqual(recoveryOptions(adaptiveEntries,{...state,mode:'tested'}),[]);
 });
 test('hiding official BMD listings preserves third-party resources and shared preferences',()=>{
-  const state={...DEFAULTS,official:'hide',sort:'stars'};
+  const state={...DEFAULTS,edition:'Studio',official:'hide',sort:'stars'};
   const found=filterEntries(data.entries,state);
   assert.equal(found.length,375);
   assert.ok(found.every(e=>!e.official));
@@ -45,10 +45,40 @@ test('hiding official BMD listings preserves third-party resources and shared pr
   assert.equal(DEFAULTS.sort,'name');
 });
 test('website contains all 382 unique catalogue entries and no private outreach data',()=>{assert.equal(data.entries.length,382);assert.equal(new Set(data.entries.map(e=>e.id)).size,382);assert.equal(new Set(data.entries.map(e=>e.url)).size,382);const json=JSON.stringify(data);assert.doesNotMatch(json,/C:\\\\Users|D:\\\\Projects|gmail_draft_id|contact_email|gmail-receipts/);});
-test('filters combine requirements without promoting unknowns to supported',()=>{const state={...DEFAULTS,platform:'Windows',edition:'Free',task:'captions'};const found=filterEntries(data.entries,state);assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));assert.ok(!found.some(e=>e.name==='Tagger for Resolve'));assert.ok(!found.some(e=>e.name==='auto-subs'));assert.ok(filterEntries(data.entries,{...DEFAULTS,processing:'local',pricing:'free',task:'captions'}).some(e=>e.name==='BadWords'));});
+test('filters combine requirements without promoting unknowns to supported',()=>{const state={...DEFAULTS,platform:'Windows',edition:'Free',task:'captions'};const found=filterEntries(data.entries,state);assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));assert.ok(!found.some(e=>e.name==='Tagger for Resolve'));assert.ok(found.some(e=>e.name==='auto-subs'));assert.ok(filterEntries(data.entries,{...DEFAULTS,processing:'local',pricing:'free',task:'captions'}).some(e=>e.name==='BadWords'));});
 test('version ranges honor exact, minimum, maximum and edition scope',()=>{const e={requirements:{resolve:[{min:'18.6',max:'19.0.3',edition:'Free'},{min:'18.6',edition:'Studio'}]}};assert.equal(matchesVersion(e,'19.0.3','Free'),true);assert.equal(matchesVersion(e,'19.1','Free'),false);assert.equal(matchesVersion(e,'21','Studio'),true);assert.equal(matchesVersion(e,'18.5','Studio'),false);assert.equal(matchesVersion({requirements:{resolve:[]}},'21','Free'),false);});
 test('all sort modes retain official-first ordering and unknown dates sort last within groups',()=>{for(const key of ['name','updated','activity','stars','creator','type']){const sorted=sortEntries(data.entries,key);const last=sorted.findLastIndex(e=>e.official);assert.ok(sorted.slice(0,last+1).every(e=>e.official));}const rows=[{id:'a',name:'A',official:false,releaseDate:null},{id:'b',name:'B',official:false,releaseDate:'2026-01-01'}];assert.equal(sortEntries(rows,'updated')[0].id,'b');assert.equal(find('PostSync').releaseDate,null);});
 test('evidence is field-specific and no creator outreach is represented as confirmation or testing',()=>{assert.equal(data.entries.filter(e=>e.recommended).length,0);assert.equal(filterEntries(data.entries,{...DEFAULTS,mode:'tested'}).length,0);assert.equal(filterEntries(data.entries,{...DEFAULTS,evidence:'creator'}).length,0);for(const e of data.entries)for(const x of e.evidence){assert.match(x.source,/^https:\/\//);assert.ok(Number.isFinite(Date.parse(x.checked_at)));assert.ok(x.field);}assert.ok(find('ARISDA Bridge').evidence.every(e=>e.level==='documented'));});
-test('shared filter URLs round trip without comparison state',()=>{const s={...DEFAULTS,q:'captions & speech',platform:'Windows',edition:'Free',sort:'updated'};assert.deepEqual(stateFromUrl('?'+stateToUrl(s)).state,s);assert.equal(stateToUrl({...DEFAULTS}), '');assert.deepEqual(stateFromUrl('?compare=anything').state,DEFAULTS);});
+test('shared filter URLs round trip without comparison state',()=>{const s={...DEFAULTS,q:'captions & speech',platform:'Windows',edition:'Free',sort:'updated'};assert.deepEqual(stateFromUrl('?'+stateToUrl(s)).state,s);assert.equal(stateToUrl({...INITIAL_DEFAULTS}), '');assert.deepEqual(stateFromUrl('?compare=anything').state,INITIAL_DEFAULTS);});
 test('recorded version changes have release notes, exact old/new values and primary sources',()=>{const changelog=fs.readFileSync(new URL('../CHANGELOG.md',import.meta.url),'utf8');for(const h of data.updates){assert.ok(changelog.includes(h.from+' → '+h.to));assert.ok(changelog.includes(h.source));assert.ok(data.releases.some(r=>r.version===h.release));}assert.equal(data.updates.length,5);});
 test('website generation is deterministic and the UI has no comparison feature',()=>{const url=new URL('../site/catalogue.json',import.meta.url),before=fs.readFileSync(url,'utf8');buildSite();assert.equal(fs.readFileSync(url,'utf8'),before);const html=fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8');assert.doesNotMatch(html,/compare-tray|Compare selected|Download comparison/);assert.match(html,/name="processing"/);assert.equal(relativeDate('2026-08-07',new Date('2026-09-07')),'1 month back');});
+
+test('two edition choices include unknowns, exclude Studio requirements from Free, and migrate old links',()=>{
+ const entries=[fixture('Free','audio','macOS','Free'),fixture('Studio','audio','macOS','Studio'),fixture('Unknown','audio','macOS')];
+ const state={...INITIAL_DEFAULTS,sort:'stars'};
+ assert.deepEqual(filterEntries(entries,state).map(e=>e.name),['Free','Unknown']);
+ assert.deepEqual(filterEntries(entries,{...state,edition:'Studio'}).map(e=>e.name),['Free','Studio','Unknown']);
+ assert.deepEqual(facetCounts(entries,state,'edition',['Free','Studio']),{Free:2,Studio:3});
+ assert.deepEqual(stateFromUrl('?'+stateToUrl(state)).state,state);
+ for(const query of ['', '?edition=', '?edition=unknown', '?editionUnknown=include'])assert.equal(stateFromUrl(query).state.edition,'Free');
+ assert.equal(filterEntries(entries,{...state,resolve:'21'}).length,0);
+ const html=fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8');
+ assert.doesNotMatch(html,/edition-help|edition-unknown-control|name="editionUnknown"/);
+ const select=html.match(/<select name="edition"[\s\S]*?<\/select>/)[0];
+ assert.equal((select.match(/<option/g)||[]).length,2);
+ assert.ok(!filterEntries(data.entries,state).some(e=>e.name==='NamiColor'));
+ assert.ok(filterEntries(data.entries,{...state,edition:'Studio'}).some(e=>e.name==='NamiColor'));
+ assert.equal(filterEntries([find('Map Engine')],{...state,resolve:'21'}).length,0);
+ assert.equal(filterEntries([find('Map Engine')],{...state,edition:'Studio',resolve:'21'}).length,1);
+});
+
+test('Studio includes Free-compatible tools without relaxing platform or explicit Studio version ranges',()=>{
+ const entries=[fixture('Free tool','audio','macOS','Free',{edition:'Free',min:'19',max:'20'}),fixture('Studio tool','audio','macOS','Studio')];
+ assert.equal(filterEntries(entries,{...DEFAULTS,edition:'Studio'}).length,2);
+ assert.equal(filterEntries(entries,{...DEFAULTS,edition:'Free'}).length,1);
+ assert.equal(filterEntries(entries,{...DEFAULTS,edition:'Studio',platform:'Windows'}).length,0);
+ assert.equal(matchesVersion(entries[0],'20','Studio'),true);
+ assert.equal(matchesVersion(entries[0],'21','Studio'),false);
+ const explicit={requirements:{resolve:[{edition:'Free',min:'19'},{edition:'Studio',min:'20',max:'20'}]}};
+ assert.equal(matchesVersion(explicit,'21','Studio'),false);
+});

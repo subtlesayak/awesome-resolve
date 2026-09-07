@@ -492,6 +492,1282 @@
           "note": "Resolve version and edition compatibility are not established by the recorded release notes."
         }
       ]
+    },
+    {
+      "url": "https://github.com/Wavechaser/NamiColor",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/Wavechaser/NamiColor#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Linearizes film scans and aligns channels for scene-referred grading. Studio required."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Akascape/RemObj-Fuse",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/Akascape/RemObj-Fuse",
+          "checked_at": "2026-09-07T09:22:47.337Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Masked object removal/inpainting using LaMa; README supports Free and Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: FDK-based AAC audio encoding on Linux. Studio required."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/abhirup780/fast-autocut",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "18.5"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/abhirup780/fast-autocut#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Silence removal that builds a new timeline while retaining externally recorded audio sync. Windows, Resolve Studio 18.5+, Python, and FFmpeg required."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/adrian-goe/resolve-immich-export",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "21"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/adrian-goe/resolve-immich-export#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Uploads completed Resolve renders to an Immich server and selected album. Beta; Studio 21+, an Immich instance, and API key required. README release links contain placeholders."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "19.1"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Matches renamed or moved offline media using metadata, with match review and relink history. Studio 19.1+ and ExifTool required; Windows/macOS/Linux documented."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/50asa/shitsukan-diffusion-kit",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/50asa/shitsukan-diffusion-kit#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Shitsukan multi-tap optical diffusion DCTL kit. Requires Resolve Studio and a scene-linear, four-tap blur node setup."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/nikita-petrovich/np-public-dctl",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "19.1"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/nikita-petrovich/np-public-dctl#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Experimental Lazy Bleach, Lazy Grain, and saturation DCTLs. Resolve Studio 19.1+; proof-of-concept tools."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Microck/boilify",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/Microck/boilify#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Line-boil OpenFX effect for hand-drawn jitter. Resolve Studio 20+ documented."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/oliwiergesla/editorscripts",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/oliwiergesla/editorscripts#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Lua workflow suite for marker reports, stills, renaming, reframing, nodes, settings, and script launching. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/ChangeClipTimecode",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/IgorRidanovic/ChangeClipTimecode",
+          "checked_at": "2026-09-07T09:22:47.337Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Batch-change source clip start timecodes in the current bin. Requires Resolve Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-batch-rename",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-batch-rename#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Batch-rename Media Pool clips and timelines with previews, counters, and filename restoration. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-clip-marker-tool",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-clip-marker-tool#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Create and modify clip/duration markers by clip type, track, and color. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-find-clip-on-timelines#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Find a Media Pool clip across all project timelines and highlight matching instances. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-font-fallback",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-font-fallback#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Detect and replace missing Text+/MultiText fonts with restoration tags. Resolve Studio 20+; optional pyperclip for clipboard export."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-marker-metadata-workflow",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-marker-metadata-workflow#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Export markers, clip metadata, and optional stills for CSV/HTML review; import feedback into marker notes/colors. Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-markers-to-render-queue#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Queue renders from single or duration markers, with naming presets and per-render folders. Requires Studio and a configured render preset."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-media-organizer",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-media-organizer#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Organize Media Pool clips into bins by type and keyword, with optional empty-bin cleanup. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-multicam-angle-colorizer",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-multicam-angle-colorizer#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Color-code multicam clips by camera-angle names on audio/video tracks. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-text-index",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-text-index#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Search, edit, and CSV-round-trip Text+, MultiText, and subtitle text. Studio 20+, Python/PySide6; optional LanguageTool spell-check uses a local server or public API."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-timeline-creator",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-timeline-creator#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Create timelines from track-count, track-name, and start-timecode presets. Requires Resolve Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-title-manager",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-title-manager#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Copy selected Text+ styles and Fusion macro parameters across clips. Studio required; selected-clip sourcing needs 21.0.4+, with playhead fallback on older versions."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-vfx-marker-tool",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "20"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://github.com/postflows/resolve-vfx-marker-tool#readme",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Create VFX shot markers with naming templates and sequential/intermediate numbering. Resolve Studio 20+."
+        }
+      ]
+    },
+    {
+      "url": "https://www.komkomdoorn.com/krokodove/",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://www.komkomdoorn.com/krokodove/",
+          "checked_at": "2026-09-06T12:10:19.547Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Collection of Fusion/Resolve 2D, 3D, vector, and data tools. Studio required. The published matrix is version-specific: 18.5–19 Windows; 17–18 Windows/macOS; Linux appears in older 8–9 builds. Do not read the icons as current all-platform support."
+        }
+      ]
+    },
+    {
+      "url": "https://wipptemplates.com/products/editorcollection",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://wipptemplates.com/products/editorcollection",
+          "checked_at": "2026-09-06T12:10:25.673Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Editing and animation toolkit for Resolve Free and Studio; current product page lists Resolve 20 and 21. Individual effects can carry a rendering-performance cost."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/blobtracker",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/blobtracker",
+          "checked_at": "2026-09-06T12:10:28.541Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Motion-responsive lines, rectangles, and text effects. Resolve 17+ Free or Studio. Creator warns that AMD devices may not work properly."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/blockglitch",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/blockglitch",
+          "checked_at": "2026-09-06T12:10:28.575Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Block-glitch Fuse for Resolve 17+ Free or Studio. The creator explicitly offers a free download; the amount field can show a suggested donation."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supascale",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "19"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supascale",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: AI upscaling/restoration Fuse with multiple models. Resolve 19+ Free or Studio. Trial includes a limited model; test compatibility before purchase."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superglitch",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superglitch",
+          "checked_at": "2026-09-06T12:10:28.913Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Glitch-effect Fuse for Resolve 17+ Free or Studio. The creator explicitly offers a free download; check the selected amount at checkout."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermodulation",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supermodulation",
+          "checked_at": "2026-09-06T12:10:29.523Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Frequency-modulation Fuse. V1 is free; V2+ adds controls including colored modulation and direction. Supports Resolve Free and Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superpixelsort",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superpixelsort",
+          "checked_at": "2026-09-06T12:10:29.565Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Pixel-sorting Fuse with displacement and rank modes. Free edition has fewer features; Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/super-polygons-beta",
+          "checked_at": "2026-09-06T12:10:29.600Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Low-poly, triangulation, Voronoi, and tile effects inside Fusion. Resolve 17+ Free or Studio; suggested donations are optional."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superslitscanner",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superslitscanner",
+          "checked_at": "2026-09-06T12:10:29.630Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Slit-scan Fuse with wave, stretch, time-warp, and modulation modes. Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supertrails",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supertrails",
+          "checked_at": "2026-09-06T12:10:29.850Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Ghost-trail mode is free; the full edition adds trail modes. Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supervhs",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supervhs",
+          "checked_at": "2026-09-06T12:10:30.090Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: VHS-style bloom, distortion, and color damage inside Fusion. Resolve 17+ Free or Studio. Previously unresolved wiki lead, now supported by its indexed creator listing."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/dreamyflare",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/dreamyflare",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates horizontal and vertical anamorphic-style flares with color, intensity and spread controls. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/extremeglitch",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/extremeglitch",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Combines RGB splitting, noise, interlacing, pixel sorting, waves and block glitches. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/pixeldither",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/pixeldither",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Produces pixelated, dithered imagery inspired by low-color handheld-game displays. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/ruttetra",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/ruttetra",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates image-derived line geometry displaced according to brightness for a Rutt-Etra-style effect. Requires Resolve 18+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/shakeglitch",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/shakeglitch",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates animated RGB-split glitch effects inside Fusion. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superascii",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superascii",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Converts footage to ASCII-style imagery with configurable characters, size, spacing and custom bitmap symbols. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superbokeh",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superbokeh",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Lens-blur Fusion Fuse with circular, disc, ring and polygonal bokeh modes and focus controls. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supercrt",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supercrt",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Recreates CRT display effects inside Fusion. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superdelusion",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superdelusion",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Four psychedelic visual-effect modes with color, pattern and distortion controls. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superlcd",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superlcd",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Simulates LCD pixel layouts, including RGB stripes and Pentile-style screen patterns. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermatrixrain",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supermatrixrain",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Generates animated code-rain graphics with 2D layers and a simulated 3D camera mode. Requires Resolve 18+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermesh",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/supermesh",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Generates grid, wireframe and topographic-style image effects inside Fusion. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superntsc",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superntsc",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Simulates analog television signal effects inside Fusion. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superpapertear",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superpapertear",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Procedural paper-tear and cutout effects with edge fibers, texture, fold marks and shadows. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superprintfx",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/superprintfx",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Print-style Fusion effects including halftone, duotone, guilloche and newspaper dithering. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/watermemory",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "17"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://akascape.gumroad.com/l/watermemory",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Creates experimental dissolving and flowing motion effects inside Fusion. Requires Resolve 17+ Free or Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://sh4rkk.com/visualiser-plugin",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://sh4rkk.com/visualiser-plugin",
+          "checked_at": "2026-09-06T12:10:30.612Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Audio-reactive Fusion toolkit and Edit-page visualizers. Supports Resolve 19.1–21 Free and Studio. Uses the supplied audio-converter workflow; current creator site supersedes the Ko-fi listing."
+        }
+      ]
+    },
+    {
+      "url": "https://nightowlstories.gumroad.com/l/craft-powergrade",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://nightowlstories.gumroad.com/l/craft-powergrade",
+          "checked_at": "2026-09-06T12:10:32.441Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Kodak/Fuji PowerGrade variants with a setup guide. Preconfigured for Sony S-Log3; input CST can be changed. Free/Studio compatible; texture is a placeholder."
+        }
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/8d429085e2",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Studio",
+            "min": "19"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://ko-fi.com/s/8d429085e2",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Refraction and magnification DCTL. Requires Resolve Studio 19+; creator lists Metal, CUDA, and OpenCL support. Ko-fi listing points to the creator’s website download."
+        }
+      ]
+    },
+    {
+      "url": "https://yesjmo.gumroad.com/l/powergradelibrary",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "19"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://yesjmo.gumroad.com/l/powergradelibrary",
+          "checked_at": "2026-09-06T12:10:34.772Z",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Modular grading library, signature looks, and guides. Resolve 19+ Free or Studio; designed for DaVinci Wide Gamut with Rec.709 output."
+        }
+      ]
+    },
+    {
+      "url": "https://valuef.itch.io/videoremap",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": []
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition",
+          "level": "documented",
+          "source": "https://valuef.itch.io/videoremap",
+          "checked_at": "2026-09-06",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed."
+        }
+      ]
+    },
+    {
+      "url": "https://davincikit.com/product/map-engine/",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "edition": "Free",
+            "min": "18.6",
+            "max": "19.0.3"
+          },
+          {
+            "edition": "Studio",
+            "min": "18.6"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://davincikit.com/product/map-engine/",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Fusion map animation with location search, GeoJSON shapes, routes and custom tile styles. Requires Studio 18.6+; Free compatibility is limited to 18.6–19.0.3. Internet is required for tiles and licensing, and map-provider attribution is required."
+        }
+      ]
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/PalettePal",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "21"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "Resolve edition and version range",
+          "level": "documented",
+          "source": "https://tangenten.gumroad.com/l/PalettePal",
+          "checked_at": "2026-09-07",
+          "note": "Structured from the existing source-backed catalogue description; no new installation test: Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+."
+        }
+      ]
     }
   ]
 }

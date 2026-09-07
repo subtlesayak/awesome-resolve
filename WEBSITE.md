@@ -43,3 +43,7 @@ git diff --check
 Live on [GitHub Pages](https://subtlesayak.github.io/awesome-resolve/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, analytics, third-party scripts or fonts are configured. The site has no database and makes no automatic upstream requests: freshness follows reviewed catalogue deployments.
 
 Shareable URLs contain the search terms and filter values. The website stores no browsing history or selections in browser storage. Avoid including private project names in links you share.
+
+The edition selector has two choices: Resolve Free (default) and Resolve Studio. Both include unknown-edition listings as assumed compatible; Free excludes recorded Studio-only requirements. Clear filters restores Resolve Free and preserves sorting. Old all-editions and unknown-edition share links migrate to Resolve Free. Platform and version requirements remain separate.
+
+Studio results also include Free-compatible tools, following [Blackmagic Design’s edition feature hierarchy](https://www.blackmagicdesign.com/products/davinciresolve). Where Studio support is inferred from Free support, the result states that it is not separately verified. Platform restrictions and explicit Studio version ranges still apply. Studio support alone never implies Free support.
