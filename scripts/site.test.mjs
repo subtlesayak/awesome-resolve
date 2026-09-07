@@ -82,3 +82,12 @@ test('Studio includes Free-compatible tools without relaxing platform or explici
  const explicit={requirements:{resolve:[{edition:'Free',min:'19'},{edition:'Studio',min:'20',max:'20'}]}};
  assert.equal(matchesVersion(explicit,'21','Studio'),false);
 });
+
+test('BMD changelogs provide complete change lists and separate version-specific official links',()=>{
+ const [resolve,fusion]=data.updates;
+ assert.equal(resolve.changes.length,20);assert.equal(fusion.changes.length,3);
+ assert.equal(resolve.changelogs.length,2);assert.equal(fusion.changelogs.length,1);
+ for(const update of [resolve,fusion])for(const note of update.changelogs){assert.match(note.url,/^https:\/\/www\.blackmagicdesign\.com\/support\/readme\/[a-f0-9]+$/);assert.ok(note.label.includes(update.to));}
+ assert.ok(resolve.changes.some(x=>x.includes('Free-edition')&&x.includes('H.264')));
+ assert.deepEqual(data.entries.find(e=>e.url===resolve.url).history[0].changelogs,resolve.changelogs);
+});

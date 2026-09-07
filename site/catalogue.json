@@ -15473,7 +15473,39 @@
           "catalogue_date": "2026-09-07",
           "upstream_date": "2026-08-05",
           "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-          "summary": "Exact patch identified; proxy relinking, X-OCN formats and timeline scripting updates."
+          "summary": "Exact patch identified; proxy relinking, X-OCN formats and timeline scripting updates.",
+          "changelogs": [
+            {
+              "label": "Resolve Free 21.0.4 — full official changelog",
+              "url": "https://www.blackmagicdesign.com/support/readme/f1b3986a11634684b538ff3d1d4b55d6"
+            },
+            {
+              "label": "Resolve Studio 21.0.4 — full official changelog",
+              "url": "https://www.blackmagicdesign.com/support/readme/5e8ed1f827564634984496004809d558"
+            }
+          ],
+          "changes": [
+            "Proxy relinking now accepts mismatched formats.",
+            "Imported DRTs reconnect to matching nested clips already present.",
+            "Color-page filtering keeps the selected clip visible.",
+            "Older Affinity formats can be imported.",
+            "Sony FX-5 footage encoded as X-OCN is supported.",
+            "Scripts can retrieve the selected timeline clips.",
+            "Scripts can obtain a timeline object through its Media Pool entry.",
+            "Render-setting scripts gain controls for handles, extents and burn-ins.",
+            "Cached large timelines receive real-time playback fixes.",
+            "Media Pool Power Bin navigation is corrected.",
+            "Media management handles segment-clip suffixes correctly.",
+            "Edit Index sorting is corrected.",
+            "Pasting timecode no longer triggers the reported source-viewer audio problem.",
+            "Several speed-curve retiming problems are corrected.",
+            "Windows Fusion templates handle long paths correctly.",
+            "Burn-ins regain the missing marker-notes tag.",
+            "Decoding is corrected for affected DPX files.",
+            "Decoding is corrected for affected CR2 images.",
+            "Free-edition notes additionally report a Windows software H.264 decoding fix.",
+            "Additional reliability and speed improvements."
+          ]
         }
       ]
     },
@@ -15732,7 +15764,18 @@
           "catalogue_date": "2026-09-07",
           "upstream_date": "2026-08-05",
           "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-          "summary": "Exact patch identified; Windows long-path support and stability improvements."
+          "summary": "Exact patch identified; Windows long-path support and stability improvements.",
+          "changelogs": [
+            {
+              "label": "Fusion Studio 21.0.4 — full official changelog",
+              "url": "https://www.blackmagicdesign.com/support/readme/c3610040628c45c6b59cf2d1d6e9a4ec"
+            }
+          ],
+          "changes": [
+            "Windows handling of exceptionally long paths is corrected.",
+            "The Paint inspector’s settings tab receives a fix.",
+            "Additional reliability and speed improvements."
+          ]
         }
       ]
     },
@@ -25577,7 +25620,39 @@
       "catalogue_date": "2026-09-07",
       "upstream_date": "2026-08-05",
       "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-      "summary": "Exact patch identified; proxy relinking, X-OCN formats and timeline scripting updates."
+      "summary": "Exact patch identified; proxy relinking, X-OCN formats and timeline scripting updates.",
+      "changelogs": [
+        {
+          "label": "Resolve Free 21.0.4 — full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/f1b3986a11634684b538ff3d1d4b55d6"
+        },
+        {
+          "label": "Resolve Studio 21.0.4 — full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/5e8ed1f827564634984496004809d558"
+        }
+      ],
+      "changes": [
+        "Proxy relinking now accepts mismatched formats.",
+        "Imported DRTs reconnect to matching nested clips already present.",
+        "Color-page filtering keeps the selected clip visible.",
+        "Older Affinity formats can be imported.",
+        "Sony FX-5 footage encoded as X-OCN is supported.",
+        "Scripts can retrieve the selected timeline clips.",
+        "Scripts can obtain a timeline object through its Media Pool entry.",
+        "Render-setting scripts gain controls for handles, extents and burn-ins.",
+        "Cached large timelines receive real-time playback fixes.",
+        "Media Pool Power Bin navigation is corrected.",
+        "Media management handles segment-clip suffixes correctly.",
+        "Edit Index sorting is corrected.",
+        "Pasting timecode no longer triggers the reported source-viewer audio problem.",
+        "Several speed-curve retiming problems are corrected.",
+        "Windows Fusion templates handle long paths correctly.",
+        "Burn-ins regain the missing marker-notes tag.",
+        "Decoding is corrected for affected DPX files.",
+        "Decoding is corrected for affected CR2 images.",
+        "Free-edition notes additionally report a Windows software H.264 decoding fix.",
+        "Additional reliability and speed improvements."
+      ]
     },
     {
       "name": "Fusion Studio",
@@ -25588,7 +25663,18 @@
       "catalogue_date": "2026-09-07",
       "upstream_date": "2026-08-05",
       "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-      "summary": "Exact patch identified; Windows long-path support and stability improvements."
+      "summary": "Exact patch identified; Windows long-path support and stability improvements.",
+      "changelogs": [
+        {
+          "label": "Fusion Studio 21.0.4 — full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/c3610040628c45c6b59cf2d1d6e9a4ec"
+        }
+      ],
+      "changes": [
+        "Windows handling of exceptionally long paths is corrected.",
+        "The Paint inspector’s settings tab receives a fix.",
+        "Additional reliability and speed improvements."
+      ]
     },
     {
       "name": "auto-editor",

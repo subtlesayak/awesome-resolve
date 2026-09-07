@@ -881,3 +881,9 @@ form label.checkbox-filter {
   margin-block-start: 20px;
 }
 .recovery-actions button { text-align: start; }
+
+.release-changelog { margin-block: 16px; }
+.release-changelog summary { cursor: pointer; font-weight: 600; }
+.release-changelog ul { padding-inline-start: 24px; }
+.release-changelog li { margin-block: 6px; }
+.release-changelog p { margin-block: 12px; }
