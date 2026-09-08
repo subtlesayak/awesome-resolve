@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**226 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**237 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -368,7 +368,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**154 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**165 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -458,6 +458,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [Exprizo](https://clipizo.com/exprizo) | 💰 Paid license | 🪟 Windows · 🍎 macOS | Saves and reapplies Fusion expression presets across controls. Version 1.1 improves Text+ modifier support, search and responsiveness. Works in Fusion; includes license activation and updates within v1.x. |
 | [Matchizo](https://clipizo.com/matchizo) | 🆓 Free; Discord download | ❔ Not established | Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord. |
 
+#### 👤 Creovanta
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [SafeFrame for DaVinci Resolve](https://creovanta.com/plugins/safeframe-davinci-resolve) | 💰 Paid download | ❓ Unverified | Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks. |
+
 #### 👤 Cullen Kelly Color
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -506,6 +512,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [SkinCorrector](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Frequency-separation macro for skin retouching and beauty work in Fusion. |
 | [VolumeHaze](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Compositing macro that spills background light over foreground elements in atmospheric scenes. |
 
+#### 👤 Filmkid
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Filmkid 16 PowerGrade and LUT](https://filmkid.com/products/filmkid-16) | 💰 Paid PowerGrade or LUT | ❓ Unverified | 16mm-inspired film look offered as a Resolve PowerGrade or LUT package, with camera-log profiles and monitoring LUTs. PowerGrade includes DRX/DPX files. The number 16 is the product name, not a software version; exact Resolve edition and OS support are not established. |
+
 #### 👤 FireCut
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -523,6 +535,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [framechart](https://framechart.com/) | 🆓 Watermarked free tier; 💰 License removes watermark | 🪟 Windows · 🍎 macOS · 🐧 Linux | Renders animated bar, line, table and race charts from CSV data inside Resolve. OFX plugin for Resolve Free or Studio; the free tier includes all chart features with a watermark. |
+
+#### 👤 FrameSeek
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [FrameSeek](https://frameseek.app/) | 💰 Paid one-time license | 🍎 macOS | Searches local footage by visual content, speech and on-screen text, then exports FCPXML or EDL for Resolve. Requires Apple Silicon and macOS 15+. Local AI is the default; optional Gemini API mode uses cloud processing. Current price is $59 for two Macs and one year of updates. Version 0.2.0 adds Quick Search, improved ranking and saved searches. |
 
 #### 👤 FrameTools
 
@@ -589,6 +607,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [Despiller Plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+. |
 | [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) | 📦 Public Reactor package; check package license | 🪟 Windows · 🍎 macOS (legacy packages) | Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim. |
 
+#### 👤 JKL Editing
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [SyncPass](https://jklediting.com/syncpass) | 💰 Free 30-day beta trial; final pricing not established | 🪟 Windows · 🍎 macOS | Resolve Studio text-based rough assembly and Word edit-script export using local Whisper transcripts. Version 1.0 beta offers a 30-day trial for Windows 10/11 x64 and Apple Silicon macOS. Requires Python 3.13. Supports one video track and up to eight locked audio tracks; no J/L cuts or Linux build yet. Optional AI export shares transcripts with the assistant you choose. |
+
 #### 👤 Juan Melara
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -602,6 +626,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [KeyCut](https://getkeycut.com/) | 🆓 Shortcut reference; 💰 live control unlock | macOS · iOS | iPad/iPhone shortcut reference and control surface for Resolve, Premiere and Final Cut. Live control uses a Mac helper over local Wi-Fi and requires a lifetime purchase or subscription. |
+
+#### 👤 Lacerta Film Lab
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Lacerta Film Lab](https://lacertafilmlab.com/) | 🆓 Watermarked demo; 💰 perpetual license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Resolve OpenFX film-emulation plugin with modeled negatives, printer lights, print response, halation, grain and LUT export. Windows/Linux 64-bit and macOS Intel/Apple Silicon builds. $249 perpetual license for one machine with online activation; unlimited demo has a watermark and disables LUT export. Exact Resolve edition/version is not established. |
 
 #### 👤 Lowepost
 
@@ -632,6 +662,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [DIGIFILM PowerGrade](https://meliorstudios.com/digifilm) | 💰 Paid | ❔ Not established | Film-look PowerGrade collection with a modular look table, grading nodes and tutorials. Current header advertises 4.5; older 2.5/Resolve 19 wording remains elsewhere, so confirm current host requirements before purchase. |
+
+#### 👤 MeterPlugs Audio
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [DeliveryQC Beta](https://deliveryqc.com/) | 🆓 Free browser tool | ❓ Unverified | Browser-based loudness and true-peak checks for exported WAV audio, with plots and PDF reports. Supports 44.1/48 kHz and mono through 7.1.4. Audio analysis stays in the browser, but anonymized measurement metrics and web analytics are sent. Companion delivery-QC tool for exported Fairlight mixes. |
 
 #### 👤 Mixing Light
 
@@ -669,6 +705,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [NeoFinder](https://www.cdfinder.de/) | 💰 Paid; trial available | 🍎 macOS | Catalogs online and offline media volumes with thumbnails, metadata and search, helping locate assets for edit projects. Requires macOS 10.15+ on Intel or Apple Silicon. The separate iOS companion has its own requirements. |
 
+#### 👤 Overview
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Chime](https://www.overview-app.com/chime) | 🆓 Free download | 🍎 macOS | Render-completion sound and macOS notifications for background Resolve exports. Requires macOS Sonoma 14+ and Apple Silicon. No current numeric release version or exact Resolve compatibility is established. |
+
 #### 👤 Pieter Van Houte
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -680,6 +722,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [SoundQ](https://www.prosoundeffects.com/soundq/) | 🆓 App and starter library; 💰 Additional sound libraries | 🪟 Windows · 🍎 macOS | Searches and organizes sound libraries with metadata editing and drag-and-drop into editors. Account required. Dedicated Spot to Timeline integration is listed for other hosts; do not assume that integration for Resolve. |
+
+#### 👤 Rampant Octopus Softworks
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [StockSilo](https://addons.mozilla.org/en-US/firefox/addon/stocksilo/) | 🆓 Free browser extension | ❓ Unverified | Tracks stock-comp download origins and exports a CSV for later licensing and relinking. Companion browser utility; it does not grant stock-media licenses. Firefox 1.3.7 adds clickable CSV hyperlinks; Chrome remains 1.3.6 and also offers download-folder routing, which Firefox does not. |
 
 #### 👤 RavinMaddHatter
 
@@ -704,6 +752,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Resolve learning path](https://www.rippletraining.com/product-category/davinci-resolve-learning-path/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve learning pathway covering editing, color and media management. Reviewed listings include Resolve 20 color grading and Resolve 19 media management; lesson and exercise compatibility follows each course. |
+
+#### 👤 Soonus
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [fcp2aaf](https://fcp2aaf.com/) | 🆓 Up to 5 minutes; 💰 paid passes or perpetual license | 🍎 macOS | Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.17 adds a marker panel, selective marker delivery and optional CSV/MIDI marker files. |
 
 #### 👤 Soundly
 
@@ -764,6 +818,18 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Eric’s Keyframes](https://www.patreon.com/posts/mograph-tools-26571904) | 📦 Public post; attachment access not tested | ❔ Not established | Fusion motion-graphics macro supplied as a .setting attachment with tutorials. Legacy 2019 post; current host compatibility and download entitlement are not established. |
+
+#### 👤 Visual Effects Society
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [VES On-Set VFX Data Collection and Usage Guide](https://ves-on-set-data.org/dashboard/) | 🆓 Free reference; CC BY 4.0 | 📖 Reference | Online and PDF reference for camera/lens metadata, color references, folder structure and on-set data handoff to VFX and editorial. Created for the VES Technology Committee by Sheena Duggal and contributors; licensed CC BY 4.0. General production reference, not a Resolve plugin. Linked PDF filename says 1.1.0 while its footer says 1.0.0, so current version remains unverified. |
+
+#### 👤 VocalSlice
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [VocalSlice](https://vocalslice.com/) | 💰 Paid license with 7-day trial | 🪟 Windows · 🍎 macOS | Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool. Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon; initial model download and license activation need internet. $29 license covers three machines. Version 1.462.0 adds in-app release notes and fixes trial-expiry behavior. |
 
 #### 👤 We Suck Less
 

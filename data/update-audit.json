@@ -2,7 +2,7 @@
   "checked_at": "2026-09-06T12:10:03.440Z",
   "reviewed_on": "2026-09-06",
   "scope": {
-    "github": 236,
+    "github": 239,
     "external": 72
   },
   "github": [
@@ -5023,6 +5023,67 @@
       "default_branch_commit": {
         "date": "2026-07-22T13:25:09Z",
         "url": "https://github.com/vkastrup/sub-translator/commit/130e3850b01a7840d739b60e10e5add7c2323dda"
+      },
+      "latest_stable_release": null,
+      "newest_created_release": null,
+      "changelogs": []
+    },
+    {
+      "repository": "lupoter/Openfilmpipe",
+      "url": "https://github.com/lupoter/Openfilmpipe",
+      "canonical_url": "https://github.com/lupoter/Openfilmpipe",
+      "status": "available",
+      "checked_at": "2026-09-08T14:01:59.0779477Z",
+      "archived": false,
+      "stars": 10,
+      "last_pushed_at": "2026-01-25T08:51:46Z",
+      "default_branch_commit": {
+        "date": "2026-01-25T08:51:46Z",
+        "url": "https://github.com/lupoter/Openfilmpipe/commit/6f6714f83829c75765db089cbac9353a65571db3"
+      },
+      "latest_stable_release": null,
+      "newest_created_release": null,
+      "changelogs": []
+    },
+    {
+      "repository": "NorthernPilgrim/Ultimate-LUT-Converter",
+      "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+      "canonical_url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+      "status": "available",
+      "checked_at": "2026-09-08T14:02:02.9627350Z",
+      "archived": false,
+      "stars": 0,
+      "last_pushed_at": "2026-04-25T16:50:24Z",
+      "default_branch_commit": {
+        "date": "2026-04-25T16:50:24Z",
+        "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter/commit/31602913bfd546f99e7b0ce145321af558608a60"
+      },
+      "latest_stable_release": {
+        "tag": "default",
+        "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter/releases/tag/default",
+        "published_at": "2026-04-25T16:43:20Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "default",
+        "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter/releases/tag/default",
+        "published_at": "2026-04-25T16:43:20Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "Kemerd/premiere-agent",
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "canonical_url": "https://github.com/Kemerd/premiere-agent",
+      "status": "available",
+      "checked_at": "2026-09-08T14:02:05.8315049Z",
+      "archived": false,
+      "stars": 15,
+      "last_pushed_at": "2026-07-08T05:45:11Z",
+      "default_branch_commit": {
+        "date": "2026-07-08T05:45:08Z",
+        "url": "https://github.com/Kemerd/premiere-agent/commit/77ed50f4bff14b67b054a64d26aedd7ec217b701"
       },
       "latest_stable_release": null,
       "newest_created_release": null,

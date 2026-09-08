@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-06T11:36:20Z",
   "baseline_count": 130,
-  "added_count": 106,
-  "total_count": 236,
+  "added_count": 109,
+  "total_count": 239,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -2418,6 +2418,63 @@
       "evidence_source": "https://github.com/vkastrup/sub-translator#readme",
       "discovery_sources": [
         "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
+      ]
+    },
+    {
+      "category": "Color grading, DCTLs, film looks, and color science",
+      "repository": "lupoter/Openfilmpipe",
+      "url": "https://github.com/lupoter/Openfilmpipe",
+      "description": "Film-emulation PowerGrade with a DaVinci Wide Gamut to Rec.709 rendering workflow. Repository includes Open Film Pipe V1.3.drx and a 2383 LUT; connect the bundled LUT to the named node as documented. No published GitHub release or reuse license established.",
+      "access": "Free download; reuse license not established",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Exact operating-system and Resolve edition compatibility are not established. Film-emulation PowerGrade with a DaVinci Wide Gamut to Rec.709 rendering workflow. Repository includes Open Film Pipe V1.3.drx and a 2383 LUT; connect the bundled LUT to the named node as documented. No published GitHub release or reuse license established.",
+      "platform_source": "https://github.com/lupoter/Openfilmpipe#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "10",
+      "last_pushed_at": "2026-01-25T08:51:46Z",
+      "metadata_checked_at": "2026-09-08T14:01:59.0779477Z",
+      "evidence_source": "https://github.com/lupoter/Openfilmpipe#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/colorists/comments/1qm0x1y/open_film_pipe_power_grade_for_genesis_like_film/"
+      ]
+    },
+    {
+      "category": "Color grading, DCTLs, film looks, and color science",
+      "repository": "NorthernPilgrim/Ultimate-LUT-Converter",
+      "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+      "description": "Standalone HTML utility converting CUBE LUTs to and from PNG HALD and OBS grids. Batch ZIP conversion preserves folder structure. Run in a browser alongside Resolve; Adobe XMP conversion is a future request, not an implemented feature. Release is named Lut Converter 1.0 with tag default; reuse license is not established.",
+      "access": "Free download; reuse license not established",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Exact operating-system and Resolve edition compatibility are not established. Standalone HTML utility converting CUBE LUTs to and from PNG HALD and OBS grids. Batch ZIP conversion preserves folder structure. Run in a browser alongside Resolve; Adobe XMP conversion is a future request, not an implemented feature. Release is named Lut Converter 1.0 with tag default; reuse license is not established.",
+      "platform_source": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "0",
+      "last_pushed_at": "2026-04-25T16:50:24Z",
+      "metadata_checked_at": "2026-09-08T14:02:02.9627350Z",
+      "evidence_source": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/colorists/comments/1se5jst/april_developertool_creator_thread_building_or/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "Kemerd/premiere-agent",
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "description": "Agent-assisted editing workflow exporting FCPXML for Resolve, FCP7 XML for Premiere and SRT subtitles. Speech, visual and audio preprocessing runs locally; Claude Code or Codex can receive derived material for editing decisions. Python, FFmpeg and model downloads required. Florence-2 dependency has noncommercial terms according to the README; repository reuse license is not established.",
+      "access": "Public; agent costs and dependency terms separate",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Exact operating-system and Resolve edition compatibility are not established. Agent-assisted editing workflow exporting FCPXML for Resolve, FCP7 XML for Premiere and SRT subtitles. Speech, visual and audio preprocessing runs locally; Claude Code or Codex can receive derived material for editing decisions. Python, FFmpeg and model downloads required. Florence-2 dependency has noncommercial terms according to the README; repository reuse license is not established.",
+      "platform_source": "https://github.com/Kemerd/premiere-agent#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "15",
+      "last_pushed_at": "2026-07-08T05:45:11Z",
+      "metadata_checked_at": "2026-09-08T14:02:05.8315049Z",
+      "evidence_source": "https://github.com/Kemerd/premiere-agent#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/VideoEditing/comments/1s9xqhx/april_developertool_creator_thread_building_or/"
       ]
     }
   ],

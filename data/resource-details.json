@@ -3327,6 +3327,351 @@
           "note": "Directory linking free PowerGrades, LUTs, camera log transforms and guides. Product availability and licenses belong to the linked creators; dynamic listings were not fully enumerated in this review."
         }
       ]
+    },
+    {
+      "url": "https://github.com/lupoter/Openfilmpipe",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/lupoter/Openfilmpipe",
+          "checked_at": "2026-09-08",
+          "note": "Film-emulation PowerGrade with a DaVinci Wide Gamut to Rec.709 rendering workflow. Repository includes Open Film Pipe V1.3.drx and a 2383 LUT; connect the bundled LUT to the named node as documented. No published GitHub release or reuse license established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+          "checked_at": "2026-09-08",
+          "note": "Standalone HTML utility converting CUBE LUTs to and from PNG HALD and OBS grids. Batch ZIP conversion preserves folder structure. Run in a browser alongside Resolve; Adobe XMP conversion is a future request, not an implemented feature. Release is named Lut Converter 1.0 with tag default; reuse license is not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "processing": "hybrid",
+        "dependencies": "Python 3, FFmpeg, AI model downloads and a supported coding agent; GPU recommended"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/Kemerd/premiere-agent",
+          "checked_at": "2026-09-08",
+          "note": "Agent-assisted editing workflow exporting FCPXML for Resolve, FCP7 XML for Premiere and SRT subtitles. Speech, visual and audio preprocessing runs locally; Claude Code or Codex can receive derived material for editing decisions. Python, FFmpeg and model downloads required. Florence-2 dependency has noncommercial terms according to the README; repository reuse license is not established."
+        }
+      ]
+    },
+    {
+      "url": "https://deliveryqc.com/",
+      "tasks": [
+        "audio"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://deliveryqc.com/",
+          "checked_at": "2026-09-08",
+          "note": "Browser-based loudness and true-peak checks for exported WAV audio, with plots and PDF reports. Supports 44.1/48 kHz and mono through 7.1.4. Audio analysis stays in the browser, but anonymized measurement metrics and web analytics are sent. Companion delivery-QC tool for exported Fairlight mixes."
+        }
+      ]
+    },
+    {
+      "url": "https://fcp2aaf.com/",
+      "tasks": [
+        "audio"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "processing": "local",
+        "architectures": [
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://fcp2aaf.com/",
+          "checked_at": "2026-09-08",
+          "note": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.17 adds a marker panel, selective marker delivery and optional CSV/MIDI marker files."
+        },
+        {
+          "field": "changelog",
+          "level": "documented",
+          "source": "https://fcp2aaf.com/changelog/",
+          "checked_at": "2026-09-08",
+          "note": "Original provider release notes for 26.9.17."
+        }
+      ]
+    },
+    {
+      "url": "https://frameseek.app/",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "processing": "hybrid",
+        "architectures": [
+          "arm64"
+        ],
+        "dependencies": "Initial AI model downloads; optional Gemini API key"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://frameseek.app/",
+          "checked_at": "2026-09-08",
+          "note": "Searches local footage by visual content, speech and on-screen text, then exports FCPXML or EDL for Resolve. Requires Apple Silicon and macOS 15+. Local AI is the default; optional Gemini API mode uses cloud processing. Current price is $59 for two Macs and one year of updates. Version 0.2.0 adds Quick Search, improved ranking and saved searches."
+        },
+        {
+          "field": "changelog",
+          "level": "documented",
+          "source": "https://frameseek.app/updates",
+          "checked_at": "2026-09-08",
+          "note": "Original provider release notes for 0.2.0."
+        }
+      ]
+    },
+    {
+      "url": "https://filmkid.com/products/filmkid-16",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://filmkid.com/products/filmkid-16",
+          "checked_at": "2026-09-08",
+          "note": "16mm-inspired film look offered as a Resolve PowerGrade or LUT package, with camera-log profiles and monitoring LUTs. PowerGrade includes DRX/DPX files. The number 16 is the product name, not a software version; exact Resolve edition and OS support are not established."
+        }
+      ]
+    },
+    {
+      "url": "https://lacertafilmlab.com/",
+      "tasks": [
+        "color"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "processing": "local",
+        "architectures": [
+          "x64",
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://lacertafilmlab.com/",
+          "checked_at": "2026-09-08",
+          "note": "Resolve OpenFX film-emulation plugin with modeled negatives, printer lights, print response, halation, grain and LUT export. Windows/Linux 64-bit and macOS Intel/Apple Silicon builds. $249 perpetual license for one machine with online activation; unlimited demo has a watermark and disables LUT export. Exact Resolve edition/version is not established."
+        }
+      ]
+    },
+    {
+      "url": "https://vocalslice.com/",
+      "tasks": [
+        "audio"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "processing": "local",
+        "architectures": [
+          "x64",
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://vocalslice.com/",
+          "checked_at": "2026-09-08",
+          "note": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool. Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon; initial model download and license activation need internet. $29 license covers three machines. Version 1.462.0 adds in-app release notes and fixes trial-expiry behavior."
+        },
+        {
+          "field": "changelog",
+          "level": "documented",
+          "source": "https://vocalslice.com/changelog.html",
+          "checked_at": "2026-09-08",
+          "note": "Original provider release notes for 1.462.0."
+        }
+      ]
+    },
+    {
+      "url": "https://www.overview-app.com/chime",
+      "tasks": [
+        "workflow"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "architectures": [
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.overview-app.com/chime",
+          "checked_at": "2026-09-08",
+          "note": "Render-completion sound and macOS notifications for background Resolve exports. Requires macOS Sonoma 14+ and Apple Silicon. No current numeric release version or exact Resolve compatibility is established."
+        }
+      ]
+    },
+    {
+      "url": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+          "checked_at": "2026-09-08",
+          "note": "Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks."
+        }
+      ]
+    },
+    {
+      "url": "https://jklediting.com/syncpass",
+      "tasks": [
+        "captions"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "accessGroup": "paid",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "processing": "hybrid",
+        "dependencies": "Python 3.13 and initial Whisper model download",
+        "architectures": [
+          "x64",
+          "arm64"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://jklediting.com/syncpass",
+          "checked_at": "2026-09-08",
+          "note": "Resolve Studio text-based rough assembly and Word edit-script export using local Whisper transcripts. Version 1.0 beta offers a 30-day trial for Windows 10/11 x64 and Apple Silicon macOS. Requires Python 3.13. Supports one video track and up to eight locked audio tracks; no J/L cuts or Linux build yet. Optional AI export shares transcripts with the assistant you choose."
+        }
+      ]
+    },
+    {
+      "url": "https://ves-on-set-data.org/dashboard/",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://ves-on-set-data.org/dashboard/",
+          "checked_at": "2026-09-08",
+          "note": "Online and PDF reference for camera/lens metadata, color references, folder structure and on-set data handoff to VFX and editorial. Created for the VES Technology Committee by Sheena Duggal and contributors; licensed CC BY 4.0. General production reference, not a Resolve plugin. Linked PDF filename says 1.1.0 while its footer says 1.0.0, so current version remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+          "checked_at": "2026-09-08",
+          "note": "Tracks stock-comp download origins and exports a CSV for later licensing and relinking. Companion browser utility; it does not grant stock-media licenses. Firefox 1.3.7 adds clickable CSV hyperlinks; Chrome remains 1.3.6 and also offers download-folder routing, which Firefox does not."
+        },
+        {
+          "field": "changelog",
+          "level": "documented",
+          "source": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+          "checked_at": "2026-09-08",
+          "note": "Original provider release notes for 1.3.7 (Firefox)."
+        }
+      ]
     }
   ]
 }

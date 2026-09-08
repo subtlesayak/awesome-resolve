@@ -6345,6 +6345,244 @@
       "sources": [
         "https://resolve.directory/"
       ]
+    },
+    {
+      "url": "https://github.com/lupoter/Openfilmpipe",
+      "name": "Open Film Pipe",
+      "tags": [
+        "film",
+        "powergrade",
+        "2383",
+        "lut",
+        "dwg",
+        "rec709",
+        "print"
+      ],
+      "sources": [
+        "https://github.com/lupoter/Openfilmpipe"
+      ]
+    },
+    {
+      "url": "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+      "name": "Ultimate LUT Converter",
+      "tags": [
+        "lut",
+        "cube",
+        "hald",
+        "png",
+        "obs",
+        "conversion",
+        "batch",
+        "browser"
+      ],
+      "sources": [
+        "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter"
+      ]
+    },
+    {
+      "url": "https://github.com/Kemerd/premiere-agent",
+      "name": "Premiere Agent",
+      "tags": [
+        "ai",
+        "fcpxml",
+        "xml",
+        "transcription",
+        "claude",
+        "codex",
+        "rough cut",
+        "automation"
+      ],
+      "sources": [
+        "https://github.com/Kemerd/premiere-agent"
+      ]
+    },
+    {
+      "url": "https://deliveryqc.com/",
+      "name": "DeliveryQC Beta",
+      "tags": [
+        "audio",
+        "fairlight",
+        "wav",
+        "loudness",
+        "true peak",
+        "qc",
+        "delivery",
+        "broadcast"
+      ],
+      "sources": [
+        "https://deliveryqc.com/"
+      ]
+    },
+    {
+      "url": "https://fcp2aaf.com/",
+      "name": "fcp2aaf",
+      "tags": [
+        "audio",
+        "aaf",
+        "fcpxml",
+        "final cut",
+        "fairlight",
+        "markers",
+        "handoff"
+      ],
+      "sources": [
+        "https://fcp2aaf.com/",
+        "https://fcp2aaf.com/changelog/"
+      ]
+    },
+    {
+      "url": "https://frameseek.app/",
+      "name": "FrameSeek",
+      "tags": [
+        "search",
+        "footage",
+        "semantic",
+        "ocr",
+        "transcription",
+        "fcpxml",
+        "edl",
+        "ai"
+      ],
+      "sources": [
+        "https://frameseek.app/",
+        "https://frameseek.app/updates"
+      ]
+    },
+    {
+      "url": "https://filmkid.com/products/filmkid-16",
+      "name": "Filmkid 16 PowerGrade and LUT",
+      "tags": [
+        "film",
+        "16mm",
+        "powergrade",
+        "lut",
+        "grain",
+        "camera log",
+        "film emulation"
+      ],
+      "sources": [
+        "https://filmkid.com/products/filmkid-16"
+      ]
+    },
+    {
+      "url": "https://lacertafilmlab.com/",
+      "name": "Lacerta Film Lab",
+      "tags": [
+        "film",
+        "ofx",
+        "negative",
+        "print",
+        "halation",
+        "grain",
+        "aerochrome",
+        "solarization",
+        "printer lights"
+      ],
+      "sources": [
+        "https://lacertafilmlab.com/"
+      ]
+    },
+    {
+      "url": "https://vocalslice.com/",
+      "name": "VocalSlice",
+      "tags": [
+        "audio",
+        "dialogue",
+        "whisper",
+        "transcription",
+        "wav",
+        "clips",
+        "text editing"
+      ],
+      "sources": [
+        "https://vocalslice.com/",
+        "https://vocalslice.com/changelog.html"
+      ]
+    },
+    {
+      "url": "https://www.overview-app.com/chime",
+      "name": "Chime",
+      "tags": [
+        "render",
+        "export",
+        "notification",
+        "sound",
+        "macos",
+        "background"
+      ],
+      "sources": [
+        "https://www.overview-app.com/chime"
+      ]
+    },
+    {
+      "url": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "name": "SafeFrame for DaVinci Resolve",
+      "tags": [
+        "safe area",
+        "safe zone",
+        "vertical",
+        "social",
+        "reels",
+        "shorts",
+        "tiktok",
+        "overlay"
+      ],
+      "sources": [
+        "https://creovanta.com/plugins/safeframe-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://jklediting.com/syncpass",
+      "name": "SyncPass",
+      "tags": [
+        "transcription",
+        "whisper",
+        "paper edit",
+        "documentary",
+        "rough cut",
+        "word",
+        "script",
+        "dialogue"
+      ],
+      "sources": [
+        "https://jklediting.com/syncpass"
+      ]
+    },
+    {
+      "url": "https://ves-on-set-data.org/dashboard/",
+      "name": "VES On-Set VFX Data Collection and Usage Guide",
+      "tags": [
+        "vfx",
+        "metadata",
+        "lens",
+        "camera",
+        "handoff",
+        "on set",
+        "color chart",
+        "directory"
+      ],
+      "sources": [
+        "https://ves-on-set-data.org/dashboard/",
+        "https://ves-on-set-data.org/data/On-Set_VFX_Data_Collection_and_Usage_Guide_v1.1.0.pdf"
+      ]
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+      "name": "StockSilo",
+      "tags": [
+        "stock",
+        "licensing",
+        "provenance",
+        "csv",
+        "assets",
+        "browser",
+        "relink"
+      ],
+      "sources": [
+        "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+        "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+        "https://chromewebstore.google.com/detail/stocksilo/hcedobnjefgpoijlpfibidbkfifohonn"
+      ]
     }
   ]
 }

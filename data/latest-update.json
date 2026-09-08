@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "date": "2026-09-08",
-  "release": "v1.20",
+  "release": "v1.21",
   "added_urls": [
-    "https://github.com/DhaliwalX/fotufilm-engine",
-    "https://github.com/francozanardi/tscaps",
-    "https://github.com/BambooYC123/SubtitleYC",
-    "https://github.com/ciqueira/BaldavengerOFX",
-    "https://github.com/elpideus/DavinciResolveRPC",
-    "https://github.com/anuzdhk/flow-studio",
-    "https://github.com/debuxxed/lowcat",
-    "https://github.com/shumaiOne/shumai",
-    "https://github.com/ming-qiu/theia",
-    "https://github.com/vkastrup/sub-translator",
-    "https://tagger.mov/typeflare/",
-    "https://mononodes.com/3d-cube/",
-    "https://getkeycut.com/",
-    "https://resolve.directory/"
+    "https://github.com/lupoter/Openfilmpipe",
+    "https://github.com/NorthernPilgrim/Ultimate-LUT-Converter",
+    "https://github.com/Kemerd/premiere-agent",
+    "https://deliveryqc.com/",
+    "https://fcp2aaf.com/",
+    "https://frameseek.app/",
+    "https://filmkid.com/products/filmkid-16",
+    "https://lacertafilmlab.com/",
+    "https://vocalslice.com/",
+    "https://www.overview-app.com/chime",
+    "https://creovanta.com/plugins/safeframe-davinci-resolve",
+    "https://jklediting.com/syncpass",
+    "https://ves-on-set-data.org/dashboard/",
+    "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/"
   ]
 }

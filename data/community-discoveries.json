@@ -1,9 +1,9 @@
 {
   "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 154,
-  "total_count": 226,
-  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added.",
+  "added_count": 165,
+  "total_count": 237,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added. Follow-up 2026-09-08: targeted deeper search across eleven Reddit communities, accessible comments and highlighted threads; eleven external additions verified against original sources. This is not a complete archive or all-comments crawl.",
   "additions": [
     {
       "creator": "heiba",
@@ -3038,6 +3038,232 @@
       "evidence_mode": "Creator page checked; no product release date established.",
       "sources": [
         "https://resolve.directory/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "MeterPlugs Audio",
+      "name": "DeliveryQC Beta",
+      "url": "https://deliveryqc.com/",
+      "category": "Community tools and resources",
+      "description": "Browser-based loudness and true-peak checks for exported WAV audio, with plots and PDF reports. Supports 44.1/48 kHz and mono through 7.1.4. Audio analysis stays in the browser, but anonymized measurement metrics and web analytics are sent. Companion delivery-QC tool for exported Fairlight mixes.",
+      "access": "🆓 Free browser tool",
+      "platforms": "❓ Unverified",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://deliveryqc.com/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/AudioPost/comments/1vckcq7/the_audiopost_mine_august_2026_tell_us_about_your/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Soonus",
+      "name": "fcp2aaf",
+      "url": "https://fcp2aaf.com/",
+      "category": "Community tools and resources",
+      "description": "Converts Final Cut FCPXML to audio AAF for Resolve/Fairlight and other audio applications. Runs locally on Apple Silicon with macOS 14+. Free conversions are limited to five minutes; paid licenses periodically need an online check. Version 26.9.17 adds a marker panel, selective marker delivery and optional CSV/MIDI marker files.",
+      "access": "🆓 Up to 5 minutes; 💰 paid passes or perpetual license",
+      "platforms": "🍎 macOS",
+      "version": "26.9.17",
+      "updated": "2026-09-04",
+      "date_kind": "release",
+      "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
+      "sources": [
+        "https://fcp2aaf.com/",
+        "https://fcp2aaf.com/changelog/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/AudioPost/comments/1w48lr4/the_audiopost_mine_september_2026_tell_us_about/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "FrameSeek",
+      "name": "FrameSeek",
+      "url": "https://frameseek.app/",
+      "category": "Community tools and resources",
+      "description": "Searches local footage by visual content, speech and on-screen text, then exports FCPXML or EDL for Resolve. Requires Apple Silicon and macOS 15+. Local AI is the default; optional Gemini API mode uses cloud processing. Current price is $59 for two Macs and one year of updates. Version 0.2.0 adds Quick Search, improved ranking and saved searches.",
+      "access": "💰 Paid one-time license",
+      "platforms": "🍎 macOS",
+      "version": "0.2.0",
+      "updated": "2026-08-01",
+      "date_kind": "release",
+      "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
+      "sources": [
+        "https://frameseek.app/",
+        "https://frameseek.app/updates"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Filmkid",
+      "name": "Filmkid 16 PowerGrade and LUT",
+      "url": "https://filmkid.com/products/filmkid-16",
+      "category": "Community tools and resources",
+      "description": "16mm-inspired film look offered as a Resolve PowerGrade or LUT package, with camera-log profiles and monitoring LUTs. PowerGrade includes DRX/DPX files. The number 16 is the product name, not a software version; exact Resolve edition and OS support are not established.",
+      "access": "💰 Paid PowerGrade or LUT",
+      "platforms": "❓ Unverified",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://filmkid.com/products/filmkid-16"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/ColorGrading/comments/1v5631p/thoughts_on_film_kid_powergrade_or_similar/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Lacerta Film Lab",
+      "name": "Lacerta Film Lab",
+      "url": "https://lacertafilmlab.com/",
+      "category": "Community tools and resources",
+      "description": "Resolve OpenFX film-emulation plugin with modeled negatives, printer lights, print response, halation, grain and LUT export. Windows/Linux 64-bit and macOS Intel/Apple Silicon builds. $249 perpetual license for one machine with online activation; unlimited demo has a watermark and disables LUT export. Exact Resolve edition/version is not established.",
+      "access": "🆓 Watermarked demo; 💰 perpetual license",
+      "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://lacertafilmlab.com/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1vd42r0/august_2026_devtools_megathread/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "VocalSlice",
+      "name": "VocalSlice",
+      "url": "https://vocalslice.com/",
+      "category": "Community tools and resources",
+      "description": "Local Whisper transcription and text-based audio selection, exporting named WAV clips for editing. Standalone audio preparation tool. Windows 10/11 x64 or macOS 11+ Intel/Apple Silicon; initial model download and license activation need internet. $29 license covers three machines. Version 1.462.0 adds in-app release notes and fixes trial-expiry behavior.",
+      "access": "💰 Paid license with 7-day trial",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "1.462.0",
+      "updated": "2026-08-18",
+      "date_kind": "release",
+      "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
+      "sources": [
+        "https://vocalslice.com/",
+        "https://vocalslice.com/changelog.html"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/AudioPost/comments/1vckcq7/the_audiopost_mine_august_2026_tell_us_about_your/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Overview",
+      "name": "Chime",
+      "url": "https://www.overview-app.com/chime",
+      "category": "Community tools and resources",
+      "description": "Render-completion sound and macOS notifications for background Resolve exports. Requires macOS Sonoma 14+ and Apple Silicon. No current numeric release version or exact Resolve compatibility is established.",
+      "access": "🆓 Free download",
+      "platforms": "🍎 macOS",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://www.overview-app.com/chime"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/VideoEditing/comments/1s9xqhx/april_developertool_creator_thread_building_or/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Creovanta",
+      "name": "SafeFrame for DaVinci Resolve",
+      "url": "https://creovanta.com/plugins/safeframe-davinci-resolve",
+      "category": "Community tools and resources",
+      "description": "Social-video safe-zone overlays for TikTok, Reels, Shorts and Snapchat, launched through Workspace Scripts. Creator lists Resolve 18+ Free/Studio, but exact later-version behavior is not independently tested. Current download costs $2.99+; version 2.0.1 improves installation lookup, errors and success checks.",
+      "access": "💰 Paid download",
+      "platforms": "❓ Unverified",
+      "version": "2.0.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://creovanta.com/plugins/safeframe-davinci-resolve"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "JKL Editing",
+      "name": "SyncPass",
+      "url": "https://jklediting.com/syncpass",
+      "category": "Community tools and resources",
+      "description": "Resolve Studio text-based rough assembly and Word edit-script export using local Whisper transcripts. Version 1.0 beta offers a 30-day trial for Windows 10/11 x64 and Apple Silicon macOS. Requires Python 3.13. Supports one video track and up to eight locked audio tracks; no J/L cuts or Linux build yet. Optional AI export shares transcripts with the assistant you choose.",
+      "access": "💰 Free 30-day beta trial; final pricing not established",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "1.0 beta",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://jklediting.com/syncpass"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1t0uqd3/may_devtools_monthly_megathread_for_tool_builders/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Visual Effects Society",
+      "name": "VES On-Set VFX Data Collection and Usage Guide",
+      "url": "https://ves-on-set-data.org/dashboard/",
+      "category": "Community tools and resources",
+      "description": "Online and PDF reference for camera/lens metadata, color references, folder structure and on-set data handoff to VFX and editorial. Created for the VES Technology Committee by Sheena Duggal and contributors; licensed CC BY 4.0. General production reference, not a Resolve plugin. Linked PDF filename says 1.1.0 while its footer says 1.0.0, so current version remains unverified.",
+      "access": "🆓 Free reference; CC BY 4.0",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Original source reviewed; no installation testing. No unambiguous release date established.",
+      "sources": [
+        "https://ves-on-set-data.org/dashboard/",
+        "https://ves-on-set-data.org/data/On-Set_VFX_Data_Collection_and_Usage_Guide_v1.1.0.pdf"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/vfx/comments/1t040py/ves_launches_onset_vfx_data_collection_and_usage/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Rampant Octopus Softworks",
+      "name": "StockSilo",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+      "category": "Community tools and resources",
+      "description": "Tracks stock-comp download origins and exports a CSV for later licensing and relinking. Companion browser utility; it does not grant stock-media licenses. Firefox 1.3.7 adds clickable CSV hyperlinks; Chrome remains 1.3.6 and also offers download-folder routing, which Firefox does not.",
+      "access": "🆓 Free browser extension",
+      "platforms": "❓ Unverified",
+      "version": "1.3.7 (Firefox)",
+      "updated": "2026-07-17",
+      "date_kind": "release",
+      "evidence_mode": "Original source reviewed; no installation testing. Published release date recorded.",
+      "sources": [
+        "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/",
+        "https://addons.mozilla.org/en-US/firefox/addon/stocksilo/versions/",
+        "https://chromewebstore.google.com/detail/stocksilo/hcedobnjefgpoijlpfibidbkfifohonn"
       ],
       "discovery_sources": [
         "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
