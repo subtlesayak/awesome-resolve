@@ -78,12 +78,19 @@ button:hover,.link-button:hover {
   outline-offset:4px
 }
 header {
+  position:sticky;
+  top:0;
+  z-index:4;
+  background:var(--paper);
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:24px;
   padding:18px 32px;
   border-bottom:1px solid var(--line)
+}
+html {
+  scroll-padding-top:calc(var(--header-height, 150px) + 16px);
 }
 .brand {
   font-size:27px;
@@ -981,3 +988,5 @@ nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; t
 .footer-visits { min-height: 24px; display: flex; align-items: center; justify-content: center; }
 .footer-visits a { display: inline-flex; align-items: center; min-height: 44px; }
 .footer-visits img { height: 20px; width: auto; }
+
+.release-notes h4, .creator-heading { font-size: 18px; margin-block: 28px 12px; color: var(--ink); }

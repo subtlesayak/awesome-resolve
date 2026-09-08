@@ -34,6 +34,12 @@
     apply();
   });
   document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    if (header) {
+      const measureHeader = () => document.documentElement.style.setProperty('--header-height', `${header.getBoundingClientRect().height}px`);
+      measureHeader();
+      new ResizeObserver(measureHeader).observe(header);
+    }
     const control = document.querySelector('#theme');
     apply();
     control.addEventListener('click', () => {
