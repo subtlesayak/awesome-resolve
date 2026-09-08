@@ -22,3 +22,21 @@ test('release Markdown keeps original product links clickable inside bold text',
  assert.deepEqual(inlineTokens('[**Tool**]('+url+')'),[{type:'link',url,children:[{type:'strong',children:[{type:'text',text:'Tool'}]}]}]);
  assert.deepEqual(inlineTokens('<script>alert(1)</script>'),[{type:'text',text:'<script>alert(1)</script>'}]);
 });
+
+test('creator headings combine repeated creators within a release and keep BMD first', async()=>{
+ const {creatorGroups,releaseNoteBlocks}=await import('../site/updates.mjs');
+ const data=JSON.parse(fs.readFileSync(new URL('../site/catalogue.json',import.meta.url),'utf8'));
+ const current=data.releases.find(r=>r.version==='v1.17');
+ const items=releaseNoteBlocks(current.body).filter(b=>b.type==='list').flatMap(b=>b.items);
+ const groups=creatorGroups(items,data.entries,line=>line.match(/\]\((https:\/\/[^)]+)\)/)?.[1]);
+ assert.equal(groups.find(g=>g.creator==='Veres Deni Alex').items.length,14);
+ assert.equal(groups.find(g=>g.creator==='Juan Melara').items.length,3);
+ assert.equal(groups.find(g=>g.creator==='tdcat').items.length,2);
+ assert.equal(groups.flatMap(g=>g.items).length,items.length);
+ const updates=data.updates.filter(h=>h.release==='v1.15');
+ const changes=creatorGroups(updates,data.entries);
+ assert.equal(changes[0].creator,'Blackmagic Design');
+ assert.equal(changes[0].items.length,2);
+ assert.equal(changes.flatMap(g=>g.items).length,4);
+ assert.equal(creatorGroups([{url:'https://example.com/a'},{url:'https://example.com/b'}],[]).length,2);
+});

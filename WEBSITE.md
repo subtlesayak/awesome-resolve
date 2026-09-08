@@ -44,7 +44,7 @@ git diff --check
 
 ## Hosting
 
-Live on [GitHub Pages](https://subtlesayak.github.io/subtle-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, third-party scripts or fonts are configured. The footer loads an external Hits counter image on the production site only. It counts approximate page loads across all three pages, not unique people. A fixed public site identifier and `no-referrer` policy prevent search terms, filter URLs and local preview paths from being sent to the counter. Counts start from installation, not historical launch traffic. Failure shows an unavailable message without blocking the catalogue. The site has no database; catalogue freshness follows reviewed deployments. See [Hits documentation](https://hits.sh/docs/) and [privacy policy](https://hits.sh/privacy/).
+Live on [GitHub Pages](https://subtlesayak.github.io/subtle-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, third-party scripts or fonts are configured. The footer loads an external Hits counter image on the production site only. It counts approximate page loads across all three pages, not unique people. A fixed public site identifier and `no-referrer` policy prevent search terms, filter URLs and local preview paths from being sent to the counter. Counts start from installation, not historical launch traffic. A failed image is retried once; if the service is still unavailable, a statistics link remains without blocking the catalogue. The site has no database; catalogue freshness follows reviewed deployments. See [Hits documentation](https://hits.sh/docs/) and [privacy policy](https://hits.sh/privacy/).
 
 Shareable URLs contain the search terms and filter values. The website stores no browsing history or selections in browser storage. Avoid including private project names in links you share.
 
@@ -62,7 +62,7 @@ Rebuild with `node scripts/build-site.mjs` and run `node --test --test-concurren
 
 ## Release pages
 
-Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages. Updates groups provider changes under the catalogue's published GitHub release tags, newest first. Tool Details retains each tool's own version history. Both BMD and community changes offer expandable notes and full source links.
+Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages. Updates groups provider changes under the catalogue's published GitHub release tags, newest first. Within each release, two or more items from the same recorded creator share a creator heading, including additions in the expanded release notes. BMD groups remain first; singleton creators keep their item heading. Tool Details retains each tool's own version history. Both BMD and community changes offer expandable notes and full source links.
 
 After publishing a catalogue release, refresh `data/catalogue-releases.json` with `node scripts/update-catalogue-releases.mjs`, rebuild the site and deploy. The cached public release data keeps browsing independent of GitHub API availability.
 

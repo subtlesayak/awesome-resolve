@@ -17,8 +17,17 @@ if (typeof document !== 'undefined') {
     badge.alt = 'Visits counter: open page-view statistics';
     badge.referrerPolicy = 'no-referrer';
     badge.height = 20;
-    badge.addEventListener('error', () => { container.textContent = 'Visit count unavailable'; });
-    link.append(badge);
+    let retried = false;
+    badge.addEventListener('load', () => { link.replaceChildren(badge); });
+    badge.addEventListener('error', () => {
+      link.textContent = 'View visit statistics ↗';
+      if (!retried) {
+        retried = true;
+        // Bypass a cached failed image once, without changing the counter key.
+        setTimeout(() => { badge.src = url + '&retry=1'; }, 1200);
+      }
+    });
+    link.textContent = 'View visit statistics ↗';
     container.replaceChildren(link);
     badge.src = url;
   }
