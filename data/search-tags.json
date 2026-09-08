@@ -1,0 +1,5172 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-08",
+  "policy": "Editorial search topics derived from each listing title and description, with additional creator sources where listed. Tags aid discovery and do not assert licensing, platform support, installation testing, or endorsement. Review tags when a listing changes.",
+  "entries": [
+    {
+      "url": "https://github.com/thatcherfreeman/utility-dctls",
+      "name": "utility-dctls",
+      "tags": [
+        "color grading",
+        "contrast",
+        "dctl",
+        "diagnostics",
+        "exposure",
+        "saturation"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/utility-dctls"
+      ]
+    },
+    {
+      "url": "https://github.com/baldavenger/DCTLs",
+      "name": "DCTLs",
+      "tags": [
+        "charts",
+        "color science",
+        "convolution",
+        "dctl",
+        "noise"
+      ],
+      "sources": [
+        "https://github.com/baldavenger/DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/baldavenger/ACES_DCTL",
+      "name": "ACES_DCTL",
+      "tags": [
+        "aces",
+        "color management",
+        "color transform",
+        "dctl"
+      ],
+      "sources": [
+        "https://github.com/baldavenger/ACES_DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/Demystify-Color/DCTLs",
+      "name": "DCTLs",
+      "tags": [
+        "color science",
+        "dctl",
+        "learning",
+        "programming",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/Demystify-Color/DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/xtremestuff/resolve-dctl",
+      "name": "resolve-dctl",
+      "tags": [
+        "color grading",
+        "dctl",
+        "utilities"
+      ],
+      "sources": [
+        "https://github.com/xtremestuff/resolve-dctl"
+      ]
+    },
+    {
+      "url": "https://github.com/xtremestuff/protune-transforms",
+      "name": "protune-transforms",
+      "tags": [
+        "camera transform",
+        "color management",
+        "gopro",
+        "gp log",
+        "protune"
+      ],
+      "sources": [
+        "https://github.com/xtremestuff/protune-transforms"
+      ]
+    },
+    {
+      "url": "https://github.com/xtremestuff/resolve-aces",
+      "name": "resolve-aces",
+      "tags": [
+        "aces",
+        "color management",
+        "input transform",
+        "output transform"
+      ],
+      "sources": [
+        "https://github.com/xtremestuff/resolve-aces"
+      ]
+    },
+    {
+      "url": "https://github.com/MoazElgabry/DCTLs",
+      "name": "DCTLs",
+      "tags": [
+        "color grading",
+        "dctl",
+        "filmic contrast",
+        "hue",
+        "look development"
+      ],
+      "sources": [
+        "https://github.com/MoazElgabry/DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/hotgluebanjo/TetraInterp-DCTL",
+      "name": "TetraInterp-DCTL",
+      "tags": [
+        "color manipulation",
+        "dctl",
+        "tetrahedral interpolation"
+      ],
+      "sources": [
+        "https://github.com/hotgluebanjo/TetraInterp-DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/npeason/Tetra-DCTLOFX",
+      "name": "Tetra-DCTLOFX",
+      "tags": [
+        "color manipulation",
+        "dctl",
+        "openfx",
+        "tetrahedral interpolation"
+      ],
+      "sources": [
+        "https://github.com/npeason/Tetra-DCTLOFX"
+      ]
+    },
+    {
+      "url": "https://github.com/sobotka/AgX-Resolve",
+      "name": "AgX-Resolve",
+      "tags": [
+        "agx",
+        "color management",
+        "display transform",
+        "tone mapping"
+      ],
+      "sources": [
+        "https://github.com/sobotka/AgX-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/jedypod/open-display-transform",
+      "name": "open-display-transform",
+      "tags": [
+        "dctl",
+        "display transform",
+        "hdr",
+        "scene linear",
+        "sdr",
+        "wide gamut"
+      ],
+      "sources": [
+        "https://github.com/jedypod/open-display-transform"
+      ]
+    },
+    {
+      "url": "https://github.com/jedypod/gamut-compress",
+      "name": "gamut-compress",
+      "tags": [
+        "color management",
+        "dctl",
+        "fusion",
+        "gamut compression"
+      ],
+      "sources": [
+        "https://github.com/jedypod/gamut-compress"
+      ]
+    },
+    {
+      "url": "https://github.com/mikaelsundell/photographic-dctls",
+      "name": "photographic-dctls",
+      "tags": [
+        "cineon",
+        "color science",
+        "dctl",
+        "logc",
+        "negative inversion",
+        "photographic color"
+      ],
+      "sources": [
+        "https://github.com/mikaelsundell/photographic-dctls"
+      ]
+    },
+    {
+      "url": "https://github.com/Wavechaser/NamiColor",
+      "name": "NamiColor",
+      "tags": [
+        "channel alignment",
+        "color grading",
+        "film",
+        "film scanning",
+        "negative"
+      ],
+      "sources": [
+        "https://github.com/Wavechaser/NamiColor"
+      ]
+    },
+    {
+      "url": "https://github.com/fabiocolor/Faded-Balancer-DCTL",
+      "name": "Faded-Balancer-DCTL",
+      "tags": [
+        "color balance",
+        "film",
+        "film restoration",
+        "film scanning"
+      ],
+      "sources": [
+        "https://github.com/fabiocolor/Faded-Balancer-DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/caryknoop/DCTL",
+      "name": "DCTL",
+      "tags": [
+        "dctl",
+        "diagnostics",
+        "node analysis"
+      ],
+      "sources": [
+        "https://github.com/caryknoop/DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/jai-panjwani/DCTLS",
+      "name": "DCTLS",
+      "tags": [
+        "color grading",
+        "dctl",
+        "scripts"
+      ],
+      "sources": [
+        "https://github.com/jai-panjwani/DCTLS"
+      ]
+    },
+    {
+      "url": "https://github.com/Senthil360/RenderHub-DCTLs",
+      "name": "RenderHub-DCTLs",
+      "tags": [
+        "color grading",
+        "dctl",
+        "film",
+        "film look"
+      ],
+      "sources": [
+        "https://github.com/Senthil360/RenderHub-DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/thatcherfreeman/aces-transforms",
+      "name": "aces-transforms",
+      "tags": [
+        "aces",
+        "color management",
+        "input transform",
+        "output transform"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/aces-transforms"
+      ]
+    },
+    {
+      "url": "https://github.com/exones/davinci",
+      "name": "davinci",
+      "tags": [
+        "color grading",
+        "dctl",
+        "visual effects"
+      ],
+      "sources": [
+        "https://github.com/exones/davinci"
+      ]
+    },
+    {
+      "url": "https://github.com/Georj01/davinci-dctl",
+      "name": "davinci-dctl",
+      "tags": [
+        "color grading",
+        "dctl",
+        "visual effects"
+      ],
+      "sources": [
+        "https://github.com/Georj01/davinci-dctl"
+      ]
+    },
+    {
+      "url": "https://github.com/kubabar/DCTLs",
+      "name": "DCTLs",
+      "tags": [
+        "color conversion",
+        "color space",
+        "dctl",
+        "xyz"
+      ],
+      "sources": [
+        "https://github.com/kubabar/DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/olduvai-jp/DCTL-MLAA",
+      "name": "DCTL-MLAA",
+      "tags": [
+        "anti aliasing",
+        "dctl",
+        "fuse",
+        "image processing"
+      ],
+      "sources": [
+        "https://github.com/olduvai-jp/DCTL-MLAA"
+      ]
+    },
+    {
+      "url": "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+      "name": "Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio",
+      "tags": [
+        "color grading",
+        "dctl",
+        "dwg",
+        "film",
+        "film emulation",
+        "lut",
+        "photochemical",
+        "powergrade"
+      ],
+      "sources": [
+        "https://github.com/RichardUffy/Uffy-PhotoChemical-Look-Process-for-DaVinci-Resolve-Studio"
+      ]
+    },
+    {
+      "url": "https://github.com/lakravana/Martis-Bleach-Bypass",
+      "name": "Martis-Bleach-Bypass",
+      "tags": [
+        "bleach bypass",
+        "color grading",
+        "dctl",
+        "film"
+      ],
+      "sources": [
+        "https://github.com/lakravana/Martis-Bleach-Bypass"
+      ]
+    },
+    {
+      "url": "https://github.com/shenmintao/V-Log-Alchemy",
+      "name": "V-Log-Alchemy",
+      "tags": [
+        "color grading",
+        "film",
+        "film look",
+        "v log"
+      ],
+      "sources": [
+        "https://github.com/shenmintao/V-Log-Alchemy"
+      ]
+    },
+    {
+      "url": "https://github.com/Kartaverse/Reactor-Standalone",
+      "name": "Reactor-Standalone",
+      "tags": [
+        "fusion",
+        "installation",
+        "package manager",
+        "reactor"
+      ],
+      "sources": [
+        "https://github.com/Kartaverse/Reactor-Standalone"
+      ]
+    },
+    {
+      "url": "https://github.com/Kartaverse/VonkUltra",
+      "name": "VonkUltra",
+      "tags": [
+        "data driven",
+        "fusion",
+        "generative",
+        "nodes",
+        "procedural"
+      ],
+      "sources": [
+        "https://github.com/Kartaverse/VonkUltra"
+      ]
+    },
+    {
+      "url": "https://github.com/Kartaverse/Kartaverse-Docs",
+      "name": "Kartaverse-Docs",
+      "tags": [
+        "360 video",
+        "documentation",
+        "immersive",
+        "kartavr",
+        "vr"
+      ],
+      "sources": [
+        "https://github.com/Kartaverse/Kartaverse-Docs"
+      ]
+    },
+    {
+      "url": "https://github.com/nmbr73/Shaderfuse",
+      "name": "Shaderfuse",
+      "tags": [
+        "fuse",
+        "fusion",
+        "gpu",
+        "shader",
+        "shadertoy"
+      ],
+      "sources": [
+        "https://github.com/nmbr73/Shaderfuse"
+      ]
+    },
+    {
+      "url": "https://github.com/J-i-P-i/Shadertoys",
+      "name": "Shadertoys",
+      "tags": [
+        "fusion",
+        "shader",
+        "shadertoy",
+        "visual effects"
+      ],
+      "sources": [
+        "https://github.com/J-i-P-i/Shadertoys"
+      ]
+    },
+    {
+      "url": "https://github.com/baldavenger/BaldavengerPlugins",
+      "name": "BaldavengerPlugins",
+      "tags": [
+        "color grading",
+        "image processing",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/baldavenger/BaldavengerPlugins"
+      ]
+    },
+    {
+      "url": "https://github.com/ntsc-rs/ntsc-rs",
+      "name": "ntsc-rs",
+      "tags": [
+        "analog video",
+        "ntsc",
+        "openfx",
+        "retro",
+        "vhs"
+      ],
+      "sources": [
+        "https://github.com/ntsc-rs/ntsc-rs"
+      ]
+    },
+    {
+      "url": "https://github.com/gyroflow/gyroflow-plugins",
+      "name": "gyroflow-plugins",
+      "tags": [
+        "camera motion",
+        "gyro",
+        "openfx",
+        "stabilization"
+      ],
+      "sources": [
+        "https://github.com/gyroflow/gyroflow-plugins"
+      ]
+    },
+    {
+      "url": "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime",
+      "name": "CorridorKey-Runtime",
+      "tags": [
+        "ai",
+        "background removal",
+        "keying",
+        "matte",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime"
+      ]
+    },
+    {
+      "url": "https://github.com/Akascape/Rembg-Fuse",
+      "name": "Rembg-Fuse",
+      "tags": [
+        "ai",
+        "background removal",
+        "fusion",
+        "matte",
+        "segmentation"
+      ],
+      "sources": [
+        "https://github.com/Akascape/Rembg-Fuse"
+      ]
+    },
+    {
+      "url": "https://github.com/Akascape/Super-Style-Transfer-Fuse",
+      "name": "Super-Style-Transfer-Fuse",
+      "tags": [
+        "ai",
+        "artistic",
+        "fusion",
+        "neural",
+        "style transfer"
+      ],
+      "sources": [
+        "https://github.com/Akascape/Super-Style-Transfer-Fuse"
+      ]
+    },
+    {
+      "url": "https://github.com/Akascape/RemObj-Fuse",
+      "name": "RemObj-Fuse",
+      "tags": [
+        "ai",
+        "cleanup",
+        "fusion",
+        "inpainting",
+        "object removal"
+      ],
+      "sources": [
+        "https://github.com/Akascape/RemObj-Fuse"
+      ]
+    },
+    {
+      "url": "https://github.com/brunocbreis/FuAlign",
+      "name": "FuAlign",
+      "tags": [
+        "alignment",
+        "distribution",
+        "fusion",
+        "layout"
+      ],
+      "sources": [
+        "https://github.com/brunocbreis/FuAlign"
+      ]
+    },
+    {
+      "url": "https://github.com/EmberLightVFX/Tetrahedral-Interpolation-for-Fusion",
+      "name": "Tetrahedral-Interpolation-for-Fusion",
+      "tags": [
+        "color manipulation",
+        "fusion",
+        "tetrahedral interpolation"
+      ],
+      "sources": [
+        "https://github.com/EmberLightVFX/Tetrahedral-Interpolation-for-Fusion"
+      ]
+    },
+    {
+      "url": "https://github.com/AntonChernov86/Fuses",
+      "name": "Fuses",
+      "tags": [
+        "fuse",
+        "fusion",
+        "nodes"
+      ],
+      "sources": [
+        "https://github.com/AntonChernov86/Fuses"
+      ]
+    },
+    {
+      "url": "https://github.com/ChrisRidings/GifSaverFuse",
+      "name": "GifSaverFuse",
+      "tags": [
+        "animation",
+        "export",
+        "fusion",
+        "gif"
+      ],
+      "sources": [
+        "https://github.com/ChrisRidings/GifSaverFuse"
+      ]
+    },
+    {
+      "url": "https://github.com/rne1223/DaFusion",
+      "name": "DaFusion",
+      "tags": [
+        "examples",
+        "fuse",
+        "fusion",
+        "learning"
+      ],
+      "sources": [
+        "https://github.com/rne1223/DaFusion"
+      ]
+    },
+    {
+      "url": "https://github.com/Mr-Robby/chat-generator-fuse",
+      "name": "chat-generator-fuse",
+      "tags": [
+        "chat",
+        "fusion",
+        "message overlay",
+        "motion graphics"
+      ],
+      "sources": [
+        "https://github.com/Mr-Robby/chat-generator-fuse"
+      ]
+    },
+    {
+      "url": "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+      "name": "Midi-based-Animation-Iterator-For-DaVinci-Resolve",
+      "tags": [
+        "animation",
+        "audio reactive",
+        "fusion",
+        "midi"
+      ],
+      "sources": [
+        "https://github.com/BasketOfNekos/Midi-based-Animation-Iterator-For-DaVinci-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions",
+      "name": "davinci-resolve-fusion-expressions",
+      "tags": [
+        "expressions",
+        "fusion",
+        "macros",
+        "templates"
+      ],
+      "sources": [
+        "https://github.com/mrJohnHolt/davinci-resolve-fusion-expressions"
+      ]
+    },
+    {
+      "url": "https://github.com/EmberLightVFX/Gyroflow-to-CSV",
+      "name": "Gyroflow-to-CSV",
+      "tags": [
+        "camera data",
+        "csv",
+        "fusion",
+        "gyro",
+        "telemetry"
+      ],
+      "sources": [
+        "https://github.com/EmberLightVFX/Gyroflow-to-CSV"
+      ]
+    },
+    {
+      "url": "https://github.com/raghavdhin/CapitalEase",
+      "name": "CapitalEase",
+      "tags": [
+        "animation",
+        "curves",
+        "easing",
+        "keyframes"
+      ],
+      "sources": [
+        "https://github.com/raghavdhin/CapitalEase"
+      ]
+    },
+    {
+      "url": "https://github.com/tmoroney/auto-subs",
+      "name": "auto-subs",
+      "tags": [
+        "animated text",
+        "captions",
+        "speech to text",
+        "subtitles",
+        "transcription"
+      ],
+      "sources": [
+        "https://github.com/tmoroney/auto-subs"
+      ]
+    },
+    {
+      "url": "https://github.com/octimot/StoryToolkitAI",
+      "name": "StoryToolkitAI",
+      "tags": [
+        "speech to text",
+        "story editing",
+        "transcription",
+        "translation"
+      ],
+      "sources": [
+        "https://github.com/octimot/StoryToolkitAI"
+      ]
+    },
+    {
+      "url": "https://github.com/david-ca6/Resolve-OpenCaptions",
+      "name": "Resolve-OpenCaptions",
+      "tags": [
+        "captions",
+        "editable titles",
+        "subtitles",
+        "text plus"
+      ],
+      "sources": [
+        "https://github.com/david-ca6/Resolve-OpenCaptions"
+      ]
+    },
+    {
+      "url": "https://github.com/cutbypham/snap-captions",
+      "name": "snap-captions",
+      "tags": [
+        "caption styles",
+        "captions",
+        "subtitles"
+      ],
+      "sources": [
+        "https://github.com/cutbypham/snap-captions"
+      ]
+    },
+    {
+      "url": "https://github.com/veritus-git/BadWords",
+      "name": "BadWords",
+      "tags": [
+        "filler words",
+        "retakes",
+        "rough cut",
+        "silence removal",
+        "transcript editing"
+      ],
+      "sources": [
+        "https://github.com/veritus-git/BadWords"
+      ]
+    },
+    {
+      "url": "https://github.com/oliwoli/HushCut",
+      "name": "HushCut",
+      "tags": [
+        "automatic editing",
+        "dialogue",
+        "silence removal"
+      ],
+      "sources": [
+        "https://github.com/oliwoli/HushCut"
+      ]
+    },
+    {
+      "url": "https://github.com/YourAverageMo/auto-silence-cut",
+      "name": "auto-silence-cut",
+      "tags": [
+        "automatic editing",
+        "dialogue",
+        "silence removal"
+      ],
+      "sources": [
+        "https://github.com/YourAverageMo/auto-silence-cut"
+      ]
+    },
+    {
+      "url": "https://github.com/2445868686/DaVinci-Resolve-TTS",
+      "name": "DaVinci-Resolve-TTS",
+      "tags": [
+        "narration",
+        "text to speech",
+        "tts",
+        "voice generation"
+      ],
+      "sources": [
+        "https://github.com/2445868686/DaVinci-Resolve-TTS"
+      ]
+    },
+    {
+      "url": "https://github.com/2445868686/DaVinci-Resolve-Whisper",
+      "name": "DaVinci-Resolve-Whisper",
+      "tags": [
+        "speech to text",
+        "subtitles",
+        "transcription",
+        "whisper"
+      ],
+      "sources": [
+        "https://github.com/2445868686/DaVinci-Resolve-Whisper"
+      ]
+    },
+    {
+      "url": "https://github.com/Nusscookie/clautter",
+      "name": "clautter",
+      "tags": [
+        "ai",
+        "automatic editing",
+        "cleanup",
+        "talking head"
+      ],
+      "sources": [
+        "https://github.com/Nusscookie/clautter"
+      ]
+    },
+    {
+      "url": "https://github.com/ikm-san/autotitles-community",
+      "name": "autotitles-community",
+      "tags": [
+        "api",
+        "cli",
+        "fusion",
+        "subtitles",
+        "title generation"
+      ],
+      "sources": [
+        "https://github.com/ikm-san/autotitles-community"
+      ]
+    },
+    {
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "name": "auto-editor",
+      "tags": [
+        "automatic editing",
+        "nle",
+        "standalone",
+        "timeline export"
+      ],
+      "sources": [
+        "https://github.com/WyattBlue/auto-editor"
+      ]
+    },
+    {
+      "url": "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer",
+      "name": "resolve-textplus-srt-importer",
+      "tags": [
+        "captions",
+        "fusion",
+        "srt",
+        "subtitle import",
+        "text plus"
+      ],
+      "sources": [
+        "https://github.com/JiginJayaprakash/resolve-textplus-srt-importer"
+      ]
+    },
+    {
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "name": "davinci-resolve-mcp",
+      "tags": [
+        "ai",
+        "automation",
+        "mcp",
+        "rendering",
+        "timeline"
+      ],
+      "sources": [
+        "https://github.com/samuelgursky/davinci-resolve-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/barckley75/resolve-claude-mcp",
+      "name": "resolve-claude-mcp",
+      "tags": [
+        "ai",
+        "automation",
+        "claude",
+        "mcp"
+      ],
+      "sources": [
+        "https://github.com/barckley75/resolve-claude-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/apvlv/davinci-resolve-mcp",
+      "name": "davinci-resolve-mcp",
+      "tags": [
+        "ai",
+        "automation",
+        "fusion",
+        "mcp"
+      ],
+      "sources": [
+        "https://github.com/apvlv/davinci-resolve-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+      "name": "davinci-mcp-professional",
+      "tags": [
+        "ai",
+        "automation",
+        "mcp",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/hoyt-harness/davinci-mcp-professional"
+      ]
+    },
+    {
+      "url": "https://github.com/barckley75/comfyUI_DaVinciResolve",
+      "name": "comfyUI_DaVinciResolve",
+      "tags": [
+        "ai",
+        "automation",
+        "comfyui",
+        "generative",
+        "nodes"
+      ],
+      "sources": [
+        "https://github.com/barckley75/comfyUI_DaVinciResolve"
+      ]
+    },
+    {
+      "url": "https://github.com/CelaviiHQ/cutmaster-ai",
+      "name": "cutmaster-ai",
+      "tags": [
+        "ai",
+        "automation",
+        "mcp",
+        "workflow panel"
+      ],
+      "sources": [
+        "https://github.com/CelaviiHQ/cutmaster-ai"
+      ]
+    },
+    {
+      "url": "https://github.com/thatcherfreeman/resolve-scripts",
+      "name": "resolve-scripts",
+      "tags": [
+        "automation",
+        "metadata",
+        "relinking",
+        "rendering",
+        "scripts",
+        "timeline"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/resolve-scripts"
+      ]
+    },
+    {
+      "url": "https://github.com/X-Raym/DaVinci-Resolve-Scripts",
+      "name": "DaVinci-Resolve-Scripts",
+      "tags": [
+        "automation",
+        "markers",
+        "project management",
+        "scripts"
+      ],
+      "sources": [
+        "https://github.com/X-Raym/DaVinci-Resolve-Scripts"
+      ]
+    },
+    {
+      "url": "https://github.com/jjsawdon/DaVinci-Resolve-Utilities",
+      "name": "DaVinci-Resolve-Utilities",
+      "tags": [
+        "cache",
+        "project templates",
+        "proxy",
+        "youtube chapters"
+      ],
+      "sources": [
+        "https://github.com/jjsawdon/DaVinci-Resolve-Utilities"
+      ]
+    },
+    {
+      "url": "https://github.com/fukco/DaVinciResolveScript",
+      "name": "DaVinciResolveScript",
+      "tags": [
+        "metadata",
+        "scripting",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/fukco/DaVinciResolveScript"
+      ]
+    },
+    {
+      "url": "https://github.com/VilleOlof/Toolbox",
+      "name": "Toolbox",
+      "tags": [
+        "legacy",
+        "productivity",
+        "toolbox",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/VilleOlof/Toolbox"
+      ]
+    },
+    {
+      "url": "https://github.com/jdanna/Resolve_Tools_Public",
+      "name": "Resolve_Tools_Public",
+      "tags": [
+        "dctl",
+        "fusion",
+        "scripts",
+        "utilities"
+      ],
+      "sources": [
+        "https://github.com/jdanna/Resolve_Tools_Public"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve",
+      "name": "AfterEffects_to_DaVinci_Resolve",
+      "tags": [
+        "after effects",
+        "interoperability",
+        "render import"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/AfterEffects_to_DaVinci_Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText",
+      "name": "DaVinciResolve-DynamicText",
+      "tags": [
+        "dynamic text",
+        "scripting",
+        "titles"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/DaVinciResolve-DynamicText"
+      ]
+    },
+    {
+      "url": "https://github.com/FranzWegner/multicam-logger",
+      "name": "multicam-logger",
+      "tags": [
+        "camera switching",
+        "edit decision list",
+        "logging",
+        "multicam"
+      ],
+      "sources": [
+        "https://github.com/FranzWegner/multicam-logger"
+      ]
+    },
+    {
+      "url": "https://github.com/eric-with-a-c/resolve-otio",
+      "name": "resolve-otio",
+      "tags": [
+        "interoperability",
+        "opentimelineio",
+        "otio",
+        "timeline exchange"
+      ],
+      "sources": [
+        "https://github.com/eric-with-a-c/resolve-otio"
+      ]
+    },
+    {
+      "url": "https://github.com/tin2tin/VSE_OTIO_Export",
+      "name": "VSE_OTIO_Export",
+      "tags": [
+        "blender",
+        "opentimelineio",
+        "otio",
+        "timeline export",
+        "vse"
+      ],
+      "sources": [
+        "https://github.com/tin2tin/VSE_OTIO_Export"
+      ]
+    },
+    {
+      "url": "https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve",
+      "name": "Font-Scanner-and-Installer-for-DaVinci-Resolve",
+      "tags": [
+        "font management",
+        "fonts",
+        "installation",
+        "typography"
+      ],
+      "sources": [
+        "https://github.com/MansiVisuals/Font-Scanner-and-Installer-for-DaVinci-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/LucasHT22/davinci-resolve-wakatime",
+      "name": "davinci-resolve-wakatime",
+      "tags": [
+        "activity tracking",
+        "time tracking",
+        "wakatime"
+      ],
+      "sources": [
+        "https://github.com/LucasHT22/davinci-resolve-wakatime"
+      ]
+    },
+    {
+      "url": "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin",
+      "name": "ffmpeg_encoder_plugin",
+      "tags": [
+        "codec",
+        "encoding",
+        "export",
+        "ffmpeg"
+      ],
+      "sources": [
+        "https://github.com/EdvinNilsson/ffmpeg_encoder_plugin"
+      ]
+    },
+    {
+      "url": "https://github.com/Toxblh/davinci-linux-aac-codec",
+      "name": "davinci-linux-aac-codec",
+      "tags": [
+        "aac",
+        "audio encoding",
+        "codec",
+        "linux"
+      ],
+      "sources": [
+        "https://github.com/Toxblh/davinci-linux-aac-codec"
+      ]
+    },
+    {
+      "url": "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "name": "Resolve-Linux-Studio-AAC-FDK-Encoder-plugin",
+      "tags": [
+        "aac",
+        "audio encoding",
+        "codec",
+        "fdk",
+        "linux"
+      ],
+      "sources": [
+        "https://github.com/hexitnz/Resolve-Linux-Studio-AAC-FDK-Encoder-plugin"
+      ]
+    },
+    {
+      "url": "https://github.com/nowrep/dvcp-vaapi",
+      "name": "dvcp-vaapi",
+      "tags": [
+        "hardware encoding",
+        "vaapi",
+        "video encoding"
+      ],
+      "sources": [
+        "https://github.com/nowrep/dvcp-vaapi"
+      ]
+    },
+    {
+      "url": "https://github.com/in03/proxima",
+      "name": "proxima",
+      "tags": [
+        "distributed processing",
+        "encoding",
+        "media linking",
+        "proxy"
+      ],
+      "sources": [
+        "https://github.com/in03/proxima"
+      ]
+    },
+    {
+      "url": "https://github.com/Puppetworks-Animation-Studio/deadline-davinci-resolve",
+      "name": "deadline-davinci-resolve",
+      "tags": [
+        "deadline",
+        "distributed rendering",
+        "render farm"
+      ],
+      "sources": [
+        "https://github.com/Puppetworks-Animation-Studio/deadline-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server",
+      "name": "Docker-Davinci-Resolve-Project-Server",
+      "tags": [
+        "backup",
+        "docker",
+        "postgresql",
+        "project server"
+      ],
+      "sources": [
+        "https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server"
+      ]
+    },
+    {
+      "url": "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools",
+      "name": "davinci-resolve-postgresql-workflow-tools",
+      "tags": [
+        "backup",
+        "database",
+        "maintenance",
+        "postgresql"
+      ],
+      "sources": [
+        "https://github.com/sethgoldin/davinci-resolve-postgresql-workflow-tools"
+      ]
+    },
+    {
+      "url": "https://github.com/jonnyhyman/ResolveCollaboration",
+      "name": "ResolveCollaboration",
+      "tags": [
+        "collaboration",
+        "shared projects",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/jonnyhyman/ResolveCollaboration"
+      ]
+    },
+    {
+      "url": "https://github.com/zelikos/davincibox",
+      "name": "davincibox",
+      "tags": [
+        "containers",
+        "dependencies",
+        "distrobox",
+        "linux",
+        "podman"
+      ],
+      "sources": [
+        "https://github.com/zelikos/davincibox"
+      ]
+    },
+    {
+      "url": "https://github.com/fat-tire/resolve",
+      "name": "resolve",
+      "tags": [
+        "containers",
+        "installation",
+        "linux"
+      ],
+      "sources": [
+        "https://github.com/fat-tire/resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/H3rz3n/davinci-helper",
+      "name": "davinci-helper",
+      "tags": [
+        "linux",
+        "setup",
+        "utilities"
+      ],
+      "sources": [
+        "https://github.com/H3rz3n/davinci-helper"
+      ]
+    },
+    {
+      "url": "https://github.com/flolu/davinci-resolve-linux",
+      "name": "davinci-resolve-linux",
+      "tags": [
+        "export",
+        "import",
+        "installation",
+        "linux"
+      ],
+      "sources": [
+        "https://github.com/flolu/davinci-resolve-linux"
+      ]
+    },
+    {
+      "url": "https://github.com/Ashark/davinci-resolve-checker",
+      "name": "davinci-resolve-checker",
+      "tags": [
+        "diagnostics",
+        "hardware check",
+        "system requirements"
+      ],
+      "sources": [
+        "https://github.com/Ashark/davinci-resolve-checker"
+      ]
+    },
+    {
+      "url": "https://github.com/psygreg/autoresolvedeb",
+      "name": "autoresolvedeb",
+      "tags": [
+        "deb",
+        "debian",
+        "installer",
+        "linux",
+        "repackaging"
+      ],
+      "sources": [
+        "https://github.com/psygreg/autoresolvedeb"
+      ]
+    },
+    {
+      "url": "https://github.com/yioannides/fedora-resolve",
+      "name": "fedora-resolve",
+      "tags": [
+        "fedora",
+        "installation",
+        "linux"
+      ],
+      "sources": [
+        "https://github.com/yioannides/fedora-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/Chillsmeit/resolve-tumbleweed",
+      "name": "resolve-tumbleweed",
+      "tags": [
+        "installation",
+        "linux",
+        "opensuse",
+        "tumbleweed"
+      ],
+      "sources": [
+        "https://github.com/Chillsmeit/resolve-tumbleweed"
+      ]
+    },
+    {
+      "url": "https://github.com/pedrolabonia/pydavinci",
+      "name": "pydavinci",
+      "tags": [
+        "api",
+        "python",
+        "scripting",
+        "wrapper"
+      ],
+      "sources": [
+        "https://github.com/pedrolabonia/pydavinci"
+      ]
+    },
+    {
+      "url": "https://github.com/WheheoHu/pybmd",
+      "name": "pybmd",
+      "tags": [
+        "api",
+        "python",
+        "scripting",
+        "wrapper"
+      ],
+      "sources": [
+        "https://github.com/WheheoHu/pybmd"
+      ]
+    },
+    {
+      "url": "https://github.com/diop/davinci-resolve-api",
+      "name": "davinci-resolve-api",
+      "tags": [
+        "api",
+        "documentation",
+        "python",
+        "reference"
+      ],
+      "sources": [
+        "https://github.com/diop/davinci-resolve-api"
+      ]
+    },
+    {
+      "url": "https://github.com/MokshC/easyDCTL",
+      "name": "easyDCTL",
+      "tags": [
+        "authoring",
+        "dctl",
+        "development",
+        "programming"
+      ],
+      "sources": [
+        "https://github.com/MokshC/easyDCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/AndrewHazelden/Fusion-Studio-FuScript-IDE-Tools-and-Pipeline-Scripts",
+      "name": "Fusion-Studio-FuScript-IDE-Tools-and-Pipeline-Scripts",
+      "tags": [
+        "bbedit",
+        "fusion",
+        "ide",
+        "pipeline",
+        "scripting"
+      ],
+      "sources": [
+        "https://github.com/AndrewHazelden/Fusion-Studio-FuScript-IDE-Tools-and-Pipeline-Scripts"
+      ]
+    },
+    {
+      "url": "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer",
+      "name": "Unbound-editor-device-customizer",
+      "tags": [
+        "controller",
+        "hardware",
+        "jog wheel",
+        "remapping"
+      ],
+      "sources": [
+        "https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer"
+      ]
+    },
+    {
+      "url": "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter",
+      "name": "XTouchMini-Davinci-Resolve-Midi-Adapter",
+      "tags": [
+        "behringer",
+        "controller",
+        "hotkeys",
+        "midi",
+        "x touch"
+      ],
+      "sources": [
+        "https://github.com/fashberg/XTouchMini-Davinci-Resolve-Midi-Adapter"
+      ]
+    },
+    {
+      "url": "https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key",
+      "name": "AutoHotKey_Bome_MIDI_2_Key",
+      "tags": [
+        "autohotkey",
+        "controller",
+        "keyboard shortcuts",
+        "midi"
+      ],
+      "sources": [
+        "https://github.com/RudyB24/AutoHotKey_Bome_MIDI_2_Key"
+      ]
+    },
+    {
+      "url": "https://github.com/shaise/DiSE",
+      "name": "DiSE",
+      "tags": [
+        "controller",
+        "diy",
+        "hardware",
+        "speed editor"
+      ],
+      "sources": [
+        "https://github.com/shaise/DiSE"
+      ]
+    },
+    {
+      "url": "https://github.com/KipJM/blackmacro-hardware",
+      "name": "blackmacro-hardware",
+      "tags": [
+        "diy",
+        "hardware",
+        "keyboard",
+        "macropad",
+        "raspberry pi"
+      ],
+      "sources": [
+        "https://github.com/KipJM/blackmacro-hardware"
+      ]
+    },
+    {
+      "url": "https://github.com/derwok/SpeedEditorCheatSheet",
+      "name": "SpeedEditorCheatSheet",
+      "tags": [
+        "cheat sheet",
+        "keyboard shortcuts",
+        "reference",
+        "speed editor"
+      ],
+      "sources": [
+        "https://github.com/derwok/SpeedEditorCheatSheet"
+      ]
+    },
+    {
+      "url": "https://github.com/Greenysmac/awesome-davinci-resolve",
+      "name": "awesome-davinci-resolve",
+      "tags": [
+        "awesome list",
+        "directory",
+        "plugins",
+        "resource discovery"
+      ],
+      "sources": [
+        "https://github.com/Greenysmac/awesome-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/cutbypham/awesome-davinci-resolve",
+      "name": "awesome-davinci-resolve",
+      "tags": [
+        "assets",
+        "directory",
+        "plugins",
+        "resource discovery",
+        "scripts"
+      ],
+      "sources": [
+        "https://github.com/cutbypham/awesome-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/Akascape/PluginLibrary-Resolve",
+      "name": "PluginLibrary-Resolve",
+      "tags": [
+        "directory",
+        "launcher",
+        "plugin manager",
+        "resource discovery"
+      ],
+      "sources": [
+        "https://github.com/Akascape/PluginLibrary-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/hassaancode/Fx-Library",
+      "name": "Fx-Library",
+      "tags": [
+        "after effects",
+        "directory",
+        "resource discovery",
+        "visual effects"
+      ],
+      "sources": [
+        "https://github.com/hassaancode/Fx-Library"
+      ]
+    },
+    {
+      "url": "https://github.com/CommandPost/ResolveCafe",
+      "name": "ResolveCafe",
+      "tags": [
+        "archive",
+        "community",
+        "developer resources",
+        "reference"
+      ],
+      "sources": [
+        "https://github.com/CommandPost/ResolveCafe"
+      ]
+    },
+    {
+      "url": "https://github.com/vulture-s/arkiv",
+      "name": "arkiv",
+      "tags": [
+        "ai",
+        "footage search",
+        "media indexing",
+        "metadata",
+        "semantic search"
+      ],
+      "sources": [
+        "https://github.com/vulture-s/arkiv"
+      ]
+    },
+    {
+      "url": "https://github.com/abhirup780/fast-autocut",
+      "name": "fast-autocut",
+      "tags": [
+        "audio sync",
+        "automatic editing",
+        "silence removal"
+      ],
+      "sources": [
+        "https://github.com/abhirup780/fast-autocut"
+      ]
+    },
+    {
+      "url": "https://github.com/Creative-Crafter/davinci-shortform-overlays",
+      "name": "davinci-shortform-overlays",
+      "tags": [
+        "drfx",
+        "overlays",
+        "reels",
+        "safe zones",
+        "shorts",
+        "tiktok",
+        "vertical video"
+      ],
+      "sources": [
+        "https://github.com/Creative-Crafter/davinci-shortform-overlays"
+      ]
+    },
+    {
+      "url": "https://github.com/JaySNL/VSTForResolveLinux",
+      "name": "VSTForResolveLinux",
+      "tags": [
+        "audio plugins",
+        "clap",
+        "linux",
+        "vst",
+        "vst3",
+        "yabridge"
+      ],
+      "sources": [
+        "https://github.com/JaySNL/VSTForResolveLinux"
+      ]
+    },
+    {
+      "url": "https://github.com/roukou3/DCTL",
+      "name": "DCTL",
+      "tags": [
+        "dctl",
+        "fisheye",
+        "lens correction",
+        "projection"
+      ],
+      "sources": [
+        "https://github.com/roukou3/DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/Xaryen/DCTLs",
+      "name": "DCTLs",
+      "tags": [
+        "after effects",
+        "dctl",
+        "matte",
+        "minimax",
+        "morphology"
+      ],
+      "sources": [
+        "https://github.com/Xaryen/DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/mitkunz/resolve_DCTLs",
+      "name": "resolve_DCTLs",
+      "tags": [
+        "dctl",
+        "film",
+        "grey card",
+        "letterbox",
+        "saturation",
+        "technicolor"
+      ],
+      "sources": [
+        "https://github.com/mitkunz/resolve_DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/xavijulez/Tetrahedral-Interpolation-DCTL",
+      "name": "Tetrahedral-Interpolation-DCTL",
+      "tags": [
+        "color transform",
+        "dctl",
+        "tetrahedral interpolation",
+        "xyz"
+      ],
+      "sources": [
+        "https://github.com/xavijulez/Tetrahedral-Interpolation-DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/hotgluebanjo/halation-dctl",
+      "name": "halation-dctl",
+      "tags": [
+        "dctl",
+        "film",
+        "glow",
+        "halation",
+        "scene linear"
+      ],
+      "sources": [
+        "https://github.com/hotgluebanjo/halation-dctl"
+      ]
+    },
+    {
+      "url": "https://github.com/EaryChow/Blender-AgX-Resolve",
+      "name": "Blender-AgX-Resolve",
+      "tags": [
+        "agx",
+        "blender",
+        "color management",
+        "display transform"
+      ],
+      "sources": [
+        "https://github.com/EaryChow/Blender-AgX-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/thatcherfreeman/dwg-transforms",
+      "name": "dwg-transforms",
+      "tags": [
+        "color management",
+        "dwg",
+        "gopro",
+        "gp log",
+        "input transform",
+        "wide gamut"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/dwg-transforms"
+      ]
+    },
+    {
+      "url": "https://github.com/DMiradakis/resolver",
+      "name": "resolver",
+      "tags": [
+        "archive",
+        "cli",
+        "project management",
+        "render export"
+      ],
+      "sources": [
+        "https://github.com/DMiradakis/resolver"
+      ]
+    },
+    {
+      "url": "https://github.com/adrian-goe/resolve-immich-export",
+      "name": "resolve-immich-export",
+      "tags": [
+        "automation",
+        "immich",
+        "media sharing",
+        "render upload"
+      ],
+      "sources": [
+        "https://github.com/adrian-goe/resolve-immich-export"
+      ]
+    },
+    {
+      "url": "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve",
+      "name": "Media_Relinker_for_Davinci_Resolve",
+      "tags": [
+        "exiftool",
+        "metadata",
+        "offline media",
+        "relinking"
+      ],
+      "sources": [
+        "https://github.com/Googleholic/Media_Relinker_for_Davinci_Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/Pinionist/Resolve-Conform-tools",
+      "name": "Resolve-Conform-tools",
+      "tags": [
+        "clip renaming",
+        "conform",
+        "plate publishing",
+        "version management",
+        "vfx"
+      ],
+      "sources": [
+        "https://github.com/Pinionist/Resolve-Conform-tools"
+      ]
+    },
+    {
+      "url": "https://github.com/nikita-petrovich/OFX-QRCoder",
+      "name": "OFX-QRCoder",
+      "tags": [
+        "generator",
+        "openfx",
+        "qr code"
+      ],
+      "sources": [
+        "https://github.com/nikita-petrovich/OFX-QRCoder"
+      ]
+    },
+    {
+      "url": "https://github.com/JuanPabloZambrano/DCTL",
+      "name": "DCTL",
+      "tags": [
+        "color grading",
+        "dctl",
+        "display transform",
+        "fuse"
+      ],
+      "sources": [
+        "https://github.com/JuanPabloZambrano/DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/KaurHendrikson/DaVinci-Resolve-DCTLs",
+      "name": "DaVinci-Resolve-DCTLs",
+      "tags": [
+        "code snippets",
+        "dctl",
+        "development",
+        "transfer function"
+      ],
+      "sources": [
+        "https://github.com/KaurHendrikson/DaVinci-Resolve-DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/geoffsmithBK/primera-suite",
+      "name": "primera-suite",
+      "tags": [
+        "color grading",
+        "contrast",
+        "exposure",
+        "hue",
+        "skin tones",
+        "split toning"
+      ],
+      "sources": [
+        "https://github.com/geoffsmithBK/primera-suite"
+      ]
+    },
+    {
+      "url": "https://github.com/LCS-VSP/LCS-DCTLs",
+      "name": "LCS-DCTLs",
+      "tags": [
+        "color grading",
+        "color science",
+        "dctl"
+      ],
+      "sources": [
+        "https://github.com/LCS-VSP/LCS-DCTLs"
+      ]
+    },
+    {
+      "url": "https://github.com/bobtronic73/free-DCTL",
+      "name": "free-DCTL",
+      "tags": [
+        "color math",
+        "color matrix",
+        "dctl",
+        "inverse matrix"
+      ],
+      "sources": [
+        "https://github.com/bobtronic73/free-DCTL"
+      ]
+    },
+    {
+      "url": "https://github.com/ra100/dctl-utils",
+      "name": "dctl-utils",
+      "tags": [
+        "dctl",
+        "hue",
+        "luminance",
+        "saturation",
+        "skin tones"
+      ],
+      "sources": [
+        "https://github.com/ra100/dctl-utils"
+      ]
+    },
+    {
+      "url": "https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation",
+      "name": "DavinciResolveDCTL_HKEstimation",
+      "tags": [
+        "aces",
+        "color science",
+        "dctl",
+        "helmholtz kohlrausch",
+        "perceived brightness"
+      ],
+      "sources": [
+        "https://github.com/OwenYou/DavinciResolveDCTL_HKEstimation"
+      ]
+    },
+    {
+      "url": "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask",
+      "name": "DavinciResolveDCTL_RemoveColorMask",
+      "tags": [
+        "color mask",
+        "dctl",
+        "film",
+        "negative inversion"
+      ],
+      "sources": [
+        "https://github.com/OwenYou/DavinciResolveDCTL_RemoveColorMask"
+      ]
+    },
+    {
+      "url": "https://github.com/OwenYou/DavinciResolveDCTL_ChromaticAdaptation",
+      "name": "DavinciResolveDCTL_ChromaticAdaptation",
+      "tags": [
+        "chromatic adaptation",
+        "color science",
+        "dctl",
+        "white balance"
+      ],
+      "sources": [
+        "https://github.com/OwenYou/DavinciResolveDCTL_ChromaticAdaptation"
+      ]
+    },
+    {
+      "url": "https://github.com/helios1138/filmeon",
+      "name": "filmeon",
+      "tags": [
+        "dctl",
+        "film",
+        "film scanning",
+        "negative inversion"
+      ],
+      "sources": [
+        "https://github.com/helios1138/filmeon"
+      ]
+    },
+    {
+      "url": "https://github.com/50asa/shitsukan-diffusion-kit",
+      "name": "shitsukan-diffusion-kit",
+      "tags": [
+        "blur",
+        "dctl",
+        "diffusion",
+        "film",
+        "scene linear"
+      ],
+      "sources": [
+        "https://github.com/50asa/shitsukan-diffusion-kit"
+      ]
+    },
+    {
+      "url": "https://github.com/nikita-petrovich/np-public-dctl",
+      "name": "np-public-dctl",
+      "tags": [
+        "bleach bypass",
+        "dctl",
+        "film",
+        "grain",
+        "saturation"
+      ],
+      "sources": [
+        "https://github.com/nikita-petrovich/np-public-dctl"
+      ]
+    },
+    {
+      "url": "https://github.com/ctcwired/dctl-matrix-maker",
+      "name": "dctl-matrix-maker",
+      "tags": [
+        "calibration",
+        "color matrix",
+        "colorchecker",
+        "dctl",
+        "python"
+      ],
+      "sources": [
+        "https://github.com/ctcwired/dctl-matrix-maker"
+      ]
+    },
+    {
+      "url": "https://github.com/thatcherfreeman/dctl-tutorial",
+      "name": "dctl-tutorial",
+      "tags": [
+        "dctl",
+        "learning",
+        "programming",
+        "tutorial"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/dctl-tutorial"
+      ]
+    },
+    {
+      "url": "https://github.com/thatcherfreeman/dctl-text-rendering",
+      "name": "dctl-text-rendering",
+      "tags": [
+        "dctl",
+        "development",
+        "fonts",
+        "python",
+        "text rendering"
+      ],
+      "sources": [
+        "https://github.com/thatcherfreeman/dctl-text-rendering"
+      ]
+    },
+    {
+      "url": "https://github.com/Kartopod/BMD-FusionExtras",
+      "name": "BMD-FusionExtras",
+      "tags": [
+        "fusion",
+        "nodes",
+        "viewer shortcuts",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/Kartopod/BMD-FusionExtras"
+      ]
+    },
+    {
+      "url": "https://github.com/brunocbreis/SplitScreener",
+      "name": "SplitScreener",
+      "tags": [
+        "fusion",
+        "generator",
+        "grid",
+        "layout",
+        "split screen"
+      ],
+      "sources": [
+        "https://github.com/brunocbreis/SplitScreener"
+      ]
+    },
+    {
+      "url": "https://github.com/brunocbreis/SS-CompScript",
+      "name": "SS-CompScript",
+      "tags": [
+        "compositing",
+        "fusion",
+        "grid",
+        "layout",
+        "split screen"
+      ],
+      "sources": [
+        "https://github.com/brunocbreis/SS-CompScript"
+      ]
+    },
+    {
+      "url": "https://github.com/brunocbreis/pysion",
+      "name": "pysion",
+      "tags": [
+        "composition generation",
+        "fusion",
+        "procedural",
+        "python"
+      ],
+      "sources": [
+        "https://github.com/brunocbreis/pysion"
+      ]
+    },
+    {
+      "url": "https://github.com/Spicy-Acorn/fusiontext",
+      "name": "fusiontext",
+      "tags": [
+        "fuse",
+        "fusion",
+        "strings",
+        "text formatting"
+      ],
+      "sources": [
+        "https://github.com/Spicy-Acorn/fusiontext"
+      ]
+    },
+    {
+      "url": "https://github.com/Spicy-Acorn/fusionjson",
+      "name": "fusionjson",
+      "tags": [
+        "data",
+        "file io",
+        "fusion",
+        "json",
+        "nodes"
+      ],
+      "sources": [
+        "https://github.com/Spicy-Acorn/fusionjson"
+      ]
+    },
+    {
+      "url": "https://github.com/Spicy-Acorn/fusionmatrix",
+      "name": "fusionmatrix",
+      "tags": [
+        "fuse",
+        "fusion",
+        "matrix math",
+        "nodes"
+      ],
+      "sources": [
+        "https://github.com/Spicy-Acorn/fusionmatrix"
+      ]
+    },
+    {
+      "url": "https://github.com/Spicy-Acorn/fusionnumber",
+      "name": "fusionnumber",
+      "tags": [
+        "arithmetic",
+        "fuse",
+        "fusion",
+        "nodes",
+        "numbers"
+      ],
+      "sources": [
+        "https://github.com/Spicy-Acorn/fusionnumber"
+      ]
+    },
+    {
+      "url": "https://github.com/Spicy-Acorn/fusionvector",
+      "name": "fusionvector",
+      "tags": [
+        "fuse",
+        "fusion",
+        "nodes",
+        "vector math"
+      ],
+      "sources": [
+        "https://github.com/Spicy-Acorn/fusionvector"
+      ]
+    },
+    {
+      "url": "https://github.com/andrewbry/DasGrainFusion",
+      "name": "DasGrainFusion",
+      "tags": [
+        "compositing",
+        "film",
+        "fusion",
+        "grain"
+      ],
+      "sources": [
+        "https://github.com/andrewbry/DasGrainFusion"
+      ]
+    },
+    {
+      "url": "https://github.com/bryab/fusion-for-cartoons",
+      "name": "fusion-for-cartoons",
+      "tags": [
+        "animation",
+        "cartoon",
+        "compositing",
+        "fusion",
+        "rim light"
+      ],
+      "sources": [
+        "https://github.com/bryab/fusion-for-cartoons"
+      ]
+    },
+    {
+      "url": "https://github.com/fabiof17/Fusion-tools",
+      "name": "Fusion-tools",
+      "tags": [
+        "color compression",
+        "color expansion",
+        "fusion",
+        "macros"
+      ],
+      "sources": [
+        "https://github.com/fabiof17/Fusion-tools"
+      ]
+    },
+    {
+      "url": "https://github.com/hiroshisaito/HS_fusionTools",
+      "name": "HS_fusionTools",
+      "tags": [
+        "environment map",
+        "fusion",
+        "image mapping",
+        "latlong",
+        "relighting"
+      ],
+      "sources": [
+        "https://github.com/hiroshisaito/HS_fusionTools"
+      ]
+    },
+    {
+      "url": "https://github.com/Microck/boilify",
+      "name": "boilify",
+      "tags": [
+        "cartoon",
+        "hand drawn",
+        "jitter",
+        "line boil",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/Microck/boilify"
+      ]
+    },
+    {
+      "url": "https://github.com/purzbeats/purzos-ofx",
+      "name": "purzos-ofx",
+      "tags": [
+        "analog video",
+        "crt",
+        "glitch",
+        "openfx",
+        "retro",
+        "vhs"
+      ],
+      "sources": [
+        "https://github.com/purzbeats/purzos-ofx"
+      ]
+    },
+    {
+      "url": "https://github.com/MoazElgabry/ME_OpenDRT-OFX",
+      "name": "ME_OpenDRT-OFX",
+      "tags": [
+        "color management",
+        "display transform",
+        "opendrt",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/MoazElgabry/ME_OpenDRT-OFX"
+      ]
+    },
+    {
+      "url": "https://github.com/Demystify-Color/DMC-BaldavengerOFX-MacOSarm64",
+      "name": "DMC-BaldavengerOFX-MacOSarm64",
+      "tags": [
+        "color grading",
+        "image processing",
+        "openfx",
+        "universal binary"
+      ],
+      "sources": [
+        "https://github.com/Demystify-Color/DMC-BaldavengerOFX-MacOSarm64"
+      ]
+    },
+    {
+      "url": "https://github.com/ciqueira/ColorEqualizer",
+      "name": "ColorEqualizer",
+      "tags": [
+        "brightness",
+        "color grading",
+        "equalizer",
+        "hue",
+        "openfx",
+        "saturation"
+      ],
+      "sources": [
+        "https://github.com/ciqueira/ColorEqualizer"
+      ]
+    },
+    {
+      "url": "https://github.com/murtazatunio/lenscorrect-ofx",
+      "name": "lenscorrect-ofx",
+      "tags": [
+        "chromatic aberration",
+        "distortion",
+        "lens correction",
+        "lensfun",
+        "openfx",
+        "vignette"
+      ],
+      "sources": [
+        "https://github.com/murtazatunio/lenscorrect-ofx"
+      ]
+    },
+    {
+      "url": "https://github.com/LudwigKienle/buckswood-post-plugins",
+      "name": "buckswood-post-plugins",
+      "tags": [
+        "color grading",
+        "dctl",
+        "debanding",
+        "film",
+        "film emulation",
+        "lens effects",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/LudwigKienle/buckswood-post-plugins"
+      ]
+    },
+    {
+      "url": "https://github.com/lightsailvr/ResolveOFX_NDIOutput",
+      "name": "ResolveOFX_NDIOutput",
+      "tags": [
+        "hdr",
+        "ndi",
+        "network video",
+        "openfx",
+        "output"
+      ],
+      "sources": [
+        "https://github.com/lightsailvr/ResolveOFX_NDIOutput"
+      ]
+    },
+    {
+      "url": "https://github.com/oliwiergesla/editorscripts",
+      "name": "editorscripts",
+      "tags": [
+        "markers",
+        "reframing",
+        "renaming",
+        "scripts",
+        "stills",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/oliwiergesla/editorscripts"
+      ]
+    },
+    {
+      "url": "https://github.com/tonyflo/videoflo",
+      "name": "videoflo",
+      "tags": [
+        "automation",
+        "production",
+        "python",
+        "youtube"
+      ],
+      "sources": [
+        "https://github.com/tonyflo/videoflo"
+      ]
+    },
+    {
+      "url": "https://github.com/deric/DaVinciResolve-metadata",
+      "name": "DaVinciResolve-metadata",
+      "tags": [
+        "camera metadata",
+        "exif",
+        "exiftool",
+        "media pool",
+        "metadata"
+      ],
+      "sources": [
+        "https://github.com/deric/DaVinciResolve-metadata"
+      ]
+    },
+    {
+      "url": "https://github.com/Poechant/davinci-resolve-cli",
+      "name": "davinci-resolve-cli",
+      "tags": [
+        "automation",
+        "cli",
+        "project management",
+        "rendering",
+        "timeline"
+      ],
+      "sources": [
+        "https://github.com/Poechant/davinci-resolve-cli"
+      ]
+    },
+    {
+      "url": "https://github.com/ambustion/Useful.Resolve",
+      "name": "Useful.Resolve",
+      "tags": [
+        "colorist",
+        "gallery",
+        "markers",
+        "stills",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/ambustion/Useful.Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/ambustion/CDL2Resolve",
+      "name": "CDL2Resolve",
+      "tags": [
+        "cdl",
+        "color decisions",
+        "color grading",
+        "import"
+      ],
+      "sources": [
+        "https://github.com/ambustion/CDL2Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/ambustion/BSafe_Resolve",
+      "name": "BSafe_Resolve",
+      "tags": [
+        "broadcast safe",
+        "markers",
+        "qc",
+        "quality control",
+        "video analysis"
+      ],
+      "sources": [
+        "https://github.com/ambustion/BSafe_Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/in03/snapper",
+      "name": "snapper",
+      "tags": [
+        "scripting",
+        "snapshot",
+        "timeline"
+      ],
+      "sources": [
+        "https://github.com/in03/snapper"
+      ]
+    },
+    {
+      "url": "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility",
+      "name": "DaVinci-Resolve-Timeline-Utility",
+      "tags": [
+        "filtering",
+        "timeline management",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/bryanrandell/DaVinci-Resolve-Timeline-Utility"
+      ]
+    },
+    {
+      "url": "https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer",
+      "name": "DaVinci-Resolve-LUT-Explorer",
+      "tags": [
+        "color grading",
+        "look development",
+        "lut",
+        "preview"
+      ],
+      "sources": [
+        "https://github.com/bryanrandell/DaVinci-Resolve-LUT-Explorer"
+      ]
+    },
+    {
+      "url": "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve",
+      "name": "Auto-Rename-for-DaVinci-Resolve",
+      "tags": [
+        "automation",
+        "fusion",
+        "node renaming",
+        "organization"
+      ],
+      "sources": [
+        "https://github.com/neezr/Auto-Rename-for-DaVinci-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve",
+      "name": "Anchor-Point-Corners-for-DaVinci-Resolve",
+      "tags": [
+        "alignment",
+        "anchor point",
+        "animation",
+        "fusion"
+      ],
+      "sources": [
+        "https://github.com/neezr/Anchor-Point-Corners-for-DaVinci-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/horshack-dpreview/RefreshResolveMedia",
+      "name": "RefreshResolveMedia",
+      "tags": [
+        "external editing",
+        "media refresh",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/horshack-dpreview/RefreshResolveMedia"
+      ]
+    },
+    {
+      "url": "https://github.com/austinwitherspoon/resolve-bulk-exporter",
+      "name": "resolve-bulk-exporter",
+      "tags": [
+        "automation",
+        "batch export",
+        "python",
+        "render queue"
+      ],
+      "sources": [
+        "https://github.com/austinwitherspoon/resolve-bulk-exporter"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/DaVinciResolve-ClipLister",
+      "name": "DaVinciResolve-ClipLister",
+      "tags": [
+        "clip list",
+        "csv",
+        "export",
+        "html",
+        "metadata"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/DaVinciResolve-ClipLister"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects",
+      "name": "DaVinciResolve-ExportProjects",
+      "tags": [
+        "drp",
+        "project archive",
+        "project export",
+        "project management"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/DaVinciResolve-ExportProjects"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/ChangeClipTimecode",
+      "name": "ChangeClipTimecode",
+      "tags": [
+        "batch editing",
+        "metadata",
+        "timecode"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/ChangeClipTimecode"
+      ]
+    },
+    {
+      "url": "https://github.com/ChristyKail/resolve_auto_import",
+      "name": "resolve_auto_import",
+      "tags": [
+        "automation",
+        "bins",
+        "finder",
+        "media import"
+      ],
+      "sources": [
+        "https://github.com/ChristyKail/resolve_auto_import"
+      ]
+    },
+    {
+      "url": "https://github.com/heyJordanParker/resolve-advanced-importer",
+      "name": "resolve-advanced-importer",
+      "tags": [
+        "automation",
+        "bins",
+        "media import",
+        "watch folder"
+      ],
+      "sources": [
+        "https://github.com/heyJordanParker/resolve-advanced-importer"
+      ]
+    },
+    {
+      "url": "https://github.com/ynput/ayon-resolve",
+      "name": "ayon-resolve",
+      "tags": [
+        "ayon",
+        "integration",
+        "production pipeline"
+      ],
+      "sources": [
+        "https://github.com/ynput/ayon-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci",
+      "name": "GPX-Visualization-Davinci",
+      "tags": [
+        "fusion",
+        "gps",
+        "gpx",
+        "map",
+        "overlay",
+        "route"
+      ],
+      "sources": [
+        "https://github.com/VladasTamosiunas/GPX-Visualization-Davinci"
+      ]
+    },
+    {
+      "url": "https://github.com/silverqsy/cine-immersive-stabilizer",
+      "name": "cine-immersive-stabilizer",
+      "tags": [
+        "braw",
+        "gyro",
+        "immersive",
+        "imu",
+        "pano map",
+        "stabilization",
+        "ursa cine"
+      ],
+      "sources": [
+        "https://github.com/silverqsy/cine-immersive-stabilizer"
+      ]
+    },
+    {
+      "url": "https://github.com/in03/patchwork",
+      "name": "patchwork",
+      "tags": [
+        "ffmpeg",
+        "incremental rendering",
+        "render patching"
+      ],
+      "sources": [
+        "https://github.com/in03/patchwork"
+      ]
+    },
+    {
+      "url": "https://github.com/walter-arrighetti/ResolveDB_backup",
+      "name": "ResolveDB_backup",
+      "tags": [
+        "backup",
+        "postgresql",
+        "project server",
+        "scheduling"
+      ],
+      "sources": [
+        "https://github.com/walter-arrighetti/ResolveDB_backup"
+      ]
+    },
+    {
+      "url": "https://github.com/IgorRidanovic/Resolve-backup-Postgres",
+      "name": "Resolve-backup-Postgres",
+      "tags": [
+        "backup",
+        "database",
+        "postgresql",
+        "restoration"
+      ],
+      "sources": [
+        "https://github.com/IgorRidanovic/Resolve-backup-Postgres"
+      ]
+    },
+    {
+      "url": "https://github.com/veryqiang/footbrake",
+      "name": "footbrake",
+      "tags": [
+        "aaf",
+        "automation",
+        "rendering",
+        "transcoding",
+        "xml"
+      ],
+      "sources": [
+        "https://github.com/veryqiang/footbrake"
+      ]
+    },
+    {
+      "url": "https://github.com/fedsfarm/drwrap",
+      "name": "drwrap",
+      "tags": [
+        "clipboard",
+        "codec conversion",
+        "drag and drop",
+        "workflow"
+      ],
+      "sources": [
+        "https://github.com/fedsfarm/drwrap"
+      ]
+    },
+    {
+      "url": "https://github.com/gohny/davinconv",
+      "name": "davinconv",
+      "tags": [
+        "ffmpeg",
+        "linux",
+        "media preparation",
+        "transcoding"
+      ],
+      "sources": [
+        "https://github.com/gohny/davinconv"
+      ]
+    },
+    {
+      "url": "https://github.com/ctsrc/ffmpeg-extract-clips-davinci-resolve-edl",
+      "name": "ffmpeg-extract-clips-davinci-resolve-edl",
+      "tags": [
+        "clip extraction",
+        "conform",
+        "edl",
+        "ffmpeg"
+      ],
+      "sources": [
+        "https://github.com/ctsrc/ffmpeg-extract-clips-davinci-resolve-edl"
+      ]
+    },
+    {
+      "url": "https://github.com/in03/squawk",
+      "name": "squawk",
+      "tags": [
+        "speech to text",
+        "subtitles",
+        "transcription",
+        "whisper"
+      ],
+      "sources": [
+        "https://github.com/in03/squawk"
+      ]
+    },
+    {
+      "url": "https://github.com/randyrektor/DaVinci-Gate",
+      "name": "DaVinci-Gate",
+      "tags": [
+        "audio editing",
+        "audio gate",
+        "podcast",
+        "silence removal",
+        "speaker"
+      ],
+      "sources": [
+        "https://github.com/randyrektor/DaVinci-Gate"
+      ]
+    },
+    {
+      "url": "https://github.com/atmosfar/srt_to_textplus",
+      "name": "srt_to_textplus",
+      "tags": [
+        "animated text",
+        "fusion",
+        "srt",
+        "subtitles",
+        "text plus"
+      ],
+      "sources": [
+        "https://github.com/atmosfar/srt_to_textplus"
+      ]
+    },
+    {
+      "url": "https://github.com/czukowski/fusionscript-stubs",
+      "name": "fusionscript-stubs",
+      "tags": [
+        "api",
+        "fusion",
+        "ide",
+        "python",
+        "type stubs"
+      ],
+      "sources": [
+        "https://github.com/czukowski/fusionscript-stubs"
+      ]
+    },
+    {
+      "url": "https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit",
+      "name": "Davinci-Resolve-Functions-Toolkit",
+      "tags": [
+        "api",
+        "code snippets",
+        "javascript",
+        "lua",
+        "python",
+        "vscode"
+      ],
+      "sources": [
+        "https://github.com/FusionPixelStudio/Davinci-Resolve-Functions-Toolkit"
+      ]
+    },
+    {
+      "url": "https://github.com/gingray/openfx-template",
+      "name": "openfx-template",
+      "tags": [
+        "cpp",
+        "development",
+        "openfx",
+        "plugin template"
+      ],
+      "sources": [
+        "https://github.com/gingray/openfx-template"
+      ]
+    },
+    {
+      "url": "https://github.com/KipJM/blackmacro-lib",
+      "name": "blackmacro-lib",
+      "tags": [
+        "firmware",
+        "macropad",
+        "microcontroller",
+        "speed editor",
+        "usb"
+      ],
+      "sources": [
+        "https://github.com/KipJM/blackmacro-lib"
+      ]
+    },
+    {
+      "url": "https://github.com/JamesBalazs/speed-editor-client",
+      "name": "speed-editor-client",
+      "tags": [
+        "controller",
+        "hid",
+        "speed editor",
+        "volume control"
+      ],
+      "sources": [
+        "https://github.com/JamesBalazs/speed-editor-client"
+      ]
+    },
+    {
+      "url": "https://github.com/ra100/micro-color-panel-controller",
+      "name": "micro-color-panel-controller",
+      "tags": [
+        "controller",
+        "hardware",
+        "micro color panel"
+      ],
+      "sources": [
+        "https://github.com/ra100/micro-color-panel-controller"
+      ]
+    },
+    {
+      "url": "https://github.com/OlliV/resolve-hui-tc-updater",
+      "name": "resolve-hui-tc-updater",
+      "tags": [
+        "controller",
+        "hui",
+        "mcu",
+        "midi",
+        "timecode"
+      ],
+      "sources": [
+        "https://github.com/OlliV/resolve-hui-tc-updater"
+      ]
+    },
+    {
+      "url": "https://github.com/FoxDanger/Control-Booster-OpenSourceCode",
+      "name": "Control-Booster-OpenSourceCode",
+      "tags": [
+        "autohotkey",
+        "controller mapping",
+        "osc",
+        "tangent"
+      ],
+      "sources": [
+        "https://github.com/FoxDanger/Control-Booster-OpenSourceCode"
+      ]
+    },
+    {
+      "url": "https://github.com/WDegan/metafootage-davinci-resolve",
+      "name": "metafootage-davinci-resolve",
+      "tags": [
+        "ai",
+        "footage tagging",
+        "gemini",
+        "keywording",
+        "metadata",
+        "openai"
+      ],
+      "sources": [
+        "https://github.com/WDegan/metafootage-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/wassermanproductions/unofficial-davinci-mcp",
+      "name": "unofficial-davinci-mcp",
+      "tags": [
+        "ai",
+        "automation",
+        "fcpxml",
+        "lut",
+        "mcp",
+        "timeline exchange"
+      ],
+      "sources": [
+        "https://github.com/wassermanproductions/unofficial-davinci-mcp"
+      ]
+    },
+    {
+      "url": "https://github.com/Lo1s-pgn/Simple-LUT-Generator",
+      "name": "Simple-LUT-Generator",
+      "tags": [
+        "color grid",
+        "color sampling",
+        "lut generation",
+        "openfx"
+      ],
+      "sources": [
+        "https://github.com/Lo1s-pgn/Simple-LUT-Generator"
+      ]
+    },
+    {
+      "url": "https://github.com/Dec18studios/Dec18-Plugin-Manager",
+      "name": "Dec18-Plugin-Manager",
+      "tags": [
+        "backup",
+        "installation",
+        "plugin manager",
+        "updates"
+      ],
+      "sources": [
+        "https://github.com/Dec18studios/Dec18-Plugin-Manager"
+      ]
+    },
+    {
+      "url": "https://github.com/acrilique/automarker-clay",
+      "name": "automarker-clay",
+      "tags": [
+        "beat detection",
+        "markers",
+        "music sync",
+        "tempo"
+      ],
+      "sources": [
+        "https://github.com/acrilique/automarker-clay"
+      ]
+    },
+    {
+      "url": "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve",
+      "name": "Marker-Madness-Suite-for-Davinci-Resolve",
+      "tags": [
+        "clip collection",
+        "clip renaming",
+        "markers",
+        "running time",
+        "tracks"
+      ],
+      "sources": [
+        "https://github.com/h9d6hrbzyn-debug/Marker-Madness-Suite-for-Davinci-Resolve"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/Fusion-MediaIn-ID-Update-",
+      "name": "Fusion-MediaIn-ID-Update-",
+      "tags": [
+        "fusion",
+        "media pool",
+        "media relinking",
+        "project transfer"
+      ],
+      "sources": [
+        "https://github.com/postflows/Fusion-MediaIn-ID-Update-"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-batch-rename",
+      "name": "resolve-batch-rename",
+      "tags": [
+        "batch rename",
+        "clip renaming",
+        "timeline renaming"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-batch-rename"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-clip-marker-tool",
+      "name": "resolve-clip-marker-tool",
+      "tags": [
+        "clip markers",
+        "duration markers",
+        "markers"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-clip-marker-tool"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-find-clip-on-timelines",
+      "name": "resolve-find-clip-on-timelines",
+      "tags": [
+        "clip search",
+        "media pool",
+        "timeline search"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-find-clip-on-timelines"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-font-fallback",
+      "name": "resolve-font-fallback",
+      "tags": [
+        "font replacement",
+        "fonts",
+        "text plus",
+        "typography"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-font-fallback"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-marker-metadata-workflow",
+      "name": "resolve-marker-metadata-workflow",
+      "tags": [
+        "csv",
+        "feedback",
+        "html",
+        "markers",
+        "metadata",
+        "review"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-marker-metadata-workflow"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-markers-to-render-queue",
+      "name": "resolve-markers-to-render-queue",
+      "tags": [
+        "batch export",
+        "markers",
+        "render queue"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-markers-to-render-queue"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-media-organizer",
+      "name": "resolve-media-organizer",
+      "tags": [
+        "bins",
+        "keywords",
+        "media organization",
+        "media pool"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-media-organizer"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-multicam-angle-colorizer",
+      "name": "resolve-multicam-angle-colorizer",
+      "tags": [
+        "camera angles",
+        "clip colors",
+        "multicam",
+        "organization"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-multicam-angle-colorizer"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-text-index",
+      "name": "resolve-text-index",
+      "tags": [
+        "csv",
+        "spell check",
+        "subtitles",
+        "text editing",
+        "text search"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-text-index"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-timeline-creator",
+      "name": "resolve-timeline-creator",
+      "tags": [
+        "project setup",
+        "timecode",
+        "timeline presets",
+        "tracks"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-timeline-creator"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-title-manager",
+      "name": "resolve-title-manager",
+      "tags": [
+        "batch editing",
+        "macros",
+        "text plus",
+        "title styles"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-title-manager"
+      ]
+    },
+    {
+      "url": "https://github.com/postflows/resolve-vfx-marker-tool",
+      "name": "resolve-vfx-marker-tool",
+      "tags": [
+        "conform",
+        "markers",
+        "shot numbering",
+        "vfx"
+      ],
+      "sources": [
+        "https://github.com/postflows/resolve-vfx-marker-tool"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview",
+      "name": "Blackmagic developer resources",
+      "tags": [
+        "capture",
+        "decklink",
+        "developer resources",
+        "playback",
+        "sdk"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "name": "DaVinci Resolve — official downloads",
+      "tags": [
+        "downloads",
+        "host application",
+        "official",
+        "video editor"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/products/davinciresolve"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "name": "DaVinci Resolve training and lesson files",
+      "tags": [
+        "color grading",
+        "editing",
+        "fairlight",
+        "fusion",
+        "practice media",
+        "training",
+        "tutorial"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/products/davinciresolve/training"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf",
+      "name": "Fairlight Sound Library and audio guide",
+      "tags": [
+        "audio library",
+        "fairlight",
+        "foley",
+        "sound effects",
+        "training"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf",
+      "name": "Fusion Fuse SDK guide and reference",
+      "tags": [
+        "api",
+        "development",
+        "documentation",
+        "fuse",
+        "lua",
+        "sdk"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "name": "Fusion Studio — official product",
+      "tags": [
+        "compositing",
+        "fusion",
+        "host application",
+        "official"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/products/fusion"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion",
+      "name": "Resolve and Fusion Support Center",
+      "tags": [
+        "downloads",
+        "manual",
+        "official",
+        "release notes",
+        "support"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion"
+      ]
+    },
+    {
+      "url": "https://pixeltoolspost.com/collections/free-tools",
+      "name": "PixelTools free tools",
+      "tags": [
+        "charts",
+        "dctl",
+        "diagnostics",
+        "exposure",
+        "hdr",
+        "pq"
+      ],
+      "sources": [
+        "https://pixeltoolspost.com/collections/free-tools"
+      ]
+    },
+    {
+      "url": "https://709mediaroom.com/en/new-davinci-dctls-available-for-free-download/",
+      "name": "709 Media Room DCTLs",
+      "tags": [
+        "aces",
+        "blue shadows",
+        "cdl",
+        "color grading",
+        "dctl",
+        "primary controls"
+      ],
+      "sources": [
+        "https://709mediaroom.com/en/new-davinci-dctls-available-for-free-download/"
+      ]
+    },
+    {
+      "url": "https://www.komkomdoorn.com/krokodove/",
+      "name": "Krokodove",
+      "tags": [
+        "3d",
+        "compositing",
+        "data",
+        "fusion",
+        "nodes",
+        "vector"
+      ],
+      "sources": [
+        "https://www.komkomdoorn.com/krokodove/"
+      ]
+    },
+    {
+      "url": "https://www.metafide.com/?product=computer-vision",
+      "name": "Meta Fide Computer Vision",
+      "tags": [
+        "art",
+        "ascii",
+        "fuse",
+        "fusion"
+      ],
+      "sources": [
+        "https://www.metafide.com/?product=computer-vision"
+      ]
+    },
+    {
+      "url": "https://www.mralextech.com/",
+      "name": "MrAlexTech toolkit",
+      "tags": [
+        "animation",
+        "color grading",
+        "storyboard",
+        "toolkit",
+        "zoom"
+      ],
+      "sources": [
+        "https://www.mralextech.com/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor",
+      "name": "Reactor",
+      "tags": [
+        "atoms",
+        "fusion",
+        "package manager",
+        "plugins",
+        "reactor"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor"
+      ]
+    },
+    {
+      "url": "https://resolve-tools.com/",
+      "name": "Resolve Tools / Marker Madness Suite",
+      "tags": [
+        "clip collection",
+        "clip renaming",
+        "markers",
+        "running time",
+        "tracks"
+      ],
+      "sources": [
+        "https://resolve-tools.com/"
+      ]
+    },
+    {
+      "url": "https://retrograde.tools/tools",
+      "name": "Retrograde Tools",
+      "tags": [
+        "dctl",
+        "fusion",
+        "project search",
+        "quality control",
+        "scripts",
+        "slate"
+      ],
+      "sources": [
+        "https://retrograde.tools/tools"
+      ]
+    },
+    {
+      "url": "https://postflows.github.io/",
+      "name": "PostFlows",
+      "tags": [
+        "fonts",
+        "markers",
+        "media bins",
+        "scripts",
+        "text",
+        "timeline"
+      ],
+      "sources": [
+        "https://postflows.github.io/"
+      ]
+    },
+    {
+      "url": "https://www.shutterencoder.com/",
+      "name": "Shutter Encoder",
+      "tags": [
+        "dnxhr",
+        "edl",
+        "ffmpeg",
+        "prores",
+        "quality control",
+        "rewrap",
+        "subtitles",
+        "transcoding"
+      ],
+      "sources": [
+        "https://www.shutterencoder.com/"
+      ]
+    },
+    {
+      "url": "https://www.voukoder.org/",
+      "name": "Voukoder Pro",
+      "tags": [
+        "connector",
+        "encoding",
+        "export",
+        "ffmpeg"
+      ],
+      "sources": [
+        "https://www.voukoder.org/"
+      ]
+    },
+    {
+      "url": "https://www.filmconvert.com/plugin/cinematch",
+      "name": "CineMatch",
+      "tags": [
+        "camera matching",
+        "color matching",
+        "exposure",
+        "lut",
+        "white balance"
+      ],
+      "sources": [
+        "https://www.filmconvert.com/plugin/cinematch"
+      ]
+    },
+    {
+      "url": "https://www.filmconvert.com/",
+      "name": "FilmConvert tools",
+      "tags": [
+        "color grading",
+        "diffusion",
+        "film",
+        "film emulation",
+        "grain",
+        "halation",
+        "nitrate"
+      ],
+      "sources": [
+        "https://www.filmconvert.com/"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
+      "name": "Basic Node Tree",
+      "tags": [
+        "color grading",
+        "node tree",
+        "powergrade",
+        "workflow"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree"
+      ]
+    },
+    {
+      "url": "https://www.tombolles.net/cineprint35",
+      "name": "CinePrint35",
+      "tags": [
+        "2383",
+        "3513",
+        "color grading",
+        "film",
+        "film emulation",
+        "fuji",
+        "grain",
+        "halation",
+        "kodak",
+        "powergrade"
+      ],
+      "sources": [
+        "https://www.tombolles.net/cineprint35",
+        "https://www.tombolles.net/cineprint35"
+      ]
+    },
+    {
+      "url": "https://videovillage.com/filmbox/",
+      "name": "Filmbox Pro",
+      "tags": [
+        "color grading",
+        "film",
+        "film emulation",
+        "fuji",
+        "kodak",
+        "openfx",
+        "photochemical"
+      ],
+      "sources": [
+        "https://videovillage.com/filmbox/",
+        "https://videovillage.com/images/filmbox/features/Filmbox%20User%20Guide.pdf"
+      ]
+    },
+    {
+      "url": "https://mononodes.com/dctl-and-more/",
+      "name": "MONONODES",
+      "tags": [
+        "border",
+        "color science",
+        "dctl",
+        "middle gray",
+        "test ramp"
+      ],
+      "sources": [
+        "https://mononodes.com/dctl-and-more/"
+      ]
+    },
+    {
+      "url": "https://borisfx.com/products/sapphire/",
+      "name": "Boris FX Sapphire",
+      "tags": [
+        "compositing",
+        "openfx",
+        "transitions",
+        "visual effects"
+      ],
+      "sources": [
+        "https://borisfx.com/products/sapphire/"
+      ]
+    },
+    {
+      "url": "https://borisfx.com/products/syntheyes/",
+      "name": "Boris FX SynthEyes",
+      "tags": [
+        "3d",
+        "camera tracking",
+        "matchmoving",
+        "object tracking",
+        "scene export"
+      ],
+      "sources": [
+        "https://borisfx.com/products/syntheyes/"
+      ]
+    },
+    {
+      "url": "https://digitalanarchy.com/",
+      "name": "Digital Anarchy Resolve tools",
+      "tags": [
+        "beauty retouching",
+        "data visualization",
+        "deflicker",
+        "openfx",
+        "sharpening"
+      ],
+      "sources": [
+        "https://digitalanarchy.com/"
+      ]
+    },
+    {
+      "url": "https://filmworkz.com/ofx/",
+      "name": "Filmworkz OFX DVO",
+      "tags": [
+        "despeckle",
+        "image repair",
+        "openfx",
+        "restoration"
+      ],
+      "sources": [
+        "https://filmworkz.com/ofx/"
+      ]
+    },
+    {
+      "url": "https://aescripts.com/gaussian-splatting-for-davinci-resolve/",
+      "name": "Gaussian Splatting for DaVinci Resolve",
+      "tags": [
+        "3d",
+        "depth",
+        "gaussian splatting",
+        "ply",
+        "rendering"
+      ],
+      "sources": [
+        "https://aescripts.com/gaussian-splatting-for-davinci-resolve/"
+      ]
+    },
+    {
+      "url": "https://www.neatvideo.com/",
+      "name": "Neat Video",
+      "tags": [
+        "deflicker",
+        "denoise",
+        "noise reduction",
+        "restoration"
+      ],
+      "sources": [
+        "https://www.neatvideo.com/"
+      ]
+    },
+    {
+      "url": "https://revisionfx.com/products/for/resolve/",
+      "name": "RE:Vision Effects for Resolve",
+      "tags": [
+        "deflicker",
+        "denoise",
+        "motion blur",
+        "retiming",
+        "slow motion"
+      ],
+      "sources": [
+        "https://revisionfx.com/products/for/resolve/"
+      ]
+    },
+    {
+      "url": "https://wipptemplates.com/products/editorcollection",
+      "name": "WippTemplates EditorCollection",
+      "tags": [
+        "animation",
+        "editing",
+        "templates",
+        "toolkit"
+      ],
+      "sources": [
+        "https://wipptemplates.com/products/editorcollection"
+      ]
+    },
+    {
+      "url": "https://www.auburnsounds.com/products/Renegate.html",
+      "name": "Auburn Sounds Renegate",
+      "tags": [
+        "au",
+        "audio dynamics",
+        "audio gate",
+        "vst"
+      ],
+      "sources": [
+        "https://www.auburnsounds.com/products/Renegate.html"
+      ]
+    },
+    {
+      "url": "https://alexaudiobutler.com/",
+      "name": "End Boost",
+      "tags": [
+        "audio mixing",
+        "denoise",
+        "loudness",
+        "mastering"
+      ],
+      "sources": [
+        "https://alexaudiobutler.com/"
+      ]
+    },
+    {
+      "url": "https://www.tbproaudio.de/products/dpmeter",
+      "name": "TBProAudio dpMeter",
+      "tags": [
+        "au",
+        "audio metering",
+        "loudness",
+        "multichannel",
+        "vst"
+      ],
+      "sources": [
+        "https://www.tbproaudio.de/products/dpmeter"
+      ]
+    },
+    {
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+      "name": "Valhalla Supermassive",
+      "tags": [
+        "audio effects",
+        "delay",
+        "echo",
+        "reverb"
+      ],
+      "sources": [
+        "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+      ]
+    },
+    {
+      "url": "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/",
+      "name": "EditShare FLOW panel",
+      "tags": [
+        "asset management",
+        "collaboration",
+        "metadata",
+        "proxy",
+        "review"
+      ],
+      "sources": [
+        "https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/"
+      ]
+    },
+    {
+      "url": "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension",
+      "name": "Simon Says for Resolve",
+      "tags": [
+        "markers",
+        "speaker labels",
+        "subtitles",
+        "transcription",
+        "translation"
+      ],
+      "sources": [
+        "https://www.simonsaysai.com/blackmagic-davinci-resolve-extension"
+      ]
+    },
+    {
+      "url": "https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/",
+      "name": "SNS ShareBrowser integration",
+      "tags": [
+        "asset management",
+        "media import",
+        "media search",
+        "preview",
+        "tagging"
+      ],
+      "sources": [
+        "https://www.studionetworksolutions.com/sns-unveils-sharebrowser-workflow-integration-plugin-for-davinci-resolve/"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/blobtracker",
+      "name": "BlobTrackingFuse",
+      "tags": [
+        "fuse",
+        "fusion",
+        "lines",
+        "motion tracking",
+        "text"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/blobtracker"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/blockglitch",
+      "name": "BlockGlitch",
+      "tags": [
+        "blocks",
+        "distortion",
+        "fusion",
+        "glitch"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/blockglitch"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supascale",
+      "name": "SupaScale",
+      "tags": [
+        "ai",
+        "fusion",
+        "resolution",
+        "restoration",
+        "upscaling"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supascale"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superglitch",
+      "name": "SuperGlitch",
+      "tags": [
+        "distortion",
+        "fuse",
+        "fusion",
+        "glitch"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superglitch"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermodulation",
+      "name": "SuperModulation",
+      "tags": [
+        "distortion",
+        "frequency modulation",
+        "fusion"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supermodulation"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superpixelsort",
+      "name": "SuperPixelSort",
+      "tags": [
+        "displacement",
+        "fusion",
+        "glitch",
+        "pixel sorting"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superpixelsort"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/super-polygons-beta",
+      "name": "SuperPolygons",
+      "tags": [
+        "fusion",
+        "low poly",
+        "tiles",
+        "triangulation",
+        "voronoi"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/super-polygons-beta"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superslitscanner",
+      "name": "SuperSlitScanner",
+      "tags": [
+        "distortion",
+        "fusion",
+        "slit scan",
+        "time warp",
+        "wave"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superslitscanner"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supertrails",
+      "name": "SuperTrails",
+      "tags": [
+        "echo",
+        "fusion",
+        "ghosting",
+        "motion trails"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supertrails"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supervhs",
+      "name": "SuperVHS",
+      "tags": [
+        "analog video",
+        "bloom",
+        "distortion",
+        "retro",
+        "vhs"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supervhs"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/datamoshfuse",
+      "name": "DatamoshFuse",
+      "tags": [
+        "datamosh",
+        "ffmpeg",
+        "frame repetition",
+        "glitch",
+        "video corruption"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/datamoshfuse"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/dreamyflare",
+      "name": "DreamyFlare",
+      "tags": [
+        "anamorphic",
+        "fusion",
+        "lens flare",
+        "light streaks"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/dreamyflare"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/extremeglitch",
+      "name": "ExtremeGlitch",
+      "tags": [
+        "glitch",
+        "interlacing",
+        "noise",
+        "pixel sorting",
+        "rgb split"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/extremeglitch"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/pixeldither",
+      "name": "Pixel Dither",
+      "tags": [
+        "dither",
+        "handheld game",
+        "pixel art",
+        "retro"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/pixeldither"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/ruttetra",
+      "name": "RuttEtra",
+      "tags": [
+        "displacement",
+        "geometry",
+        "lines",
+        "rutt etra"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/ruttetra"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/shakeglitch",
+      "name": "ShakeGlitch",
+      "tags": [
+        "animation",
+        "fusion",
+        "glitch",
+        "rgb split"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/shakeglitch"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superascii",
+      "name": "SuperASCII Fuse",
+      "tags": [
+        "ascii",
+        "characters",
+        "fusion",
+        "text art"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superascii"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superbokeh",
+      "name": "SuperBokeh",
+      "tags": [
+        "bokeh",
+        "depth of field",
+        "focus",
+        "lens blur"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superbokeh"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supercrt",
+      "name": "SuperCRT",
+      "tags": [
+        "analog video",
+        "crt",
+        "retro",
+        "screen effect"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supercrt"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superdelusion",
+      "name": "SuperDelusion",
+      "tags": [
+        "distortion",
+        "patterns",
+        "psychedelic",
+        "visual effects"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superdelusion"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superlcd",
+      "name": "SuperLCD",
+      "tags": [
+        "lcd",
+        "pentile",
+        "pixels",
+        "rgb",
+        "screen effect"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superlcd"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermatrixrain",
+      "name": "SuperMatrixRain",
+      "tags": [
+        "3d",
+        "animated text",
+        "code rain",
+        "matrix rain"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supermatrixrain"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/supermesh",
+      "name": "SuperMesh",
+      "tags": [
+        "grid",
+        "mesh",
+        "topographic",
+        "wireframe"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/supermesh"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superntsc",
+      "name": "SuperNTSC",
+      "tags": [
+        "analog video",
+        "ntsc",
+        "retro",
+        "television"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superntsc"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superpapertear",
+      "name": "SuperPaperTear",
+      "tags": [
+        "cutout",
+        "fold",
+        "paper tear",
+        "procedural",
+        "texture"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superpapertear"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/superprintfx",
+      "name": "SuperPrintFX",
+      "tags": [
+        "duotone",
+        "guilloche",
+        "halftone",
+        "newspaper",
+        "print effect"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/superprintfx"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/upscaler",
+      "name": "Upscaler Fuse",
+      "tags": [
+        "cas",
+        "fsr",
+        "resolution",
+        "sharpening",
+        "upscaling"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/upscaler"
+      ]
+    },
+    {
+      "url": "https://akascape.gumroad.com/l/watermemory",
+      "name": "WaterMemory",
+      "tags": [
+        "dissolve",
+        "experimental",
+        "flow",
+        "transition"
+      ],
+      "sources": [
+        "https://akascape.gumroad.com/l/watermemory"
+      ]
+    },
+    {
+      "url": "https://aescripts.com/amalgam/",
+      "name": "Amalgam",
+      "tags": [
+        "compositing",
+        "frequency blending",
+        "openfx"
+      ],
+      "sources": [
+        "https://aescripts.com/amalgam/"
+      ]
+    },
+    {
+      "url": "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html",
+      "name": "mTitle Refined DVR",
+      "tags": [
+        "animated text",
+        "motion graphics",
+        "titles",
+        "typography"
+      ],
+      "sources": [
+        "https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html"
+      ]
+    },
+    {
+      "url": "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html",
+      "name": "mTransition Movie DVR",
+      "tags": [
+        "cinema",
+        "motion graphics",
+        "transitions"
+      ],
+      "sources": [
+        "https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html"
+      ]
+    },
+    {
+      "url": "https://sh4rkk.com/visualiser-plugin",
+      "name": "Audio Visualiser Plugin",
+      "tags": [
+        "audio reactive",
+        "audio visualizer",
+        "fusion",
+        "music visualization"
+      ],
+      "sources": [
+        "https://sh4rkk.com/visualiser-plugin"
+      ]
+    },
+    {
+      "url": "https://stirlingsupply.co/products/easier-ease",
+      "name": "Easier Ease",
+      "tags": [
+        "easing",
+        "keyframes",
+        "position",
+        "rotation",
+        "scale"
+      ],
+      "sources": [
+        "https://stirlingsupply.co/products/easier-ease"
+      ]
+    },
+    {
+      "url": "https://stirlingsupply.co/products/edit-page-masks",
+      "name": "Edit Page Masks",
+      "tags": [
+        "edit page",
+        "masks",
+        "outlines",
+        "shapes"
+      ],
+      "sources": [
+        "https://stirlingsupply.co/products/edit-page-masks"
+      ]
+    },
+    {
+      "url": "https://stirlingsupply.co/products/proto-v3",
+      "name": "Proto V3",
+      "tags": [
+        "distortion",
+        "glow",
+        "presets",
+        "visual effects"
+      ],
+      "sources": [
+        "https://stirlingsupply.co/products/proto-v3"
+      ]
+    },
+    {
+      "url": "https://stirlingsupply.co/products/textbox",
+      "name": "TextBox+",
+      "tags": [
+        "animated text",
+        "text box",
+        "titles"
+      ],
+      "sources": [
+        "https://stirlingsupply.co/products/textbox"
+      ]
+    },
+    {
+      "url": "https://colourlab.ai/colourlab-ai-for-davinci-resolve/",
+      "name": "Colourlab AI for Resolve",
+      "tags": [
+        "ai",
+        "color grading",
+        "color matching",
+        "look development",
+        "reference matching"
+      ],
+      "sources": [
+        "https://colourlab.ai/colourlab-ai-for-davinci-resolve/"
+      ]
+    },
+    {
+      "url": "https://www.dehancer.com/shop/davinci_resolve/pro",
+      "name": "Dehancer Pro",
+      "tags": [
+        "2383",
+        "3513",
+        "bloom",
+        "color grading",
+        "film",
+        "film emulation",
+        "fuji",
+        "grain",
+        "halation",
+        "kodak"
+      ],
+      "sources": [
+        "https://www.dehancer.com/shop/davinci_resolve/pro",
+        "https://www.dehancer.com/shop/davinci-resolve",
+        "https://www.dehancer.com/features"
+      ]
+    },
+    {
+      "url": "https://jamesmiller.sellfy.store/p/davinci-resolve-studio-dctl/",
+      "name": "DELUTS Universe DCTLs",
+      "tags": [
+        "color grading",
+        "dctl",
+        "film",
+        "lens effects",
+        "texture"
+      ],
+      "sources": [
+        "https://jamesmiller.sellfy.store/p/davinci-resolve-studio-dctl/"
+      ]
+    },
+    {
+      "url": "https://mark-bone.sellfy.store/p/power-grade-mbnp/",
+      "name": "MB+NP PowerGrade",
+      "tags": [
+        "camera color space",
+        "color grading",
+        "lut",
+        "powergrade",
+        "training"
+      ],
+      "sources": [
+        "https://mark-bone.sellfy.store/p/power-grade-mbnp/"
+      ]
+    },
+    {
+      "url": "https://nightowlstories.gumroad.com/l/craft-powergrade",
+      "name": "C.R.A.F.T. PowerGrade",
+      "tags": [
+        "color grading",
+        "film",
+        "fuji",
+        "kodak",
+        "powergrade",
+        "s log3",
+        "sony"
+      ],
+      "sources": [
+        "https://nightowlstories.gumroad.com/l/craft-powergrade"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/8d429085e2",
+      "name": "Nx LiquidGlass",
+      "tags": [
+        "dctl",
+        "glass",
+        "magnification",
+        "refraction"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/8d429085e2"
+      ]
+    },
+    {
+      "url": "https://openiso.sellfy.store/p/film-emulation-powergrade/",
+      "name": "Cine16",
+      "tags": [
+        "16mm",
+        "color grading",
+        "film",
+        "film emulation",
+        "powergrade",
+        "tutorial"
+      ],
+      "sources": [
+        "https://openiso.sellfy.store/p/film-emulation-powergrade/"
+      ]
+    },
+    {
+      "url": "https://openiso.sellfy.store/p/timeless-film-emulation-powergrade/",
+      "name": "Timeless",
+      "tags": [
+        "black and white",
+        "color grading",
+        "monochrome",
+        "powergrade",
+        "tutorial"
+      ],
+      "sources": [
+        "https://openiso.sellfy.store/p/timeless-film-emulation-powergrade/"
+      ]
+    },
+    {
+      "url": "https://ravengrade.com/",
+      "name": "Ravengrade tools",
+      "tags": [
+        "color grading",
+        "contrast",
+        "film",
+        "film look",
+        "lut",
+        "subtractive color"
+      ],
+      "sources": [
+        "https://ravengrade.com/"
+      ]
+    },
+    {
+      "url": "https://thejakefisher.sellfy.store/p/tjf-powergrade/",
+      "name": "TJF PowerGrade",
+      "tags": [
+        "color grading",
+        "film",
+        "grain",
+        "noise reduction",
+        "powergrade",
+        "tutorial"
+      ],
+      "sources": [
+        "https://thejakefisher.sellfy.store/p/tjf-powergrade/"
+      ]
+    },
+    {
+      "url": "https://toolandkits.gumroad.com/l/wfczb",
+      "name": "Sony S-Log3 Cine Film Emulation PowerGrade",
+      "tags": [
+        "color grading",
+        "film",
+        "lut",
+        "powergrade",
+        "s gamut3 cine",
+        "s log3",
+        "sony"
+      ],
+      "sources": [
+        "https://toolandkits.gumroad.com/l/wfczb"
+      ]
+    },
+    {
+      "url": "https://yesjmo.gumroad.com/l/powergradelibrary",
+      "name": "PowerGrade Library",
+      "tags": [
+        "color grading",
+        "dwg",
+        "look development",
+        "powergrade",
+        "rec709"
+      ],
+      "sources": [
+        "https://yesjmo.gumroad.com/l/powergradelibrary"
+      ]
+    },
+    {
+      "url": "https://editorslab.store/",
+      "name": "Editors Lab",
+      "tags": [
+        "community",
+        "directory",
+        "fuse",
+        "macros",
+        "presets",
+        "tutorial"
+      ],
+      "sources": [
+        "https://editorslab.store/"
+      ]
+    },
+    {
+      "url": "https://elements.envato.com/video-templates/compatible-with-davinci-resolve",
+      "name": "Envato Resolve templates",
+      "tags": [
+        "marketplace",
+        "motion graphics",
+        "templates"
+      ],
+      "sources": [
+        "https://elements.envato.com/video-templates/compatible-with-davinci-resolve"
+      ]
+    },
+    {
+      "url": "https://mixkit.co/free-davinci-resolve-templates/",
+      "name": "Mixkit Resolve templates",
+      "tags": [
+        "callouts",
+        "lower thirds",
+        "social media",
+        "templates",
+        "titles",
+        "transitions"
+      ],
+      "sources": [
+        "https://mixkit.co/free-davinci-resolve-templates/"
+      ]
+    },
+    {
+      "url": "https://motionarray.com/davinci-resolve-templates/free/",
+      "name": "Motion Array free Resolve templates",
+      "tags": [
+        "logos",
+        "motion graphics",
+        "promos",
+        "templates",
+        "titles"
+      ],
+      "sources": [
+        "https://motionarray.com/davinci-resolve-templates/free/"
+      ]
+    },
+    {
+      "url": "https://superhivemarket.com/products/blenderexr",
+      "name": "BlenderEXR",
+      "tags": [
+        "blender",
+        "color management",
+        "exr",
+        "fusion",
+        "ocio",
+        "render passes"
+      ],
+      "sources": [
+        "https://superhivemarket.com/products/blenderexr"
+      ]
+    },
+    {
+      "url": "https://superhivemarket.com/products/pipeline-studio-manager",
+      "name": "Pipeline Studio Manager",
+      "tags": [
+        "blender",
+        "handoff",
+        "pipeline",
+        "production management"
+      ],
+      "sources": [
+        "https://superhivemarket.com/products/pipeline-studio-manager"
+      ]
+    },
+    {
+      "url": "https://aescripts.com/ae-fusion-3d-bridge/",
+      "name": "AE Fusion 3D Bridge",
+      "tags": [
+        "3d",
+        "after effects",
+        "animation",
+        "camera",
+        "fusion",
+        "scene transfer"
+      ],
+      "sources": [
+        "https://aescripts.com/ae-fusion-3d-bridge/"
+      ]
+    },
+    {
+      "url": "https://getjumper.io/",
+      "name": "Jumper",
+      "tags": [
+        "footage search",
+        "semantic search",
+        "spoken content",
+        "visual search"
+      ],
+      "sources": [
+        "https://getjumper.io/"
+      ]
+    },
+    {
+      "url": "https://superhivemarket.com/products/blender-to-resolve-bridge",
+      "name": "Blender to Resolve Bridge",
+      "tags": [
+        "blender",
+        "color transform",
+        "render handoff",
+        "timeline"
+      ],
+      "sources": [
+        "https://superhivemarket.com/products/blender-to-resolve-bridge"
+      ]
+    },
+    {
+      "url": "https://valuef.itch.io/videoremap",
+      "name": "VideoRemap",
+      "tags": [
+        "projection mapping",
+        "remapping",
+        "resolume",
+        "xml"
+      ],
+      "sources": [
+        "https://valuef.itch.io/videoremap"
+      ]
+    },
+    {
+      "url": "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066",
+      "name": "Free Analog Counter",
+      "tags": [
+        "analog display",
+        "animated numbers",
+        "counter",
+        "fusion"
+      ],
+      "sources": [
+        "https://www.patreon.com/ablackbirdcalledsue/posts/free-analog-for-98697066"
+      ]
+    },
+    {
+      "url": "https://spektrafilm.114c.de/",
+      "name": "spektrafilm OFX",
+      "tags": [
+        "color grading",
+        "film",
+        "film emulation",
+        "negative",
+        "openfx",
+        "print",
+        "scan",
+        "spectral"
+      ],
+      "sources": [
+        "https://spektrafilm.114c.de/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom",
+      "name": "ColorLabels",
+      "tags": [
+        "fusion",
+        "node colors",
+        "organization",
+        "palettes"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ColorLabels/com.AlbertoGZ.ColorLabels.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom",
+      "name": "ReloadLoaders",
+      "tags": [
+        "fusion",
+        "loader",
+        "media refresh",
+        "workflow"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlbertoGZ.ReloadLoaders/com.AlbertoGZ.ReloadLoaders.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom",
+      "name": "Attribute Spreadsheet",
+      "tags": [
+        "expressions",
+        "fusion",
+        "node inputs",
+        "spreadsheet"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.AlexBogomolov.AttributeSpreadsheet/com.AlexBogomolov.AttributeSpreadsheet.atom"
+      ]
+    },
+    {
+      "url": "https://arisdabridge.com/",
+      "name": "ARISDA Bridge",
+      "tags": [
+        "clock",
+        "ltc",
+        "punchlight",
+        "time tracking",
+        "timecode"
+      ],
+      "sources": [
+        "https://arisdabridge.com/"
+      ]
+    },
+    {
+      "url": "https://www.autocut.com/en/",
+      "name": "AutoCut",
+      "tags": [
+        "automatic editing",
+        "captions",
+        "silence removal",
+        "zoom"
+      ],
+      "sources": [
+        "https://www.autocut.com/en/"
+      ]
+    },
+    {
+      "url": "https://forum.blackmagicdesign.com/viewtopic.php?t=175315",
+      "name": "Creating Scripts for DaVinci Resolve — examples thread",
+      "tags": [
+        "api",
+        "examples",
+        "markers",
+        "media pool",
+        "scripting"
+      ],
+      "sources": [
+        "https://forum.blackmagicdesign.com/viewtopic.php?t=175315"
+      ]
+    },
+    {
+      "url": "https://www.butteryluts.com/",
+      "name": "BUTTERY LUTs collections",
+      "tags": [
+        "camera matching",
+        "color conversion",
+        "log",
+        "lut",
+        "rec709"
+      ],
+      "sources": [
+        "https://www.butteryluts.com/"
+      ]
+    },
+    {
+      "url": "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297",
+      "name": "Calver Glow V2 Lite",
+      "tags": [
+        "drfx",
+        "fusion",
+        "glow",
+        "highlight effects"
+      ],
+      "sources": [
+        "https://www.patreon.com/calverschool/posts/calver-glow-v2-123021297"
+      ]
+    },
+    {
+      "url": "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139",
+      "name": "Nintendo Direct Graphics Pack",
+      "tags": [
+        "bumper",
+        "graphics",
+        "lower thirds",
+        "nintendo",
+        "transitions"
+      ],
+      "sources": [
+        "https://www.patreon.com/CatharsisYT/posts/catharsis-direct-119187139"
+      ]
+    },
+    {
+      "url": "https://chrisroyfilms.com/postsync/",
+      "name": "PostSync",
+      "tags": [
+        "backup",
+        "cache cleanup",
+        "preferences",
+        "presets",
+        "settings sync"
+      ],
+      "sources": [
+        "https://chrisroyfilms.com/postsync/"
+      ]
+    },
+    {
+      "url": "https://chrisroyfilms.com/postwatch/",
+      "name": "PostWatch",
+      "tags": [
+        "export alerts",
+        "monitoring",
+        "notifications",
+        "pushover"
+      ],
+      "sources": [
+        "https://chrisroyfilms.com/postwatch/"
+      ]
+    },
+    {
+      "url": "https://cinepacks.store/collections/free-packs",
+      "name": "CinePacks free samples",
+      "tags": [
+        "assets",
+        "lut",
+        "overlays",
+        "sound effects",
+        "textures"
+      ],
+      "sources": [
+        "https://cinepacks.store/collections/free-packs"
+      ]
+    },
+    {
+      "url": "https://cutpointlabs.com/cutdetect/",
+      "name": "CutDetect",
+      "tags": [
+        "conform",
+        "cut detection",
+        "edl",
+        "scene detection"
+      ],
+      "sources": [
+        "https://cutpointlabs.com/cutdetect/"
+      ]
+    },
+    {
+      "url": "https://cutpointlabs.com/cutmatch/",
+      "name": "CutMatch",
+      "tags": [
+        "conform",
+        "edl",
+        "reference matching",
+        "shot matching"
+      ],
+      "sources": [
+        "https://cutpointlabs.com/cutmatch/"
+      ]
+    },
+    {
+      "url": "https://cutpointlabs.com/lut-tuner/",
+      "name": "LUT Tuner",
+      "tags": [
+        "color grading",
+        "cube",
+        "dctl",
+        "lut",
+        "lut editing",
+        "preview"
+      ],
+      "sources": [
+        "https://cutpointlabs.com/lut-tuner/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom",
+      "name": "Fringe Fighter Turbo",
+      "tags": [
+        "compositing",
+        "disjoint over",
+        "edge artifacts",
+        "holdout",
+        "smoke"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FringeFighterTurbo/com.MuseVFX.FringeFighterTurbo.atom"
+      ]
+    },
+    {
+      "url": "https://davincikit.com/product/map-engine/",
+      "name": "Map Engine",
+      "tags": [
+        "animation",
+        "fusion",
+        "geojson",
+        "map",
+        "routes",
+        "tiles"
+      ],
+      "sources": [
+        "https://davincikit.com/product/map-engine/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom",
+      "name": "FastExpoGlow",
+      "tags": [
+        "fusion",
+        "glow",
+        "highlight rolloff",
+        "mask"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom",
+      "name": "SkinCorrector",
+      "tags": [
+        "beauty",
+        "frequency separation",
+        "fusion",
+        "skin retouching"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.SkinCorrector/com.Millolab.SkinCorrector.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom",
+      "name": "VolumeHaze",
+      "tags": [
+        "atmosphere",
+        "compositing",
+        "haze",
+        "light spill"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.VolumeHaze/com.Millolab.VolumeHaze.atom"
+      ]
+    },
+    {
+      "url": "https://firecut.ai/pricing/davinci-resolve/",
+      "name": "FireCut",
+      "tags": [
+        "audio splitting",
+        "automatic editing",
+        "captions",
+        "markers",
+        "silence removal"
+      ],
+      "sources": [
+        "https://firecut.ai/pricing/davinci-resolve/"
+      ]
+    },
+    {
+      "url": "https://fractale.itch.io/cheetah-video-proxy-generator",
+      "name": "Cheetah Video Proxy Generator",
+      "tags": [
+        "dnxhr",
+        "ffmpeg",
+        "h264",
+        "h265",
+        "prores",
+        "proxy",
+        "vertical video"
+      ],
+      "sources": [
+        "https://fractale.itch.io/cheetah-video-proxy-generator"
+      ]
+    },
+    {
+      "url": "https://framechart.com/",
+      "name": "framechart",
+      "tags": [
+        "bar chart",
+        "charts",
+        "csv",
+        "data visualization",
+        "line chart",
+        "race chart"
+      ],
+      "sources": [
+        "https://framechart.com/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom",
+      "name": "FrameTools CapCut Caption Pack",
+      "tags": [
+        "animated text",
+        "captions",
+        "templates",
+        "titles"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FrameTools.CapCutCaptions/com.FrameTools.CapCutCaptions.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom",
+      "name": "Flow Character Rigger",
+      "tags": [
+        "2d animation",
+        "character rigging",
+        "fusion",
+        "joints",
+        "puppet"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.FusionPixelStudios.FlowCharacterRigger/com.FusionPixelStudios.FlowCharacterRigger.atom"
+      ]
+    },
+    {
+      "url": "https://www.fxphd.com/resolve18/",
+      "name": "Warren Eagles Resolve 18 training",
+      "tags": [
+        "color grading",
+        "learning",
+        "look development",
+        "training"
+      ],
+      "sources": [
+        "https://www.fxphd.com/resolve18/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom",
+      "name": "Gradient Match",
+      "tags": [
+        "color matching",
+        "gradient",
+        "procedural",
+        "reference image"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.GregoryChalenko.GradientMatch/com.GregoryChalenko.GradientMatch.atom"
+      ]
+    },
+    {
+      "url": "https://hedge.co/products/editready",
+      "name": "EditReady",
+      "tags": [
+        "dnxhd",
+        "dnxhr",
+        "metadata",
+        "prores",
+        "proxy",
+        "transcoding"
+      ],
+      "sources": [
+        "https://hedge.co/products/editready"
+      ]
+    },
+    {
+      "url": "https://hedge.co/products/offshoot",
+      "name": "OffShoot",
+      "tags": [
+        "backup",
+        "checksum",
+        "hedge",
+        "ingest",
+        "media management",
+        "offload"
+      ],
+      "sources": [
+        "https://hedge.co/products/offshoot"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/b36e40dd54",
+      "name": "DaVinci Image AI",
+      "tags": [
+        "ai",
+        "google",
+        "image editing",
+        "image generation",
+        "nano banana"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/b36e40dd54"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/5e9dcdeae5",
+      "name": "DaVinci Sub Tool (Edit & Translate)",
+      "tags": [
+        "batch editing",
+        "search replace",
+        "subtitles",
+        "translation"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/5e9dcdeae5"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/706feb3730",
+      "name": "DaVinci Sub Translator",
+      "tags": [
+        "language",
+        "llm",
+        "subtitles",
+        "translation"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/706feb3730"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/9e769243b5",
+      "name": "DaVinci TTS",
+      "tags": [
+        "narration",
+        "text to speech",
+        "tts",
+        "voice generation"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/9e769243b5"
+      ]
+    },
+    {
+      "url": "https://hkeys.app/apps/davinci-resolve/macos",
+      "name": "Resolve keyboard shortcuts and drills",
+      "tags": [
+        "cheat sheet",
+        "keyboard shortcuts",
+        "learning",
+        "practice"
+      ],
+      "sources": [
+        "https://hkeys.app/apps/davinci-resolve/macos"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom",
+      "name": "Despiller Plus",
+      "tags": [
+        "color spill",
+        "compositing",
+        "despill",
+        "keying",
+        "luminance"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom",
+      "name": "Oidn Denoiser",
+      "tags": [
+        "albedo",
+        "denoise",
+        "normal",
+        "oidn",
+        "ray tracing",
+        "render passes"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom"
+      ]
+    },
+    {
+      "url": "https://lowepost.com/home/",
+      "name": "Lowepost training",
+      "tags": [
+        "beauty retouching",
+        "color grading",
+        "film",
+        "fusion",
+        "training"
+      ],
+      "sources": [
+        "https://lowepost.com/home/"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/6a120fb931",
+      "name": "Outline plugin",
+      "tags": [
+        "edges",
+        "outlines",
+        "transitions",
+        "visual effects"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/6a120fb931"
+      ]
+    },
+    {
+      "url": "https://www.maxon.net/en/red-giant",
+      "name": "Red Giant tools for Resolve",
+      "tags": [
+        "color grading",
+        "plugins",
+        "universe",
+        "visual effects"
+      ],
+      "sources": [
+        "https://www.maxon.net/en/red-giant"
+      ]
+    },
+    {
+      "url": "https://mixinglight.com/",
+      "name": "Mixing Light Resolve training",
+      "tags": [
+        "color grading",
+        "finishing",
+        "training",
+        "tutorial"
+      ],
+      "sources": [
+        "https://mixinglight.com/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom",
+      "name": "Mug Advanced Halftone",
+      "tags": [
+        "dots",
+        "grid",
+        "halftone",
+        "print effect",
+        "rgb"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom"
+      ]
+    },
+    {
+      "url": "https://www.cdfinder.de/",
+      "name": "NeoFinder",
+      "tags": [
+        "asset search",
+        "media catalog",
+        "metadata",
+        "offline media",
+        "thumbnails"
+      ],
+      "sources": [
+        "https://www.cdfinder.de/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom",
+      "name": "Suck Less Audio",
+      "tags": [
+        "animation",
+        "audio reactive",
+        "parameters",
+        "pcm",
+        "wav"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom"
+      ]
+    },
+    {
+      "url": "https://www.prosoundeffects.com/soundq/",
+      "name": "SoundQ",
+      "tags": [
+        "audio organization",
+        "metadata",
+        "sound library",
+        "sound search"
+      ],
+      "sources": [
+        "https://www.prosoundeffects.com/soundq/"
+      ]
+    },
+    {
+      "url": "https://ravinmaddhatter.itch.io/youtube-prep-tool",
+      "name": "YouTube Prep Tool",
+      "tags": [
+        "gameplay",
+        "silence removal",
+        "subtitles",
+        "transcription",
+        "youtube"
+      ],
+      "sources": [
+        "https://ravinmaddhatter.itch.io/youtube-prep-tool"
+      ]
+    },
+    {
+      "url": "https://retouch4.me/videoretouching",
+      "name": "Retouch4me video plugins",
+      "tags": [
+        "beauty",
+        "dodge and burn",
+        "openfx",
+        "skin retouching"
+      ],
+      "sources": [
+        "https://retouch4.me/videoretouching"
+      ]
+    },
+    {
+      "url": "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/",
+      "name": "Resolve learning path",
+      "tags": [
+        "color grading",
+        "editing",
+        "learning",
+        "media management",
+        "training"
+      ],
+      "sources": [
+        "https://www.rippletraining.com/product-category/davinci-resolve-learning-path/"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom",
+      "name": "FastLightWrap",
+      "tags": [
+        "compositing",
+        "fusion",
+        "light wrap"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.MuseVFX.FastLightWrap/com.MuseVFX.FastLightWrap.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom",
+      "name": "ExponentialGlow",
+      "tags": [
+        "fusion",
+        "glow",
+        "highlight effects",
+        "scene linear"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.ExponentialGlow/com.StefanIhringer.ExponentialGlow.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom",
+      "name": "XfChroma Fuse",
+      "tags": [
+        "chromatic aberration",
+        "color separation",
+        "fuse",
+        "transform"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.StefanIhringer.XfChroma/com.StefanIhringer.XfChroma.atom"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom",
+      "name": "displace plus plus",
+      "tags": [
+        "displacement",
+        "distortion",
+        "gpu",
+        "gradient",
+        "warp"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.pureandapplied.stibs_fuses.displaceplusplus/com.pureandapplied.stibs_fuses.displaceplusplus.atom"
+      ]
+    },
+    {
+      "url": "https://tagger.mov/",
+      "name": "Tagger for Resolve",
+      "tags": [
+        "ai",
+        "keywords",
+        "metadata",
+        "shot tagging",
+        "transcription"
+      ],
+      "sources": [
+        "https://tagger.mov/"
+      ]
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/FlowLooper",
+      "name": "Flow Looper",
+      "tags": [
+        "animation",
+        "background",
+        "flow",
+        "loop",
+        "moving texture"
+      ],
+      "sources": [
+        "https://tangenten.gumroad.com/l/FlowLooper"
+      ]
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/PalettePal",
+      "name": "Palette Pal",
+      "tags": [
+        "color harmony",
+        "color sampling",
+        "fusion",
+        "palette",
+        "shades"
+      ],
+      "sources": [
+        "https://tangenten.gumroad.com/l/PalettePal"
+      ]
+    },
+    {
+      "url": "https://tangenten.gumroad.com/l/PuppetPinTool",
+      "name": "Puppet Pin Tool",
+      "tags": [
+        "character animation",
+        "fk",
+        "ik",
+        "mesh deformation",
+        "puppet",
+        "rigging"
+      ],
+      "sources": [
+        "https://tangenten.gumroad.com/l/PuppetPinTool"
+      ]
+    },
+    {
+      "url": "https://www.patreon.com/posts/mograph-tools-26571904",
+      "name": "Eric’s Keyframes",
+      "tags": [
+        "animation",
+        "fusion",
+        "keyframes",
+        "motion graphics"
+      ],
+      "sources": [
+        "https://www.patreon.com/posts/mograph-tools-26571904"
+      ]
+    },
+    {
+      "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom",
+      "name": "ReadEXR Ultra",
+      "tags": [
+        "exr",
+        "fuse",
+        "image loading",
+        "scriptable input"
+      ],
+      "sources": [
+        "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/cb7b432737",
+      "name": "Just Highlighter Plus",
+      "tags": [
+        "animated lines",
+        "text highlight",
+        "typography"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/cb7b432737"
+      ]
+    }
+  ]
+}

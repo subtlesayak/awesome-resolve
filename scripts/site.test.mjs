@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {buildSite} from './build-site.mjs';
-import {DEFAULTS as INITIAL_DEFAULTS,UNFILTERED as DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate,facetCounts,adaptTaskSelection,recoveryOptions} from '../site/model.mjs';
+import {DEFAULTS as INITIAL_DEFAULTS,UNFILTERED as DEFAULTS,filterEntries,sortEntries,stateFromUrl,stateToUrl,matchesVersion,relativeDate,facetCounts,adaptTaskSelection,recoveryOptions,normalizeSearch} from '../site/model.mjs';
 const data=buildSite(),find=name=>data.entries.find(e=>e.name===name);
 const fixture = (name,task,platform,edition,range) => ({...find('PostSync'),id:name,name,description:name,tasks:[task],platforms:[platform],requirements:{...find('PostSync').requirements,editions:edition?[edition]:[],resolve:range?[range]:[]}});
 const adaptiveEntries=[fixture('New captions','captions','Windows','Free',{min:'20',max:'21'}),fixture('Old captions','captions','macOS','Studio',{min:'18',max:'19'}),fixture('Unknown captions','captions','Windows','Free'),fixture('Controller','hardware','Windows')];
@@ -90,4 +90,28 @@ test('BMD changelogs provide complete change lists and separate version-specific
  for(const update of [resolve,fusion])for(const note of update.changelogs){assert.match(note.url,/^https:\/\/www\.blackmagicdesign\.com\/support\/readme\/[a-f0-9]+$/);assert.ok(note.label.includes(update.to));}
  assert.ok(resolve.changes.some(x=>x.includes('Free-edition')&&x.includes('H.264')));
  assert.deepEqual(data.entries.find(e=>e.url===resolve.url).history[0].changelogs,resolve.changelogs);
+});
+
+test('every entry has curated hidden search tags and matching source records',()=>{
+ const tags=JSON.parse(fs.readFileSync(new URL('../data/search-tags.json',import.meta.url),'utf8'));
+ assert.equal(tags.entries.length,data.entries.length);
+ assert.equal(new Set(tags.entries.map(e=>e.url)).size,data.entries.length);
+ for(const e of data.entries){const row=tags.entries.find(t=>t.url===e.url);assert.ok(row);assert.deepEqual(e.tags,row.tags);assert.ok(e.tags.length>=2);assert.equal(new Set(e.tags).size,e.tags.length);}
+});
+test('search finds editorial concepts and spelling variants without broad category false positives',()=>{
+ const results=q=>filterEntries(data.entries,{...DEFAULTS,edition:'Studio',q}).map(e=>e.name);
+ for(const name of ['CinePrint35','Filmbox Pro','Dehancer Pro','C.R.A.F.T. PowerGrade'])assert.ok(results('Kodak').includes(name));
+ assert.ok(!results('Kodak').includes('utility-dctls'));
+ assert.ok(!results('film').includes('utility-dctls'));
+ assert.ok(results('colour grading').includes('CinePrint35'));
+ assert.deepEqual(results('colour grading'),results('color grading'));
+ assert.deepEqual(results('Fujifilm'),results('Fuji'));
+ assert.deepEqual(results('black & white'),results('monochrome'));
+ assert.deepEqual(results('subtitles'),results('captions'));
+ assert.ok(results('skin retouching').includes('SkinCorrector'));
+ assert.ok(results('noise reduction').includes('Oidn Denoiser'));
+ assert.ok(results('backup').includes('PostSync'));
+ assert.equal(normalizeSearch('  COLOUR—Gráding '),'color grading');
+ const namicolor=find('NamiColor');assert.equal(filterEntries([namicolor],{...INITIAL_DEFAULTS,q:'film scanning'}).length,0);
+ assert.equal(filterEntries([namicolor],{...INITIAL_DEFAULTS,edition:'Studio',q:'film scanning'}).length,1);
 });

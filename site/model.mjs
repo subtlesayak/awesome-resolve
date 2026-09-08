@@ -4,11 +4,29 @@ export const DEFAULTS = { q:'', task:'', platform:'', edition:'Free', resolve:''
 export const UNFILTERED = {...DEFAULTS,edition:''};
 export function compareVersions(a,b) { const x=String(a).split('.').map(Number), y=String(b).split('.').map(Number); for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]||0)-(y[i]||0);if(d)return Math.sign(d);}return 0; }
 export function matchesVersion(entry,version,edition) { const ranges=entry.requirements.resolve;const inheritFree=edition==='Studio'&&!ranges.some(r=>r.edition==='Studio');return ranges.some(r=>(!r.edition||!edition||r.edition===edition||(inheritFree&&r.edition==='Free'))&&(!r.min||compareVersions(version,r.min)>=0)&&(!r.max||compareVersions(version,r.max)<=0)); }
+export function normalizeSearch(value) {
+ return String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
+ .replace(/\bb\s*&\s*w\b/g,'black white')
+ .replace(/[^a-z0-9]+/g,' ')
+ .replace(/\bcolours?\b/g,'color').replace(/\bcolors\b/g,'color')
+ .replace(/\b(?:fujifilm|fujicolor|fujichrome)\b/g,'fuji')
+ .replace(/\b(?:captions|captioning|subtitles|subtitle|subtitling)\b/g,'caption')
+ .replace(/\b(?:dctls)\b/g,'dctl').replace(/\bluts\b/g,'lut')
+ .replace(/\b(?:black and white|monochrome)\b/g,'black white')
+ .replace(/\bnoise reduction\b/g,'denoise')
+ .trim().replace(/\s+/g,' ');
+}
+const searchIndexes=new WeakMap();
+function searchIndex(entry){
+ let index=searchIndexes.get(entry);
+ if(index===undefined){index=normalizeSearch([entry.name,entry.creator,entry.description,...(entry.tags||[])].join(' '));searchIndexes.set(entry,index);}
+ return index;
+}
 export function filterEntries(entries,state) {
- const words=(state.q||'').toLowerCase().trim().split(/\s+/).filter(Boolean);
+ const words=normalizeSearch(state.q||'').split(/\s+/).filter(Boolean);
  return entries.filter(e=>{
   if(state.official==='hide'&&e.official)return false;
-  if(!words.every(w=>`${e.name} ${e.creator} ${e.description} ${e.tasks.map(t=>TASKS[t]).join(' ')} ${e.category}`.toLowerCase().includes(w)))return false;
+  if(words.length){const searchable=searchIndex(e);if(!words.every(w=>searchable.includes(w)))return false;}
   if(state.mode==='tested'&&!e.recommended)return false;
   if(state.task&&!e.tasks.includes(state.task))return false;
   if(state.platform&&!e.platforms.includes(state.platform))return false;
