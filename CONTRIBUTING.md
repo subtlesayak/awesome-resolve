@@ -28,7 +28,7 @@ Each README category starts with a complete repository list sorted A–Z by repo
 
 - Link to the original public GitHub repository with a clear DaVinci Resolve or Fusion connection.
 - Choose the most relevant category; list each repository once.
-- Every listings update includes the previous seven days of r/davinciresolve posts and comments, with linked creator-source verification; follow the [Reddit review workflow](WEBSITE.md#reddit-review-trailing-seven-days).
+- Every listings update revisits all previously used sources, reconstructed from the discovery/evidence ledgers and local follow-up notes, including all eleven Reddit communities and their previous seven days of posts/comments. Verify linked creator sources and report inaccessible or partial checks; follow [Every listings update](WEBSITE.md#every-listings-update) and the [Reddit review workflow](WEBSITE.md#reddit-review-trailing-seven-days).
 - Generate and review search tags for every new listing in `data/search-tags.json`, with original source links. Commit tags alongside the item and rebuild the website; see [Every listings update](WEBSITE.md#every-listings-update).
 - Give a short, factual description of what the project provides.
 - Check upstream licensing before using **Free**. Use **Public** when access is known but licensing has not been established; use **Mixed** for combined free and paid offerings.

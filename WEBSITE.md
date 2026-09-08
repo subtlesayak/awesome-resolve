@@ -56,15 +56,29 @@ Hidden search topics are maintained per listing URL in `data/search-tags.json` a
 
 ## Every listings update
 
-When updating listings, check GitHub projects, external providers and official BMD resources, and review remaining source leads. For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its URL, name, tags and sources to `data/search-tags.json` in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
+Every **update listings** request must revisit **all sources used by the project so far**, including earlier discovery sources and unresolved leads. The source set grows with each update; do not limit a run to recent additions, a few preferred providers or one subreddit.
+
+Build a deduplicated source checklist before starting. Use all `data/*-discoveries.json` ledgers, `data/repositories.csv`, `data/external-tools.md`, the version, requirements, provider-update and audit evidence, `data/reactor-inventory.json`, README credits, and prior local research/follow-up notes. Include listing URLs, original provider/release/changelog links and discovery URLs. Recover previously used public links from locally supplied bookmarks when needed; do not upload the bookmark export, private links or local paths. New sources must be retained in the appropriate evidence ledger or local follow-up queue so the next run includes them.
+
+The checklist must cover these source families:
+
+- All listed GitHub projects, their releases, tags and relevant repository activity, plus previously used GitHub discovery searches and directory repositories.
+- Original creator websites, product pages, documentation, downloads and changelogs; previously used marketplaces such as Gumroad, Superhive, Ko-fi, itch.io and creator stores.
+- Official Blackmagic Design product, support, download, manual, training, SDK and forum sources, including new support notes and documentation.
+- Community directories, wikis, Reactor/package sources, forums and other previously used websites, including links discovered through bookmarks and earlier directory scans.
+- All eleven Reddit communities below, relevant monthly and pinned threads, and outstanding links from earlier posts and comments.
+
+For each source, record the attempt time, review window where applicable, outcome and next action in local research notes. Distinguish checked with changes, checked with no relevant changes, inaccessible and partially reviewed. Follow relevant new links, verify them against original sources and deduplicate candidates. A blocked page stays on the checklist for future attempts; it must not silently disappear. Report coverage gaps at completion, and never describe unattempted or partial checks as a complete source review. This workflow does not promise every page or historical comment on the internet has been crawled.
+
+For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its URL, name, tags and sources to `data/search-tags.json` in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
 
 ### Reddit review: trailing seven days
 
-Every **update listings** request also includes [r/davinciresolve](https://www.reddit.com/r/davinciresolve/) posts and comments from the seven days immediately preceding the update. Record the review time and exact window in the local research notes. Check recent posts and their comment threads, and recent comments on older posts when accessible. Follow relevant links for new tools, creator resources, releases, changelogs and corrections to existing listings.
+Every **update listings** request includes posts and comments from the seven days immediately preceding the update across **r/davinciresolve, r/editors, r/VideoEditing, r/colorists, r/ColorGrading, r/AudioPost, r/vfx, r/bmpcc, r/blackmagicdesign, r/cinematography and r/Filmmakers**. Include any additional communities used in subsequent research. Record the review time and exact window in the local research notes. Check recent posts and their comment threads, and recent comments on older posts when accessible. Follow relevant links for new tools, creator resources, releases, changelogs and corrections to existing listings.
 
 Use Reddit as a discovery lead: verify additions and factual changes against original creator or official sources, deduplicate existing items, and generate reviewed search tags for new entries. Keep Reddit post/comment permalinks as discovery sources when relevant, and credit contributors where appropriate. Do not treat vote counts, anecdotes or comment dates as proof of compatibility or a product release date.
 
-Also inspect relevant pinned/community-highlight threads and the current r/editors open-source and Dev/Tools monthly threads, following related monthly threads for missed Resolve or companion post-production resources. Confirm current pins in the live community view; search indexes can show old highlights. An older monthly thread can contain newer comments. Keep Adobe/Avid-only plugins and unpublished tool proposals out of the Resolve catalogue unless an independently useful interchange workflow is documented.
+Also inspect relevant pinned/community-highlight threads in each community, current open-source and Dev/Tools monthly threads, and r/AudioPost's recurring Mine threads. Revisit previously used threads for new comments and unresolved source links, even when the parent post is older than seven days. Confirm current pins in the live community view; search indexes can show old highlights. Keep Adobe/Avid-only plugins and unpublished tool proposals out of the Resolve catalogue unless an independently useful interchange workflow is documented.
 
 If Reddit access, pagination or collapsed/deleted comments limit the review, record what was accessible and retain unresolved leads locally. Do not claim a complete seven-day scan when coverage is partial. Reports and raw research stay local; publish only curated catalogue data and public source links.
 
