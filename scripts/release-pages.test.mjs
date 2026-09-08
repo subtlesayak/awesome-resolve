@@ -6,6 +6,7 @@ test('release groups retain every provider change under its own catalogue versio
  const read=p=>JSON.parse(fs.readFileSync(new URL(p,import.meta.url),'utf8'));
  const releases=read('../data/catalogue-releases.json').releases,updates=read('../data/provider-updates.json').entries;
  const groups=groupUpdates(releases,updates);
+ assert.ok(groups.findIndex(r=>r.version==='v1.1')<groups.findIndex(r=>r.version==='v1.0'));
  assert.equal(groups.flatMap(r=>r.updates).length,updates.length);
  for(const group of groups)assert.ok(group.updates.every(h=>h.release===group.version));
  assert.equal(groups.find(r=>r.version==='v1.15').updates.length,4);
