@@ -1,23 +1,8 @@
 {
   "schema_version": 1,
   "date": "2026-09-08",
-  "release": "v1.15",
+  "release": "v1.16",
   "added_urls": [
-    "https://cullenkellycolor.com/toolkit/referent",
-    "https://cullenkellycolor.com/toolkit/exposure-chart-dctl",
-    "https://cullenkellycolor.com/toolkit/sweet-spot",
-    "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
-    "https://cullenkellycolor.com/toolkit/phantom-idt",
-    "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade",
-    "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
-    "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide",
-    "https://cullenkellycolor.com/toolkit/macos-viewing-transform",
-    "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
-    "https://getsoundly.com/tools/",
-    "https://clipizo.com/matchizo",
-    "https://clipizo.com/exprizo",
-    "https://clipizo.com/animizo",
-    "https://brovfx.com/en",
-    "https://mediaarea.net/en/MediaInfo"
+    "https://www.motioncamapp.com/tools"
   ]
 }
