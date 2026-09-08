@@ -10,6 +10,7 @@ test('release groups retain every provider change under its own catalogue versio
  assert.equal(groups.flatMap(r=>r.updates).length,updates.length);
  for(const group of groups)assert.ok(group.updates.every(h=>h.release===group.version));
  assert.equal(groups.find(r=>r.version==='v1.15').updates.length,4);
+ assert.deepEqual(groups.find(r=>r.version==='v1.15').updates.slice(0,2).map(h=>h.name),['Fusion Studio','DaVinci Resolve / Studio']);
  assert.equal(groups.find(r=>r.version==='v1.14').updates.length,5);
  for(const page of ['index','updates','about']){const html=fs.readFileSync(new URL('../site/'+page+'.html',import.meta.url),'utf8');assert.match(html,/href="updates.html"/);assert.match(html,/href="about.html"/);assert.equal((html.match(/aria-current="page"/g)||[]).length,1);}
 });
