@@ -59,3 +59,5 @@ Hidden search topics are maintained per listing URL in `data/search-tags.json` a
 Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages. Updates groups provider changes under the catalogue's published GitHub release tags, newest first. Tool Details retains each tool's own version history. Both BMD and community changes offer expandable notes and full source links.
 
 After publishing a catalogue release, refresh `data/catalogue-releases.json` with `node scripts/update-catalogue-releases.mjs`, rebuild the site and deploy. The cached public release data keeps browsing independent of GitHub API availability.
+
+The theme palette uses Blackmagic Design's public stylesheet orange (`#f48c00`) with neutral white and charcoal surfaces. Light-mode links use a darker orange (`#a64b00`) for contrast; filled orange buttons use dark text. Reference: https://css.blackmagicdesign.com/css/global.css. Automated contrast checks cover both themes.

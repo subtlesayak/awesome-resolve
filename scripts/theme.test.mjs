@@ -10,10 +10,10 @@ test('light and dark semantic colors meet WCAG AA text and control contrast',()=
  const dark={...light,...tokens(css.match(/:root\[data-theme="dark"\] \{([^}]+)/)[1])};
  for(const [name,p]of Object.entries({light,dark})){
   for(const bg of ['paper','wash']){
-   for(const fg of ['ink','muted','teal'])assert.ok(ratio(p[fg],p[bg])>=4.5,`${name}: ${fg}/${bg}`);
+   for(const fg of ['ink','muted','accent'])assert.ok(ratio(p[fg],p[bg])>=4.5,`${name}: ${fg}/${bg}`);
    for(const fg of ['control-border','focus'])assert.ok(ratio(p[fg],p[bg])>=3,`${name}: ${fg}/${bg}`);
   }
-  assert.ok(ratio(p['on-accent'],p.teal)>=4.5,name+' primary button');
+  assert.ok(ratio(p['on-accent'],p['button-bg'])>=4.5,name+' primary button');
  }
 });
 test('latest update count is tied to unique current catalogue additions',()=>{
