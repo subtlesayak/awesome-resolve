@@ -2,11 +2,34 @@
   "latestUpdate": {
     "schema_version": 1,
     "date": "2026-09-08",
-    "release": "v1.16",
+    "release": "v1.17",
     "added_urls": [
-      "https://www.motioncamapp.com/tools"
+      "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "https://www.veresdenialex.com/product-page/red-x",
+      "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "https://meliorstudios.com/digifilm",
+      "https://ko-fi.com/s/aed8dd3b04",
+      "https://tdcat.com/downloads/filmgrain",
+      "https://tdcat.com/downloads/free-lut-packs",
+      "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "https://tikastudio.gumroad.com/l/filmtitlepack"
     ],
-    "addedCount": 1
+    "addedCount": 24
   },
   "schema_version": 1,
   "title": "Subtle Resolve List",
@@ -31166,6 +31189,13 @@
     }
   ],
   "releases": [
+    {
+      "version": "v1.17",
+      "title": "v1.17 — 24 creator and resource additions",
+      "url": "https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.17",
+      "date": "2026-09-08T09:41:42Z",
+      "body": "### Added resources\n\n- **[Fujifilm Classic Negative LUT](https://www.veresdenialex.com/product-page/classic-negative-lut)** (Veres Deni Alex): Creative .cube LUT for supported camera log footage, combining Rec.709 conversion with a Classic Negative-inspired look. Follow the listed camera-profile and white-balance setup.\n- **[Asteroid City LUT](https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t)** (Veres Deni Alex): Kodak Vision 200T-inspired LUT variations for Sony S-Log3/S-Gamut3.Cine to Rec.709, with natural and vibrant teal-orange treatments.\n- **[Aerochrome Emulation PowerGrade](https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade)** (Veres Deni Alex): Resolve PowerGrade advertised for an infrared-inspired Aerochrome look with pink/red foliage and deeper skies. The page mixes photo and PowerGrade wording; confirm exact requirements with the creator.\n- **[Kodachrome PowerGrades](https://www.veresdenialex.com/product-page/kodachrome-power-grades)** (Veres Deni Alex): Kodachrome-inspired grading collection for log workflows. Rec.709 footage needs exposure and contrast adjustments. Product title identifies PowerGrades but some description text says LUTs; confirm deliverables before purchase.\n- **[RED-X PowerGrades](https://www.veresdenialex.com/product-page/red-x-power-grades)** (Veres Deni Alex): Five editable red-biased creative PowerGrades for log footage. Rec.709 inputs need exposure and contrast adjustment.\n- **[Kodachrome LUT Pack](https://www.veresdenialex.com/product-page/kodachrome-luts)** (Veres Deni Alex): Six 65-point .cube LUTs for Sony S-Log3 footage, combining Rec.709 conversion with Kodachrome-inspired looks. The creator explicitly limits these LUTs to S-Log3.\n- **[Red-X LUTs](https://www.veresdenialex.com/product-page/red-x)** (Veres Deni Alex): Five creative LUTs that emphasize red tones and strong contrast for log workflows.\n- **[Super 8 Film Emulation PowerGrades](https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade)** (Veres Deni Alex): Seventeen customizable Resolve PowerGrades for a Super 8 home-movie look, with log and Rec.709 workflows. Creator lists 8-bit footage support; exact edition and OS requirements are not given.\n- **[CineGrit Super 16mm PowerGrades](https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade)** (Veres Deni Alex): Twenty-three editable 16mm-inspired Resolve grades with controls for color, contrast, grain and halation. Supports log and Rec.709 workflows; requirements for individual effect nodes are not established.\n- **[Breathe In 35mm PowerGrades](https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look)** (Veres Deni Alex): 35mm-inspired Resolve grading pack for log and Rec.709 footage, with customizable looks and an included Aerochrome emulation. Exact edition and effect-node requirements are not established.\n- **[Feel Free Cinema LUTs](https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709)** (Veres Deni Alex): Nine creative film-look LUTs for log and Rec.709 footage. The product is paid despite its name; Resolve is among the listed hosts.\n- **[VHS Retro Camcorder PowerGrades](https://www.veresdenialex.com/product-page/vhs-emulation)** (Veres Deni Alex): Six adjustable Resolve PowerGrade variations for a retro VHS camcorder appearance. Sold under an individual license.\n- **[Classic Filmic Log to Rec709](https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709)** (Veres Deni Alex): Free pack of two editable .drx PowerGrades and a .cube LUT for a filmic starting grade. Set the PowerGrade CST node to the source camera color space and log curve.\n- **[Film Halation Guide](https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one)** (Veres Deni Alex): Free article explaining halation and a Resolve Studio workflow using the built-in Halation effect. Also covers Lightroom and Capture One.\n- **[Kodak 2383 PowerGrade](https://juanmelara.com.au/products/kodak-2383-powergrade)** (Juan Melara): Legacy editable Kodak 2383 D65/D55 print-film emulation, offered pay-what-you-want with versions for Resolve 14, 15 and 16. The page links newer paid YRGB and RCM collections.\n- **[YRGB Print Film Emulation PowerGrades](https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades)** (Juan Melara): Editable Kodak 2383/2393 and Fujifilm 3510/3513DI/3521XD print-film PowerGrades for DaVinci YRGB. Includes separate purchase options combined with Kodak 250D negative emulation; successor to the bookmarked Kodak 2393 pack.\n- **[RCM Wide Gamut Print Film PowerGrades](https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades)** (Juan Melara): Kodak and Fujifilm print-film PowerGrades for Resolve Color Management and DaVinci Wide Gamut, covering SDR and HDR workflows. Includes setup and node-graph guidance.\n- **[K83 Cinematic PowerGrade](https://nomadicgeorge.sellfy.store/p/k83powergrade/)** (George.Colorist): Kodak 2383-inspired PowerGrade with six starting looks and a DaVinci Wide Gamut node workflow. Works in Free with Studio-only nodes disabled; film grain and noise reduction require Studio. iPad compatibility is not guaranteed.\n- **[DIGIFILM PowerGrade](https://meliorstudios.com/digifilm)** (Melior Studios): Film-look PowerGrade collection with a modular look table, grading nodes and tutorials. Current header advertises 4.5; older 2.5/Resolve 19 wording remains elsewhere, so confirm current host requirements before purchase.\n- **[MagicGradient](https://ko-fi.com/s/aed8dd3b04)** (MrAlexTech): DRFX tool for gradient backgrounds and alpha gradients on clips. Requires Resolve 17.4 or later. Creator page describes installation but checkout pricing did not render reliably.\n- **[DCI 4K Film Grain Plates](https://tdcat.com/downloads/filmgrain)** (tdcat): Free 4096 x 2160 ProRes 422 HQ grain overlays in light and heavy variants for 8mm, 16mm, Super 16, Super 35 and 35mm looks. Place above footage with Overlay blending; requires compatible ProRes decoding.\n- **[Free LUT Packs](https://tdcat.com/downloads/free-lut-packs)** (tdcat): Free .cube look collections including Subtle Film, Summer Warmth, Scandi Cool, Milky Blacks and Black and White. Creator lists Resolve support.\n- **[Halation in Resolve 18 Guide](https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips)** (EasyEdit): Free tutorial with separate Resolve 18 Free and Studio methods for a halation effect. Instructions are version-specific and have not been retested on current Resolve.\n- **[36 Cinematic Film Titles](https://tikastudio.gumroad.com/l/filmtitlepack)** (TiKa-Studios): Paid Resolve title pack with 36 customizable designs and included fonts. Product title labels this pack V3; exact Resolve host version and OS requirements are not established.\n\nSources are linked creator pages. Unspecified versions and compatibility remain unverified; no installation testing is claimed.\n"
+    },
     {
       "version": "v1.16",
       "title": "v1.16 — MotionCam Tools",
