@@ -58,6 +58,14 @@ Hidden search topics are maintained per listing URL in `data/search-tags.json` a
 
 When updating listings, check GitHub projects, external providers and official BMD resources, and review remaining source leads. For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its URL, name, tags and sources to `data/search-tags.json` in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
 
+### Reddit review: trailing seven days
+
+Every **update listings** request also includes [r/davinciresolve](https://www.reddit.com/r/davinciresolve/) posts and comments from the seven days immediately preceding the update. Record the review time and exact window in the local research notes. Check recent posts and their comment threads, and recent comments on older posts when accessible. Follow relevant links for new tools, creator resources, releases, changelogs and corrections to existing listings.
+
+Use Reddit as a discovery lead: verify additions and factual changes against original creator or official sources, deduplicate existing items, and generate reviewed search tags for new entries. Keep Reddit post/comment permalinks as discovery sources when relevant, and credit contributors where appropriate. Do not treat vote counts, anecdotes or comment dates as proof of compatibility or a product release date.
+
+If Reddit access, pagination or collapsed/deleted comments limit the review, record what was accessible and retain unresolved leads locally. Do not claim a complete seven-day scan when coverage is partial. Reports and raw research stay local; publish only curated catalogue data and public source links.
+
 Rebuild with `node scripts/build-site.mjs` and run `node --test --test-concurrency=1 scripts/*.test.mjs` before publishing. The build rejects missing, invalid, duplicate and orphan tag records, and the tests verify that every catalogue item has matching searchable tags. New listings must not be published without their tags.
 
 ## Release pages
