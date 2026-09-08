@@ -1,6 +1,6 @@
 # Reading the catalogue
 
-[🌐 Searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Catalogue](README.md) · [🧭 Start with a task](START-HERE.md)
+[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue](README.md) · [🧭 Start with a task](START-HERE.md)
 
 ## Access labels
 

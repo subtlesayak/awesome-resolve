@@ -191,7 +191,7 @@ export function build() {
   const start = old.indexOf('## Contents');
   const end = old.indexOf('## Compatibility notes');
   if (start < 0 || end < start) throw new Error('README section markers missing');
-  let intro = old.slice(0, start).replace(/^# Awesome Resolve List/m, '# 🎬 Awesome Resolve List');
+  let intro = old.slice(0, start).replace(/^# Subtle Resolve List/m, '# 🎬 Subtle Resolve List');
   intro = intro.replace(/\*\*\d+ public GitHub repositories\*\*(?: and \*\*\d+ external resources\*\*)?/, `**${entries.length} public GitHub repositories** and **${external.length} external resources**`);
   // Rebuilding only replaces the generated section; editorial notes stay intact.
   const content = [
@@ -228,7 +228,7 @@ export function build() {
   fs.mkdirSync(path.join(root, 'views'), { recursive: true });
   for (const [key, [label, description]] of Object.entries(sorts)) {
     fs.writeFileSync(path.join(root, 'views', key + '.md'), [
-      `# ${label}`, '', '[🌐 Searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
+      `# ${label}`, '', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Catalogue home](../README.md) · [📥 CSV download](../data/repositories.csv)', '',
       navigation(''), '', `**${entries.length} repositories + ${external.length} external resources · ${description}.**`, '',
       'Official Blackmagic resources come first. The selected sort applies within the official group and across all remaining entries. Unknown dates and inapplicable stars sort last; — means stars do not apply.', '',
       activityLegend, '',
@@ -241,7 +241,7 @@ export function build() {
   const byUrl=new Map(entries.map(e=>[e.url,e]));
   for(const item of legacy)if(!byUrl.has(item.url)||!['archived','deprecated'].includes(item.status)||!item.source||!Number.isFinite(Date.parse(item.checked_at)))throw Error('Invalid legacy evidence');
   fs.writeFileSync(path.join(root,'views/legacy.md'),[
-    '# 🗄️ Legacy resources','', '[🌐 Searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🎬 Full catalogue](../README.md) · [🧭 Start with a task](../START-HERE.md)','',
+    '# 🗄️ Legacy resources','', '[🌐 Searchable website](https://subtlesayak.github.io/subtle-resolve-list/) · [🎬 Full catalogue](../README.md) · [🧭 Start with a task](../START-HERE.md)','',
     `${legacy.length} repositories with explicit archived or deprecated status. All remain in the full catalogue. Inactivity alone is not a reason for inclusion. Status is a dated observation; check upstream before choosing a resource.`,'',
     ...legacy.map(e=>`- [${e.repository}](${e.source}) — **${e.status}**; checked ${e.checked_at.slice(0,10)}. ${e.reason}`),'',
     table(sorted(legacy.map(e=>byUrl.get(e.url)),'name'),'../',true),'',

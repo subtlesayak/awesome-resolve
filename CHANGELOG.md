@@ -2,13 +2,13 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
-## [v1.16](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.16) — 2026-09-08
+## [v1.16](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.16) — 2026-09-08
 
 ### Added resource
 
 - **[MotionCam Tools](https://www.motioncamapp.com/tools) — 2.0 beta.** Free desktop utility for Windows and macOS that mounts .mcraw as DNG sequences for Resolve. Includes GPU preview, proxies, per-clip settings and saved sessions. Windows requires NTFS, ProjectedFS and Vulkan; macOS requires fuse-t. Minimum 8 GB RAM. Exact Resolve compatibility and release date are not established; no installation testing is claimed.
 
-## [v1.15](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.15) — 2026-09-08
+## [v1.15](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.15) — 2026-09-08
 
 ### Updated providers
 
@@ -40,7 +40,7 @@ Resolve 21.1 moves Python/advanced scripting to Studio. Full edition-specific BM
 
 Discovery credit: [community discussion](https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/), followed by original creator pages. Unknown versions and compatibility remain unverified; no installation testing is claimed.
 
-## [v1.14](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.14) — 2026-09-07
+## [v1.14](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.14) — 2026-09-07
 
 ### 🏢 Official Blackmagic Design updates
 
@@ -53,7 +53,7 @@ Discovery credit: [community discussion](https://www.reddit.com/r/davinciresolve
 - **Samuel Gursky / DaVinci Resolve MCP — v2.208.1 → v2.210.0.** Expands safe-mode coverage and consistently classifies destructive actions, including operations that delete source clips or rewrite camera sidecars. [Upstream release](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.210.0).
 - **Chris Roy Films / PostSync — 2.4.1 → 2.5.** Completes the native Swift conversion, simplifies permissions onboarding, expands scheduled operation controls and improves settings synchronization. The live creator changelog establishes the version but provides no release date. [Creator version history](https://chrisroyfilms.com/postsync/version-history/).
 
-## [v1.13](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.13) — 2026-09-07
+## [v1.13](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.13) — 2026-09-07
 
 ### Added
 
@@ -97,7 +97,7 @@ Discovery credit: [community discussion](https://www.reddit.com/r/davinciresolve
 
 Discovery credits: [cutbypham/awesome-davinci-resolve](https://github.com/cutbypham/awesome-davinci-resolve/tree/c13ca4bd839d7487bc00e46fdc1e3d036dd1f95e), [Greenysmac/awesome-davinci-resolve](https://github.com/Greenysmac/awesome-davinci-resolve/tree/6cfd3d5d99d9603b6d6e77536225b461df7ea45c), [hassaancode/Fx-Library](https://github.com/hassaancode/Fx-Library/tree/b2d0beea675ecd4d92727d51284604ba567135c6), [Akascape/PluginLibrary-Resolve](https://github.com/Akascape/PluginLibrary-Resolve/tree/d591d6d958025c60d8e7e8b4d51bc04374476652), [CommandPost/ResolveCafe](https://github.com/CommandPost/ResolveCafe/tree/61e0f8d1d3564a6f9a6ebb1d93be7c2bb0f843ad). Each entry records the relevant source file. Unknown release dates remain unknown; course editions and host requirements are not plugin versions.
 
-## [v1.12](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.12) — 2026-09-07
+## [v1.12](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.12) — 2026-09-07
 
 ### Added
 
@@ -116,7 +116,7 @@ Ten verified external additions, bringing the directory to **122 external destin
 
 Discovery credit: [Greenysmac’s list](https://github.com/Greenysmac/awesome-davinci-resolve/blob/6cfd3d5d99d9603b6d6e77536225b461df7ea45c/README.md), followed by primary-source checks and related Tangenten listings. Descriptions were written from the creator sources.
 
-## [v1.11](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.11) — 2026-09-06
+## [v1.11](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.11) — 2026-09-06
 
 ### Added
 
@@ -131,7 +131,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - [Blackmagic developer resources](https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview) — Desktop Video SDK, capture/playback integration resources and links to developer support. Relevant to DeckLink and UltraStudio workflows; this SDK is separate from the Resolve scripting API. **📦 Public SDK resources; hardware and license terms apply.** 📖 Reference.
 - [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) — Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. **📦 Public examples; per-author terms apply.** 📖 Reference; snippet requirements vary.
 
-## [v1.10](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.10) — 2026-09-06
+## [v1.10](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.10) — 2026-09-06
 
 ### Added
 
@@ -170,7 +170,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - [Suck Less Audio](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.PieterVanHoute.SuckLessAudio/com.PieterVanHoute.SuckLessAudio.atom) — Drives numeric and point parameters from WAV audio. Requires Microsoft WAV signed 16-bit PCM; other audio formats are not interchangeable. **📦 Public Reactor package; check package license.** ❔ Not established.
 - [ReadEXR Ultra](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.wesuckless.ReadEXRUltra/com.wesuckless.ReadEXRUltra.atom) — EXR-reading Fuse with scriptable filename input and optional Vonk text input. The author explicitly describes it as pre-alpha. **📦 Public Reactor package; check package license.** ❔ Not established.
 
-## [v1.8](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.8) — 2026-09-06
+## [v1.8](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.8) — 2026-09-06
 
 ### Added
 
@@ -218,7 +218,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - [Nx LiquidGlass](https://ko-fi.com/s/8d429085e2) — Refraction and magnification DCTL. Requires Resolve Studio 19+; creator lists Metal, CUDA, and OpenCL support. Ko-fi listing points to the creator’s website download. **🆓 Free; store download.** 🪟 Windows · 🍎 macOS · 🐧 Linux.
 - [Ravengrade tools](https://ravengrade.com/) — Collection of Resolve film-look, contrast, subtractive-color tools, and LUTs. Check each product’s Studio, GPU, and version requirements; collection membership does not establish shared compatibility. **💳 Paid perpetual licenses or subscription.** ❔ Not established.
 
-## [v1.5](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.5) — 2026-09-06
+## [v1.5](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.5) — 2026-09-06
 
 ### Added
 
@@ -247,7 +247,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - [EditShare FLOW panel](https://editshare.com/editshares-flow-panel-for-davinci-resolve-studio-creates-gateway-to-wider-media-ecosystem-and-remote-proxy-editing/) — FLOW asset/metadata access, proxy switching, and review workflows inside Resolve Studio. The checked announcement targets FLOW 2021 and Resolve 17; current deployment compatibility remains unverified. **Enterprise product; confirm current licensing.** ❔ Confirm deployment.
 
 
-## [v1.4](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.4) — 2026-09-06
+## [v1.4](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.4) — 2026-09-06
 
 ### Added
 
@@ -389,7 +389,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - [Shutter Encoder](https://www.shutterencoder.com/) — free Windows/macOS/Linux media-conversion companion, optional donations.
 - [Voukoder Pro](https://www.voukoder.org/) — paid encoding service/trial; Resolve Studio connector on Windows x64 and macOS Apple Silicon beta; Linux/Windows ARM64 connectors in development.
 
-## [v1.1](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.1) — 2026-09-06
+## [v1.1](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.1) — 2026-09-06
 
 ### Added
 
@@ -422,7 +422,7 @@ Eight Blackmagic-site resources; 112 external destinations and 225 GitHub reposi
 - **[SyncPass](https://jklediting.com/syncpass)** — Reddit lead only. Windows/Studio text-based editing beta with a time-limited trial in the post. Current availability and terms unverified; separate from Fast AutoCut.
 - **[Subreddit wiki](https://www.reddit.com/r/davinciresolve/wiki/index/)** — Index checked; plugin/resource subpages unavailable. Starting points for training, Free versus Studio, media import, offline media, playback issues, and plugins.
 
-## [v1.0](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.0) — 2026-09-06
+## [v1.0](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.0) — 2026-09-06
 
 ### Added
 

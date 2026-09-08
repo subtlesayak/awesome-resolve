@@ -4,7 +4,7 @@ The header Theme button cycles through System, Light and Dark appearances. Its l
 
 The resource count shows additions from the latest listings update. The number stays unchanged while filtering and until the next listings update; `data/latest-update.json` supplies the date and added URLs.
 
-[🌐 Open Awesome Resolve List](https://subtlesayak.github.io/awesome-resolve/)
+[🌐 Open Subtle Resolve List](https://subtlesayak.github.io/subtle-resolve-list/)
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.
 
@@ -44,7 +44,7 @@ git diff --check
 
 ## Hosting
 
-Live on [GitHub Pages](https://subtlesayak.github.io/awesome-resolve/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, analytics, third-party scripts or fonts are configured. The site has no database and makes no automatic upstream requests: freshness follows reviewed catalogue deployments.
+Live on [GitHub Pages](https://subtlesayak.github.io/subtle-resolve-list/). The deployment workflow publishes only `site/`, never the repository root or local research. To publish reviewed changes, run **Publish catalogue website** from the repository's Actions tab on `main`; a normal push validates the catalogue but does not redeploy the website. No custom domain, analytics, third-party scripts or fonts are configured. The site has no database and makes no automatic upstream requests: freshness follows reviewed catalogue deployments.
 
 Shareable URLs contain the search terms and filter values. The website stores no browsing history or selections in browser storage. Avoid including private project names in links you share.
 
