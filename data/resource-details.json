@@ -2087,6 +2087,465 @@
           "note": "Official tools page reviewed. Beta; exact Resolve edition/version and installation behavior not tested."
         }
       ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/red-x",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/red-x",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/vhs-emulation",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "editions": [
+          "Studio"
+        ]
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "unknown",
+        "installation": "Import the supplied .dpx or .drx through the Resolve Gallery."
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time",
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "dependencies": "Native Resolve effects; disable Studio-only effects when using Free."
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://meliorstudios.com/digifilm",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://meliorstudios.com/digifilm",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/aed8dd3b04",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "unknown",
+        "resolve": [
+          {
+            "min": "17.4"
+          }
+        ],
+        "installation": "Double-click the DRFX file."
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://ko-fi.com/s/aed8dd3b04",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://tdcat.com/downloads/filmgrain",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tdcat.com/downloads/filmgrain",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://tdcat.com/downloads/free-lut-packs",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tdcat.com/downloads/free-lut-packs",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18",
+            "max": "18"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
+    },
+    {
+      "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tikastudio.gumroad.com/l/filmtitlepack",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ]
     }
   ]
 }

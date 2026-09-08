@@ -37,14 +37,14 @@ test('empty results offer concrete recovery choices without changing sorting or 
 test('hiding official BMD listings preserves third-party resources and shared preferences',()=>{
   const state={...DEFAULTS,edition:'Studio',official:'hide',sort:'stars'};
   const found=filterEntries(data.entries,state);
-  assert.equal(found.length,392);
+  assert.equal(found.length,416);
   assert.ok(found.every(e=>!e.official));
   assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));
   assert.deepEqual(stateFromUrl('?'+stateToUrl(state)).state,state);
-  assert.equal(filterEntries(data.entries,{...DEFAULTS}).length,399);
+  assert.equal(filterEntries(data.entries,{...DEFAULTS}).length,423);
   assert.equal(DEFAULTS.sort,'name');
 });
-test('website contains all 399 unique catalogue entries and no private outreach data',()=>{assert.equal(data.entries.length,399);assert.equal(new Set(data.entries.map(e=>e.id)).size,399);assert.equal(new Set(data.entries.map(e=>e.url)).size,399);const json=JSON.stringify(data);assert.doesNotMatch(json,/C:\\\\Users|D:\\\\Projects|gmail_draft_id|contact_email|gmail-receipts/);});
+test('website contains all 423 unique catalogue entries and no private outreach data',()=>{assert.equal(data.entries.length,423);assert.equal(new Set(data.entries.map(e=>e.id)).size,423);assert.equal(new Set(data.entries.map(e=>e.url)).size,423);const json=JSON.stringify(data);assert.doesNotMatch(json,/C:\\\\Users|D:\\\\Projects|gmail_draft_id|contact_email|gmail-receipts/);});
 test('filters combine requirements without promoting unknowns to supported',()=>{const state={...DEFAULTS,platform:'Windows',edition:'Free',task:'captions'};const found=filterEntries(data.entries,state);assert.ok(found.some(e=>e.name==='Resolve-OpenCaptions'));assert.ok(!found.some(e=>e.name==='Tagger for Resolve'));assert.ok(found.some(e=>e.name==='auto-subs'));assert.ok(filterEntries(data.entries,{...DEFAULTS,processing:'local',pricing:'free',task:'captions'}).some(e=>e.name==='BadWords'));});
 test('version ranges honor exact, minimum, maximum and edition scope',()=>{const e={requirements:{resolve:[{min:'18.6',max:'19.0.3',edition:'Free'},{min:'18.6',edition:'Studio'}]}};assert.equal(matchesVersion(e,'19.0.3','Free'),true);assert.equal(matchesVersion(e,'19.1','Free'),false);assert.equal(matchesVersion(e,'21','Studio'),true);assert.equal(matchesVersion(e,'18.5','Studio'),false);assert.equal(matchesVersion({requirements:{resolve:[]}},'21','Free'),false);});
 test('all sort modes retain official-first ordering and unknown dates sort last within groups',()=>{for(const key of ['name','updated','activity','stars','creator','type']){const sorted=sortEntries(data.entries,key);const last=sorted.findLastIndex(e=>e.official);assert.ok(sorted.slice(0,last+1).every(e=>e.official));}const rows=[{id:'a',name:'A',official:false,releaseDate:null},{id:'b',name:'B',official:false,releaseDate:'2026-01-01'}];assert.equal(sortEntries(rows,'updated')[0].id,'b');assert.equal(find('PostSync').releaseDate,null);});

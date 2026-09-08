@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**174 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**198 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -69,11 +69,35 @@ Twenty-one additional products, collections, and integrations reviewed through t
 | [CineMatch](https://www.filmconvert.com/plugin/cinematch) | Paid; watermarked trial | ❔ Confirm current installer | Camera-profile matching with exposure, white balance, and LUT generation. FilmConvert lists Resolve support; select its Resolve download rather than another host's package. |
 | [FilmConvert tools](https://www.filmconvert.com/) | Commercial products; trials available | ❔ Per product | Nitrate film emulation, Hazy diffusion, and Halation, with Resolve integrations. Product and host licenses differ; this collection does not establish every product's OS support. |
 
-#### Other creators
+#### 👤 Veres Deni Alex
 
 | Resource | Access | Platforms | Purpose and requirements |
 | --- | --- | --- | --- |
 | [Basic Node Tree](https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree) | Free; store download | ❔ Unverified | Reusable fixed grading node tree imported through the PowerGrades gallery. The product page does not establish an OS support matrix. |
+
+<!-- additional entries: Veres Deni Alex -->
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Aerochrome Emulation PowerGrade](https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade) | 💰 Paid | ❔ Not established | Resolve PowerGrade advertised for an infrared-inspired Aerochrome look with pink/red foliage and deeper skies. The page mixes photo and PowerGrade wording; confirm exact requirements with the creator. |
+| [Asteroid City LUT](https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t) | 💰 Paid | ❔ Not established | Kodak Vision 200T-inspired LUT variations for Sony S-Log3/S-Gamut3.Cine to Rec.709, with natural and vibrant teal-orange treatments. |
+| [Breathe In 35mm PowerGrades](https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look) | 💰 Paid | ❔ Not established | 35mm-inspired Resolve grading pack for log and Rec.709 footage, with customizable looks and an included Aerochrome emulation. Exact edition and effect-node requirements are not established. |
+| [CineGrit Super 16mm PowerGrades](https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade) | 💰 Paid | ❔ Not established | Twenty-three editable 16mm-inspired Resolve grades with controls for color, contrast, grain and halation. Supports log and Rec.709 workflows; requirements for individual effect nodes are not established. |
+| [Classic Filmic Log to Rec709](https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709) | 🆓 Free; creator download | ❔ Not established | Free pack of two editable .drx PowerGrades and a .cube LUT for a filmic starting grade. Set the PowerGrade CST node to the source camera color space and log curve. |
+| [Feel Free Cinema LUTs](https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709) | 💰 Paid | ❔ Not established | Nine creative film-look LUTs for log and Rec.709 footage. The product is paid despite its name; Resolve is among the listed hosts. |
+| [Film Halation Guide](https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one) | 🆓 Free; creator download | 📖 Reference | Free article explaining halation and a Resolve Studio workflow using the built-in Halation effect. Also covers Lightroom and Capture One. |
+| [Fujifilm Classic Negative LUT](https://www.veresdenialex.com/product-page/classic-negative-lut) | 💰 Paid | ❔ Not established | Creative .cube LUT for supported camera log footage, combining Rec.709 conversion with a Classic Negative-inspired look. Follow the listed camera-profile and white-balance setup. |
+| [Kodachrome LUT Pack](https://www.veresdenialex.com/product-page/kodachrome-luts) | 💰 Paid | ❔ Not established | Six 65-point .cube LUTs for Sony S-Log3 footage, combining Rec.709 conversion with Kodachrome-inspired looks. The creator explicitly limits these LUTs to S-Log3. |
+| [Kodachrome PowerGrades](https://www.veresdenialex.com/product-page/kodachrome-power-grades) | 💰 Paid | ❔ Not established | Kodachrome-inspired grading collection for log workflows. Rec.709 footage needs exposure and contrast adjustments. Product title identifies PowerGrades but some description text says LUTs; confirm deliverables before purchase. |
+| [Red-X LUTs](https://www.veresdenialex.com/product-page/red-x) | 💰 Paid | ❔ Not established | Five creative LUTs that emphasize red tones and strong contrast for log workflows. |
+| [RED-X PowerGrades](https://www.veresdenialex.com/product-page/red-x-power-grades) | 💰 Paid | ❔ Not established | Five editable red-biased creative PowerGrades for log footage. Rec.709 inputs need exposure and contrast adjustment. |
+| [Super 8 Film Emulation PowerGrades](https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade) | 💰 Paid | ❔ Not established | Seventeen customizable Resolve PowerGrades for a Super 8 home-movie look, with log and Rec.709 workflows. Creator lists 8-bit footage support; exact edition and OS requirements are not given. |
+| [VHS Retro Camcorder PowerGrades](https://www.veresdenialex.com/product-page/vhs-emulation) | 💰 Paid | ❔ Not established | Six adjustable Resolve PowerGrade variations for a retro VHS camcorder appearance. Sold under an individual license. |
+<!-- end additional entries: Veres Deni Alex -->
+
+#### Other creators
+
+| Resource | Access | Platforms | Purpose and requirements |
+| --- | --- | --- | --- |
 | [CinePrint35](https://www.tombolles.net/cineprint35) | Paid PowerGrades; separate LUT offering | 🪟 Windows · 🍎 macOS | Film-emulation PowerGrades with native Resolve nodes. Free Resolve can use the grades with the Studio-only Grain node disabled. The supplied CinePrint16 URL redirects here. |
 | [Filmbox Pro](https://videovillage.com/filmbox/) | Paid; 14-day trial listed | 🪟 Windows · 🍎 macOS · 🐧 Linux | Film-emulation plugin for Resolve and other hosts. Current vendor documentation lists all three desktop OSes, superseding the wiki's older macOS-only description. Edition and activation terms differ. |
 | [MONONODES](https://mononodes.com/dctl-and-more/) | Mixed; free tools and demos alongside commercial tools | ❔ Per tool | DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements. |
@@ -321,7 +345,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**102 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**126 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -445,6 +469,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Map Engine](https://davincikit.com/product/map-engine/) | 💰 Perpetual license; external map-service terms apply | 🪟 Windows · 🍎 macOS | Fusion map animation with location search, GeoJSON shapes, routes and custom tile styles. Requires Studio 18.6+; Free compatibility is limited to 18.6–19.0.3. Internet is required for tiles and licensing, and map-provider attribution is required. |
 
+#### 👤 EasyEdit
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Halation in Resolve 18 Guide](https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips) | 🆓 Free; creator download | 📖 Reference | Free tutorial with separate Resolve 18 Free and Studio methods for a halation effect. Instructions are version-specific and have not been retested on current Resolve. |
+
 #### 👤 Emilio Sapia - Millolab
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -489,6 +519,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Warren Eagles Resolve 18 training](https://www.fxphd.com/resolve18/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve 18 fundamentals, advanced grading and look-development courses with 18.1/18.6 update lessons. This is an older course edition, not evidence of current Resolve software or newer-version coverage. |
 
+#### 👤 George.Colorist
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [K83 Cinematic PowerGrade](https://nomadicgeorge.sellfy.store/p/k83powergrade/) | 💰 Paid | ❔ Not established | Kodak 2383-inspired PowerGrade with six starting looks and a DaVinci Wide Gamut node workflow. Works in Free with Studio-only nodes disabled; film grain and noise reduction require Studio. iPad compatibility is not guaranteed. |
+
 #### 👤 Gregory Chalenko
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -524,6 +560,14 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [Despiller Plus](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.DeSpillerPlus/com.JacobDanell.DeSpillerPlus.atom) | 📦 Public Reactor package; check package license | ❔ Not established | Removes color spill, restores luminance and recolors spill areas using a background image. Manifest states Resolve/Fusion 16 to 20+. |
 | [Oidn Denoiser](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.JacobDanell.OidnDenoiser/com.JacobDanell.OidnDenoiser.atom) | 📦 Public Reactor package; check package license | 🪟 Windows · 🍎 macOS (legacy packages) | Denoises ray-traced renders using beauty, albedo and normal passes. This legacy package embeds OIDN 1.2 and requires an SSE4.1-capable CPU; no Apple Silicon-native claim. |
 
+#### 👤 Juan Melara
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Kodak 2383 PowerGrade](https://juanmelara.com.au/products/kodak-2383-powergrade) | Public; pay what you want, check checkout minimum | ❔ Not established | Legacy editable Kodak 2383 D65/D55 print-film emulation, offered pay-what-you-want with versions for Resolve 14, 15 and 16. The page links newer paid YRGB and RCM collections. |
+| [RCM Wide Gamut Print Film PowerGrades](https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades) | 💰 Paid | ❔ Not established | Kodak and Fujifilm print-film PowerGrades for Resolve Color Management and DaVinci Wide Gamut, covering SDR and HDR workflows. Includes setup and node-graph guidance. |
+| [YRGB Print Film Emulation PowerGrades](https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades) | 💰 Paid | ❔ Not established | Editable Kodak 2383/2393 and Fujifilm 3510/3513DI/3521XD print-film PowerGrades for DaVinci YRGB. Includes separate purchase options combined with Kodak 250D negative emulation; successor to the bookmarked Kodak 2393 pack. |
+
 #### 👤 Lowepost
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -548,6 +592,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [MediaInfo](https://mediaarea.net/en/MediaInfo) | 🆓 Free and open source | ❔ Not established | Standalone media inspector for codec, stream and technical metadata. Useful when diagnosing Resolve footage problems; it is a companion utility, not a Resolve plugin. |
 
+#### 👤 Melior Studios
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [DIGIFILM PowerGrade](https://meliorstudios.com/digifilm) | 💰 Paid | ❔ Not established | Film-look PowerGrade collection with a modular look table, grading nodes and tutorials. Current header advertises 4.5; older 2.5/Resolve 19 wording remains elsewhere, so confirm current host requirements before purchase. |
+
 #### 👤 Mixing Light
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -559,6 +609,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [MotionCam Tools](https://www.motioncamapp.com/tools) | 🆓 Free | 🪟 Windows · 🍎 macOS | Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility. |
+
+#### 👤 MrAlexTech
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [MagicGradient](https://ko-fi.com/s/aed8dd3b04) | Public; check current checkout terms | ❔ Not established | DRFX tool for gradient backgrounds and alpha gradients on clips. Requires Resolve 17.4 or later. Creator page describes installation but checkout pricing did not render reliably. |
 
 #### 👤 Mug
 
@@ -641,6 +697,19 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [Flow Looper](https://tangenten.gumroad.com/l/FlowLooper) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Animates still images with spline-defined flow corridors and cross-faded loops for moving textures and backgrounds. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. |
 | [Palette Pal](https://tangenten.gumroad.com/l/PalettePal) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Fusion color-palette generator with harmonies, image extraction, shade ladders and RGB controls for connected nodes. Requires Resolve 21+ Free or Studio, or Fusion Studio 21+. |
 | [Puppet Pin Tool](https://tangenten.gumroad.com/l/PuppetPinTool) | 💰 Paid individual-seat license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Mesh deformation and pin-based character animation with IK/FK rigs in Fusion. Requires Resolve 20+ Free or Studio, or Fusion Studio 20+. Layered PSD input requires Resolve Studio; separate image layers support the Free edition. |
+
+#### 👤 tdcat
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [DCI 4K Film Grain Plates](https://tdcat.com/downloads/filmgrain) | 🆓 Free; creator download | ❔ Not established | Free 4096 x 2160 ProRes 422 HQ grain overlays in light and heavy variants for 8mm, 16mm, Super 16, Super 35 and 35mm looks. Place above footage with Overlay blending; requires compatible ProRes decoding. |
+| [Free LUT Packs](https://tdcat.com/downloads/free-lut-packs) | 🆓 Free; creator download | ❔ Not established | Free .cube look collections including Subtle Film, Summer Warmth, Scandi Cool, Milky Blacks and Black and White. Creator lists Resolve support. |
+
+#### 👤 TiKa-Studios
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [36 Cinematic Film Titles](https://tikastudio.gumroad.com/l/filmtitlepack) | 💰 Paid | ❔ Not established | Paid Resolve title pack with 36 customizable designs and included fonts. Product title labels this pack V3; exact Resolve host version and OS requirements are not established. |
 
 #### 👤 vfxblend
 

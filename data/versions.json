@@ -2243,6 +2243,146 @@
       "checked_at": "2026-09-06T12:10:22.744Z"
     },
     {
+      "name": "Aerochrome Emulation PowerGrade",
+      "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Asteroid City LUT",
+      "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Breathe In 35mm PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "CineGrit Super 16mm PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Classic Filmic Log to Rec709",
+      "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Feel Free Cinema LUTs",
+      "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Film Halation Guide",
+      "url": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Fujifilm Classic Negative LUT",
+      "url": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Kodachrome LUT Pack",
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Kodachrome PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Red-X LUTs",
+      "url": "https://www.veresdenialex.com/product-page/red-x",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/red-x",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "RED-X PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Super 8 Film Emulation PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "VHS Retro Camcorder PowerGrades",
+      "url": "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
       "name": "CinePrint35",
       "url": "https://www.tombolles.net/cineprint35",
       "kind": "unverified",
@@ -3327,6 +3467,16 @@
       "checked_at": "2026-09-07"
     },
     {
+      "name": "Halation in Resolve 18 Guide",
+      "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
       "name": "FastExpoGlow",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.Millolab.FastExpoGlow/com.Millolab.FastExpoGlow.atom",
       "kind": "package-version",
@@ -3418,6 +3568,16 @@
       "date_kind": null,
       "checked_at": "2026-09-07",
       "note": "Reference or collection with no single software release version."
+    },
+    {
+      "name": "K83 Cinematic PowerGrade",
+      "url": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
     },
     {
       "name": "Gradient Match",
@@ -3521,6 +3681,36 @@
       "checked_at": "2026-09-06"
     },
     {
+      "name": "Kodak 2383 PowerGrade",
+      "url": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "RCM Wide Gamut Print Film PowerGrades",
+      "url": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "YRGB Print Film Emulation PowerGrades",
+      "url": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
       "name": "Lowepost training",
       "url": "https://lowepost.com/home/",
       "kind": "not-applicable",
@@ -3562,6 +3752,16 @@
       "checked_at": "2026-09-08"
     },
     {
+      "name": "DIGIFILM PowerGrade",
+      "url": "https://meliorstudios.com/digifilm",
+      "kind": "vendor-version",
+      "version": "4.5",
+      "source": "https://meliorstudios.com/digifilm",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
       "name": "Mixing Light Resolve training",
       "url": "https://mixinglight.com/",
       "kind": "not-applicable",
@@ -3578,6 +3778,16 @@
       "kind": "vendor-version",
       "version": "2.0 beta",
       "source": "https://www.motioncamapp.com/tools",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "MagicGradient",
+      "url": "https://ko-fi.com/s/aed8dd3b04",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://ko-fi.com/s/aed8dd3b04",
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-08"
@@ -3753,6 +3963,36 @@
       "date": null,
       "date_kind": null,
       "checked_at": "2026-09-07"
+    },
+    {
+      "name": "DCI 4K Film Grain Plates",
+      "url": "https://tdcat.com/downloads/filmgrain",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://tdcat.com/downloads/filmgrain",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "Free LUT Packs",
+      "url": "https://tdcat.com/downloads/free-lut-packs",
+      "kind": "unverified",
+      "version": null,
+      "source": "https://tdcat.com/downloads/free-lut-packs",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
+      "name": "36 Cinematic Film Titles",
+      "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "kind": "vendor-version",
+      "version": "V3",
+      "source": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
     },
     {
       "name": "Eric’s Keyframes",

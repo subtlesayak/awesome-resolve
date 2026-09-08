@@ -18353,7 +18353,7 @@
     {
       "id": "d02db554c1d8",
       "name": "Basic Node Tree",
-      "creator": "veresdenialex.com",
+      "creator": "Veres Deni Alex",
       "url": "https://www.veresdenialex.com/product-page/davinci-resolve-basic-node-tree",
       "origin": "external",
       "official": false,
@@ -18404,6 +18404,996 @@
         "date": null,
         "date_kind": null,
         "checked_at": "2026-09-06T12:10:22.744Z"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "fd9c20c05a53",
+      "name": "Aerochrome Emulation PowerGrade",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "aerochrome",
+        "infrared",
+        "film emulation",
+        "foliage"
+      ],
+      "description": "Resolve PowerGrade advertised for an infrared-inspired Aerochrome look with pink/red foliage and deeper skies. The page mixes photo and PowerGrade wording; confirm exact requirements with the creator.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Aerochrome Emulation PowerGrade",
+        "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "e02c915fe970",
+      "name": "Asteroid City LUT",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "asteroid city",
+        "kodak",
+        "vision 200t",
+        "sony",
+        "s-log3",
+        "rec709",
+        "film emulation"
+      ],
+      "description": "Kodak Vision 200T-inspired LUT variations for Sony S-Log3/S-Gamut3.Cine to Rec.709, with natural and vibrant teal-orange treatments.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Asteroid City LUT",
+        "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "59454dd7a0a9",
+      "name": "Breathe In 35mm PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "35mm",
+        "film emulation",
+        "aerochrome",
+        "log"
+      ],
+      "description": "35mm-inspired Resolve grading pack for log and Rec.709 footage, with customizable looks and an included Aerochrome emulation. Exact edition and effect-node requirements are not established.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Breathe In 35mm PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "de0753b84779",
+      "name": "CineGrit Super 16mm PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "cinegrit",
+        "super 16",
+        "16mm",
+        "grain",
+        "halation"
+      ],
+      "description": "Twenty-three editable 16mm-inspired Resolve grades with controls for color, contrast, grain and halation. Supports log and Rec.709 workflows; requirements for individual effect nodes are not established.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "CineGrit Super 16mm PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "c03861571dc5",
+      "name": "Classic Filmic Log to Rec709",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "lut",
+        "log",
+        "rec709",
+        "cst",
+        "color management"
+      ],
+      "description": "Free pack of two editable .drx PowerGrades and a .cube LUT for a filmic starting grade. Set the PowerGrade CST node to the source camera color space and log curve.",
+      "access": "🆓 Free; creator download",
+      "accessGroup": "free",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Classic Filmic Log to Rec709",
+        "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "0d0b6c6e9005",
+      "name": "Feel Free Cinema LUTs",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "film emulation",
+        "log",
+        "rec709",
+        "cinema"
+      ],
+      "description": "Nine creative film-look LUTs for log and Rec.709 footage. The product is paid despite its name; Resolve is among the listed hosts.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Feel Free Cinema LUTs",
+        "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "7f5dec19a31f",
+      "name": "Film Halation Guide",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "origin": "external",
+      "official": false,
+      "reference": true,
+      "category": "Color / Film",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "halation",
+        "tutorial",
+        "film",
+        "glow"
+      ],
+      "description": "Free article explaining halation and a Resolve Studio workflow using the built-in Halation effect. Also covers Lightroom and Capture One.",
+      "access": "🆓 Free; creator download",
+      "accessGroup": "free",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Film Halation Guide",
+        "url": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "6da3d2ed9c45",
+      "name": "Fujifilm Classic Negative LUT",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "fujifilm",
+        "classic negative",
+        "log",
+        "rec709",
+        "film emulation"
+      ],
+      "description": "Creative .cube LUT for supported camera log footage, combining Rec.709 conversion with a Classic Negative-inspired look. Follow the listed camera-profile and white-balance setup.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fujifilm Classic Negative LUT",
+        "url": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "1b381b53a973",
+      "name": "Kodachrome LUT Pack",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "kodachrome",
+        "kodak",
+        "sony",
+        "s-log3",
+        "rec709"
+      ],
+      "description": "Six 65-point .cube LUTs for Sony S-Log3 footage, combining Rec.709 conversion with Kodachrome-inspired looks. The creator explicitly limits these LUTs to S-Log3.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Kodachrome LUT Pack",
+        "url": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "fb639f4da437",
+      "name": "Kodachrome PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "kodachrome",
+        "kodak",
+        "log",
+        "film emulation"
+      ],
+      "description": "Kodachrome-inspired grading collection for log workflows. Rec.709 footage needs exposure and contrast adjustments. Product title identifies PowerGrades but some description text says LUTs; confirm deliverables before purchase.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Kodachrome PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "7215654b33e7",
+      "name": "Red-X LUTs",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/red-x",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "red-x",
+        "red",
+        "contrast",
+        "log"
+      ],
+      "description": "Five creative LUTs that emphasize red tones and strong contrast for log workflows.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/red-x",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Red-X LUTs",
+        "url": "https://www.veresdenialex.com/product-page/red-x",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/red-x",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "5b7ae13323e1",
+      "name": "RED-X PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "red-x",
+        "red",
+        "contrast",
+        "log",
+        "creative grade"
+      ],
+      "description": "Five editable red-biased creative PowerGrades for log footage. Rec.709 inputs need exposure and contrast adjustment.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "RED-X PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "8dab75d3400e",
+      "name": "Super 8 Film Emulation PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "super 8",
+        "8mm",
+        "film emulation",
+        "grain",
+        "log"
+      ],
+      "description": "Seventeen customizable Resolve PowerGrades for a Super 8 home-movie look, with log and Rec.709 workflows. Creator lists 8-bit footage support; exact edition and OS requirements are not given.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Super 8 Film Emulation PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "73d42a9b424b",
+      "name": "VHS Retro Camcorder PowerGrades",
+      "creator": "Veres Deni Alex",
+      "url": "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Color / Film",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "vhs",
+        "retro",
+        "camcorder",
+        "analog"
+      ],
+      "description": "Six adjustable Resolve PowerGrade variations for a retro VHS camcorder appearance. Sold under an individual license.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://www.veresdenialex.com/product-page/vhs-emulation",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "VHS Retro Camcorder PowerGrades",
+        "url": "https://www.veresdenialex.com/product-page/vhs-emulation",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://www.veresdenialex.com/product-page/vhs-emulation",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
       },
       "releaseDate": null,
       "activityDate": null,
@@ -26317,6 +27307,82 @@
       "history": []
     },
     {
+      "id": "ad27dbdf119c",
+      "name": "Halation in Resolve 18 Guide",
+      "creator": "EasyEdit",
+      "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "origin": "external",
+      "official": false,
+      "reference": true,
+      "category": "Community discoveries",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "halation",
+        "tutorial",
+        "glow",
+        "resolve 18"
+      ],
+      "description": "Free tutorial with separate Resolve 18 Free and Studio methods for a halation effect. Instructions are version-specific and have not been retested on current Resolve.",
+      "access": "🆓 Free; creator download",
+      "accessGroup": "free",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [
+          {
+            "min": "18",
+            "max": "18"
+          }
+        ],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Halation in Resolve 18 Guide",
+        "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "5f7369cb3ab8",
       "name": "FastExpoGlow",
       "creator": "Emilio Sapia - Millolab",
@@ -26943,6 +28009,79 @@
         "date_kind": null,
         "checked_at": "2026-09-07",
         "note": "Reference or collection with no single software release version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "f827b6beb509",
+      "name": "K83 Cinematic PowerGrade",
+      "creator": "George.Colorist",
+      "url": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "k83",
+        "kodak",
+        "2383",
+        "film emulation",
+        "davinci wide gamut"
+      ],
+      "description": "Kodak 2383-inspired PowerGrade with six starting looks and a DaVinci Wide Gamut node workflow. Works in Free with Studio-only nodes disabled; film grain and noise reduction require Studio. iPad compatibility is not guaranteed.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [
+          "Free",
+          "Studio"
+        ],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": "Native Resolve effects; disable Studio-only effects when using Free.",
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "K83 Cinematic PowerGrade",
+        "url": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
       },
       "releaseDate": null,
       "activityDate": null,
@@ -27598,6 +28737,229 @@
       "history": []
     },
     {
+      "id": "9f7d2fe3340c",
+      "name": "Kodak 2383 PowerGrade",
+      "creator": "Juan Melara",
+      "url": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "kodak",
+        "2383",
+        "print film",
+        "d65",
+        "d55"
+      ],
+      "description": "Legacy editable Kodak 2383 D65/D55 print-film emulation, offered pay-what-you-want with versions for Resolve 14, 15 and 16. The page links newer paid YRGB and RCM collections.",
+      "access": "Public; pay what you want, check checkout minimum",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": "Import the supplied .dpx or .drx through the Resolve Gallery."
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Kodak 2383 PowerGrade",
+        "url": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "f67504397184",
+      "name": "RCM Wide Gamut Print Film PowerGrades",
+      "creator": "Juan Melara",
+      "url": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "kodak",
+        "fujifilm",
+        "2383",
+        "2393",
+        "3510",
+        "3513di",
+        "3521xd",
+        "rcm",
+        "davinci wide gamut",
+        "hdr"
+      ],
+      "description": "Kodak and Fujifilm print-film PowerGrades for Resolve Color Management and DaVinci Wide Gamut, covering SDR and HDR workflows. Includes setup and node-graph guidance.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "RCM Wide Gamut Print Film PowerGrades",
+        "url": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "796beb024e82",
+      "name": "YRGB Print Film Emulation PowerGrades",
+      "creator": "Juan Melara",
+      "url": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "kodak",
+        "2383",
+        "2393",
+        "fujifilm",
+        "3510",
+        "3513di",
+        "3521xd",
+        "250d",
+        "yrgb",
+        "print film"
+      ],
+      "description": "Editable Kodak 2383/2393 and Fujifilm 3510/3513DI/3521XD print-film PowerGrades for DaVinci YRGB. Includes separate purchase options combined with Kodak 250D negative emulation; successor to the bookmarked Kodak 2393 pack.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "YRGB Print Film Emulation PowerGrades",
+        "url": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "79279718352a",
       "name": "Lowepost training",
       "creator": "Lowepost",
@@ -27863,6 +29225,84 @@
       "history": []
     },
     {
+      "id": "5505c18e812f",
+      "name": "DIGIFILM PowerGrade",
+      "creator": "Melior Studios",
+      "url": "https://meliorstudios.com/digifilm",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "powergrade",
+        "digifilm",
+        "film emulation",
+        "16mm",
+        "35mm",
+        "halation",
+        "grain"
+      ],
+      "description": "Film-look PowerGrade collection with a modular look table, grading nodes and tutorials. Current header advertises 4.5; older 2.5/Resolve 19 wording remains elsewhere, so confirm current host requirements before purchase.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://meliorstudios.com/digifilm",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://meliorstudios.com/digifilm",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DIGIFILM PowerGrade",
+        "url": "https://meliorstudios.com/digifilm",
+        "kind": "vendor-version",
+        "version": "4.5",
+        "source": "https://meliorstudios.com/digifilm",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "896624c884a1",
       "name": "Mixing Light Resolve training",
       "creator": "Mixing Light",
@@ -27999,6 +29439,79 @@
         "kind": "vendor-version",
         "version": "2.0 beta",
         "source": "https://www.motioncamapp.com/tools",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "175be91355b1",
+      "name": "MagicGradient",
+      "creator": "MrAlexTech",
+      "url": "https://ko-fi.com/s/aed8dd3b04",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "fusion"
+      ],
+      "tags": [
+        "fusion",
+        "gradient",
+        "alpha",
+        "background",
+        "drfx"
+      ],
+      "description": "DRFX tool for gradient backgrounds and alpha gradients on clips. Requires Resolve 17.4 or later. Creator page describes installation but checkout pricing did not render reliably.",
+      "access": "Public; check current checkout terms",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [
+          {
+            "min": "17.4"
+          }
+        ],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "unknown",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": "Double-click the DRFX file."
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://ko-fi.com/s/aed8dd3b04",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "MagicGradient",
+        "url": "https://ko-fi.com/s/aed8dd3b04",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://ko-fi.com/s/aed8dd3b04",
         "date": null,
         "date_kind": null,
         "checked_at": "2026-09-08"
@@ -29242,6 +30755,225 @@
         "date": null,
         "date_kind": null,
         "checked_at": "2026-09-07"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "8a47ab5bda03",
+      "name": "DCI 4K Film Grain Plates",
+      "creator": "tdcat",
+      "url": "https://tdcat.com/downloads/filmgrain",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "grain",
+        "overlay",
+        "8mm",
+        "16mm",
+        "35mm",
+        "prores",
+        "film texture"
+      ],
+      "description": "Free 4096 x 2160 ProRes 422 HQ grain overlays in light and heavy variants for 8mm, 16mm, Super 16, Super 35 and 35mm looks. Place above footage with Overlay blending; requires compatible ProRes decoding.",
+      "access": "🆓 Free; creator download",
+      "accessGroup": "free",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tdcat.com/downloads/filmgrain",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DCI 4K Film Grain Plates",
+        "url": "https://tdcat.com/downloads/filmgrain",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://tdcat.com/downloads/filmgrain",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "8daa1031a5da",
+      "name": "Free LUT Packs",
+      "creator": "tdcat",
+      "url": "https://tdcat.com/downloads/free-lut-packs",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "color"
+      ],
+      "tags": [
+        "lut",
+        "film",
+        "monochrome",
+        "black and white",
+        "summer",
+        "scandi"
+      ],
+      "description": "Free .cube look collections including Subtle Film, Summer Warmth, Scandi Cool, Milky Blacks and Black and White. Creator lists Resolve support.",
+      "access": "🆓 Free; creator download",
+      "accessGroup": "free",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tdcat.com/downloads/free-lut-packs",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing",
+        "tool version"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Free LUT Packs",
+        "url": "https://tdcat.com/downloads/free-lut-packs",
+        "kind": "unverified",
+        "version": null,
+        "source": "https://tdcat.com/downloads/free-lut-packs",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "f2fd2625fecf",
+      "name": "36 Cinematic Film Titles",
+      "creator": "TiKa-Studios",
+      "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "origin": "external",
+      "official": false,
+      "reference": false,
+      "category": "Community discoveries",
+      "tasks": [
+        "fusion"
+      ],
+      "tags": [
+        "titles",
+        "film titles",
+        "typography",
+        "fonts",
+        "cinematic"
+      ],
+      "description": "Paid Resolve title pack with 36 customizable designs and included fonts. Product title labels this pack V3; exact Resolve host version and OS requirements are not established.",
+      "access": "💰 Paid",
+      "accessGroup": "paid",
+      "platforms": [],
+      "platformNotes": "❔ Not established",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "one-time",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://tikastudio.gumroad.com/l/filmtitlepack",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "purpose and requirements",
+          "level": "documented",
+          "source": "https://tikastudio.gumroad.com/l/filmtitlepack",
+          "checked_at": "2026-09-08",
+          "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "36 Cinematic Film Titles",
+        "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+        "kind": "vendor-version",
+        "version": "V3",
+        "source": "https://tikastudio.gumroad.com/l/filmtitlepack",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08"
       },
       "releaseDate": null,
       "activityDate": null,

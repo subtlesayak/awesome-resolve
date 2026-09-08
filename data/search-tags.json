@@ -5411,6 +5411,368 @@
       "sources": [
         "https://www.motioncamapp.com/tools"
       ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/classic-negative-lut",
+      "name": "Fujifilm Classic Negative LUT",
+      "tags": [
+        "lut",
+        "fujifilm",
+        "classic negative",
+        "log",
+        "rec709",
+        "film emulation"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/classic-negative-lut"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t",
+      "name": "Asteroid City LUT",
+      "tags": [
+        "lut",
+        "asteroid city",
+        "kodak",
+        "vision 200t",
+        "sony",
+        "s-log3",
+        "rec709",
+        "film emulation"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/asteroid-city-lut-kodak-vision-200t"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade",
+      "name": "Aerochrome Emulation PowerGrade",
+      "tags": [
+        "powergrade",
+        "aerochrome",
+        "infrared",
+        "film emulation",
+        "foliage"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/aerochrome-emulation-davinci-power-grade"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-power-grades",
+      "name": "Kodachrome PowerGrades",
+      "tags": [
+        "powergrade",
+        "kodachrome",
+        "kodak",
+        "log",
+        "film emulation"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/kodachrome-power-grades"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/red-x-power-grades",
+      "name": "RED-X PowerGrades",
+      "tags": [
+        "powergrade",
+        "red-x",
+        "red",
+        "contrast",
+        "log",
+        "creative grade"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/red-x-power-grades"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/kodachrome-luts",
+      "name": "Kodachrome LUT Pack",
+      "tags": [
+        "lut",
+        "kodachrome",
+        "kodak",
+        "sony",
+        "s-log3",
+        "rec709"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/kodachrome-luts"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/red-x",
+      "name": "Red-X LUTs",
+      "tags": [
+        "lut",
+        "red-x",
+        "red",
+        "contrast",
+        "log"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/red-x"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade",
+      "name": "Super 8 Film Emulation PowerGrades",
+      "tags": [
+        "powergrade",
+        "super 8",
+        "8mm",
+        "film emulation",
+        "grain",
+        "log"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/super-8mm-home-film-power-grade"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade",
+      "name": "CineGrit Super 16mm PowerGrades",
+      "tags": [
+        "powergrade",
+        "cinegrit",
+        "super 16",
+        "16mm",
+        "grain",
+        "halation"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/cinegrit-16mm-film-power-grade"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look",
+      "name": "Breathe In 35mm PowerGrades",
+      "tags": [
+        "powergrade",
+        "35mm",
+        "film emulation",
+        "aerochrome",
+        "log"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/breathe-in-film-original-16mm-35mm-film-look"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709",
+      "name": "Feel Free Cinema LUTs",
+      "tags": [
+        "lut",
+        "film emulation",
+        "log",
+        "rec709",
+        "cinema"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/cinema-feel-free-luts-automate-log-conversion-to-rec709"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/vhs-emulation",
+      "name": "VHS Retro Camcorder PowerGrades",
+      "tags": [
+        "powergrade",
+        "vhs",
+        "retro",
+        "camcorder",
+        "analog"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/vhs-emulation"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709",
+      "name": "Classic Filmic Log to Rec709",
+      "tags": [
+        "powergrade",
+        "lut",
+        "log",
+        "rec709",
+        "cst",
+        "color management"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/product-page/sony-classic-film-s-log-to-rec709"
+      ]
+    },
+    {
+      "url": "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one",
+      "name": "Film Halation Guide",
+      "tags": [
+        "halation",
+        "tutorial",
+        "film",
+        "glow"
+      ],
+      "sources": [
+        "https://www.veresdenialex.com/post/film-halation-effect-davinci-lightroom-capture-one"
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/kodak-2383-powergrade",
+      "name": "Kodak 2383 PowerGrade",
+      "tags": [
+        "powergrade",
+        "kodak",
+        "2383",
+        "print film",
+        "d65",
+        "d55"
+      ],
+      "sources": [
+        "https://juanmelara.com.au/products/kodak-2383-powergrade"
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades",
+      "name": "YRGB Print Film Emulation PowerGrades",
+      "tags": [
+        "powergrade",
+        "kodak",
+        "2383",
+        "2393",
+        "fujifilm",
+        "3510",
+        "3513di",
+        "3521xd",
+        "250d",
+        "yrgb",
+        "print film"
+      ],
+      "sources": [
+        "https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades"
+      ]
+    },
+    {
+      "url": "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades",
+      "name": "RCM Wide Gamut Print Film PowerGrades",
+      "tags": [
+        "powergrade",
+        "kodak",
+        "fujifilm",
+        "2383",
+        "2393",
+        "3510",
+        "3513di",
+        "3521xd",
+        "rcm",
+        "davinci wide gamut",
+        "hdr"
+      ],
+      "sources": [
+        "https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades"
+      ]
+    },
+    {
+      "url": "https://nomadicgeorge.sellfy.store/p/k83powergrade/",
+      "name": "K83 Cinematic PowerGrade",
+      "tags": [
+        "powergrade",
+        "k83",
+        "kodak",
+        "2383",
+        "film emulation",
+        "davinci wide gamut"
+      ],
+      "sources": [
+        "https://nomadicgeorge.sellfy.store/p/k83powergrade/"
+      ]
+    },
+    {
+      "url": "https://meliorstudios.com/digifilm",
+      "name": "DIGIFILM PowerGrade",
+      "tags": [
+        "powergrade",
+        "digifilm",
+        "film emulation",
+        "16mm",
+        "35mm",
+        "halation",
+        "grain"
+      ],
+      "sources": [
+        "https://meliorstudios.com/digifilm"
+      ]
+    },
+    {
+      "url": "https://ko-fi.com/s/aed8dd3b04",
+      "name": "MagicGradient",
+      "tags": [
+        "fusion",
+        "gradient",
+        "alpha",
+        "background",
+        "drfx"
+      ],
+      "sources": [
+        "https://ko-fi.com/s/aed8dd3b04"
+      ]
+    },
+    {
+      "url": "https://tdcat.com/downloads/filmgrain",
+      "name": "DCI 4K Film Grain Plates",
+      "tags": [
+        "grain",
+        "overlay",
+        "8mm",
+        "16mm",
+        "35mm",
+        "prores",
+        "film texture"
+      ],
+      "sources": [
+        "https://tdcat.com/downloads/filmgrain"
+      ]
+    },
+    {
+      "url": "https://tdcat.com/downloads/free-lut-packs",
+      "name": "Free LUT Packs",
+      "tags": [
+        "lut",
+        "film",
+        "monochrome",
+        "black and white",
+        "summer",
+        "scandi"
+      ],
+      "sources": [
+        "https://tdcat.com/downloads/free-lut-packs"
+      ]
+    },
+    {
+      "url": "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips",
+      "name": "Halation in Resolve 18 Guide",
+      "tags": [
+        "halation",
+        "tutorial",
+        "glow",
+        "resolve 18"
+      ],
+      "sources": [
+        "https://easyedit.pro/blog/halation-effect-in-da-vinci-resolve-18-free-and-studio-version-tips"
+      ]
+    },
+    {
+      "url": "https://tikastudio.gumroad.com/l/filmtitlepack",
+      "name": "36 Cinematic Film Titles",
+      "tags": [
+        "titles",
+        "film titles",
+        "typography",
+        "fonts",
+        "cinematic"
+      ],
+      "sources": [
+        "https://tikastudio.gumroad.com/l/filmtitlepack"
+      ]
     }
   ]
 }
