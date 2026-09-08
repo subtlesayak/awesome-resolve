@@ -376,7 +376,33 @@ dialog { background:var(--paper); }
 }
 input::placeholder { color:var(--muted); opacity:1; }
 .header-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:16px 24px; }
-.theme-control { min-height:44px; min-width:130px; padding:6px 12px; font-size:13px; background:var(--paper); color:var(--ink); border:1px solid var(--control-border); border-radius:3px; }
+.theme-control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  min-width: 164px;
+  padding: 12px 24px 12px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #d3e9e9;
+  color: #123638;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: .1px;
+  isolation: isolate;
+}
+[data-theme="dark"] .theme-control { background: #304e50; color: #cde9e9; }
+.theme-control::before { content: ''; position: absolute; inset: 0; border-radius: inherit; background: currentColor; opacity: 0; pointer-events: none; transition: opacity 150ms ease-out; }
+.theme-control:hover::before { opacity: .08; }
+.theme-control:focus-visible::before, .theme-control:active::before { opacity: .12; }
+.theme-control:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.theme-icon { flex: none; }
+@media (prefers-reduced-motion: reduce) { .theme-control::before { transition: none; } }
+@media (forced-colors: active) { .theme-control { border: 1px solid ButtonText; } }
 @media (max-width:700px) { .header-controls { flex-direction:column; gap:8px; } }
 @media (forced-colors:active) { :focus-visible { outline-color:Highlight; } }
 dialog::backdrop {
@@ -918,3 +944,5 @@ form label.checkbox-filter {
 .catalogue-release .version { overflow-wrap: anywhere; }
 .release-notes { white-space: pre-wrap; overflow-wrap: anywhere; margin-block: 20px; }
 nav a[aria-current="page"] { color: var(--teal); text-decoration: underline; text-underline-offset: 6px; }
+.theme-control:hover { background-color: #d3e9e9; color: #123638; }
+[data-theme="dark"] .theme-control:hover { background-color: #304e50; color: #cde9e9; }

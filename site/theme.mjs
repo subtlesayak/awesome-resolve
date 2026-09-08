@@ -12,7 +12,16 @@
     const control = document.querySelector('#theme');
     if (control) {
       const next = choices[(choices.indexOf(choice) + 1) % choices.length];
-      control.textContent = 'Theme: ' + label(choice);
+      if (!control.querySelector('.theme-label')) {
+        control.innerHTML = '<svg class="theme-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path/></svg><span class="theme-label"></span>';
+      }
+      const paths = {
+        system: 'M4 4h16v12H4z M8 20h8 M12 16v4',
+        light: 'M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0 M12 2v2 M12 20v2 M2 12h2 M20 12h2 M5 5l1.5 1.5 M17.5 17.5 19 19 M5 19l1.5-1.5 M17.5 6.5 19 5',
+        dark: 'M20.5 13.2A8.5 8.5 0 0 1 10.8 3.5 8.5 8.5 0 1 0 20.5 13.2Z'
+      };
+      control.querySelector('.theme-icon path').setAttribute('d', paths[choice]);
+      control.querySelector('.theme-label').textContent = 'Theme: ' + label(choice);
       control.setAttribute('aria-label', 'Theme: ' + label(choice) + '. Switch to ' + label(next));
       control.title = 'Switch to ' + label(next) + ' theme';
     }
