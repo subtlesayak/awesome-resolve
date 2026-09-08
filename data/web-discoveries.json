@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-06T11:36:20Z",
   "baseline_count": 130,
-  "added_count": 96,
-  "total_count": 226,
+  "added_count": 106,
+  "total_count": 236,
   "searches": [
     {
       "query": "topic:davinci-resolve fork:false",
@@ -2228,6 +2228,196 @@
       "evidence_source": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses#readme",
       "discovery_sources": [
         "https://www.reddit.com/r/davinciresolve/comments/1wan2vs/polyamath_shared_some_fuses_which_add_to_vonk/"
+      ]
+    },
+    {
+      "category": "Color grading, DCTLs, film looks, and color science",
+      "repository": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "description": "Film simulation engine with a Resolve OpenFX plugin and Mac app. Stable release v1.7.1-build12; v1.8-alpha adds scanned-negative import and sampled film curves. Includes film profiles with separate CC BY-SA terms.",
+      "access": "Free",
+      "research_snapshot": "2026-09-08",
+      "platforms": "macOS",
+      "platform_notes": "Mac app requires Apple Silicon and macOS 14+; plugin guide also documents universal builds. Exact Resolve edition/version is not established.",
+      "platform_source": "https://github.com/DhaliwalX/fotufilm-engine#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "1",
+      "last_pushed_at": "2026-09-07T22:52:49Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/DhaliwalX/fotufilm-engine#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1w6ilmv/sept_open_source_tools_around_post_production/"
+      ]
+    },
+    {
+      "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "repository": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "description": "Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.",
+      "access": "Free; separate paid cloud service",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models.",
+      "platform_source": "https://github.com/francozanardi/tscaps#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "44",
+      "last_pushed_at": "2026-08-30T18:48:30Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/francozanardi/tscaps#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1w6ilmv/sept_open_source_tools_around_post_production/"
+      ]
+    },
+    {
+      "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "repository": "BambooYC123/SubtitleYC",
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "description": "Extracts burned-in subtitles with OCR, supports frame-accurate review and exports SRT, ASS or text. Standalone subtitle preparation utility; not a Resolve plugin.",
+      "access": "Free",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Windows",
+      "platform_notes": "Windows setup downloads FFmpeg and CPU OCR; NVIDIA GPU OCR is optional.",
+      "platform_source": "https://github.com/BambooYC123/SubtitleYC#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "11",
+      "last_pushed_at": "2026-09-06T14:53:38Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/BambooYC123/SubtitleYC#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1vd48jr/aug_2026_open_source_tools_devs/"
+      ]
+    },
+    {
+      "category": "Color grading, DCTLs, film looks, and color science",
+      "repository": "ciqueira/BaldavengerOFX",
+      "url": "https://github.com/ciqueira/BaldavengerOFX",
+      "description": "Independently maintained Baldavenger OFX builds, including FilmGrade, VideoGrade, frequency tools and ResolveMath. Downloads and installation use MCNexus with a free key for each plugin.",
+      "access": "Free; GitHub-linked key required",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Windows;macOS",
+      "platform_notes": "Windows x64 and macOS Intel/Apple Silicon; Metal on macOS, CUDA for Windows GPU plugins, CPU for selected tools. Distinct distribution of Paul Dore's suite.",
+      "platform_source": "https://github.com/ciqueira/BaldavengerOFX#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "1",
+      "last_pushed_at": "2026-07-20T19:57:30Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.219Z",
+      "evidence_source": "https://github.com/ciqueira/BaldavengerOFX#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urz1dp/july_open_source_dev_tools_did_you_go_off_and/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "elpideus/DavinciResolveRPC",
+      "url": "https://github.com/elpideus/DavinciResolveRPC",
+      "description": "Discord Rich Presence utility displaying the active Resolve project and timeline. Requires Discord desktop and Resolve external scripting; project names become visible through Discord.",
+      "access": "Free",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Windows",
+      "platform_notes": "Windows 10+. README claims Free/Studio 18+, but its external Python API needs Studio on Resolve 21.1; earlier Free compatibility is unverified.",
+      "platform_source": "https://github.com/elpideus/DavinciResolveRPC#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "3",
+      "last_pushed_at": "2026-06-06T11:45:00Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/elpideus/DavinciResolveRPC#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1ttzhur/june_open_source_dev_tools/"
+      ]
+    },
+    {
+      "category": "Fusion, motion graphics, visual effects, and package management",
+      "repository": "anuzdhk/flow-studio",
+      "url": "https://github.com/anuzdhk/flow-studio",
+      "description": "Workflow Integration panel for easing curves, animation presets and keyframe utilities on Fusion/Edit pages. Uses Python and external scripting; Edit-page animation works through Fusion effects.",
+      "access": "Free",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Windows;macOS",
+      "platform_notes": "Canonical repository moved from anuz-net to anuzdhk. Windows/macOS setup documented; Workflow Integration requires Studio.",
+      "platform_source": "https://github.com/anuzdhk/flow-studio#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "3",
+      "last_pushed_at": "2026-08-04T08:34:36Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/anuzdhk/flow-studio#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1ttzhur/june_open_source_dev_tools/"
+      ]
+    },
+    {
+      "category": "Encoding, codecs, proxy generation, rendering, and project servers",
+      "repository": "debuxxed/lowcat",
+      "url": "https://github.com/debuxxed/lowcat",
+      "description": "Local music and sound-effects library browser with multiple tags, file conversion and stem grouping. Companion audio preparation tool; no direct Resolve integration is documented.",
+      "access": "Public",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Windows;macOS",
+      "platform_notes": "Windows MSI and macOS DMG documented. No license was established from the repository metadata or README.",
+      "platform_source": "https://github.com/debuxxed/lowcat#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "13",
+      "last_pushed_at": "2026-09-03T12:23:50Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/debuxxed/lowcat#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1ttzhur/june_open_source_dev_tools/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "description": "Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Companion post-production service; no direct Resolve timeline integration is documented.",
+      "access": "Free; hosting and AI services separate",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements.",
+      "platform_source": "https://github.com/shumaiOne/shumai#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "194",
+      "last_pushed_at": "2026-09-08T12:21:32Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/shumaiOne/shumai#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1ttzhur/june_open_source_dev_tools/"
+      ]
+    },
+    {
+      "category": "Productivity scripts, workflow bridges, and integrations",
+      "repository": "ming-qiu/theia",
+      "url": "https://github.com/ming-qiu/theia",
+      "description": "Resolve Studio VFX editorial suite for clip inventories, frame counters, shot metadata and shot-list spreadsheets. Source revision tracked because no GitHub release is published.",
+      "access": "Public",
+      "research_snapshot": "2026-09-08",
+      "platforms": "macOS",
+      "platform_notes": "macOS-only installer; Python 3.9+ and FFmpeg required. Public source does not establish a reuse license.",
+      "platform_source": "https://github.com/ming-qiu/theia#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "5",
+      "last_pushed_at": "2026-07-20T18:28:45Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/ming-qiu/theia#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
+      ]
+    },
+    {
+      "category": "Subtitles, transcription, dialogue cleanup, and automatic editing",
+      "repository": "vkastrup/sub-translator",
+      "url": "https://github.com/vkastrup/sub-translator",
+      "description": "LLM subtitle translation from the command line or a Resolve Studio Workflow Integration. Supports multiple subtitle formats and cloud providers or local Ollama; review translated text before delivery.",
+      "access": "Public; provider costs vary",
+      "research_snapshot": "2026-09-08",
+      "platforms": "Unverified",
+      "platform_notes": "Resolve integration requires Studio. CLI output can be imported separately. Cloud providers need their own accounts/keys; local Ollama is separate.",
+      "platform_source": "https://github.com/vkastrup/sub-translator#readme",
+      "platform_checked_at": "2026-09-08",
+      "stars": "0",
+      "last_pushed_at": "2026-07-22T13:29:06Z",
+      "metadata_checked_at": "2026-09-08T13:33:10.221Z",
+      "evidence_source": "https://github.com/vkastrup/sub-translator#readme",
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
       ]
     }
   ],

@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 150,
-  "total_count": 222,
+  "added_count": 154,
+  "total_count": 226,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added.",
   "additions": [
     {
@@ -2960,6 +2960,87 @@
       ],
       "discovery_sources": [
         "https://www.reddit.com/r/davinciresolve/comments/1w5o1rj/can_anyone_explain_what_im_looking_at/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Tagger",
+      "name": "TypeFlare",
+      "url": "https://tagger.mov/typeflare/",
+      "category": "Community tools and resources",
+      "description": "Local Whisper transcription and translation with editable word-level Text+ Fusion captions. Free tier has unlimited SRT and 60-second Fusion exports; Pro adds presets and styling. macOS 12+ and Windows 10+.",
+      "access": "🆓 Free SRT and limited Fusion exports; 💰 Pro",
+      "platforms": "Windows · macOS",
+      "version": "1.5.5",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Creator page checked; no product release date established.",
+      "sources": [
+        "https://tagger.mov/typeflare/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1vd42r0/august_2026_devtools_megathread/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "MONONODES",
+      "name": "3D Cube DCTL and Cube Slice",
+      "url": "https://mononodes.com/3d-cube/",
+      "category": "Community tools and resources",
+      "description": "Visualizes image pixels as an RGB point cloud. Cube Slice supplies color patches for inspecting how node operations reshape the cube. Downloads are linked by the creator; original distribution terms apply.",
+      "access": "🆓 Free download",
+      "platforms": "Windows · macOS · Linux",
+      "version": "1.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Creator page checked; no product release date established.",
+      "sources": [
+        "https://mononodes.com/3d-cube/",
+        "https://mononodes.com/faq/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "KeyCut",
+      "name": "KeyCut",
+      "url": "https://getkeycut.com/",
+      "category": "Community tools and resources",
+      "description": "iPad/iPhone shortcut reference and control surface for Resolve, Premiere and Final Cut. Live control uses a Mac helper over local Wi-Fi and requires a lifetime purchase or subscription.",
+      "access": "🆓 Shortcut reference; 💰 live control unlock",
+      "platforms": "macOS · iOS",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Creator page checked; no product release date established.",
+      "sources": [
+        "https://getkeycut.com/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Resolve Directory",
+      "name": "Resolve Directory",
+      "url": "https://resolve.directory/",
+      "category": "Community tools and resources",
+      "description": "Directory linking free PowerGrades, LUTs, camera log transforms and guides. Product availability and licenses belong to the linked creators; dynamic listings were not fully enumerated in this review.",
+      "access": "🆓 Free directory",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Creator page checked; no product release date established.",
+      "sources": [
+        "https://resolve.directory/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/editors/comments/1urrhlv/july_devtools_megathread_building_a_tool_or_doing/"
       ],
       "checked_at": "2026-09-08"
     }

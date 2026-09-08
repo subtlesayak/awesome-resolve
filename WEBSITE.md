@@ -64,6 +64,8 @@ Every **update listings** request also includes [r/davinciresolve](https://www.r
 
 Use Reddit as a discovery lead: verify additions and factual changes against original creator or official sources, deduplicate existing items, and generate reviewed search tags for new entries. Keep Reddit post/comment permalinks as discovery sources when relevant, and credit contributors where appropriate. Do not treat vote counts, anecdotes or comment dates as proof of compatibility or a product release date.
 
+Also inspect relevant pinned/community-highlight threads and the current r/editors open-source and Dev/Tools monthly threads, following related monthly threads for missed Resolve or companion post-production resources. Confirm current pins in the live community view; search indexes can show old highlights. An older monthly thread can contain newer comments. Keep Adobe/Avid-only plugins and unpublished tool proposals out of the Resolve catalogue unless an independently useful interchange workflow is documented.
+
 If Reddit access, pagination or collapsed/deleted comments limit the review, record what was accessible and retain unresolved leads locally. Do not claim a complete seven-day scan when coverage is partial. Reports and raw research stay local; publish only curated catalogue data and public source links.
 
 Rebuild with `node scripts/build-site.mjs` and run `node --test --test-concurrency=1 scripts/*.test.mjs` before publishing. The build rejects missing, invalid, duplicate and orphan tag records, and the tests verify that every catalogue item has matching searchable tags. New listings must not be published without their tags.

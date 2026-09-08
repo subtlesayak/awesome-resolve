@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**222 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**226 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -368,7 +368,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**150 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**154 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -597,6 +597,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [RCM Wide Gamut Print Film PowerGrades](https://juanmelara.com.au/products/rcm-davinci-wide-gamut-print-film-emulation-powergrades) | 💰 Paid | ❔ Not established | Kodak and Fujifilm print-film PowerGrades for Resolve Color Management and DaVinci Wide Gamut, covering SDR and HDR workflows. Includes setup and node-graph guidance. |
 | [YRGB Print Film Emulation PowerGrades](https://juanmelara.com.au/products/davinci-yrgb-print-film-emulation-powergrades) | 💰 Paid | ❔ Not established | Editable Kodak 2383/2393 and Fujifilm 3510/3513DI/3521XD print-film PowerGrades for DaVinci YRGB. Includes separate purchase options combined with Kodak 250D negative emulation; successor to the bookmarked Kodak 2393 pack. |
 
+#### 👤 KeyCut
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [KeyCut](https://getkeycut.com/) | 🆓 Shortcut reference; 💰 live control unlock | macOS · iOS | iPad/iPhone shortcut reference and control surface for Resolve, Premiere and Final Cut. Live control uses a Mac helper over local Wi-Fi and requires a lifetime purchase or subscription. |
+
 #### 👤 Lowepost
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -632,6 +638,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Mixing Light Resolve training](https://mixinglight.com/) | 💰 Membership and standalone courses | 📖 Browser reference; lesson requirements vary | Color-grading and finishing tutorials, Resolve courses and practice projects. Tutorial-library membership and standalone course access are separate products; check each course’s host version and access period. |
+
+#### 👤 MONONODES
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [3D Cube DCTL and Cube Slice](https://mononodes.com/3d-cube/) | 🆓 Free download | Windows · macOS · Linux | Visualizes image pixels as an RGB point cloud. Cube Slice supplies color patches for inspecting how node operations reshape the cube. Downloads are linked by the creator; original distribution terms apply. |
 
 #### 👤 MotionCam
 
@@ -674,6 +686,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [YouTube Prep Tool](https://ravinmaddhatter.itch.io/youtube-prep-tool) | 💰 Name your own price | ❔ Not established | Prepares gameplay edits using audio-volume cuts, description templates and subtitle transcription. Marked in development; the download points to an external GitHub release and was not followed. |
+
+#### 👤 Resolve Directory
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Resolve Directory](https://resolve.directory/) | 🆓 Free directory | 📖 Reference | Directory linking free PowerGrades, LUTs, camera log transforms and guides. Product availability and licenses belong to the linked creators; dynamic listings were not fully enumerated in this review. |
 
 #### 👤 Retouch4me
 
@@ -718,6 +736,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Tagger for Resolve](https://tagger.mov/) | 🆓 First 20 files; 💰 One-time Pro license | 🪟 Windows · 🍎 macOS | Adds AI keywords, descriptions and shot metadata to the Media Pool, plus local audio transcription. Requires Resolve Studio. Selected low-resolution frames are sent to an AI service for visual analysis; audio transcription runs locally. |
+| [TypeFlare](https://tagger.mov/typeflare/) | 🆓 Free SRT and limited Fusion exports; 💰 Pro | Windows · macOS | Local Whisper transcription and translation with editable word-level Text+ Fusion captions. Free tier has unlimited SRT and 60-second Fusion exports; Pro adds presets and styling. macOS 12+ and Windows 10+. |
 
 #### 👤 Tangenten
 

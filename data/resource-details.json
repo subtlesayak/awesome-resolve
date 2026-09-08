@@ -3015,6 +3015,318 @@
           "note": "Creator recommends Studio. Free opens the PowerGrade with missing noise reduction, halation, grain, Film Look Creator and some Resolve FX. Studio is required for the full workflow; OS and exact Resolve version are unspecified."
         }
       ]
+    },
+    {
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/DhaliwalX/fotufilm-engine",
+          "checked_at": "2026-09-08",
+          "note": "Mac app requires Apple Silicon and macOS 14+; plugin guide also documents universal builds. Exact Resolve edition/version is not established."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/francozanardi/tscaps",
+      "tasks": [
+        "captions"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "account": "not-required"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/francozanardi/tscaps",
+          "checked_at": "2026-09-08",
+          "note": "Requires a supported WebCodecs browser. Editor is AGPL-3.0; engine/templates MIT. First use downloads transcription models."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "tasks": [
+        "captions"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "FFmpeg and VideOCR/PaddleOCR installed by setup"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/BambooYC123/SubtitleYC",
+          "checked_at": "2026-09-08",
+          "note": "Windows setup downloads FFmpeg and CPU OCR; NVIDIA GPU OCR is optional."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ciqueira/BaldavengerOFX",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "account": "required",
+        "dependencies": "MCNexus and per-plugin OpenKey association"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/ciqueira/BaldavengerOFX",
+          "checked_at": "2026-09-08",
+          "note": "Windows x64 and macOS Intel/Apple Silicon; Metal on macOS, CUDA for Windows GPU plugins, CPU for selected tools. Distinct distribution of Paul Dore's suite."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/elpideus/DavinciResolveRPC",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "editions": [
+          "Studio"
+        ],
+        "dependencies": "Discord desktop and Resolve external scripting"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/elpideus/DavinciResolveRPC",
+          "checked_at": "2026-09-08",
+          "note": "Windows 10+. README claims Free/Studio 18+, but its external Python API needs Studio on Resolve 21.1; earlier Free compatibility is unverified."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
+          "checked_at": "2026-09-08",
+          "note": "Resolve 21.1 Python/advanced scripting requires Studio; this limits the upstream Free compatibility claim."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/anuzdhk/flow-studio",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "editions": [
+          "Studio"
+        ],
+        "dependencies": "Python 3 and enabled Resolve external scripting"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/anuzdhk/flow-studio",
+          "checked_at": "2026-09-08",
+          "note": "Canonical repository moved from anuz-net to anuzdhk. Windows/macOS setup documented; Workflow Integration requires Studio."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/debuxxed/lowcat",
+      "tasks": [
+        "audio"
+      ],
+      "requirements": {
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/debuxxed/lowcat",
+          "checked_at": "2026-09-08",
+          "note": "Windows MSI and macOS DMG documented. No license was established from the repository metadata or README."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/shumaiOne/shumai",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "dependencies": "Docker Compose, or npm with PostgreSQL/pgvector"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/shumaiOne/shumai",
+          "checked_at": "2026-09-08",
+          "note": "Docker Compose or npm deployment; PostgreSQL with pgvector required for npm setup. Optional AI services have separate requirements."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ming-qiu/theia",
+      "tasks": [
+        "workflow"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "dependencies": "Python 3.9+ and FFmpeg"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/ming-qiu/theia",
+          "checked_at": "2026-09-08",
+          "note": "macOS-only installer; Python 3.9+ and FFmpeg required. Public source does not establish a reuse license."
+        },
+        {
+          "field": "platforms",
+          "level": "documented",
+          "source": "https://theia-docs.ming-q.com/installation/",
+          "checked_at": "2026-09-08",
+          "note": "macOS-only installer, Python 3.9+ and FFmpeg."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vkastrup/sub-translator",
+      "tasks": [
+        "captions"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "processing": "hybrid",
+        "dependencies": "Python and a supported LLM provider or local Ollama"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/vkastrup/sub-translator",
+          "checked_at": "2026-09-08",
+          "note": "Resolve integration requires Studio. CLI output can be imported separately. Cloud providers need their own accounts/keys; local Ollama is separate."
+        }
+      ]
+    },
+    {
+      "url": "https://tagger.mov/typeflare/",
+      "tasks": [
+        "captions"
+      ],
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "pricing": "mixed",
+        "processing": "local"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://tagger.mov/typeflare/",
+          "checked_at": "2026-09-08",
+          "note": "Local Whisper transcription and translation with editable word-level Text+ Fusion captions. Free tier has unlimited SRT and 60-second Fusion exports; Pro adds presets and styling. macOS 12+ and Windows 10+."
+        }
+      ]
+    },
+    {
+      "url": "https://mononodes.com/3d-cube/",
+      "tasks": [
+        "color"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "pricing": "free",
+        "resolve": [
+          {
+            "min": "19.1"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mononodes.com/3d-cube/",
+          "checked_at": "2026-09-08",
+          "note": "Visualizes image pixels as an RGB point cloud. Cube Slice supplies color patches for inspecting how node operations reshape the cube. Downloads are linked by the creator; original distribution terms apply."
+        },
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://mononodes.com/faq/",
+          "checked_at": "2026-09-08",
+          "note": "Creator FAQ requires Resolve Studio 19.1+ for DCTLs and lists Windows, macOS and Linux."
+        }
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ]
+    },
+    {
+      "url": "https://getkeycut.com/",
+      "tasks": [
+        "hardware"
+      ],
+      "requirements": {
+        "pricing": "mixed",
+        "processing": "local",
+        "dependencies": "iPhone or iPad and Mac Helper for live control"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://getkeycut.com/",
+          "checked_at": "2026-09-08",
+          "note": "iPad/iPhone shortcut reference and control surface for Resolve, Premiere and Final Cut. Live control uses a Mac helper over local Wi-Fi and requires a lifetime purchase or subscription."
+        }
+      ]
+    },
+    {
+      "url": "https://resolve.directory/",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {},
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://resolve.directory/",
+          "checked_at": "2026-09-08",
+          "note": "Directory linking free PowerGrades, LUTs, camera log transforms and guides. Product availability and licenses belong to the linked creators; dynamic listings were not fully enumerated in this review."
+        }
+      ]
     }
   ]
 }

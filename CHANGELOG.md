@@ -2,6 +2,27 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.20](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.20) — 2026-09-08
+
+### Added resources
+
+- **[Fotufilm](https://github.com/DhaliwalX/fotufilm-engine)** (DhaliwalX) — v1.7.1-build12: Film simulation engine with a Resolve OpenFX plugin and Mac app. Stable release v1.7.1-build12; v1.8-alpha adds scanned-negative import and sampled film curves. Includes film profiles with separate CC BY-SA terms.
+- **[Tscaps](https://github.com/francozanardi/tscaps)** (francozanardi) — web-v0.3.0: Browser subtitle editor with local Whisper transcription, animated captions, SRT export and burned-in video export. Useful alongside Resolve through subtitle/media files; it does not create editable Fusion captions.
+- **[SubtitleYC](https://github.com/BambooYC123/SubtitleYC)** (BambooYC123) — v0.6.0: Extracts burned-in subtitles with OCR, supports frame-accurate review and exports SRT, ASS or text. Standalone subtitle preparation utility; not a Resolve plugin.
+- **[BaldavengerOFX (Magno Ciqueira builds)](https://github.com/ciqueira/BaldavengerOFX)** (ciqueira) — pd-latest: Independently maintained Baldavenger OFX builds, including FilmGrade, VideoGrade, frequency tools and ResolveMath. Downloads and installation use MCNexus with a free key for each plugin.
+- **[DaVinci Resolve RPC](https://github.com/elpideus/DavinciResolveRPC)** (elpideus) — v1.0.1: Discord Rich Presence utility displaying the active Resolve project and timeline. Requires Discord desktop and Resolve external scripting; project names become visible through Discord.
+- **[Flow Studio](https://github.com/anuzdhk/flow-studio)** (anuzdhk) — v2.0: Workflow Integration panel for easing curves, animation presets and keyframe utilities on Fusion/Edit pages. Uses Python and external scripting; Edit-page animation works through Fusion effects.
+- **[Lowcat](https://github.com/debuxxed/lowcat)** (debuxxed) — 1.2: Local music and sound-effects library browser with multiple tags, file conversion and stem grouping. Companion audio preparation tool; no direct Resolve integration is documented.
+- **[Shumai](https://github.com/shumaiOne/shumai)** (shumaiOne) — v0.4.3: Self-hosted creative asset review and collaboration server with video previews, timestamped feedback and project management. Companion post-production service; no direct Resolve timeline integration is documented.
+- **[Theia](https://github.com/ming-qiu/theia)** (ming-qiu) — Source revision 1523d635a142: Resolve Studio VFX editorial suite for clip inventories, frame counters, shot metadata and shot-list spreadsheets. Source revision tracked because no GitHub release is published.
+- **[SubTranslator](https://github.com/vkastrup/sub-translator)** (vkastrup) — Source revision 130e3850b01a: LLM subtitle translation from the command line or a Resolve Studio Workflow Integration. Supports multiple subtitle formats and cloud providers or local Ollama; review translated text before delivery.
+- **[TypeFlare](https://tagger.mov/typeflare/)** (Tagger) — 1.5.5: Local Whisper transcription and translation with editable word-level Text+ Fusion captions. Free tier has unlimited SRT and 60-second Fusion exports; Pro adds presets and styling. macOS 12+ and Windows 10+.
+- **[3D Cube DCTL and Cube Slice](https://mononodes.com/3d-cube/)** (MONONODES) — 1.1: Visualizes image pixels as an RGB point cloud. Cube Slice supplies color patches for inspecting how node operations reshape the cube. Downloads are linked by the creator; original distribution terms apply.
+- **[KeyCut](https://getkeycut.com/)** (KeyCut) — No numbered release: iPad/iPhone shortcut reference and control surface for Resolve, Premiere and Final Cut. Live control uses a Mac helper over local Wi-Fi and requires a lifetime purchase or subscription.
+- **[Resolve Directory](https://resolve.directory/)** (Resolve Directory) — No numbered release: Directory linking free PowerGrades, LUTs, camera log transforms and guides. Product availability and licenses belong to the linked creators; dynamic listings were not fully enumerated in this review.
+
+Discovery thanks to Greenysmac and contributors to the [September open-source thread](https://www.reddit.com/r/editors/comments/1w6ilmv/sept_open_source_tools_around_post_production/) and related r/editors monthly threads. Original creator documentation was checked for each addition. Source links and search tags accompany the entries. No installation testing is claimed.
+
 ## [v1.19](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.19) — 2026-09-08
 
 ### Added resources

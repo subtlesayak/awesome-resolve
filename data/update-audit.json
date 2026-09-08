@@ -2,7 +2,7 @@
   "checked_at": "2026-09-06T12:10:03.440Z",
   "reviewed_on": "2026-09-06",
   "scope": {
-    "github": 226,
+    "github": 236,
     "external": 72
   },
   "github": [
@@ -4773,6 +4773,256 @@
       "default_branch_commit": {
         "date": "2026-09-06T10:43:10Z",
         "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses/commit/84a83d263e05a5d4f6c22458aaf0fd703459026b"
+      },
+      "latest_stable_release": null,
+      "newest_created_release": null,
+      "changelogs": []
+    },
+    {
+      "repository": "DhaliwalX/fotufilm-engine",
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "canonical_url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 1,
+      "last_pushed_at": "2026-09-07T22:52:49Z",
+      "default_branch_commit": {
+        "date": "2026-09-07T22:52:49Z",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine/commit/a4ace8fe438f8b8f4945f756b83a939fe3380d65"
+      },
+      "latest_stable_release": {
+        "tag": "v1.7.1-build12",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.7.1-build12",
+        "published_at": "2026-09-06T00:16:37Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "v1.8-alpha",
+        "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/tag/v1.8-alpha",
+        "published_at": "2026-09-07T20:59:54Z",
+        "prerelease": true
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "francozanardi/tscaps",
+      "url": "https://github.com/francozanardi/tscaps",
+      "canonical_url": "https://github.com/francozanardi/tscaps",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 44,
+      "last_pushed_at": "2026-08-30T18:48:30Z",
+      "default_branch_commit": {
+        "date": "2026-08-30T18:47:48Z",
+        "url": "https://github.com/francozanardi/tscaps/commit/aaf6b52e3ed4b1af5edcb488b7789f9f21504ccd"
+      },
+      "latest_stable_release": {
+        "tag": "web-v0.3.0",
+        "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
+        "published_at": "2026-08-30T15:44:34Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "web-v0.3.0",
+        "url": "https://github.com/francozanardi/tscaps/releases/tag/web-v0.3.0",
+        "published_at": "2026-08-30T15:44:34Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "BambooYC123/SubtitleYC",
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "canonical_url": "https://github.com/BambooYC123/SubtitleYC",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 11,
+      "last_pushed_at": "2026-09-06T14:53:38Z",
+      "default_branch_commit": {
+        "date": "2026-09-06T14:53:35Z",
+        "url": "https://github.com/BambooYC123/SubtitleYC/commit/6123191ce01b1fe6df79f065a9f306dfc8823559"
+      },
+      "latest_stable_release": {
+        "tag": "v0.6.0",
+        "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.6.0",
+        "published_at": "2026-09-06T14:23:23Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "v0.6.0",
+        "url": "https://github.com/BambooYC123/SubtitleYC/releases/tag/v0.6.0",
+        "published_at": "2026-09-06T14:23:23Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "ciqueira/BaldavengerOFX",
+      "url": "https://github.com/ciqueira/BaldavengerOFX",
+      "canonical_url": "https://github.com/ciqueira/BaldavengerOFX",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.219Z",
+      "archived": false,
+      "stars": 1,
+      "last_pushed_at": "2026-07-20T19:57:30Z",
+      "default_branch_commit": {
+        "date": "2026-07-20T19:57:24Z",
+        "url": "https://github.com/ciqueira/BaldavengerOFX/commit/38b49c1cdfc75a8a6438920fe3b296a7257cb34f"
+      },
+      "latest_stable_release": {
+        "tag": "pd-latest",
+        "url": "https://github.com/ciqueira/BaldavengerOFX/releases/tag/pd-latest",
+        "published_at": "2026-07-03T00:12:25Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "pd-latest",
+        "url": "https://github.com/ciqueira/BaldavengerOFX/releases/tag/pd-latest",
+        "published_at": "2026-07-03T00:12:25Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "elpideus/DavinciResolveRPC",
+      "url": "https://github.com/elpideus/DavinciResolveRPC",
+      "canonical_url": "https://github.com/elpideus/DavinciResolveRPC",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 3,
+      "last_pushed_at": "2026-06-06T11:45:00Z",
+      "default_branch_commit": {
+        "date": "2026-06-06T11:44:49Z",
+        "url": "https://github.com/elpideus/DavinciResolveRPC/commit/f97cbf26122af97f782a9d6084b985a20a5be7cf"
+      },
+      "latest_stable_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/elpideus/DavinciResolveRPC/releases/tag/v1.0.1",
+        "published_at": "2026-06-06T11:16:28Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/elpideus/DavinciResolveRPC/releases/tag/v1.0.1",
+        "published_at": "2026-06-06T11:16:28Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "anuzdhk/flow-studio",
+      "url": "https://github.com/anuzdhk/flow-studio",
+      "canonical_url": "https://github.com/anuzdhk/flow-studio",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 3,
+      "last_pushed_at": "2026-08-04T08:34:36Z",
+      "default_branch_commit": {
+        "date": "2026-08-04T08:32:13Z",
+        "url": "https://github.com/anuzdhk/flow-studio/commit/14b182c13e2208b554a094b3e3d81eebd2613a9d"
+      },
+      "latest_stable_release": {
+        "tag": "v2.0",
+        "url": "https://github.com/anuzdhk/flow-studio/releases/tag/v2.0",
+        "published_at": "2026-08-04T08:34:36Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "v2.0",
+        "url": "https://github.com/anuzdhk/flow-studio/releases/tag/v2.0",
+        "published_at": "2026-08-04T08:34:36Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "debuxxed/lowcat",
+      "url": "https://github.com/debuxxed/lowcat",
+      "canonical_url": "https://github.com/debuxxed/lowcat",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 13,
+      "last_pushed_at": "2026-09-03T12:23:50Z",
+      "default_branch_commit": {
+        "date": "2026-09-03T12:23:28Z",
+        "url": "https://github.com/debuxxed/lowcat/commit/f1160687c8bfb658aecdfb9227b6d66294af1965"
+      },
+      "latest_stable_release": {
+        "tag": "1.2",
+        "url": "https://github.com/debuxxed/lowcat/releases/tag/1.2",
+        "published_at": "2026-08-28T10:36:04Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "1.2",
+        "url": "https://github.com/debuxxed/lowcat/releases/tag/1.2",
+        "published_at": "2026-08-28T10:36:04Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "shumaiOne/shumai",
+      "url": "https://github.com/shumaiOne/shumai",
+      "canonical_url": "https://github.com/shumaiOne/shumai",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 194,
+      "last_pushed_at": "2026-09-08T12:21:32Z",
+      "default_branch_commit": {
+        "date": "2026-09-08T12:21:29Z",
+        "url": "https://github.com/shumaiOne/shumai/commit/941000d277b3fd8c3f1d5047f1d7ed6367509fae"
+      },
+      "latest_stable_release": {
+        "tag": "v0.4.3",
+        "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.3",
+        "published_at": "2026-09-06T14:25:38Z",
+        "prerelease": false
+      },
+      "newest_created_release": {
+        "tag": "v0.4.3",
+        "url": "https://github.com/shumaiOne/shumai/releases/tag/v0.4.3",
+        "published_at": "2026-09-06T14:25:38Z",
+        "prerelease": false
+      },
+      "changelogs": []
+    },
+    {
+      "repository": "ming-qiu/theia",
+      "url": "https://github.com/ming-qiu/theia",
+      "canonical_url": "https://github.com/ming-qiu/theia",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 5,
+      "last_pushed_at": "2026-07-20T18:28:45Z",
+      "default_branch_commit": {
+        "date": "2026-07-20T18:27:59Z",
+        "url": "https://github.com/ming-qiu/theia/commit/1523d635a14235a0a6caaebbe34207e9a99dfef8"
+      },
+      "latest_stable_release": null,
+      "newest_created_release": null,
+      "changelogs": []
+    },
+    {
+      "repository": "vkastrup/sub-translator",
+      "url": "https://github.com/vkastrup/sub-translator",
+      "canonical_url": "https://github.com/vkastrup/sub-translator",
+      "status": "available",
+      "checked_at": "2026-09-08T13:33:10.221Z",
+      "archived": false,
+      "stars": 0,
+      "last_pushed_at": "2026-07-22T13:29:06Z",
+      "default_branch_commit": {
+        "date": "2026-07-22T13:25:09Z",
+        "url": "https://github.com/vkastrup/sub-translator/commit/130e3850b01a7840d739b60e10e5add7c2323dda"
       },
       "latest_stable_release": null,
       "newest_created_release": null,

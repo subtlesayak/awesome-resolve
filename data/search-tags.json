@@ -6129,6 +6129,222 @@
       "sources": [
         "https://www.illkoncept.com/shop/powergrade"
       ]
+    },
+    {
+      "url": "https://github.com/DhaliwalX/fotufilm-engine",
+      "name": "Fotufilm",
+      "tags": [
+        "film",
+        "kodak",
+        "fuji",
+        "halation",
+        "grain",
+        "spectral",
+        "ofx",
+        "negative",
+        "print"
+      ],
+      "sources": [
+        "https://github.com/DhaliwalX/fotufilm-engine"
+      ]
+    },
+    {
+      "url": "https://github.com/francozanardi/tscaps",
+      "name": "Tscaps",
+      "tags": [
+        "captions",
+        "subtitles",
+        "whisper",
+        "srt",
+        "animation",
+        "browser",
+        "transcription"
+      ],
+      "sources": [
+        "https://github.com/francozanardi/tscaps"
+      ]
+    },
+    {
+      "url": "https://github.com/BambooYC123/SubtitleYC",
+      "name": "SubtitleYC",
+      "tags": [
+        "subtitles",
+        "captions",
+        "ocr",
+        "burned in",
+        "srt",
+        "translation"
+      ],
+      "sources": [
+        "https://github.com/BambooYC123/SubtitleYC"
+      ]
+    },
+    {
+      "url": "https://github.com/ciqueira/BaldavengerOFX",
+      "name": "BaldavengerOFX (Magno Ciqueira builds)",
+      "tags": [
+        "ofx",
+        "film",
+        "color",
+        "frequency",
+        "math",
+        "metal",
+        "cuda"
+      ],
+      "sources": [
+        "https://github.com/ciqueira/BaldavengerOFX"
+      ]
+    },
+    {
+      "url": "https://github.com/elpideus/DavinciResolveRPC",
+      "name": "DaVinci Resolve RPC",
+      "tags": [
+        "discord",
+        "rich presence",
+        "project",
+        "timeline",
+        "status"
+      ],
+      "sources": [
+        "https://github.com/elpideus/DavinciResolveRPC"
+      ]
+    },
+    {
+      "url": "https://github.com/anuzdhk/flow-studio",
+      "name": "Flow Studio",
+      "tags": [
+        "fusion",
+        "animation",
+        "easing",
+        "bezier",
+        "spline",
+        "keyframe"
+      ],
+      "sources": [
+        "https://github.com/anuzdhk/flow-studio"
+      ]
+    },
+    {
+      "url": "https://github.com/debuxxed/lowcat",
+      "name": "Lowcat",
+      "tags": [
+        "audio",
+        "sound effects",
+        "sfx",
+        "music",
+        "library",
+        "tags",
+        "stems"
+      ],
+      "sources": [
+        "https://github.com/debuxxed/lowcat"
+      ]
+    },
+    {
+      "url": "https://github.com/shumaiOne/shumai",
+      "name": "Shumai",
+      "tags": [
+        "review",
+        "collaboration",
+        "assets",
+        "feedback",
+        "media",
+        "self hosted"
+      ],
+      "sources": [
+        "https://github.com/shumaiOne/shumai"
+      ]
+    },
+    {
+      "url": "https://github.com/ming-qiu/theia",
+      "name": "Theia",
+      "tags": [
+        "vfx",
+        "editorial",
+        "shot list",
+        "metadata",
+        "spreadsheet",
+        "frame counter"
+      ],
+      "sources": [
+        "https://github.com/ming-qiu/theia"
+      ]
+    },
+    {
+      "url": "https://github.com/vkastrup/sub-translator",
+      "name": "SubTranslator",
+      "tags": [
+        "subtitles",
+        "translation",
+        "llm",
+        "ollama",
+        "srt",
+        "multilingual"
+      ],
+      "sources": [
+        "https://github.com/vkastrup/sub-translator"
+      ]
+    },
+    {
+      "url": "https://tagger.mov/typeflare/",
+      "name": "TypeFlare",
+      "tags": [
+        "captions",
+        "whisper",
+        "translation",
+        "fusion",
+        "text plus",
+        "srt"
+      ],
+      "sources": [
+        "https://tagger.mov/typeflare/"
+      ]
+    },
+    {
+      "url": "https://mononodes.com/3d-cube/",
+      "name": "3D Cube DCTL and Cube Slice",
+      "tags": [
+        "dctl",
+        "color",
+        "rgb",
+        "cube",
+        "gamut",
+        "diagnostics",
+        "point cloud"
+      ],
+      "sources": [
+        "https://mononodes.com/3d-cube/"
+      ]
+    },
+    {
+      "url": "https://getkeycut.com/",
+      "name": "KeyCut",
+      "tags": [
+        "shortcuts",
+        "keyboard",
+        "ipad",
+        "iphone",
+        "control surface",
+        "wifi"
+      ],
+      "sources": [
+        "https://getkeycut.com/"
+      ]
+    },
+    {
+      "url": "https://resolve.directory/",
+      "name": "Resolve Directory",
+      "tags": [
+        "directory",
+        "powergrade",
+        "lut",
+        "camera",
+        "log",
+        "film"
+      ],
+      "sources": [
+        "https://resolve.directory/"
+      ]
     }
   ]
 }
