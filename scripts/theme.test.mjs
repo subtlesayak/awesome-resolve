@@ -19,8 +19,8 @@ test('light and dark semantic colors meet WCAG AA text and control contrast',()=
 test('latest update count is tied to unique current catalogue additions',()=>{
  const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
  const latest=read('data/latest-update.json'),data=read('site/catalogue.json');
- assert.equal(latest.added_urls.length,24);
- assert.equal(new Set(latest.added_urls).size,24);
- assert.equal(data.latestUpdate.addedCount,24);
+ assert.equal(latest.added_urls.length,22);
+ assert.equal(new Set(latest.added_urls).size,22);
+ assert.equal(data.latestUpdate.addedCount,22);
  assert.ok(latest.added_urls.every(url=>data.entries.some(e=>e.url===url)));
 });
