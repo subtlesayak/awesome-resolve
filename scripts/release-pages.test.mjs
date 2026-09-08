@@ -14,3 +14,11 @@ test('release groups retain every provider change under its own catalogue versio
  assert.equal(groups.find(r=>r.version==='v1.14').updates.length,5);
  for(const page of ['index','updates','about']){const html=fs.readFileSync(new URL('../site/'+page+'.html',import.meta.url),'utf8');assert.match(html,/href="updates.html"/);assert.match(html,/href="about.html"/);assert.equal((html.match(/aria-current="page"/g)||[]).length,1);}
 });
+
+test('release Markdown keeps original product links clickable inside bold text',async()=>{
+ const {inlineTokens}=await import('../site/updates.mjs');
+ const url='https://www.motioncamapp.com/tools';
+ assert.deepEqual(inlineTokens('**[MotionCam Tools]('+url+') — 2.0 beta.**'),[{type:'strong',children:[{type:'link',url,children:[{type:'text',text:'MotionCam Tools'}]},{type:'text',text:' — 2.0 beta.'}]}]);
+ assert.deepEqual(inlineTokens('[**Tool**]('+url+')'),[{type:'link',url,children:[{type:'strong',children:[{type:'text',text:'Tool'}]}]}]);
+ assert.deepEqual(inlineTokens('<script>alert(1)</script>'),[{type:'text',text:'<script>alert(1)</script>'}]);
+});

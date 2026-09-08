@@ -2,6 +2,35 @@ const make=(tag,text,cls)=>{const el=document.createElement(tag);if(text)el.text
 const link=(text,url)=>{const a=make('a',text);if(new URL(url).protocol==='https:')a.href=url;return a;};
 const official = h => /(^|\.)blackmagicdesign\.com$/.test(new URL(h.url).hostname);
 export function groupUpdates(releases,updates){return [...releases].sort((a,b)=>b.version.localeCompare(a.version,undefined,{numeric:true})).map(release=>({...release,updates:updates.filter(h=>h.release===release.version).sort((a,b)=>Number(official(b))-Number(official(a)))}));}
-function releaseNotes(text){const root=make('div',undefined,'release-notes');for(const line of text.split(/\r?\n/)){if(!line.trim())continue;const heading=line.match(/^#{1,6} (.+)/);const el=make(heading?'h3':'p');const content=heading?heading[1]:line;const pattern=/(\*\*([^*]+)\*\*|\[([^\]]+)\]\((https:\/\/[^)]+)\))/g;let end=0;for(const m of content.matchAll(pattern)){el.append(document.createTextNode(content.slice(end,m.index)));el.append(m[2]?make('strong',m[2]):link(m[3],m[4]));end=m.index+m[0].length;}el.append(document.createTextNode(content.slice(end)));root.append(el);}return root;}
-async function init(){const root=document.querySelector('#update-list');try{const response=await fetch('catalogue.json?v=6',{cache:'no-store'});if(!response.ok)throw Error(response.status);const data=await response.json();root.replaceChildren();root.removeAttribute('role');for(const release of groupUpdates(data.releases,data.updates)){const section=make('section',undefined,'catalogue-release');section.id=release.version;const heading=make('h2');heading.append(link(release.version,release.url));section.append(heading,make('p',release.title.replace(release.version,'').replace(/^\s*[—-]\s*/,'')),make('p','Published '+release.date.slice(0,10),'muted'));for(const h of release.updates){const article=make('article',undefined,'update');article.append(make('h3',h.name),make('p',h.from+' → '+h.to,'version'),make('p',h.summary));const details=make('details',undefined,'release-changelog');details.append(make('summary','Changelog · '+h.to));const list=make('ul');for(const change of h.changes||[h.summary])list.append(make('li',change));details.append(list);for(const source of h.changelogs||[{label:'Full source changelog',url:h.source}]){const p=make('p');p.append(link(source.label+' ↗',source.url));details.append(p);}article.append(details,make('p','Upstream date: '+(h.upstream_date?.slice(0,10)||'not established'),'muted'));section.append(article);}const notes=make('details',undefined,'release-changelog');notes.append(make('summary','Complete catalogue release notes'),releaseNotes(release.body));section.append(notes,link('Read '+release.version+' on GitHub ↗',release.url));root.append(section);}}catch(error){root.replaceChildren(make('p','Release history could not load.'),link('Read releases on GitHub','https://github.com/subtlesayak/awesome-resolve/releases'));console.error(error);}}
+export function inlineTokens(text) {
+ const tokens=[],pattern=/(\*\*([^*]+)\*\*|\[([^\]]+)\]\((https:\/\/[^)]+)\))/g;
+ let end=0;
+ for(const m of text.matchAll(pattern)) {
+  if(m.index>end)tokens.push({type:'text',text:text.slice(end,m.index)});
+  tokens.push(m[2]?{type:'strong',children:inlineTokens(m[2])}:{type:'link',url:m[4],children:inlineTokens(m[3])});
+  end=m.index+m[0].length;
+ }
+ if(end<text.length)tokens.push({type:'text',text:text.slice(end)});
+ return tokens;
+}
+function appendInline(parent,tokens) {
+ for(const token of tokens) {
+  if(token.type==='text'){parent.append(document.createTextNode(token.text));continue;}
+  const el=token.type==='link'?link('',token.url):make('strong');
+  appendInline(el,token.children);parent.append(el);
+ }
+}
+function releaseNotes(text) {
+ const root=make('div',undefined,'release-notes');let list=null;
+ for(const line of text.split(/\r?\n/)) {
+  if(!line.trim()){list=null;continue;}
+  const heading=line.match(/^#{1,6} (.+)/),bullet=line.match(/^[-*] (.+)/);
+  const el=make(heading?'h3':bullet?'li':'p');
+  appendInline(el,inlineTokens(heading?heading[1]:bullet?bullet[1]:line));
+  if(bullet){if(!list){list=make('ul');root.append(list);}list.append(el);}
+  else{list=null;root.append(el);}
+ }
+ return root;
+}
+async function init(){const root=document.querySelector('#update-list');try{const response=await fetch('catalogue.json?v=6',{cache:'no-store'});if(!response.ok)throw Error(response.status);const data=await response.json();root.replaceChildren();root.removeAttribute('role');for(const release of groupUpdates(data.releases,data.updates)){const section=make('section',undefined,'catalogue-release');section.id=release.version;const heading=make('h2');heading.append(link(release.version,release.url));section.append(heading,make('p',release.title.replace(release.version,'').replace(/^\s*[—-]\s*/,'')),make('p','Published '+release.date.slice(0,10),'muted'));for(const h of release.updates){const article=make('article',undefined,'update');const itemHeading=make('h3');itemHeading.append(link(h.name,h.url));article.append(itemHeading,make('p',h.from+' → '+h.to,'version'),make('p',h.summary));const details=make('details',undefined,'release-changelog');details.append(make('summary','Changelog · '+h.to));const list=make('ul');for(const change of h.changes||[h.summary])list.append(make('li',change));details.append(list);for(const source of h.changelogs||[{label:'Full source changelog',url:h.source}]){const p=make('p');p.append(link(source.label+' ↗',source.url));details.append(p);}article.append(details,make('p','Upstream date: '+(h.upstream_date?.slice(0,10)||'not established'),'muted'));section.append(article);}const notes=make('details',undefined,'release-changelog');notes.append(make('summary','Complete catalogue release notes'),releaseNotes(release.body));section.append(notes,link('Read '+release.version+' on GitHub ↗',release.url));root.append(section);}}catch(error){root.replaceChildren(make('p','Release history could not load.'),link('Read releases on GitHub','https://github.com/subtlesayak/awesome-resolve/releases'));console.error(error);}}
 if(typeof document!=='undefined')init();
