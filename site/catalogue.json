@@ -16847,6 +16847,213 @@
       "history": []
     },
     {
+      "id": "63f49d1a124e",
+      "name": "Blackmagic Cloud Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "manual",
+        "cloud",
+        "collaboration",
+        "project libraries"
+      ],
+      "description": "Online help for Blackmagic Cloud accounts, project libraries, collaboration and cloud workflows. Services can require an account and paid storage. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Blackmagic Cloud Manual",
+        "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "4a0b80e18009",
+      "name": "Blackmagic Design email support",
+      "creator": "Blackmagic Design",
+      "url": "https://www.blackmagicdesign.com/support/contact/email",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "support",
+        "email",
+        "help",
+        "troubleshooting"
+      ],
+      "description": "Official support enquiry form. Choose a product and region; support eligibility varies, and free Resolve technical support is provided through the community forum.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/contact/email",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Blackmagic Design email support",
+        "url": "https://www.blackmagicdesign.com/support/contact/email",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://www.blackmagicdesign.com/support/contact/email",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "30224576035f",
+      "name": "Blackmagic Design regional support contacts",
+      "creator": "Blackmagic Design",
+      "url": "https://www.blackmagicdesign.com/support/contact/phone",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "support",
+        "phone",
+        "help",
+        "troubleshooting"
+      ],
+      "description": "Official regional telephone support directory. Check local office hours and product support eligibility.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/contact/phone",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Blackmagic Design regional support contacts",
+        "url": "https://www.blackmagicdesign.com/support/contact/phone",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://www.blackmagicdesign.com/support/contact/phone",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "4cbb76956478",
       "name": "Blackmagic developer resources",
       "creator": "Blackmagic Design",
@@ -16899,6 +17106,145 @@
         "date_kind": null,
         "checked_at": "2026-09-06",
         "note": "Reference, discussion or collection with no single product version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "877bdd28671b",
+      "name": "Blackmagic RAW SDK Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "sdk",
+        "braw",
+        "blackmagic raw",
+        "decoding",
+        "development"
+      ],
+      "description": "Developer reference for applications integrating Blackmagic RAW decoding and processing. This is separate from the Resolve scripting API. Support listing dated 2025-08-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Blackmagic RAW SDK Manual",
+        "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "0f00d1dd763c",
+      "name": "DaVinci Advanced Panel Keycaps Installation Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "advanced panel",
+        "keycaps",
+        "installation",
+        "hardware"
+      ],
+      "description": "Instructions for replacing keycaps on the Resolve Advanced Panel. Support listing dated 2021-03-09.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Advanced Panel Keycaps Installation Guide",
+        "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
       },
       "releaseDate": null,
       "activityDate": null,
@@ -17074,6 +17420,661 @@
       ]
     },
     {
+      "id": "b76c552e7cea",
+      "name": "DaVinci Resolve 20 Supported Codecs",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "codecs",
+        "formats",
+        "encoding",
+        "decoding",
+        "resolve 20"
+      ],
+      "description": "Format and codec support tables for Resolve 20. Consult OS and Free/Studio distinctions; this document does not establish Resolve 21.1 support. Support listing dated 2025-07-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve 20 Supported Codecs",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+        "kind": "reference-edition",
+        "version": "20",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "4136062c9f90",
+      "name": "DaVinci Resolve 21 New Features Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "manual",
+        "new features",
+        "resolve 21"
+      ],
+      "description": "Guide to features introduced in Resolve 21; this is the 21 guide, not a complete 21.1 changelog. Support listing dated 2026-04-16.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve 21 New Features Guide",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+        "kind": "reference-edition",
+        "version": "21",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "09cf75222135",
+      "name": "DaVinci Resolve 21.1 Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "manual",
+        "editing",
+        "color grading",
+        "fairlight",
+        "fusion",
+        "delivery"
+      ],
+      "description": "Editing, color grading, Fairlight audio, Fusion and delivery reference for Resolve 21.1. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve 21.1 Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+        "kind": "reference-edition",
+        "version": "21.1",
+        "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "b06f193f57b8",
+      "name": "DaVinci Resolve Advanced Panel Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "advanced panel",
+        "color grading",
+        "hardware",
+        "manual"
+      ],
+      "description": "Operation reference for the Resolve Advanced Panel color-grading control surface. Support listing dated 2024-09-04.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Advanced Panel Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "d9984c5d761a",
+      "name": "DaVinci Resolve Immersive Workflow Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "immersive",
+        "spatial video",
+        "workflow",
+        "guide"
+      ],
+      "description": "Official reference for immersive video workflows in Resolve. Consult the guide for hardware and edition requirements. Support listing dated 2025-08-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Immersive Workflow Guide",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "832ba953f21d",
+      "name": "DaVinci Resolve Micro Color Panel Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "micro color panel",
+        "hardware",
+        "color grading",
+        "manual"
+      ],
+      "description": "Installation and operation guide for the Resolve Micro Color Panel. Support listing dated 2024-09-25.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Micro Color Panel Manual",
+        "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "f0ed0e5dd340",
+      "name": "DaVinci Resolve Micro Color Panel Quick Start Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "micro color panel",
+        "setup",
+        "quick start",
+        "hardware"
+      ],
+      "description": "Quick setup reference for the Resolve Micro Color Panel. Support listing dated 2024-04-15.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Micro Color Panel Quick Start Guide",
+        "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "8402f59a96aa",
+      "name": "DaVinci Resolve Replay Editor Operation Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "replay",
+        "hardware",
+        "editing",
+        "manual"
+      ],
+      "description": "Operation reference for the Resolve Replay Editor control surface and replay workflows. Support listing dated 2024-09-18.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Replay Editor Operation Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "7180a558a5e0",
+      "name": "DaVinci Resolve Studio and iPad Features",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "features",
+        "studio",
+        "free",
+        "ipad",
+        "edition comparison"
+      ],
+      "description": "Resolve 20 feature comparison for Free, Studio and iPad. Edition differences are version-specific. Support listing dated 2025-07-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Studio and iPad Features",
+        "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+        "kind": "reference-edition",
+        "version": "20",
+        "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "f1e23c2a9e58",
       "name": "DaVinci Resolve training and lesson files",
       "creator": "Blackmagic Design",
@@ -17136,6 +18137,293 @@
       "history": []
     },
     {
+      "id": "4f1df9edc476",
+      "name": "DaVinci Resolve Wide Gamut Intermediate",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "tags": [
+        "davinci wide gamut",
+        "intermediate",
+        "color management",
+        "rec709",
+        "rec2020"
+      ],
+      "description": "Technical reference for DaVinci Wide Gamut and Intermediate color space. Published for Resolve 17; it is not an application release. Support listing dated 2021-08-12.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "DaVinci Resolve Wide Gamut Intermediate",
+        "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+        "kind": "reference-edition",
+        "version": "17",
+        "source": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "8ddc937b9a7d",
+      "name": "Desktop Video Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "manual",
+        "decklink",
+        "ultrastudio",
+        "monitoring",
+        "capture"
+      ],
+      "description": "Installation and operation reference for DeckLink and UltraStudio capture/playback hardware used with Resolve monitoring workflows. Support listing dated 2026-04-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Desktop Video Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "afad1286a7c6",
+      "name": "Fairlight Console Assembly Instruction Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "fairlight",
+        "console",
+        "assembly",
+        "hardware"
+      ],
+      "description": "Assembly and module installation instructions for Fairlight consoles used with Resolve. Support listing dated 2020-02-05.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fairlight Console Assembly Instruction Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "6a4ea10d1e42",
+      "name": "Fairlight Desktop Console Operation Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "fairlight",
+        "audio",
+        "mixing",
+        "console",
+        "hardware"
+      ],
+      "description": "Operation reference for the Fairlight Desktop Console and its audio-post controls. Hardware is required to follow console workflows. Support listing dated 2024-11-26.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fairlight Desktop Console Operation Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+        "kind": "not-applicable",
+        "version": null,
+        "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
       "id": "dfb39ac25220",
       "name": "Fairlight Sound Library and audio guide",
       "creator": "Blackmagic Design",
@@ -17188,6 +18476,239 @@
         "date": null,
         "date_kind": null,
         "checked_at": "2026-09-06"
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "e09d505ce509",
+      "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "fusion"
+      ],
+      "tags": [
+        "gpu",
+        "acceleration",
+        "fusion",
+        "studio",
+        "legacy"
+      ],
+      "description": "Version-specific comparison of GPU-accelerated tools in Resolve, Resolve Studio and Fusion Studio. This 2022 guide is not a current compatibility matrix. Support listing dated 2022-07-25.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+        "kind": "reference-edition",
+        "version": "18",
+        "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "cb18eb16908e",
+      "name": "Fusion 21.1 User Manual",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning",
+        "fusion"
+      ],
+      "tags": [
+        "manual",
+        "fusion",
+        "compositing",
+        "nodes",
+        "vfx"
+      ],
+      "description": "Node-based compositing and effects reference for Fusion 21.1. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fusion 21.1 User Manual",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+        "kind": "reference-edition",
+        "version": "21.1",
+        "source": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "4b75a060cc32",
+      "name": "Fusion 8 Scripting Guide",
+      "creator": "Blackmagic Design",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "scripting",
+        "fusionscript",
+        "lua",
+        "python",
+        "legacy"
+      ],
+      "description": "Legacy FusionScript API introduction for automating and extending Fusion 8. Check current API documentation before reusing examples. Support listing dated 2016-04-01.",
+      "access": "🆓 Public reference; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "Fusion 8 Scripting Guide",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+        "kind": "reference-edition",
+        "version": "8",
+        "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Document edition identified by the official support-feed title, not the current software version."
       },
       "releaseDate": null,
       "activityDate": null,
@@ -17454,6 +18975,84 @@
         "date_kind": null,
         "checked_at": "2026-09-06",
         "note": "Reference, discussion or collection with no single product version."
+      },
+      "releaseDate": null,
+      "activityDate": null,
+      "stars": null,
+      "metadataChecked": null,
+      "history": []
+    },
+    {
+      "id": "5421cd7eca2f",
+      "name": "What’s New in DaVinci Resolve 21.1",
+      "creator": "Blackmagic Design",
+      "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "origin": "external",
+      "official": true,
+      "reference": true,
+      "category": "Official Blackmagic Design resources",
+      "tasks": [
+        "learning"
+      ],
+      "tags": [
+        "video",
+        "new features",
+        "resolve 21.1",
+        "photography",
+        "editing",
+        "color grading"
+      ],
+      "description": "Official overview video of Resolve 21.1 features, including AI assistant integration, expanded still photography tools and editing/color controls. Listed by Blackmagic support on September 8, 2026.",
+      "access": "🆓 Public video; original terms apply",
+      "accessGroup": "public",
+      "platforms": [],
+      "platformNotes": "📖 Reference",
+      "requirements": {
+        "editions": [],
+        "resolve": [],
+        "architectures": [],
+        "gpu": null,
+        "processing": "unknown",
+        "pricing": "free",
+        "account": "unknown",
+        "dependencies": null,
+        "installation": null
+      },
+      "evidence": [
+        {
+          "field": "version",
+          "level": "documented",
+          "source": "https://player.vimeo.com/video/1224498809?dnt=1",
+          "checked_at": "2026-09-08",
+          "note": "Recorded version evidence, not installation testing."
+        },
+        {
+          "field": "official video",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/",
+          "checked_at": "2026-09-08",
+          "note": "Video URL and subject supplied by the official BMD support document feed. Vimeo returned 403 to the automated page request; playback has not been verified."
+        }
+      ],
+      "unknownFields": [
+        "platforms",
+        "Resolve edition",
+        "Resolve version",
+        "architecture",
+        "processing"
+      ],
+      "recommended": false,
+      "recommendation": null,
+      "version": {
+        "name": "What’s New in DaVinci Resolve 21.1",
+        "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+        "kind": "reference-edition",
+        "version": "21.1",
+        "source": "https://player.vimeo.com/video/1224498809?dnt=1",
+        "date": null,
+        "date_kind": null,
+        "checked_at": "2026-09-08",
+        "note": "Video subject version, not an installer release."
       },
       "releaseDate": null,
       "activityDate": null,

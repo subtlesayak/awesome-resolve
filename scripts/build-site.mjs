@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {parseCsv,parseExternalResources} from './build-catalogue.mjs';
+import {parseCsv,parseExternalResources,isOfficialResource} from './build-catalogue.mjs';
 import {TASKS} from '../site/model.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
@@ -41,7 +41,7 @@ export function buildSite(){
   const a=e.access.replace(/^[^\p{L}\p{N}]+/u,'');let accessGroup=/mixed|free.*paid|free.*license|basic.*paid|watermark|first 20/i.test(a)?'mixed':/^free\b/i.test(a)?'free':/^paid|license|membership|business-only/i.test(a)?'paid':'public';
   if(d?.accessGroup)accessGroup=d.accessGroup;
   const unknownFields=[...(!platforms.length?['platforms']:[]),...(!requirements.editions.length?['Resolve edition']:[]),...(!requirements.resolve.length?['Resolve version']:[]),...(!requirements.architectures.length?['architecture']:[]),...(requirements.processing==='unknown'?['processing']:[]),...(!v.version&&v.kind!=='not-applicable'?['tool version']:[])];
-  return {id:createHash('sha256').update(e.url).digest('hex').slice(0,12),name:e.name,creator:e.creator,url:e.url,origin:e.origin,official:/^(www\.)?blackmagicdesign\.com$|^documents\.blackmagicdesign\.com$/.test(new URL(e.url).hostname),reference:/Reference|📖/.test(e.platforms),category:plain(e.category),tasks,tags,description:plain(e.description),access:plain(e.access),accessGroup,platforms,platformNotes:plain(e.platform_notes||e.platforms),requirements,evidence,unknownFields,recommended,recommendation:d?.recommendation||null,version:v,releaseDate:['stable-release','prerelease'].includes(v.kind)||['release','devlog'].includes(v.date_kind)?v.date:null,activityDate:e.last_pushed_at||null,stars:e.origin==='github'?Number(e.stars):null,metadataChecked:e.metadata_checked_at||null,history:history.entries.filter(h=>h.url===e.url)};
+  return {id:createHash('sha256').update(e.url).digest('hex').slice(0,12),name:e.name,creator:e.creator,url:e.url,origin:e.origin,official:isOfficialResource(e),reference:/Reference|📖/.test(e.platforms),category:plain(e.category),tasks,tags,description:plain(e.description),access:plain(e.access),accessGroup,platforms,platformNotes:plain(e.platform_notes||e.platforms),requirements,evidence,unknownFields,recommended,recommendation:d?.recommendation||null,version:v,releaseDate:['stable-release','prerelease'].includes(v.kind)||['release','devlog'].includes(v.date_kind)?v.date:null,activityDate:e.last_pushed_at||null,stars:e.origin==='github'?Number(e.stars):null,metadataChecked:e.metadata_checked_at||null,history:history.entries.filter(h=>h.url===e.url)};
  });
  for(const url of tagMap.keys())if(!entries.some(e=>e.url===url))throw Error('Orphan search tags '+url);
  for(const d of details.entries)if(!entries.some(e=>e.url===d.url))throw Error('Orphan requirements '+d.url);

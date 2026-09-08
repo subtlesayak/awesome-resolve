@@ -151,7 +151,7 @@ function externalTable(entries) {
 }
 
 export function isOfficialResource(entry) {
-  return ['www.blackmagicdesign.com', 'documents.blackmagicdesign.com'].includes(new URL(entry.url).hostname);
+  return entry.category?.includes('Official Blackmagic Design resources') || ['www.blackmagicdesign.com', 'documents.blackmagicdesign.com', 'help.cloud.blackmagicdesign.com'].includes(new URL(entry.url).hostname);
 }
 
 export function sortCatalogue(entries, key) {

@@ -5773,6 +5773,305 @@
       "sources": [
         "https://tikastudio.gumroad.com/l/filmtitlepack"
       ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+      "name": "DaVinci Resolve 21.1 Manual",
+      "tags": [
+        "manual",
+        "editing",
+        "color grading",
+        "fairlight",
+        "fusion",
+        "delivery"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+      "name": "Fusion 21.1 User Manual",
+      "tags": [
+        "manual",
+        "fusion",
+        "compositing",
+        "nodes",
+        "vfx"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000"
+      ]
+    },
+    {
+      "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "name": "Blackmagic Cloud Manual",
+      "tags": [
+        "manual",
+        "cloud",
+        "collaboration",
+        "project libraries"
+      ],
+      "sources": [
+        "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+      "name": "DaVinci Resolve 21 New Features Guide",
+      "tags": [
+        "manual",
+        "new features",
+        "resolve 21"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+      "name": "Desktop Video Manual",
+      "tags": [
+        "manual",
+        "decklink",
+        "ultrastudio",
+        "monitoring",
+        "capture"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+      "name": "Blackmagic RAW SDK Manual",
+      "tags": [
+        "sdk",
+        "braw",
+        "blackmagic raw",
+        "decoding",
+        "development"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+      "name": "DaVinci Resolve 20 Supported Codecs",
+      "tags": [
+        "codecs",
+        "formats",
+        "encoding",
+        "decoding",
+        "resolve 20"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+      "name": "DaVinci Resolve Studio and iPad Features",
+      "tags": [
+        "features",
+        "studio",
+        "free",
+        "ipad",
+        "edition comparison"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+      "name": "DaVinci Resolve Immersive Workflow Guide",
+      "tags": [
+        "immersive",
+        "spatial video",
+        "workflow",
+        "guide"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+      "name": "DaVinci Resolve Wide Gamut Intermediate",
+      "tags": [
+        "davinci wide gamut",
+        "intermediate",
+        "color management",
+        "rec709",
+        "rec2020"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+      "name": "Fusion 8 Scripting Guide",
+      "tags": [
+        "scripting",
+        "fusionscript",
+        "lua",
+        "python",
+        "legacy"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+      "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
+      "tags": [
+        "gpu",
+        "acceleration",
+        "fusion",
+        "studio",
+        "legacy"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+      "name": "Fairlight Desktop Console Operation Manual",
+      "tags": [
+        "fairlight",
+        "audio",
+        "mixing",
+        "console",
+        "hardware"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+      "name": "DaVinci Resolve Micro Color Panel Manual",
+      "tags": [
+        "micro color panel",
+        "hardware",
+        "color grading",
+        "manual"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+      "name": "DaVinci Resolve Micro Color Panel Quick Start Guide",
+      "tags": [
+        "micro color panel",
+        "setup",
+        "quick start",
+        "hardware"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+      "name": "DaVinci Resolve Replay Editor Operation Manual",
+      "tags": [
+        "replay",
+        "hardware",
+        "editing",
+        "manual"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+      "name": "DaVinci Resolve Advanced Panel Manual",
+      "tags": [
+        "advanced panel",
+        "color grading",
+        "hardware",
+        "manual"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+      "name": "DaVinci Advanced Panel Keycaps Installation Guide",
+      "tags": [
+        "advanced panel",
+        "keycaps",
+        "installation",
+        "hardware"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000"
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+      "name": "Fairlight Console Assembly Instruction Manual",
+      "tags": [
+        "fairlight",
+        "console",
+        "assembly",
+        "hardware"
+      ],
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/email",
+      "name": "Blackmagic Design email support",
+      "tags": [
+        "support",
+        "email",
+        "help",
+        "troubleshooting"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/support/contact/email"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/phone",
+      "name": "Blackmagic Design regional support contacts",
+      "tags": [
+        "support",
+        "phone",
+        "help",
+        "troubleshooting"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/support/contact/phone"
+      ]
+    },
+    {
+      "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "name": "What’s New in DaVinci Resolve 21.1",
+      "tags": [
+        "video",
+        "new features",
+        "resolve 21.1",
+        "photography",
+        "editing",
+        "color grading"
+      ],
+      "sources": [
+        "https://player.vimeo.com/video/1224498809?dnt=1",
+        "https://www.blackmagicdesign.com/support/"
+      ]
     }
   ]
 }

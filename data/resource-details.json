@@ -2546,6 +2546,408 @@
           "note": "Provider description reviewed; no catalogue installation testing. Unspecified compatibility remains unverified."
         }
       ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+      "tasks": [
+        "learning",
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+      "tasks": [
+        "learning",
+        "fusion"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+      "tasks": [
+        "learning",
+        "color"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/email",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/contact/email",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/phone",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "reference scope",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/contact/phone",
+          "checked_at": "2026-09-08",
+          "note": "Official support feed title and description reviewed; destination returned successfully. Reference documentation, not installation testing or current software compatibility."
+        }
+      ]
+    },
+    {
+      "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "official video",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/support/",
+          "checked_at": "2026-09-08",
+          "note": "Video URL and subject supplied by the official BMD support document feed. Vimeo returned 403 to the automated page request; playback has not been verified."
+        }
+      ]
     }
   ]
 }

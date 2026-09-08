@@ -159,6 +159,226 @@
       "date_kind": "release",
       "checked_at": "2026-09-08",
       "note": "Verified against official support feed and version-specific release notes."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+      "kind": "reference-edition",
+      "version": "21.1",
+      "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+      "kind": "reference-edition",
+      "version": "21.1",
+      "source": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+      "kind": "reference-edition",
+      "version": "21",
+      "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+      "kind": "reference-edition",
+      "version": "20",
+      "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+      "kind": "reference-edition",
+      "version": "20",
+      "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+      "kind": "reference-edition",
+      "version": "17",
+      "source": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+      "kind": "reference-edition",
+      "version": "8",
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+      "kind": "reference-edition",
+      "version": "18",
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Document edition identified by the official support-feed title, not the current software version."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/email",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/support/contact/email",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/support/contact/phone",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/support/contact/phone",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Reference with no numbered edition established from the support listing. The listing date is not a software release date."
+    },
+    {
+      "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "kind": "reference-edition",
+      "version": "21.1",
+      "source": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Video subject version, not an installer release."
     }
   ]
 }

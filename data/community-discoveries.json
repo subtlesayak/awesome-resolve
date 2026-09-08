@@ -1,9 +1,9 @@
 {
   "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 126,
-  "total_count": 198,
-  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local.",
+  "added_count": 148,
+  "total_count": 220,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added.",
   "additions": [
     {
       "creator": "heiba",
@@ -2440,6 +2440,486 @@
       ],
       "discovery_sources": [
         "https://tikastudio.gumroad.com/l/filmtitlepack"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve 21.1 Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Editing, color grading, Fairlight audio, Fusion and delivery reference for Resolve 21.1. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf?_v=1788850810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Fusion 21.1 User Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Node-based compositing and effects reference for Fusion 21.1. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf?_v=1788850810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Blackmagic Cloud Manual",
+      "url": "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+      "category": "Official Blackmagic Design resources",
+      "description": "Online help for Blackmagic Cloud accounts, project libraries, collaboration and cloud workflows. Services can require an account and paid storage. Support listing dated 2026-09-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve 21 New Features Guide",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Guide to features introduced in Resolve 21; this is the 21 guide, not a complete 21.1 changelog. Support listing dated 2026-04-16.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf?_v=1776322810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Desktop Video Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Installation and operation reference for DeckLink and UltraStudio capture/playback hardware used with Resolve monitoring workflows. Support listing dated 2026-04-08.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf?_v=1775631610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Blackmagic RAW SDK Manual",
+      "url": "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Developer reference for applications integrating Blackmagic RAW decoding and processing. This is separate from the Resolve scripting API. Support listing dated 2025-08-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
+        "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf?_v=1754550010000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve 20 Supported Codecs",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Format and codec support tables for Resolve 20. Consult OS and Free/Studio distinctions; this document does not establish Resolve 21.1 support. Support listing dated 2025-07-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf?_v=1751871610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Studio and iPad Features",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Resolve 20 feature comparison for Free, Studio and iPad. Edition differences are version-specific. Support listing dated 2025-07-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf?_v=1751871610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Immersive Workflow Guide",
+      "url": "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Official reference for immersive video workflows in Resolve. Consult the guide for hardware and edition requirements. Support listing dated 2025-08-07.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
+        "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf?_v=1754550011000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Wide Gamut Intermediate",
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Technical reference for DaVinci Wide Gamut and Intermediate color space. Published for Resolve 17; it is not an application release. Support listing dated 2021-08-12.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
+        "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Fusion 8 Scripting Guide",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Legacy FusionScript API introduction for automating and extending Fusion 8. Check current API documentation before reusing examples. Support listing dated 2016-04-01.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf?_v=1459495172000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Fusion 18 GPU Accelerated Tool Comparison Guide",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Version-specific comparison of GPU-accelerated tools in Resolve, Resolve Studio and Fusion Studio. This 2022 guide is not a current compatibility matrix. Support listing dated 2022-07-25.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf?_v=1658732410000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Fairlight Desktop Console Operation Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Operation reference for the Fairlight Desktop Console and its audio-post controls. Hardware is required to follow console workflows. Support listing dated 2024-11-26.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf?_v=1732608010000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Micro Color Panel Manual",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Installation and operation guide for the Resolve Micro Color Panel. Support listing dated 2024-09-25.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf?_v=1727247610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Micro Color Panel Quick Start Guide",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Quick setup reference for the Resolve Micro Color Panel. Support listing dated 2024-04-15.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf?_v=1713164412000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Replay Editor Operation Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Operation reference for the Resolve Replay Editor control surface and replay workflows. Support listing dated 2024-09-18.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf?_v=1726642810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Advanced Panel Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Operation reference for the Resolve Advanced Panel color-grading control surface. Support listing dated 2024-09-04.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf?_v=1725433210000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Advanced Panel Keycaps Installation Guide",
+      "url": "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Instructions for replacing keycaps on the Resolve Advanced Panel. Support listing dated 2021-03-09.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
+        "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf?_v=1615276810000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Fairlight Console Assembly Instruction Manual",
+      "url": "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+      "category": "Official Blackmagic Design resources",
+      "description": "Assembly and module installation instructions for Fairlight consoles used with Resolve. Support listing dated 2020-02-05.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
+        "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf?_v=1580889610000",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Blackmagic Design email support",
+      "url": "https://www.blackmagicdesign.com/support/contact/email",
+      "category": "Official Blackmagic Design resources",
+      "description": "Official support enquiry form. Choose a product and region; support eligibility varies, and free Resolve technical support is provided through the community forum.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://www.blackmagicdesign.com/support/contact/email",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "Blackmagic Design regional support contacts",
+      "url": "https://www.blackmagicdesign.com/support/contact/phone",
+      "category": "Official Blackmagic Design resources",
+      "description": "Official regional telephone support directory. Check local office hours and product support eligibility.",
+      "access": "🆓 Public reference; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed metadata and live destination response",
+      "sources": [
+        "https://www.blackmagicdesign.com/support/contact/phone",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "What’s New in DaVinci Resolve 21.1",
+      "url": "https://player.vimeo.com/video/1224498809?dnt=1",
+      "category": "Official Blackmagic Design resources",
+      "description": "Official overview video of Resolve 21.1 features, including AI assistant integration, expanded still photography tools and editing/color controls. Listed by Blackmagic support on September 8, 2026.",
+      "access": "🆓 Public video; original terms apply",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official support feed links to hosted video",
+      "sources": [
+        "https://player.vimeo.com/video/1224498809?dnt=1",
+        "https://www.blackmagicdesign.com/support/"
+      ],
+      "discovery_sources": [
+        "https://www.blackmagicdesign.com/support/"
       ],
       "checked_at": "2026-09-08"
     }
