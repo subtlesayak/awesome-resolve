@@ -28,6 +28,7 @@ Each README category starts with a complete repository list sorted A–Z by repo
 
 - Link to the original public GitHub repository with a clear DaVinci Resolve or Fusion connection.
 - Choose the most relevant category; list each repository once.
+- Generate and review search tags for every new listing in `data/search-tags.json`, with original source links. Commit tags alongside the item and rebuild the website; see [Every listings update](WEBSITE.md#every-listings-update).
 - Give a short, factual description of what the project provides.
 - Check upstream licensing before using **Free**. Use **Public** when access is known but licensing has not been established; use **Mixed** for combined free and paid offerings.
 - Record important edition, operating-system, dependency, cost, and maintenance limitations. Distinguish project cost from Resolve Studio and external-service requirements.

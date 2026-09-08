@@ -944,3 +944,36 @@ form label.checkbox-filter {
 .release-notes { white-space: pre-wrap; overflow-wrap: anywhere; margin-block: 20px; }
 nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; text-underline-offset: 6px; }
 .theme-control:hover { background-color: transparent; color: var(--accent); }
+
+/* Compact creator footer shared by all pages. */
+.site-footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding-block: 24px calc(24px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+.site-footer p { margin: 0; }
+.site-footer .footer-support {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-block-end: 8px;
+  padding: 8px 16px;
+  background: var(--button-bg);
+  color: var(--on-accent);
+  border: 1px solid var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer-credit { font-size: 14px; }
+.footer-credit a, .footer-email, .footer-license {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.footer-license { font-size: 12px; }
+
+.site-footer .footer-support:disabled { cursor: not-allowed; opacity: 1; }

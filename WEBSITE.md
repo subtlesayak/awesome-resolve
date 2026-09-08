@@ -54,6 +54,12 @@ Studio results also include Free-compatible tools, following [Blackmagic Designâ
 
 Hidden search topics are maintained per listing URL in `data/search-tags.json` and included in generated site data. The static website searches these tags alongside titles, creators and descriptions; no server is required. Every listing needs a reviewed tag record. Edit its tags when changing its purpose, and cite creator sources for added brand or film-stock terms. Tags do not alter compatibility filters. Search normalizes colour/color, Fuji/Fujifilm, captions/subtitles, monochrome/black-and-white, diacritics and punctuation.
 
+## Every listings update
+
+When updating listings, check GitHub projects, external providers and official BMD resources, and review remaining source leads. For every new item, generate and review descriptive search tags from its title, description and original creator sources, then add its URL, name, tags and sources to `data/search-tags.json` in the same change. Include specific tasks, effects and supported film-stock concepts where the source documents them; do not guess brand or compatibility claims. Review existing tags when an item's purpose changes.
+
+Rebuild with `node scripts/build-site.mjs` and run `node --test --test-concurrency=1 scripts/*.test.mjs` before publishing. The build rejects missing, invalid, duplicate and orphan tag records, and the tests verify that every catalogue item has matching searchable tags. New listings must not be published without their tags.
+
 ## Release pages
 
 Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages. Updates groups provider changes under the catalogue's published GitHub release tags, newest first. Tool Details retains each tool's own version history. Both BMD and community changes offer expandable notes and full source links.
