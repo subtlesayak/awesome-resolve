@@ -2,6 +2,38 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.15](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.15) — 2026-09-08
+
+### Updated providers
+
+- **thatcherfreeman/resolve-scripts: edbb5bdc23cd3b9458eaf6234c176169ac876731 → 2314e5b33aa005ea1c3b77a1ce3e85521906cbef.** Source revision restores older documentation; this is not a published software release. [Source](https://github.com/thatcherfreeman/resolve-scripts/commit/2314e5b33aa005ea1c3b77a1ce3e85521906cbef).
+- **samuelgursky/davinci-resolve-mcp: v2.210.0 → v2.212.4.** Updates Node and Python dependency manifests and removes unused uuid dependency. Provider reports remaining transitive advisories. [Source](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.212.4).
+- **Fusion Studio: 21.0.4 → 21.1.** Adds Krokodove shapes/3D, OpenPBR, DJI D-Gamut2/D-Log2, GoPro Log, Leica L-Log and Vivo transforms. [Source](https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9).
+- **DaVinci Resolve / Studio: 21.0.4 → 21.1.** Media: editable pool fields, recursive/exact searches, geometry previews, timecode and marker batch edits, multicam dates and audio-track controls. [Source](https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87).
+
+Resolve 21.1 moves Python/advanced scripting to Studio. Full edition-specific BMD notes are linked in the website update details.
+
+### Added resources
+
+- **Cullen Kelly Color / [Referent](https://cullenkellycolor.com/toolkit/referent)**: Viewing LUT set for camera log formats and DaVinci Wide Gamut, intended as a grading and on-set viewing foundation. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Exposure Chart DCTL](https://cullenkellycolor.com/toolkit/exposure-chart-dctl)**: Generates middle-gray exposure charts or ramps in 14 tone curves, with adjustable stop intervals. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Sweet Spot](https://cullenkellycolor.com/toolkit/sweet-spot)**: Exposure metering LUT that highlights a narrow range around middle gray for on-set camera and monitor use. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Greyscale Ramp DCTL](https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl)**: Grayscale diagnostic ramp for assessing LUTs, exposure bias and split-tone behavior during look development. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Phantom IDT](https://cullenkellycolor.com/toolkit/phantom-idt)**: DCTL input transform from Phantom Log 1 or Log 2 footage into DaVinci Wide Gamut. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Template Node Tree PowerGrade](https://cullenkellycolor.com/toolkit/template-node-tree-powergrade)**: Reusable node-tree foundation for organizing color grading work in Resolve. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Mid-Gray Cheatsheet](https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet)**: Reference middle-gray values for 14 color spaces in normalized, 10-bit and 12-bit notation. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [Pro Colorist Prep Guide](https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide)**: Preparation guide for organizing projects before a Resolve color-grading session. 🆓 Free; creator download form required.
+- **Cullen Kelly Color / [macOS Viewing Transform](https://cullenkellycolor.com/toolkit/macos-viewing-transform)**: Viewing LUT intended for Rec.709 monitoring on macOS. Review the creator workflow for the intended display setup; calibration accuracy was not tested. 🆓 Free; creator download form required.
+- **Soundly / [Place it](https://getsoundly.com/news/place-it-as-a-standalone-plugin/)**: Free audio plugin for speaker simulation and convolution environments. Soundly documents Resolve stability improvements in its plugin update announcement. 🆓 Free.
+- **Soundly / [Shape it](https://getsoundly.com/tools/)**: Free ten-band parametric EQ for audio shaping. Available alongside Place it; check the host and plugin-format requirements for your setup. 🆓 Free.
+- **Clipizo / [Matchizo](https://clipizo.com/matchizo)**: Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord. 🆓 Free; Discord download.
+- **Clipizo / [Exprizo](https://clipizo.com/exprizo)** — 1.1: Saves and reapplies Fusion expression presets across controls. Version 1.1 improves Text+ modifier support, search and responsiveness. Works in Fusion; includes license activation and updates within v1.x. 💰 Paid license.
+- **Clipizo / [Animizo](https://clipizo.com/animizo)**: Procedural Fusion modifier Fuse for numeric and 2D point animation, using easing presets or custom curves. Uses a Lua installer. 💰 Paid license.
+- **BroVFX / [BroVFX packs](https://brovfx.com/en)**: Creator collection of titles, transitions and effects, including Cinema Title Pack, Glitch Pack, Camera Move, Motion Toolkit and bundles. Lists Resolve 17+ on PC and Mac. The specific free title tool mentioned in the discussion was not identified. 💰 Paid packs and bundles.
+- **MediaArea / [MediaInfo](https://mediaarea.net/en/MediaInfo)**: Standalone media inspector for codec, stream and technical metadata. Useful when diagnosing Resolve footage problems; it is a companion utility, not a Resolve plugin. 🆓 Free and open source.
+
+Discovery credit: [community discussion](https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/), followed by original creator pages. Unknown versions and compatibility remain unverified; no installation testing is claimed.
+
 ## [v1.14](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.14) — 2026-09-07
 
 ### 🏢 Official Blackmagic Design updates

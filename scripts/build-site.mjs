@@ -47,7 +47,9 @@ export function buildSite(){
  for(const d of details.entries)if(!entries.some(e=>e.url===d.url))throw Error('Orphan requirements '+d.url);
  for(const h of history.entries)if(!entries.some(e=>e.url===h.url)||!safeUrl(h.source)||!h.from||!h.to)throw Error('Invalid history');
  const changelog=fs.readFileSync(path.join(root,'CHANGELOG.md'),'utf8');const releases=[...changelog.matchAll(/^## \[(v[^\]]+)\]\(([^)]+)\) — ([\d-]+)/gm)].map(m=>({version:m[1],url:m[2],date:m[3]}));
- const data={schema_version:1,title:'Awesome Resolve List',tagline:'Find tools for your Resolve setup.',description:'Source-backed compatibility, version history and clear requirements.',catalogue:'https://github.com/subtlesayak/awesome-resolve',tasks:TASKS,entries,releases,updates:history.entries,inventoryCount:707};
+ const latestUpdate=read('data/latest-update.json');
+ if(new Set(latestUpdate.added_urls).size!==latestUpdate.added_urls.length||latestUpdate.added_urls.some(url=>!entries.some(e=>e.url===url))||!releases.some(r=>r.version===latestUpdate.release))throw Error('Invalid latest update');
+ const data={latestUpdate:{...latestUpdate,addedCount:latestUpdate.added_urls.length},schema_version:1,title:'Awesome Resolve List',tagline:'Find tools for your Resolve setup.',description:'Source-backed compatibility, version history and clear requirements.',catalogue:'https://github.com/subtlesayak/awesome-resolve',tasks:TASKS,entries,releases,updates:history.entries,inventoryCount:707};
  fs.mkdirSync(path.join(root,'site'),{recursive:true});fs.writeFileSync(path.join(root,'site/catalogue.json'),JSON.stringify(data,null,2)+'\n');console.log(`Built searchable site data for ${entries.length} resources; ${details.entries.length} reviewed requirement records.`);return data;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))buildSite();

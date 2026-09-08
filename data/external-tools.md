@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**157 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**173 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -14,12 +14,12 @@
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Blackmagic developer resources](https://www.blackmagicdesign.com/developer/products/capture-and-playback/overview) | 📦 Public SDK resources; hardware and license terms apply | 📖 Reference | Desktop Video SDK, capture/playback integration resources and links to developer support. Relevant to DeckLink and UltraStudio workflows; this SDK is separate from the Resolve scripting API. |
-| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official host downloads and edition overview. The official download feed lists Resolve and Resolve Studio 21.0.4, released August 5, 2026. Check installer-specific requirements. |
+| [DaVinci Resolve — official downloads](https://www.blackmagicdesign.com/products/davinciresolve) | 🆓 Free edition; 💰 Studio license | 🪟 Windows · 🍎 macOS · 🐧 Linux | Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2. |
 | [DaVinci Resolve training and lesson files](https://www.blackmagicdesign.com/products/davinciresolve/training) | 🆓 Public videos, PDFs and lesson downloads | 📖 Reference; lesson requirements vary | Official editing, color, Fairlight and Fusion training with downloadable practice media. The reviewed book collection includes Resolve 20 editions; the collection has no single software version. |
 | [Fairlight Sound Library and audio guide](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveFairlightAudioPost.pdf) | 🆓 Library for use in projects; original terms apply | 📖 Reference; library installation requirements vary | Official Resolve 20 audio guide explains downloading the Fairlight Sound Library from the Sound Library panel. Includes over 500 Foley sounds; project-use permission does not establish permission to redistribute the library. |
 | [Fusion Fuse SDK guide and reference](https://documents.blackmagicdesign.com/UserManuals/Fusion_Fuse_SDK.pdf) | 🆓 Public PDF; original terms apply | 📖 Reference | Official Fuse API guide and reference, dated June 2023 on its cover. Covers Lua-based Fuse development; a document edition is not the current Fusion application version. |
-| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone node-based compositing application. The official download feed lists Fusion Studio 21.0.4, released August 5, 2026, for Windows, macOS and Linux. A compatible license is required. |
-| [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) | 📦 Public support; download conditions vary | 📖 Reference; select the correct OS download | Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries. |
+| [Fusion Studio — official product](https://www.blackmagicdesign.com/products/fusion) | 💰 Licensed software | 🪟 Windows · 🍎 macOS · 🐧 Linux | Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required. |
+| [Resolve and Fusion Support Center](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) | 📦 Public support; download conditions vary | 📖 Reference; select the correct OS download | Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries. Project Server 21.1 is listed on September 8, 2026, with PostgreSQL 18; select its own installer. |
 <!-- end official resources -->
 
 ## 🎨 Color tools
@@ -321,7 +321,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**85 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**101 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -366,6 +366,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Creating Scripts for DaVinci Resolve — examples thread](https://forum.blackmagicdesign.com/viewtopic.php?t=175315) | 📦 Public examples; per-author terms apply | 📖 Reference; snippet requirements vary | Community examples for timeline, Media Pool and marker automation. Individual posts can contain API limitations and destructive changes, such as losing marker keywords; review each script before running. Forum hosting is not BMD endorsement. |
 
+#### 👤 BroVFX
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [BroVFX packs](https://brovfx.com/en) | 💰 Paid packs and bundles | 🪟 Windows · 🍎 macOS | Creator collection of titles, transitions and effects, including Cinema Title Pack, Glitch Pack, Camera Move, Motion Toolkit and bundles. Lists Resolve 17+ on PC and Mac. The specific free title tool mentioned in the discussion was not identified. |
+
 #### 👤 BUTTERY LUTs
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -396,6 +402,28 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [CinePacks free samples](https://cinepacks.store/collections/free-packs) | 🆓 Sample packs; 💰 Full collections | ❔ Check individual asset formats | Free sample collections of overlays, textures, LUTs and sound effects for editing. These are media assets rather than a shared Resolve plugin; check each pack’s format and usage terms. |
+
+#### 👤 Clipizo
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Animizo](https://clipizo.com/animizo) | 💰 Paid license | ❔ Not established | Procedural Fusion modifier Fuse for numeric and 2D point animation, using easing presets or custom curves. Uses a Lua installer. |
+| [Exprizo](https://clipizo.com/exprizo) | 💰 Paid license | 🪟 Windows · 🍎 macOS | Saves and reapplies Fusion expression presets across controls. Version 1.1 improves Text+ modifier support, search and responsiveness. Works in Fusion; includes license activation and updates within v1.x. |
+| [Matchizo](https://clipizo.com/matchizo) | 🆓 Free; Discord download | ❔ Not established | Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord. |
+
+#### 👤 Cullen Kelly Color
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Exposure Chart DCTL](https://cullenkellycolor.com/toolkit/exposure-chart-dctl) | 🆓 Free; creator download form required | ❔ Not established | Generates middle-gray exposure charts or ramps in 14 tone curves, with adjustable stop intervals. |
+| [Greyscale Ramp DCTL](https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl) | 🆓 Free; creator download form required | ❔ Not established | Grayscale diagnostic ramp for assessing LUTs, exposure bias and split-tone behavior during look development. |
+| [macOS Viewing Transform](https://cullenkellycolor.com/toolkit/macos-viewing-transform) | 🆓 Free; creator download form required | 🍎 macOS | Viewing LUT intended for Rec.709 monitoring on macOS. Review the creator workflow for the intended display setup; calibration accuracy was not tested. |
+| [Mid-Gray Cheatsheet](https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet) | 🆓 Free; creator download form required | 📖 Reference | Reference middle-gray values for 14 color spaces in normalized, 10-bit and 12-bit notation. |
+| [Phantom IDT](https://cullenkellycolor.com/toolkit/phantom-idt) | 🆓 Free; creator download form required | ❔ Not established | DCTL input transform from Phantom Log 1 or Log 2 footage into DaVinci Wide Gamut. |
+| [Pro Colorist Prep Guide](https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide) | 🆓 Free; creator download form required | 📖 Reference | Preparation guide for organizing projects before a Resolve color-grading session. |
+| [Referent](https://cullenkellycolor.com/toolkit/referent) | 🆓 Free; creator download form required | ❔ Not established | Viewing LUT set for camera log formats and DaVinci Wide Gamut, intended as a grading and on-set viewing foundation. |
+| [Sweet Spot](https://cullenkellycolor.com/toolkit/sweet-spot) | 🆓 Free; creator download form required | ❔ Not established | Exposure metering LUT that highlights a narrow range around middle gray for on-set camera and monitor use. |
+| [Template Node Tree PowerGrade](https://cullenkellycolor.com/toolkit/template-node-tree-powergrade) | 🆓 Free; creator download form required | ❔ Not established | Reusable node-tree foundation for organizing color grading work in Resolve. |
 
 #### 👤 Cutpoint Labs
 
@@ -514,6 +542,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 |---|---|---|---|
 | [Red Giant tools for Resolve](https://www.maxon.net/en/red-giant) | 💰 Paid subscription | 🪟 Windows · 🍎 macOS | Effects and color tools, including supported Universe effects. The current host table lists Resolve 19 and 20; support is per effect, so After Effects-only tools in the wider suite are excluded from the Resolve claim. |
 
+#### 👤 MediaArea
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [MediaInfo](https://mediaarea.net/en/MediaInfo) | 🆓 Free and open source | ❔ Not established | Standalone media inspector for codec, stream and technical metadata. Useful when diagnosing Resolve footage problems; it is a companion utility, not a Resolve plugin. |
+
 #### 👤 Mixing Light
 
 | Resource | Access | Platforms | Purpose and requirements |
@@ -561,6 +595,13 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Resolve learning path](https://www.rippletraining.com/product-category/davinci-resolve-learning-path/) | 💰 Paid courses | 📖 Browser reference; lesson requirements vary | Resolve learning pathway covering editing, color and media management. Reviewed listings include Resolve 20 color grading and Resolve 19 media management; lesson and exercise compatibility follows each course. |
+
+#### 👤 Soundly
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Place it](https://getsoundly.com/news/place-it-as-a-standalone-plugin/) | 🆓 Free | ❔ Not established | Free audio plugin for speaker simulation and convolution environments. Soundly documents Resolve stability improvements in its plugin update announcement. |
+| [Shape it](https://getsoundly.com/tools/) | 🆓 Free | ❔ Not established | Free ten-band parametric EQ for audio shaping. Available alongside Place it; check the host and plugin-format requirements for your setup. |
 
 #### 👤 Stefan Bredereck/MuseVFX
 

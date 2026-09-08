@@ -143,22 +143,22 @@
     {
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
       "kind": "vendor-version",
-      "version": "21.0.4",
-      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-      "date": "2026-08-05",
+      "version": "21.1",
+      "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
+      "date": "2026-09-08",
       "date_kind": "release",
-      "checked_at": "2026-09-07",
-      "note": "Exact patch release verified against the official support download feed; replaces the advertised product-family label."
+      "checked_at": "2026-09-08",
+      "note": "Verified against official support feed and version-specific release notes."
     },
     {
       "url": "https://www.blackmagicdesign.com/products/fusion",
       "kind": "vendor-version",
-      "version": "21.0.4",
-      "source": "https://www.blackmagicdesign.com/api/support/us/downloads.json",
-      "date": "2026-08-05",
+      "version": "21.1",
+      "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
+      "date": "2026-09-08",
       "date_kind": "release",
-      "checked_at": "2026-09-07",
-      "note": "Exact patch release verified against the official support download feed; replaces the advertised product-family label."
+      "checked_at": "2026-09-08",
+      "note": "Verified against official support feed and version-specific release notes."
     }
   ]
 }

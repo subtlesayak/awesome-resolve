@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-07",
+  "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 85,
-  "total_count": 157,
-  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified.",
+  "added_count": 101,
+  "total_count": 173,
+  "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local.",
   "additions": [
     {
       "creator": "heiba",
@@ -577,16 +577,16 @@
       "category": "Official resources and community references",
       "access": "🆓 Free edition; 💰 Studio license",
       "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
-      "description": "Official host downloads and edition overview. The official download feed lists Resolve and Resolve Studio 21.0.4, released August 5, 2026. Check installer-specific requirements.",
-      "version": "21.0.4",
-      "updated": "2026-08-05",
+      "description": "Official Resolve and Studio 21.1 downloads, released September 8, 2026. Python/advanced scripting now requires Studio. Mac requires Apple Silicon and macOS 15+. Back up projects before upgrading; 21.1 projects cannot reopen in 20.3.2.",
+      "version": "21.1",
+      "updated": "2026-09-08",
       "date_kind": "release",
       "evidence_mode": "Reviewed public primary page",
       "sources": [
-        "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+        "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
         "https://www.blackmagicdesign.com/products/davinciresolve"
       ],
-      "checked_at": "2026-09-07"
+      "checked_at": "2026-09-08"
     },
     {
       "creator": "Blackmagic Design",
@@ -595,16 +595,16 @@
       "category": "Official resources and community references",
       "access": "💰 Licensed software",
       "platforms": "🪟 Windows · 🍎 macOS · 🐧 Linux",
-      "description": "Standalone node-based compositing application. The official download feed lists Fusion Studio 21.0.4, released August 5, 2026, for Windows, macOS and Linux. A compatible license is required.",
-      "version": "21.0.4",
-      "updated": "2026-08-05",
+      "description": "Standalone compositing application, version 21.1 released September 8, 2026. Adds Krokodove tools, OpenPBR and OCIO 2.5/ACES 2.0 workflows. Mac requires Apple Silicon and macOS 15+. Python 2 is no longer supported; compatible license required.",
+      "version": "21.1",
+      "updated": "2026-09-08",
       "date_kind": "release",
       "evidence_mode": "Reviewed public primary page",
       "sources": [
-        "https://www.blackmagicdesign.com/api/support/us/downloads.json",
+        "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
         "https://www.blackmagicdesign.com/products/fusion"
       ],
-      "checked_at": "2026-09-07"
+      "checked_at": "2026-09-08"
     },
     {
       "creator": "Blackmagic Design",
@@ -630,7 +630,7 @@
       "category": "Official resources and community references",
       "access": "📦 Public support; download conditions vary",
       "platforms": "📖 Reference; select the correct OS download",
-      "description": "Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries.",
+      "description": "Official destination for installers, manuals, support notes and release information. The public download feed was reviewed separately to establish the exact Resolve and Fusion patch releases shown in their entries. Project Server 21.1 is listed on September 8, 2026, with PostgreSQL 18; select its own installer.",
       "version": null,
       "updated": null,
       "date_kind": null,
@@ -1620,6 +1620,328 @@
         "https://github.com/Akascape/PluginLibrary-Resolve/blob/d591d6d958025c60d8e7e8b4d51bc04374476652/database.json"
       ],
       "checked_at": "2026-09-07"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Referent",
+      "url": "https://cullenkellycolor.com/toolkit/referent",
+      "category": "Community tools and resources",
+      "description": "Viewing LUT set for camera log formats and DaVinci Wide Gamut, intended as a grading and on-set viewing foundation.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/referent"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Exposure Chart DCTL",
+      "url": "https://cullenkellycolor.com/toolkit/exposure-chart-dctl",
+      "category": "Community tools and resources",
+      "description": "Generates middle-gray exposure charts or ramps in 14 tone curves, with adjustable stop intervals.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/exposure-chart-dctl"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Sweet Spot",
+      "url": "https://cullenkellycolor.com/toolkit/sweet-spot",
+      "category": "Community tools and resources",
+      "description": "Exposure metering LUT that highlights a narrow range around middle gray for on-set camera and monitor use.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/sweet-spot"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Greyscale Ramp DCTL",
+      "url": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+      "category": "Community tools and resources",
+      "description": "Grayscale diagnostic ramp for assessing LUTs, exposure bias and split-tone behavior during look development.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Phantom IDT",
+      "url": "https://cullenkellycolor.com/toolkit/phantom-idt",
+      "category": "Community tools and resources",
+      "description": "DCTL input transform from Phantom Log 1 or Log 2 footage into DaVinci Wide Gamut.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/phantom-idt"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Template Node Tree PowerGrade",
+      "url": "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade",
+      "category": "Community tools and resources",
+      "description": "Reusable node-tree foundation for organizing color grading work in Resolve.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Mid-Gray Cheatsheet",
+      "url": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+      "category": "Community tools and resources",
+      "description": "Reference middle-gray values for 14 color spaces in normalized, 10-bit and 12-bit notation.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "Pro Colorist Prep Guide",
+      "url": "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide",
+      "category": "Community tools and resources",
+      "description": "Preparation guide for organizing projects before a Resolve color-grading session.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Cullen Kelly Color",
+      "name": "macOS Viewing Transform",
+      "url": "https://cullenkellycolor.com/toolkit/macos-viewing-transform",
+      "category": "Community tools and resources",
+      "description": "Viewing LUT intended for Rec.709 monitoring on macOS. Review the creator workflow for the intended display setup; calibration accuracy was not tested.",
+      "access": "🆓 Free; creator download form required",
+      "platforms": "🍎 macOS",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/macos-viewing-transform"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Soundly",
+      "name": "Place it",
+      "url": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+      "category": "Community tools and resources",
+      "description": "Free audio plugin for speaker simulation and convolution environments. Soundly documents Resolve stability improvements in its plugin update announcement.",
+      "access": "🆓 Free",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+        "https://getsoundly.com/news/fresh-updates-to-soundlys-shape-it-and-place-it-plugins/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Soundly",
+      "name": "Shape it",
+      "url": "https://getsoundly.com/tools/",
+      "category": "Community tools and resources",
+      "description": "Free ten-band parametric EQ for audio shaping. Available alongside Place it; check the host and plugin-format requirements for your setup.",
+      "access": "🆓 Free",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://getsoundly.com/tools/",
+        "https://getsoundly.com/news/fresh-updates-to-soundlys-shape-it-and-place-it-plugins/"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Clipizo",
+      "name": "Matchizo",
+      "url": "https://clipizo.com/matchizo",
+      "category": "Community tools and resources",
+      "description": "Fusion Fuse for multi-image and newspaper-word match cuts, with timing, highlights, camera movement and timeline markers. Distributed through the creator Discord.",
+      "access": "🆓 Free; Discord download",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://clipizo.com/matchizo"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Clipizo",
+      "name": "Exprizo",
+      "url": "https://clipizo.com/exprizo",
+      "category": "Community tools and resources",
+      "description": "Saves and reapplies Fusion expression presets across controls. Version 1.1 improves Text+ modifier support, search and responsiveness. Works in Fusion; includes license activation and updates within v1.x.",
+      "access": "💰 Paid license",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "1.1",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://clipizo.com/exprizo"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Clipizo",
+      "name": "Animizo",
+      "url": "https://clipizo.com/animizo",
+      "category": "Community tools and resources",
+      "description": "Procedural Fusion modifier Fuse for numeric and 2D point animation, using easing presets or custom curves. Uses a Lua installer.",
+      "access": "💰 Paid license",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://clipizo.com/animizo"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "BroVFX",
+      "name": "BroVFX packs",
+      "url": "https://brovfx.com/en",
+      "category": "Community tools and resources",
+      "description": "Creator collection of titles, transitions and effects, including Cinema Title Pack, Glitch Pack, Camera Move, Motion Toolkit and bundles. Lists Resolve 17+ on PC and Mac. The specific free title tool mentioned in the discussion was not identified.",
+      "access": "💰 Paid packs and bundles",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://brovfx.com/en"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "MediaArea",
+      "name": "MediaInfo",
+      "url": "https://mediaarea.net/en/MediaInfo",
+      "category": "Community tools and resources",
+      "description": "Standalone media inspector for codec, stream and technical metadata. Useful when diagnosing Resolve footage problems; it is a companion utility, not a Resolve plugin.",
+      "access": "🆓 Free and open source",
+      "platforms": "❔ Not established",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://mediaarea.net/en/MediaInfo"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
     }
   ],
   "held_candidates": [

@@ -1,5 +1,9 @@
 # Searchable catalogue
 
+The header Theme control offers System, Light and Dark appearances. The choice is saved locally; System follows the operating-system preference. Both palettes are checked against [WCAG 2.2 AA contrast thresholds](https://www.w3.org/TR/WCAG22/): 4.5:1 for normal text and 3:1 for control boundaries and focus indicators. This is not a complete WCAG conformance audit.
+
+The resource count shows additions from the latest listings update. The number stays unchanged while filtering and until the next listings update; `data/latest-update.json` supplies the date and added URLs.
+
 [🌐 Open Awesome Resolve List](https://subtlesayak.github.io/awesome-resolve/)
 
 The website in `site/` provides combined search and filters for tasks, platform, Resolve edition and version, access, payment model, processing, architecture and evidence. Official resources remain first. Resource details show field-specific sources, check dates, limitations and unknown requirements. Product releases and repository activity are separate sort options.

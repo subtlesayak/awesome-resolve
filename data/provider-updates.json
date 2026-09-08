@@ -2,6 +2,83 @@
   "schema_version": 1,
   "entries": [
     {
+      "name": "thatcherfreeman/resolve-scripts",
+      "url": "https://github.com/thatcherfreeman/resolve-scripts",
+      "from": "edbb5bdc23cd3b9458eaf6234c176169ac876731",
+      "to": "2314e5b33aa005ea1c3b77a1ce3e85521906cbef",
+      "release": "v1.15",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2314e5b33aa005ea1c3b77a1ce3e85521906cbef",
+      "summary": "Source revision restores older documentation; this is not a published software release."
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v2.210.0",
+      "to": "v2.212.4",
+      "release": "v1.15",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.212.4",
+      "summary": "Updates Node and Python dependency manifests and removes unused uuid dependency. Provider reports remaining transitive advisories."
+    },
+    {
+      "name": "Fusion Studio",
+      "url": "https://www.blackmagicdesign.com/products/fusion",
+      "from": "21.0.4",
+      "to": "21.1",
+      "release": "v1.15",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9",
+      "summary": "Adds Krokodove shapes/3D, OpenPBR, DJI D-Gamut2/D-Log2, GoPro Log, Leica L-Log and Vivo transforms.",
+      "changes": [
+        "Adds Krokodove shapes/3D, OpenPBR, DJI D-Gamut2/D-Log2, GoPro Log, Leica L-Log and Vivo transforms.",
+        "Improves MultiText alignment and font previews; adds viewer-line lens calibration, OGraf animation controls and multi-template DRFX macro editing.",
+        "Adds external camera-track imports, reference-frame tools, deep-image previews, hard-mix blending, HTJ2K EXR input/output and DNG correction bypass.",
+        "Supports OCIO 2.5 and ACES 2.0, richer variable syntax, log-conversion alpha handling, matte objects and motion blur in deep Renderer3D, faster deep rendering and monitoring.",
+        "Drops Python 2. Mac now requires Apple Silicon and macOS 15. Includes stability improvements; see full notes for exact hardware and driver requirements."
+      ],
+      "changelogs": [
+        {
+          "label": "Fusion Studio 21.1 full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/f832945b3a384a50ac202b3a881ce7d9"
+        }
+      ]
+    },
+    {
+      "name": "DaVinci Resolve / Studio",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "from": "21.0.4",
+      "to": "21.1",
+      "release": "v1.15",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87",
+      "summary": "Media: editable pool fields, recursive/exact searches, geometry previews, timecode and marker batch edits, multicam dates and audio-track controls.",
+      "changes": [
+        "Media: editable pool fields, recursive/exact searches, geometry previews, timecode and marker batch edits, multicam dates and audio-track controls.",
+        "Photo: panel-driven RAW settings, sharpening and sidebar improvements, DNG lens corrections, sky replacement and live-view shortcuts.",
+        "Editing: inspector presets, expanded multicam controls, timeline comparison, richer markers, waveform display, trim and gap operations, adjustment-clip transitions, backup and playback refinements.",
+        "Fusion: Krokodove shapes/3D, OpenPBR materials, MultiText and OGraf controls, DRFX macro editing, tracking import, blend/alpha improvements and metadata variables.",
+        "Color: LUT/DCTL relinking, missing-DCTL overlays, additional camera transforms, panel controls and effect scaling.",
+        "General: newer hardware/media decoding, HTJ2K EXR output, caption exports, media-management reporting, archive options and PostgreSQL 18 Project Server.",
+        "Compatibility: Python/advanced scripting now needs Studio; projects opened in 21.1 cannot reopen in 20.3.2. Apple Silicon and macOS 15 are required on Mac.",
+        "Studio additionally brings native MCP/AI integration, expanded Python APIs, MultiMaster trims, deep rendering improvements, extra RAW formats and effects. Read the separate full edition notes for every change and requirement."
+      ],
+      "changelogs": [
+        {
+          "label": "Resolve Free 21.1 full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/59dd4eef1f4941c29fb8dc48b33f5c87"
+        },
+        {
+          "label": "Resolve Studio 21.1 full official changelog",
+          "url": "https://www.blackmagicdesign.com/support/readme/baf7c071c0524fbf8ccc961925c9f443"
+        }
+      ]
+    },
+    {
       "name": "DaVinci Resolve / Studio",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
       "from": "21 (advertised product family)",

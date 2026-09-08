@@ -5167,6 +5167,232 @@
       "sources": [
         "https://ko-fi.com/s/cb7b432737"
       ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/referent",
+      "name": "Referent",
+      "tags": [
+        "viewing lut",
+        "color grading",
+        "log",
+        "davinci wide gamut",
+        "contrast"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/referent"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/exposure-chart-dctl",
+      "name": "Exposure Chart DCTL",
+      "tags": [
+        "dctl",
+        "exposure",
+        "middle gray",
+        "chart",
+        "ramp",
+        "aces"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/exposure-chart-dctl"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/sweet-spot",
+      "name": "Sweet Spot",
+      "tags": [
+        "lut",
+        "exposure",
+        "metering",
+        "middle gray"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/sweet-spot"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl",
+      "name": "Greyscale Ramp DCTL",
+      "tags": [
+        "dctl",
+        "grayscale",
+        "ramp",
+        "lut",
+        "look development"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/greyscale-ramp-dctl"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/phantom-idt",
+      "name": "Phantom IDT",
+      "tags": [
+        "dctl",
+        "phantom",
+        "log",
+        "input transform",
+        "davinci wide gamut"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/phantom-idt"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade",
+      "name": "Template Node Tree PowerGrade",
+      "tags": [
+        "powergrade",
+        "node tree",
+        "color grading",
+        "workflow"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/template-node-tree-powergrade"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet",
+      "name": "Mid-Gray Cheatsheet",
+      "tags": [
+        "reference",
+        "middle gray",
+        "color space",
+        "exposure"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/mid-gray-cheatsheet"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide",
+      "name": "Pro Colorist Prep Guide",
+      "tags": [
+        "reference",
+        "color grading",
+        "project preparation",
+        "workflow"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/pro-colorist-prep-guide"
+      ]
+    },
+    {
+      "url": "https://cullenkellycolor.com/toolkit/macos-viewing-transform",
+      "name": "macOS Viewing Transform",
+      "tags": [
+        "lut",
+        "rec709",
+        "macos",
+        "monitoring",
+        "display"
+      ],
+      "sources": [
+        "https://cullenkellycolor.com/toolkit/macos-viewing-transform"
+      ]
+    },
+    {
+      "url": "https://getsoundly.com/news/place-it-as-a-standalone-plugin/",
+      "name": "Place it",
+      "tags": [
+        "audio",
+        "speaker",
+        "convolution",
+        "reverb",
+        "diegetic",
+        "sound design"
+      ],
+      "sources": [
+        "https://getsoundly.com/news/place-it-as-a-standalone-plugin/"
+      ]
+    },
+    {
+      "url": "https://getsoundly.com/tools/",
+      "name": "Shape it",
+      "tags": [
+        "audio",
+        "equalizer",
+        "eq",
+        "sound design"
+      ],
+      "sources": [
+        "https://getsoundly.com/tools/"
+      ]
+    },
+    {
+      "url": "https://clipizo.com/matchizo",
+      "name": "Matchizo",
+      "tags": [
+        "fusion",
+        "fuse",
+        "match cut",
+        "newspaper",
+        "word",
+        "transition"
+      ],
+      "sources": [
+        "https://clipizo.com/matchizo"
+      ]
+    },
+    {
+      "url": "https://clipizo.com/exprizo",
+      "name": "Exprizo",
+      "tags": [
+        "fusion",
+        "expression",
+        "preset",
+        "modifier",
+        "text",
+        "automation"
+      ],
+      "sources": [
+        "https://clipizo.com/exprizo"
+      ]
+    },
+    {
+      "url": "https://clipizo.com/animizo",
+      "name": "Animizo",
+      "tags": [
+        "fusion",
+        "fuse",
+        "animation",
+        "easing",
+        "curve",
+        "motion"
+      ],
+      "sources": [
+        "https://clipizo.com/animizo"
+      ]
+    },
+    {
+      "url": "https://brovfx.com/en",
+      "name": "BroVFX packs",
+      "tags": [
+        "titles",
+        "credits",
+        "transition",
+        "glitch",
+        "camera movement",
+        "motion graphics"
+      ],
+      "sources": [
+        "https://brovfx.com/en"
+      ]
+    },
+    {
+      "url": "https://mediaarea.net/en/MediaInfo",
+      "name": "MediaInfo",
+      "tags": [
+        "codec",
+        "metadata",
+        "media",
+        "diagnostics",
+        "video",
+        "audio"
+      ],
+      "sources": [
+        "https://mediaarea.net/en/MediaInfo"
+      ]
     }
   ]
 }

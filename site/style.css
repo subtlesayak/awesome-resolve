@@ -6,6 +6,9 @@
   --line:#d5dadd;
   --wash:#f3f7f7;
   --paper:#fff;
+  --control-border:#75858b;
+  --focus:#075b63;
+  --on-accent:#fff;
   font-family:Inter,Segoe UI,system-ui,sans-serif;
   font-size:15px;
   line-height:1.55;
@@ -39,7 +42,7 @@ button {
   border-radius:3px;
   padding:9px 15px;
   background:var(--teal);
-  color:white;
+  color:var(--on-accent);
   font-weight:600
 }
 button:disabled {
@@ -47,7 +50,7 @@ button:disabled {
   cursor:default
 }
 .outline {
-  background:white;
+  background:var(--paper);
   color:var(--teal)
 }
 .text-button {
@@ -70,7 +73,7 @@ button:hover,.link-button:hover {
   color:var(--teal)
 }
 :focus-visible {
-  outline:3px solid #15929e;
+  outline:3px solid var(--focus);
   outline-offset:4px
 }
 header {
@@ -204,9 +207,9 @@ form label {
 select {
   width:100%;
   padding:7px 30px 7px 10px;
-  background:white;
+  background:var(--paper);
   color:var(--ink);
-  border:1px solid #aeb7bb;
+  border:1px solid var(--control-border);
   border-radius:3px;
   font-weight:400
 }
@@ -358,6 +361,25 @@ dialog {
   color:var(--ink);
   box-shadow:0 20px 90px #0003
 }
+dialog { background:var(--paper); }
+:root[data-theme="dark"] {
+  color-scheme:dark;
+  --ink:#edf4f6;
+  --muted:#b7c5ca;
+  --teal:#78d6dc;
+  --line:#435760;
+  --wash:#1c2b32;
+  --paper:#111c22;
+  --control-border:#82959d;
+  --focus:#a4eaf0;
+  --on-accent:#102328;
+}
+input::placeholder { color:var(--muted); opacity:1; }
+.header-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:16px 24px; }
+.theme-control { display:flex; align-items:center; gap:8px; font-size:13px; color:var(--muted); }
+.theme-control select { min-height:44px; padding:6px 8px; background:var(--paper); color:var(--ink); border:1px solid var(--control-border); border-radius:3px; }
+@media (max-width:700px) { .header-controls { flex-direction:column; gap:8px; } }
+@media (forced-colors:active) { :focus-visible { outline-color:Highlight; } }
 dialog::backdrop {
   background:#0a171b80
 }
@@ -397,7 +419,7 @@ dialog::backdrop {
   inset-inline-end:25px;
   padding:12px 20px;
   background:var(--ink);
-  color:white;
+  color:var(--paper);
   max-width:calc(100% - 50px);
   border-radius:3px
 }
@@ -405,7 +427,7 @@ dialog::backdrop {
   position:absolute;
   inset-inline-start:12px;
   top:-100px;
-  background:white;
+  background:var(--paper);
   padding:12px;
   z-index:10
 }
