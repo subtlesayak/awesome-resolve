@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 101,
-  "total_count": 173,
+  "added_count": 102,
+  "total_count": 174,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local.",
   "additions": [
     {
@@ -1940,6 +1940,26 @@
       ],
       "discovery_sources": [
         "https://www.reddit.com/r/davinciresolve/comments/1w9r376/free_plugins_for_resolve/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "MotionCam",
+      "name": "MotionCam Tools",
+      "url": "https://www.motioncamapp.com/tools",
+      "category": "Community tools and resources",
+      "description": "Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility.",
+      "access": "🆓 Free",
+      "platforms": "🪟 Windows · 🍎 macOS",
+      "version": "2.0 beta",
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Reviewed primary creator page",
+      "sources": [
+        "https://www.motioncamapp.com/tools"
+      ],
+      "discovery_sources": [
+        "https://www.motioncamapp.com/tools"
       ],
       "checked_at": "2026-09-08"
     }

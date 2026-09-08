@@ -2063,6 +2063,30 @@
           "note": "Creator listing reviewed; not installation tested."
         }
       ]
+    },
+    {
+      "url": "https://www.motioncamapp.com/tools",
+      "tasks": [
+        "media"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "requirements": {
+        "pricing": "free",
+        "processing": "local",
+        "dependencies": "Windows 10 1809+, NTFS, ProjectedFS and Vulkan-compatible GPU; macOS 12+, Intel or Apple Silicon and fuse-t. Minimum 8 GB RAM."
+      },
+      "evidence": [
+        {
+          "field": "platforms, purpose, access and dependencies",
+          "level": "documented",
+          "source": "https://www.motioncamapp.com/tools",
+          "checked_at": "2026-09-08",
+          "note": "Official tools page reviewed. Beta; exact Resolve edition/version and installation behavior not tested."
+        }
+      ]
     }
   ]
 }

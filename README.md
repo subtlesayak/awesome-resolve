@@ -2,7 +2,7 @@
 
 Find tools for your Resolve setup—with source-backed compatibility, version history and clear requirements.
 
-Explore a directory of **225 public GitHub repositories** and **173 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
+Explore a directory of **225 public GitHub repositories** and **174 external resources** for DaVinci Resolve and Fusion, with version evidence, platform requirements and access labels.
 
 [🌐 Browse the searchable website](https://subtlesayak.github.io/awesome-resolve/) · [🧭 Find a tool for your task](START-HERE.md) · [📖 Read the labels](CATALOGUE-GUIDE.md) · [🤝 Suggest or correct a resource](CONTRIBUTING.md)
 
@@ -29,7 +29,7 @@ Search and filter the [website](https://subtlesayak.github.io/awesome-resolve/) 
 - [📚 Developer libraries and scripting references](#category-8) (12)
 - [🎛️ Hardware, control surfaces, MIDI, and Speed Editor tools](#category-9) (11)
 - [🧭 Directories covering free and commercial products](#category-10) (5)
-- [🌐 External resources](#external-resources) (166)
+- [🌐 External resources](#external-resources) (167)
 - [⚠️ Compatibility notes](#compatibility-notes)
 
 <a id="official-resources"></a>
@@ -569,7 +569,7 @@ Search and filter the [website](https://subtlesayak.github.io/awesome-resolve/) 
 
 ## 🌐 External resources
 
-166 third-party and community resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).
+167 third-party and community resources, sorted A–Z. Resource names link directly to their websites or stores. Access conditions and compatibility notes are preserved from the [external directory](data/external-tools.md).
 
 Updated ages use the same days/weeks/months/years format as repository rows, calculated at the recorded review date. Hover over an age for its exact date; the link opens provider evidence. The label beneath each age identifies a release, platform-specific update, devlog, or Reactor package-manifest date; these are not interchangeable. **Unknown** means no supported date was established. **†** marks dates more than 2 years (730 days) before their recorded review date, not proof that the entire product is abandoned. Website-check dates are never used as product update dates.
 
@@ -659,6 +659,7 @@ Updated ages use the same days/weeks/months/years format as repository rows, cal
 | [Mixkit Resolve templates](https://mixkit.co/free-davinci-resolve-templates/) | Titles, callouts, lower thirds, transitions, and social templates. FAQ says designed for Resolve 16; newer-version compatibility needs checking per template.<br><sub>🏷️ Version not established</sub> | 🆓 Free under Mixkit License; no signup | ❔ Not established | Unknown |
 | [MONONODES](https://mononodes.com/dctl-and-more/) | DCTL collection and technical reference; free examples include Middle Gray, Border, and Color Gradient Test Ramps. Confirm each tool's edition and GPU requirements.<br><sub>🏷️ [LOOK / LAB / PRINT 4.0](https://mononodes.com/version-history/)</sub> | Mixed; free tools and demos alongside commercial tools | ❔ Per tool | [7&nbsp;months&nbsp;back](https://mononodes.com/version-history/ "2026-02-04")<br><sub>listed product-group update</sub> |
 | [Motion Array free Resolve templates](https://motionarray.com/davinci-resolve-templates/free/) | Resolve-filtered titles, logos, promos, and other templates. Use the software-version filter and inspect each item’s requirements and download/license conditions.<br><sub>🏷️ Version not established</sub> | 🆓 Free selection; broader catalogue has paid plans | ❔ Not established | Unknown |
+| [MotionCam Tools](https://www.motioncamapp.com/tools) | Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility.<br><sub>🏷️ [2.0 beta](https://www.motioncamapp.com/tools)</sub> | 🆓 Free | 🪟 Windows · 🍎 macOS | Unknown |
 | [MrAlexTech toolkit](https://www.mralextech.com/) | Animation, grading, and storyboard tools. The current site links commercial MagicGrade/MagicStoryboard and a new MagicAnimate OFX. Older MagicAnimate, MagicZoom, and MagicSubtitles remain on the [legacy site](https://mralextech.podia.com/); do not assume a legacy free offer covers a new product.<br><sub>🏷️ Version not established</sub> | 💰 Mixed; product terms vary | ❔ Per product | Unknown |
 | [mTitle Refined DVR](https://www.motionvfx.com/store,mtitle-refined-dvr,p4849.html) | Animated typography pack. Desktop requires Resolve 19.1, 16 GB RAM and 4 GB VRAM; vendor recommends 32/8 GB for 4K and lists iPad compatibility.<br><sub>🏷️ Version not established</sub> | 💳 Paid | 🪟 Windows · 🍎 macOS · 📱 iPadOS | Unknown |
 | [mTransition Movie DVR](https://www.motionvfx.com/store,mtransition-movie-dvr,p4005.html) | Cinema-inspired transition pack. Desktop requires Resolve 18.1.2+; vendor also labels the DVR edition iPad-compatible. Select the DVR product.<br><sub>🏷️ Version not established</sub> | 💳 Paid | 🪟 Windows · 🍎 macOS · 📱 iPadOS | Unknown |

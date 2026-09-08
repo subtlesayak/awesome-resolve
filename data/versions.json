@@ -3573,6 +3573,16 @@
       "note": "Reference or collection with no single software release version."
     },
     {
+      "name": "MotionCam Tools",
+      "url": "https://www.motioncamapp.com/tools",
+      "kind": "vendor-version",
+      "version": "2.0 beta",
+      "source": "https://www.motioncamapp.com/tools",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08"
+    },
+    {
       "name": "Mug Advanced Halftone",
       "url": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/com.muglalb.mug-advanced-halftone/com.muglalb.mug-advanced-halftone.atom",
       "kind": "package-version",

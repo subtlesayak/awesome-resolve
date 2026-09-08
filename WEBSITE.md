@@ -1,6 +1,6 @@
 # Searchable catalogue
 
-The header Theme control offers System, Light and Dark appearances. The choice is saved locally; System follows the operating-system preference. Both palettes are checked against [WCAG 2.2 AA contrast thresholds](https://www.w3.org/TR/WCAG22/): 4.5:1 for normal text and 3:1 for control boundaries and focus indicators. This is not a complete WCAG conformance audit.
+The header Theme button cycles through System, Light and Dark appearances. Its label shows the current preference and its accessible name announces the next choice. The choice is saved locally; System follows the operating-system preference. Both palettes are checked against [WCAG 2.2 AA contrast thresholds](https://www.w3.org/TR/WCAG22/): 4.5:1 for normal text and 3:1 for control boundaries and focus indicators. This is not a complete WCAG conformance audit.
 
 The resource count shows additions from the latest listings update. The number stays unchanged while filtering and until the next listings update; `data/latest-update.json` supplies the date and added URLs.
 
@@ -53,3 +53,9 @@ The edition selector has two choices: Resolve Free (default) and Resolve Studio.
 Studio results also include Free-compatible tools, following [Blackmagic Design’s edition feature hierarchy](https://www.blackmagicdesign.com/products/davinciresolve). Where Studio support is inferred from Free support, the result states that it is not separately verified. Platform restrictions and explicit Studio version ranges still apply. Studio support alone never implies Free support.
 
 Hidden search topics are maintained per listing URL in `data/search-tags.json` and included in generated site data. The static website searches these tags alongside titles, creators and descriptions; no server is required. Every listing needs a reviewed tag record. Edit its tags when changing its purpose, and cite creator sources for added brand or film-stock terms. Tags do not alter compatibility filters. Search normalizes colour/color, Fuji/Fujifilm, captions/subtitles, monochrome/black-and-white, diacritics and punctuation.
+
+## Release pages
+
+Catalogue, Updates (`updates.html`) and About (`about.html`) are separate pages. Updates groups provider changes under the catalogue's published GitHub release tags, newest first. Tool Details retains each tool's own version history. Both BMD and community changes offer expandable notes and full source links.
+
+After publishing a catalogue release, refresh `data/catalogue-releases.json` with `node scripts/update-catalogue-releases.mjs`, rebuild the site and deploy. The cached public release data keeps browsing independent of GitHub API availability.

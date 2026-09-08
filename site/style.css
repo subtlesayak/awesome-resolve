@@ -376,8 +376,7 @@ dialog { background:var(--paper); }
 }
 input::placeholder { color:var(--muted); opacity:1; }
 .header-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:16px 24px; }
-.theme-control { display:flex; align-items:center; gap:8px; font-size:13px; color:var(--muted); }
-.theme-control select { min-height:44px; padding:6px 8px; background:var(--paper); color:var(--ink); border:1px solid var(--control-border); border-radius:3px; }
+.theme-control { min-height:44px; min-width:130px; padding:6px 12px; font-size:13px; background:var(--paper); color:var(--ink); border:1px solid var(--control-border); border-radius:3px; }
 @media (max-width:700px) { .header-controls { flex-direction:column; gap:8px; } }
 @media (forced-colors:active) { :focus-visible { outline-color:Highlight; } }
 dialog::backdrop {
@@ -911,3 +910,11 @@ form label.checkbox-filter {
 .release-changelog ul { padding-inline-start: 24px; }
 .release-changelog li { margin-block: 6px; }
 .release-changelog p { margin-block: 12px; }
+
+.information-page { max-width: 1000px; }
+.information-page .secondary { border-top: 0; padding-top: 0; margin-top: 0; }
+.catalogue-release { margin-block: 48px; padding-block-start: 24px; border-top: 2px solid var(--line); }
+.catalogue-release > h2 { font-size: 32px; margin-bottom: 8px; }
+.catalogue-release .version { overflow-wrap: anywhere; }
+.release-notes { white-space: pre-wrap; overflow-wrap: anywhere; margin-block: 20px; }
+nav a[aria-current="page"] { color: var(--teal); text-decoration: underline; text-underline-offset: 6px; }

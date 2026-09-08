@@ -2,6 +2,12 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.16](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.16) — 2026-09-08
+
+### Added resource
+
+- **[MotionCam Tools](https://www.motioncamapp.com/tools) — 2.0 beta.** Free desktop utility for Windows and macOS that mounts .mcraw as DNG sequences for Resolve. Includes GPU preview, proxies, per-clip settings and saved sessions. Windows requires NTFS, ProjectedFS and Vulkan; macOS requires fuse-t. Minimum 8 GB RAM. Exact Resolve compatibility and release date are not established; no installation testing is claimed.
+
 ## [v1.15](https://github.com/subtlesayak/awesome-resolve/releases/tag/v1.15) — 2026-09-08
 
 ### Updated providers

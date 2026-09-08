@@ -10,7 +10,16 @@
       "catalogue_date": "2026-09-08",
       "upstream_date": "2026-09-08",
       "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2314e5b33aa005ea1c3b77a1ce3e85521906cbef",
-      "summary": "Source revision restores older documentation; this is not a published software release."
+      "summary": "Source revision restores older documentation; this is not a published software release.",
+      "changes": [
+        "Source revision restores older documentation; this is not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/commit/2314e5b33aa005ea1c3b77a1ce3e85521906cbef"
+        }
+      ]
     },
     {
       "name": "samuelgursky/davinci-resolve-mcp",
@@ -21,7 +30,19 @@
       "catalogue_date": "2026-09-08",
       "upstream_date": "2026-09-08",
       "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.212.4",
-      "summary": "Updates Node and Python dependency manifests and removes unused uuid dependency. Provider reports remaining transitive advisories."
+      "summary": "Updates Node and Python dependency manifests and removes unused uuid dependency. Provider reports remaining transitive advisories.",
+      "changes": [
+        "Aligns the root and advanced Node dependency manifests with updated MCP SDK, XML, ZIP, image, schema, YAML and PostgreSQL libraries.",
+        "Removes the unused uuid dependency; retains better-sqlite3 11.x.",
+        "Raises the Python MCP SDK minimum to 1.30 while retaining the below-2 cap; raises pyaaf2 to 1.7.1.",
+        "Provider reports unchanged Resolve behavior and five remaining transitive Node dependency advisories."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.212.4"
+        }
+      ]
     },
     {
       "name": "Fusion Studio",
@@ -152,7 +173,20 @@
       "catalogue_date": "2026-09-07",
       "upstream_date": "2026-09-06T21:01:15Z",
       "source": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0",
-      "summary": "Audio tone and overlay generators; source-stream handling and decoder fixes."
+      "summary": "Audio tone and overlay generators; source-stream handling and decoder fixes.",
+      "changes": [
+        "Adds MIDI-pitched tone generation with sine, saw, square and triangle waves.",
+        "Imports all source streams through add, including audio-only sources.",
+        "Supports drawbox as a separate overlay generator.",
+        "Skips undecodable audio streams and identifies missing codecs in errors.",
+        "Updates bundled x265 to 4.3 and libvpx to 1.17.0."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.6.0"
+        }
+      ]
     },
     {
       "name": "DaVinci Resolve MCP",
@@ -163,7 +197,19 @@
       "catalogue_date": "2026-09-07",
       "upstream_date": "2026-09-07T00:35:38Z",
       "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.210.0",
-      "summary": "Broader safe-mode coverage and consistent destructive-action classifications."
+      "summary": "Broader safe-mode coverage and consistent destructive-action classifications.",
+      "changes": [
+        "Classifies all 108 registered destructive actions and expands safe-mode blocking to 35 high or critical actions.",
+        "Recognizes source-clip deletion and external camera-sidecar modification risks.",
+        "Separates assessed medium-risk actions from unrated operations.",
+        "Isolates saved user preferences in tests and adds guards for complete risk classification and consistent inspection/gating."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.210.0"
+        }
+      ]
     },
     {
       "name": "PostSync",
@@ -174,7 +220,16 @@
       "catalogue_date": "2026-09-07",
       "upstream_date": null,
       "source": "https://chrisroyfilms.com/postsync/version-history/",
-      "summary": "Native Swift conversion, permissions onboarding and scheduled-operation controls."
+      "summary": "Native Swift conversion, permissions onboarding and scheduled-operation controls.",
+      "changes": [
+        "Native Swift conversion, permissions onboarding and scheduled-operation controls."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://chrisroyfilms.com/postsync/version-history/"
+        }
+      ]
     }
   ]
 }

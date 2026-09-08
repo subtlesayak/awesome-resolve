@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**173 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**174 external destinations** with reviews through **7 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -321,7 +321,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**101 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**102 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -553,6 +553,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Mixing Light Resolve training](https://mixinglight.com/) | 💰 Membership and standalone courses | 📖 Browser reference; lesson requirements vary | Color-grading and finishing tutorials, Resolve courses and practice projects. Tutorial-library membership and standalone course access are separate products; check each course’s host version and access period. |
+
+#### 👤 MotionCam
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [MotionCam Tools](https://www.motioncamapp.com/tools) | 🆓 Free | 🪟 Windows · 🍎 macOS | Mounts .mcraw footage as DNG sequences for Resolve, with GPU preview, proxy mode, per-clip settings and saved sessions. Version 2.0 beta. Windows needs NTFS, ProjectedFS and a Vulkan GPU; macOS uses fuse-t. Companion desktop utility. |
 
 #### 👤 Mug
 
