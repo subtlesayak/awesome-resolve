@@ -2948,6 +2948,73 @@
           "note": "Video URL and subject supplied by the official BMD support document feed. Vimeo returned 403 to the automated page request; playback has not been verified."
         }
       ]
+    },
+    {
+      "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+      "tasks": [
+        "fusion"
+      ],
+      "requirements": {
+        "editions": [
+          "Free"
+        ],
+        "resolve": [
+          {
+            "min": "19"
+          }
+        ],
+        "pricing": "free",
+        "dependencies": "Vonk Ultra v2 or newer, installed through Reactor"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+          "checked_at": "2026-09-08",
+          "note": "README documents Resolve 19+ Free, Windows use and installation paths for macOS/Linux. Creator has not verified Studio; experimental nodes and naming conflicts are described. No catalogue installation test."
+        }
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+      "tasks": [
+        "learning"
+      ],
+      "requirements": {
+        "pricing": "free"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+          "checked_at": "2026-09-08",
+          "note": "Official schedule offers free registration; some lessons cover Studio-only tools."
+        }
+      ]
+    },
+    {
+      "url": "https://www.illkoncept.com/shop/powergrade",
+      "tasks": [
+        "color",
+        "learning"
+      ],
+      "requirements": {
+        "editions": [
+          "Studio"
+        ],
+        "pricing": "one-time"
+      },
+      "evidence": [
+        {
+          "field": "requirements",
+          "level": "documented",
+          "source": "https://www.illkoncept.com/shop/powergrade",
+          "checked_at": "2026-09-08",
+          "note": "Creator recommends Studio. Free opens the PowerGrade with missing noise reduction, halation, grain, Film Look Creator and some Resolve FX. Studio is required for the full workflow; OS and exact Resolve version are unspecified."
+        }
+      ]
     }
   ]
 }

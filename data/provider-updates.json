@@ -4,6 +4,48 @@
     {
       "name": "thatcherfreeman/resolve-scripts",
       "url": "https://github.com/thatcherfreeman/resolve-scripts",
+      "from": "2314e5b33aa005ea1c3b77a1ce3e85521906cbef",
+      "to": "2ab9ed607bee8c35c773725e77ed09f316a8deee",
+      "release": "v1.19",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee",
+      "summary": "Refreshes scripting documentation extracted from an MCP server. This tracks a source commit, not a published software release.",
+      "changes": [
+        "Refreshes scripting documentation extracted from an MCP server. This tracks a source commit, not a published software release."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee"
+        }
+      ]
+    },
+    {
+      "name": "samuelgursky/davinci-resolve-mcp",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "from": "v2.212.4",
+      "to": "v2.213.2",
+      "release": "v1.19",
+      "catalogue_date": "2026-09-08",
+      "upstream_date": "2026-09-08",
+      "source": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.213.2",
+      "summary": "Retrieves complete Resolve 21.1 transcripts with segment text, timestamps, speakers and optional word timings; retains the 21.0 clip-property fallback.",
+      "changes": [
+        "Retrieves complete Resolve 21.1 transcripts with segment text, timestamps, speakers and optional word timings; retains the 21.0 clip-property fallback.",
+        "Restores timeline marks after a single-frame capture and corrects relative versus absolute frame offsets.",
+        "Provider marks the 21.1 transcript API as reported, not exercised on its test machine."
+      ],
+      "changelogs": [
+        {
+          "label": "Full source changelog",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.213.2"
+        }
+      ]
+    },
+    {
+      "name": "thatcherfreeman/resolve-scripts",
+      "url": "https://github.com/thatcherfreeman/resolve-scripts",
       "from": "edbb5bdc23cd3b9458eaf6234c176169ac876731",
       "to": "2314e5b33aa005ea1c3b77a1ce3e85521906cbef",
       "release": "v1.15",

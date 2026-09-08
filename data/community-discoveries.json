@@ -1,8 +1,8 @@
 {
   "checked_at": "2026-09-08",
   "baseline_count": 72,
-  "added_count": 148,
-  "total_count": 220,
+  "added_count": 150,
+  "total_count": 222,
   "scope": "Search of all seven proposed source families; curated additions and a separate full Reactor folder inventory. Not an exhaustive crawl of the public web. Follow-up: official Blackmagic product, support, training, SDK and forum resources checked on 2026-09-06. Follow-up on 2026-09-07: selected unmatched Greenysmac entries and related creator products checked against primary listings; per-entry review dates are retained. Follow-up on 2026-09-07: five directory repositories scanned (118 text files); 35 selected primary-verified additions, including 18 Akascape listings. The scan is not a claim that every outgoing link is verified. Follow-up on 2026-09-08: Reddit comments and leftover creator sources reviewed; 16 additions. DaSauce remained inaccessible; uncertain leads stay local. Follow-up 2026-09-08: official support feeds inspected; 19 selected document destinations and two support contact pages added.",
   "additions": [
     {
@@ -2920,6 +2920,46 @@
       ],
       "discovery_sources": [
         "https://www.blackmagicdesign.com/support/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "Blackmagic Design",
+      "name": "DaVinci Resolve Online Seminars",
+      "url": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+      "category": "Official Blackmagic Design resources",
+      "description": "Six free 90-minute online seminars covering Resolve 21, editing, color, photography, delivery and AI. Scheduled September 18 to November 27, 2026; registration required. Sessions include Studio features.",
+      "access": "🆓 Free registration",
+      "platforms": "📖 Reference",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Official event schedule; event dates are not software release dates.",
+      "sources": [
+        "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1wam5oa/"
+      ],
+      "checked_at": "2026-09-08"
+    },
+    {
+      "creator": "illKoncept",
+      "name": "Cinematic Reality Powergrade",
+      "url": "https://www.illkoncept.com/shop/powergrade",
+      "category": "Community tools and resources",
+      "description": "Native Resolve node workflow with camera conversions, Kodak 2383 print emulation, halation, bloom and grain, plus an installation tutorial. Designed for Studio; Free can open it but several effects do not work. No third-party plugins required.",
+      "access": "💰 Paid PowerGrade",
+      "platforms": "❓ Unverified",
+      "version": null,
+      "updated": null,
+      "date_kind": null,
+      "evidence_mode": "Creator product page; no numbered release, date or operating-system support established.",
+      "sources": [
+        "https://www.illkoncept.com/shop/powergrade"
+      ],
+      "discovery_sources": [
+        "https://www.reddit.com/r/davinciresolve/comments/1w5o1rj/can_anyone_explain_what_im_looking_at/"
       ],
       "checked_at": "2026-09-08"
     }

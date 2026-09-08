@@ -1,29 +1,10 @@
 {
   "schema_version": 1,
   "date": "2026-09-08",
-  "release": "v1.18",
+  "release": "v1.19",
   "added_urls": [
-    "https://documents.blackmagicdesign.com/UserManuals/DaVinci_Resolve_21.1_Reference_Manual.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/FusionManual.pdf",
-    "https://help.cloud.blackmagicdesign.com/intro/what-is-blackmagic-cloud/",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_21_New_Features_Guide.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/DesktopVideoManual.pdf",
-    "https://documents.blackmagicdesign.com/DeveloperManuals/BlackmagicRAW-SDK.pdf",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_20_Supported_Codec_List.pdf",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf",
-    "https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf",
-    "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/Fusion8_Scripting_Guide.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/Fusion_GPU_Accelerated_Tools.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Desktop_Console_Operation_Manual.pdf",
-    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf",
-    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveAdvancedPanel.pdf",
-    "https://documents.blackmagicdesign.com/InstallationGuides/DaVinciAdvancedPanelKeycapsInstall.pdf",
-    "https://documents.blackmagicdesign.com/UserManuals/Fairlight_Console_Assembly_Manual.pdf",
-    "https://www.blackmagicdesign.com/support/contact/email",
-    "https://www.blackmagicdesign.com/support/contact/phone",
-    "https://player.vimeo.com/video/1224498809?dnt=1"
+    "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+    "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+    "https://www.illkoncept.com/shop/powergrade"
   ]
 }

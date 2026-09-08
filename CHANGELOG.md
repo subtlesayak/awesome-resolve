@@ -2,6 +2,21 @@
 
 Releases contain provider additions and verified updates to existing providers. Each added or updated resource has its own entry. Maintenance changes remain in Git tags and commit history only; existing tag numbers and targets are preserved, so release numbers can have gaps. Versions identify catalogue snapshots, not upstream software releases.
 
+## [v1.19](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.19) — 2026-09-08
+
+### Added resources
+
+- **[DaVinci Resolve Online Seminars](https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars)** (Blackmagic Design): Six free online training sessions scheduled September to November 2026. Registration required; lessons include Studio features.
+- **[PolyaMath Vonk Ultra Fuses](https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses)** (Nishad Deulkar / PolyaMath): Free Lua Fuses for graph and geometry animation. Requires Resolve 19+ and Vonk Ultra v2+. Windows use and macOS/Linux installation paths are documented; some nodes are experimental. Source revision tracked, with no published release.
+- **[Cinematic Reality Powergrade](https://www.illkoncept.com/shop/powergrade)** (illKoncept): Paid native Resolve grading workflow with Kodak 2383 print emulation and a tutorial. Studio is needed for the complete effect set; Free opens it with missing effects. No numbered product version is published.
+
+### Updated resources
+
+- **[DaVinci Resolve MCP](https://github.com/samuelgursky/davinci-resolve-mcp)**: v2.212.4 → v2.213.2. Complete Resolve 21.1 transcript retrieval and corrected timeline marks after frame capture. [Upstream release notes](https://github.com/samuelgursky/davinci-resolve-mcp/releases/tag/v2.213.2).
+- **[Resolve Scripts](https://github.com/thatcherfreeman/resolve-scripts)**: Source revision 2314e5b33aa005ea1c3b77a1ce3e85521906cbef → 2ab9ed607bee8c35c773725e77ed09f316a8deee, refreshing scripting documentation. [Upstream commit](https://github.com/thatcherfreeman/resolve-scripts/commit/2ab9ed607bee8c35c773725e77ed09f316a8deee). This is not a published software release.
+
+448 catalogue items. New entries include search tags and source-backed requirements. GitHub metadata refreshed; Blackmagic support feeds were unchanged since the earlier check. Recent Reddit posts and comments supplied discovery leads, verified against creator sources. Reddit coverage was partial because direct feeds were blocked. No installation testing is claimed.
+
 ## [v1.18](https://github.com/subtlesayak/subtle-resolve-list/releases/tag/v1.18) — 2026-09-08
 
 ### Official manuals and support references

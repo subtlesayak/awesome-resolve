@@ -2,7 +2,7 @@
 
 [← Main catalogue](../README.md) · [🕒 Earlier update audit: 72 resources](update-audit.json) · [Web source ledger](web-discoveries.json)
 
-**220 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
+**222 external destinations** with reviews through **8 September 2026** (individual review dates are retained in the source data). These include individual products, collections, and companion applications; their count is separate from the GitHub repository count. Collections can overlap the main catalogue. Stars and repository-push ages are not invented for websites.
 
 ## 🖥️ Platforms supported
 
@@ -27,6 +27,7 @@
 | [DaVinci Resolve Immersive Workflow Guide](https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Immersive_Workflow_Guide.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Official reference for immersive video workflows in Resolve. Consult the guide for hardware and edition requirements. Support listing dated 2025-08-07. |
 | [DaVinci Resolve Micro Color Panel Manual](https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelManual.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Installation and operation guide for the Resolve Micro Color Panel. Support listing dated 2024-09-25. |
 | [DaVinci Resolve Micro Color Panel Quick Start Guide](https://documents.blackmagicdesign.com/InstallationGuides/DaVinciMicroColorPanelQSG.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Quick setup reference for the Resolve Micro Color Panel. Support listing dated 2024-04-15. |
+| [DaVinci Resolve Online Seminars](https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars) | 🆓 Free registration | 📖 Reference | Six free 90-minute online seminars covering Resolve 21, editing, color, photography, delivery and AI. Scheduled September 18 to November 27, 2026; registration required. Sessions include Studio features. |
 | [DaVinci Resolve Replay Editor Operation Manual](https://documents.blackmagicdesign.com/UserManuals/DaVinciResolveReplayEditor.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Operation reference for the Resolve Replay Editor control surface and replay workflows. Support listing dated 2024-09-18. |
 | [DaVinci Resolve Studio and iPad Features](https://documents.blackmagicdesign.com/SupportNotes/DaVinci_Resolve_Studio_20_Features.pdf) | 🆓 Public reference; original terms apply | 📖 Reference | Resolve 20 feature comparison for Free, Studio and iPad. Edition differences are version-specific. Support listing dated 2025-07-07. |
 | [DaVinci Resolve training and lesson files](https://www.blackmagicdesign.com/products/davinciresolve/training) | 🆓 Public videos, PDFs and lesson downloads | 📖 Reference; lesson requirements vary | Official editing, color, Fairlight and Fusion training with downloadable practice media. The reviewed book collection includes Resolve 20 editions; the collection has no single software version. |
@@ -367,7 +368,7 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | [VideoRemap](https://valuef.itch.io/videoremap) | 💳 Paid; patterned-output demo | 🪟 Windows | Remaps footage from Resolume Advanced Output XML inside Resolve Free or Studio. Windows 10+ x86_64 and NVIDIA CUDA required; ARM unsupported. Resolume need not be installed. |
 
 ## 🔎 Community discoveries
-**148 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
+**150 later additions**, including resources grouped under existing creators above, from the [community source data](community-discoveries.json). [Versions and package dates](community-discoveries.json) are recorded separately from the earlier audit.
 
 #### 👤 A Blackbird Called Sue
 
@@ -574,6 +575,12 @@ Forty additions from Gumroad, Superhive, Sellfy, Ko-fi, itch.io, plugin stores, 
 | Resource | Access | Platforms | Purpose and requirements |
 |---|---|---|---|
 | [Resolve keyboard shortcuts and drills](https://hkeys.app/apps/davinci-resolve/macos) | 📖 Public shortcut reference | 📖 Browser reference; lesson requirements vary | Community shortcut reference with printable PDFs and practice drills. Includes links to Windows, macOS and Linux variants; custom keyboard mappings and Resolve versions can differ. |
+
+#### 👤 illKoncept
+
+| Resource | Access | Platforms | Purpose and requirements |
+|---|---|---|---|
+| [Cinematic Reality Powergrade](https://www.illkoncept.com/shop/powergrade) | 💰 Paid PowerGrade | ❓ Unverified | Native Resolve node workflow with camera conversions, Kodak 2383 print emulation, halation, bloom and grain, plus an installation tutorial. Designed for Studio; Free can open it but several effects do not work. No third-party plugins required. |
 
 #### 👤 Jacob Danell
 

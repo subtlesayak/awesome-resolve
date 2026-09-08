@@ -6072,6 +6072,63 @@
         "https://player.vimeo.com/video/1224498809?dnt=1",
         "https://www.blackmagicdesign.com/support/"
       ]
+    },
+    {
+      "url": "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses",
+      "name": "PolyaMath Vonk Ultra Fuses",
+      "tags": [
+        "fusion",
+        "fuse",
+        "vonk",
+        "json",
+        "math",
+        "geometry",
+        "animation",
+        "motion graphics",
+        "points",
+        "edges",
+        "lua"
+      ],
+      "sources": [
+        "https://github.com/NishadDeulkar/PolyaMath-Vonk-Ultra-Fuses"
+      ]
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+      "name": "DaVinci Resolve Online Seminars",
+      "tags": [
+        "learning",
+        "training",
+        "webinar",
+        "seminar",
+        "editing",
+        "color",
+        "photography",
+        "ai"
+      ],
+      "sources": [
+        "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars"
+      ]
+    },
+    {
+      "url": "https://www.illkoncept.com/shop/powergrade",
+      "name": "Cinematic Reality Powergrade",
+      "tags": [
+        "color",
+        "film",
+        "kodak",
+        "2383",
+        "powergrade",
+        "halation",
+        "bloom",
+        "grain",
+        "camera",
+        "log",
+        "tutorial"
+      ],
+      "sources": [
+        "https://www.illkoncept.com/shop/powergrade"
+      ]
     }
   ]
 }

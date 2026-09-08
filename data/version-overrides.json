@@ -379,6 +379,16 @@
       "date_kind": null,
       "checked_at": "2026-09-08",
       "note": "Video subject version, not an installer release."
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+      "kind": "not-applicable",
+      "version": null,
+      "source": "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars",
+      "date": null,
+      "date_kind": null,
+      "checked_at": "2026-09-08",
+      "note": "Scheduled training collection; no software release version."
     }
   ]
 }
