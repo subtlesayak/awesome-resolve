@@ -1,34 +1,32 @@
-// Use a fixed public counter key. Never send filter URLs or preview locations.
+const endpoint = 'https://countapi.mileshilliard.com/api/v1';
+const key = 'subtlesayak-subtle-resolve-list-visits-20260908';
 export function counterUrl(location) {
-  if (location.protocol !== 'https:' || location.hostname !== 'subtlesayak.github.io'
-    || !location.pathname.startsWith('/subtle-resolve-list/')) return null;
-  return 'https://hits.sh/subtlesayak.github.io/subtle-resolve-list.svg?label=Visits&color=a64b00&labelColor=262626';
+ if(location.protocol!=='https:' || location.hostname!=='subtlesayak.github.io' || !location.pathname.startsWith('/subtle-resolve-list/')) return null;
+ return endpoint+'/hit/'+key;
 }
-
-if (typeof document !== 'undefined') {
-  const container = document.getElementById('visit-counter');
-  const url = counterUrl(window.location);
-  if (container && url) {
-    const link = document.createElement('a');
-    link.href = 'https://hits.sh/subtlesayak.github.io/subtle-resolve-list/';
-    link.rel = 'noreferrer';
-    link.title = 'Approximate page views since September 8, 2026; not unique visitors';
-    const badge = document.createElement('img');
-    badge.alt = 'Visits counter: open page-view statistics';
-    badge.referrerPolicy = 'no-referrer';
-    badge.height = 20;
-    let retried = false;
-    badge.addEventListener('load', () => { link.replaceChildren(badge); });
-    badge.addEventListener('error', () => {
-      link.textContent = 'View visit statistics ↗';
-      if (!retried) {
-        retried = true;
-        // Bypass a cached failed image once, without changing the counter key.
-        setTimeout(() => { badge.src = url + '&retry=1'; }, 1200);
-      }
-    });
-    link.textContent = 'View visit statistics ↗';
-    container.replaceChildren(link);
-    badge.src = url;
-  }
+export function parseCount(data) {
+ const raw=data?.value;
+ if(!['string','number'].includes(typeof raw) || !/^\d+$/.test(String(raw)))throw Error('Invalid count');
+ const count=Number(raw);
+ if(!Number.isSafeInteger(count))throw Error('Invalid count');
+ return count;
+}
+export async function loadCount(url, request=fetch) {
+ const read=async target=>{const response=await request(target,{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',signal:AbortSignal.timeout(8000)});if(!response.ok)throw Error('Counter request failed');return parseCount(await response.json());};
+ try{return await read(url);}catch{return read(url.replace('/hit/','/get/'));}
+}
+if(typeof document!=='undefined') {
+ const container=document.getElementById('visit-counter'),url=counterUrl(window.location);
+ if(container&&url) {
+  const storageKey='resolve-visit-count';
+  container.textContent='Visits: loading…';
+  loadCount(url).then(count=>{
+   container.textContent='Visits: '+count.toLocaleString();
+   container.title='Approximate page views since September 8, 2026; not unique visitors';
+   try{localStorage.setItem(storageKey,String(count));}catch{}
+  }).catch(()=>{
+   try{const saved=localStorage.getItem(storageKey);if(saved!==null){container.textContent='Visits: '+parseCount({value:saved}).toLocaleString()+' (last recorded)';return;}}catch{}
+   container.hidden=true;
+  });
+ }
 }
