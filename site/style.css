@@ -477,7 +477,8 @@ dialog::backdrop {
 @media(max-width:700px) {
   header {
     flex-direction:column;
-    align-items:flex-start;
+    align-items:center;
+    text-align:center;
     gap:10px;
     padding:17px 20px
   }
@@ -486,6 +487,7 @@ dialog::backdrop {
   }
   nav {
     gap:22px;
+    justify-content:center;
     font-size:13px
   }
   nav a:last-child {
